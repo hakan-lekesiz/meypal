@@ -1,20 +1,22 @@
 import { getTranslator } from "@/i18n/i18n"
-import { notFound } from "next/navigation"
 import type { Metadata } from "next"
-import { isLocale, PAGES, siteOrigin, type Locale } from "@/shared/config"
+import { PAGES, siteOrigin, type Locale } from "@/shared/config"
 import { HomePage } from "@/shared/pages/home"
 
 type PageProps = { params: Promise<{ locale: string }> }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale: routeLocale } = await params
-  if (!isLocale(routeLocale)) notFound()
+  //if (!isLocale(routeLocale)) notFound()
 
-  const locale: Locale = routeLocale
-  const t = await getTranslator(locale)
+  const locale = routeLocale || "tr" // Default to the first locale if routeLocale is undefined
+  const t = await getTranslator(locale as Locale)
   const title = t("metadata.home.title")
   const description = t("metadata.home.description")
-  const url = new URL(PAGES.home[locale], process.env.PROJECT_URL ?? siteOrigin).toString()
+  const url = new URL(
+    PAGES.home[locale as Locale],
+    process.env.PROJECT_URL ?? siteOrigin,
+  ).toString()
 
   return {
     title,
@@ -52,6 +54,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function Home({ params }: PageProps) {
   const { locale } = await params
-  if (!isLocale(locale)) notFound()
-  return <HomePage locale={locale} />
+  //if (!isLocale(locale)) notFound();
+  return <HomePage locale={(locale || "tr") as Locale} />
 }
