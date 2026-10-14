@@ -1,0 +1,61 @@
+{
+  "name": "static-website",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@9.15.4",
+  "engines": {
+    "node": ">=22.13.0",
+    "pnpm": ">=9.15.4"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp"
+    ]
+  },
+  "scripts": {
+    "dev": "next dev --turbopack -p 3000",
+    "build": "next build --turbopack",
+    "prepare": "husky install",
+    "lint:fix": "biome check --write",
+    "lint": "biome check --error-on-warnings",
+    "format": "biome format --write .",
+    "check": "npm run lint && npm run build"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,mjs,cjs,css,json}": [
+      "biome check --write",
+      "biome check --error-on-warnings"
+    ]
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^9.0.1",
+    "next": "16.2.6",
+    "next-intl": "^4.14.9",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "react-hook-form": "^7.77.0",
+    "react-icons": "^5.7.0",
+    "react-input-mask": "^2.0.4",
+    "react-number-format": "^5.4.5",
+    "swiper": "^12.2.0",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.4",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@svgr/webpack": "^8.1.0",
+    "@tailwindcss/postcss": "^4.2.4",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "husky": "^8.0.0",
+    "lint-staged": "^16.1.6",
+    "tailwindcss": "^4.2.4",
+    "tw-animate-css": "^1.3.8",
+    "typescript": "^5.9.2"
+  }
+}

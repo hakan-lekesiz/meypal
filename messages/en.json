@@ -1,0 +1,82 @@
+{
+  "home": {
+    "title": "Home"
+  },
+  "about": {
+    "title": "About Us"
+  },
+  "metadata": {
+    "home": {
+      "title": "Home | Meypal",
+      "description": "Meypal brings you natural, high-quality products.",
+      "keywords": "Meypal, fruit, vegetables, natural products"
+    },
+    "about": {
+      "title": "About Us | Meypal",
+      "description": "Learn more about Meypal.",
+      "keywords": "Meypal, about us, company"
+    }
+  },
+  "header": {
+    "address": "Mersin, Türkiye",
+    "phone": "+90 324 238 04 38",
+    "email": "info@meypal.com.tr",
+    "language": "Language selection",
+    "homeLabel": "Meypal home page",
+    "tagline": "From nature to your table",
+    "mainMenu": "Main menu",
+    "openMenu": "Open menu",
+    "mobileMenu": "Mobile menu",
+    "mobileContact": "Contact us"
+  },
+  "navigation": {
+    "home": "Home",
+    "company": "Company",
+    "about": "About Us",
+    "mission": "Our Mission",
+    "vision": "Our Vision",
+    "citrus": "Citrus",
+    "orange": "Orange",
+    "mandarin": "Mandarin",
+    "grapefruit": "Grapefruit",
+    "lemon": "Lemon",
+    "fruits": "Fruits",
+    "peach": "Peach",
+    "cherry": "Cherry",
+    "quince": "Quince",
+    "fig": "Fig",
+    "pomegranate": "Pomegranate",
+    "grape": "Grape",
+    "apricot": "Apricot",
+    "watermelon": "Watermelon",
+    "melon": "Melon",
+    "vegetables": "Vegetables",
+    "tomato": "Tomato",
+    "cucumber": "Cucumber",
+    "eggplant": "Eggplant",
+    "pepper": "Pepper",
+    "cabbage": "Cabbage",
+    "onion": "Onion",
+    "potato": "Potato",
+    "garlic": "Garlic",
+    "productLines": "Product lines",
+    "readyToEat": "Ready to eat",
+    "organic": "Organic",
+    "excitingFlavors": "Exciting flavors",
+    "catalog": "Catalog",
+    "contact": "Contact"
+  },
+  "footer": {
+    "eyebrow": "Quality from nature",
+    "ctaTitle": "Bring freshness to your table",
+    "ctaDescription": "Contact us to learn about our products and partnership opportunities.",
+    "ctaButton": "Get in touch",
+    "brandDescription": "We bring fresh, high-quality products from nature to tables around the world.",
+    "company": "Company",
+    "products": "Products",
+    "contact": "Contact",
+    "address": "Camışerif Mahallesi, Mersin, Türkiye",
+    "phone": "+90 324 238 04 38",
+    "copyright": "© {year} Meypal. All rights reserved."
+  }
+}

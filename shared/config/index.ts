@@ -1,0 +1,193 @@
+export const locales = ["tr", "en"] as const
+
+export type Locale = (typeof locales)[number]
+export type SiteRoute = keyof typeof PAGES
+
+export const defaultLocale: Locale = "tr"
+export const siteOrigin = "https://meypal.com.tr"
+
+export const PAGES = {
+  home: { tr: "/", en: "/en" },
+  about: { tr: "/hakkimizda", en: "/en/about" },
+  mission: { tr: "/misyon", en: "/en/mission" },
+  vision: { tr: "/vizyon", en: "/en/vision" },
+  contact: { tr: "/iletisim", en: "/en/contact" },
+  citrus: { tr: "/narenciye", en: "/en/citrus" },
+  orange: { tr: "/narenciye/portakal", en: "/en/citrus/orange" },
+  mandarin: { tr: "/narenciye/mandalina", en: "/en/citrus/mandarin" },
+  grapefruit: { tr: "/narenciye/greyfurt", en: "/en/citrus/grapefruit" },
+  lemon: { tr: "/narenciye/limon", en: "/en/citrus/lemon" },
+  fruits: { tr: "/meyve-sebze", en: "/en/fruit" },
+  peach: { tr: "/meyve-sebze/seftali", en: "/en/fruit/peach" },
+  cherry: { tr: "/meyve-sebze/kiraz", en: "/en/fruit/cherry" },
+  quince: { tr: "/meyve-sebze/ayva", en: "/en/fruit/quince" },
+  fig: { tr: "/meyve-sebze/incir", en: "/en/fruit/fig" },
+  pomegranate: { tr: "/meyve-sebze/nar", en: "/en/fruit/pomegranate" },
+  grape: { tr: "/meyve-sebze/uzum", en: "/en/fruit/grape" },
+  apricot: { tr: "/meyve-sebze/kayisi", en: "/en/fruit/apricot" },
+  watermelon: { tr: "/meyve-sebze/karpuz", en: "/en/fruit/watermelon" },
+  melon: { tr: "/meyve-sebze/kavun", en: "/en/fruit/melon" },
+  vegetables: { tr: "/sebze", en: "/en/vegetables" },
+  tomato: { tr: "/sebze/domates", en: "/en/vegetables/tomato" },
+  cucumber: { tr: "/sebze/salatalik", en: "/en/vegetables/cucumber" },
+  eggplant: { tr: "/sebze/patlican", en: "/en/vegetables/eggplant" },
+  pepper: { tr: "/sebze/biber", en: "/en/vegetables/pepper" },
+  cabbage: { tr: "/sebze/lahana", en: "/en/vegetables/cabbage" },
+  onion: { tr: "/sebze/sogan", en: "/en/vegetables/onion" },
+  potato: { tr: "/sebze/patates", en: "/en/vegetables/potato" },
+  garlic: { tr: "/sebze/sarimsak", en: "/en/vegetables/garlic" },
+  productLines: { tr: "/meypal-urun-hatlari", en: "/en/product-lines" },
+  readyToEat: { tr: "/kullanima-hazir-urunler-2", en: "/en/ready-to-eat" },
+  organic: { tr: "/organik", en: "/en/organic" },
+  excitingFlavors: { tr: "/heyecan-verici-tatlar", en: "/en/exciting-flavors" },
+  catalog: { tr: "/e-katalog", en: "/en/e-catalog" },
+} as const satisfies Record<string, Record<Locale, string>>
+
+export const CONFIG = {
+  locales,
+  defaultLocale,
+  pathnames: PAGES,
+} as const
+
+export const siteLinks = PAGES
+
+export const navigationConfig = [
+  { label: "navigation.home", route: "home" },
+  {
+    label: "navigation.company",
+    route: "about",
+    children: [
+      { label: "navigation.about", route: "about" },
+      { label: "navigation.mission", route: "mission" },
+      { label: "navigation.vision", route: "vision" },
+    ],
+  },
+  {
+    label: "navigation.citrus",
+    route: "citrus",
+    children: [
+      { label: "navigation.orange", route: "orange" },
+      { label: "navigation.mandarin", route: "mandarin" },
+      { label: "navigation.grapefruit", route: "grapefruit" },
+      { label: "navigation.lemon", route: "lemon" },
+    ],
+  },
+  {
+    label: "navigation.fruits",
+    route: "fruits",
+    children: [
+      { label: "navigation.peach", route: "peach" },
+      { label: "navigation.cherry", route: "cherry" },
+      { label: "navigation.quince", route: "quince" },
+      { label: "navigation.fig", route: "fig" },
+      { label: "navigation.pomegranate", route: "pomegranate" },
+      { label: "navigation.grape", route: "grape" },
+      { label: "navigation.apricot", route: "apricot" },
+      { label: "navigation.watermelon", route: "watermelon" },
+      { label: "navigation.melon", route: "melon" },
+    ],
+  },
+  {
+    label: "navigation.vegetables",
+    route: "vegetables",
+    children: [
+      { label: "navigation.tomato", route: "tomato" },
+      { label: "navigation.cucumber", route: "cucumber" },
+      { label: "navigation.eggplant", route: "eggplant" },
+      { label: "navigation.pepper", route: "pepper" },
+      { label: "navigation.cabbage", route: "cabbage" },
+      { label: "navigation.onion", route: "onion" },
+      { label: "navigation.potato", route: "potato" },
+      { label: "navigation.garlic", route: "garlic" },
+    ],
+  },
+  {
+    label: "navigation.productLines",
+    route: "productLines",
+    children: [
+      { label: "navigation.readyToEat", route: "readyToEat" },
+      { label: "navigation.organic", route: "organic" },
+      { label: "navigation.excitingFlavors", route: "excitingFlavors" },
+    ],
+  },
+  { label: "navigation.catalog", route: "catalog" },
+] as const satisfies readonly NavigationItem[]
+
+export const footerCompanyLinks = [
+  { label: "navigation.about", route: "about" },
+  { label: "navigation.mission", route: "mission" },
+  { label: "navigation.vision", route: "vision" },
+  { label: "navigation.contact", route: "contact" },
+] as const satisfies readonly NavigationLink[]
+
+export const footerProductLinks = [
+  { label: "navigation.citrus", route: "citrus" },
+  { label: "navigation.fruits", route: "fruits" },
+  { label: "navigation.vegetables", route: "vegetables" },
+  { label: "navigation.productLines", route: "productLines" },
+  { label: "navigation.catalog", route: "catalog" },
+] as const satisfies readonly NavigationLink[]
+
+export const contactConfig = {
+  mapUrl: "https://maps.google.com/?q=Cami%C5%9Ferif+Mahallesi+Mersin",
+  phoneUrl: "tel:+903242380438",
+  emailUrl: "mailto:info@meypal.com.tr",
+} as const
+
+export const pageTitleKeys: Record<string, string> = {
+  home: "home.title",
+  about: "about.title",
+  mission: "navigation.mission",
+  vision: "navigation.vision",
+  citrus: "navigation.citrus",
+  orange: "navigation.orange",
+  mandarin: "navigation.mandarin",
+  grapefruit: "navigation.grapefruit",
+  lemon: "navigation.lemon",
+  fruits: "navigation.fruits",
+  peach: "navigation.peach",
+  cherry: "navigation.cherry",
+  quince: "navigation.quince",
+  fig: "navigation.fig",
+  pomegranate: "navigation.pomegranate",
+  grape: "navigation.grape",
+  apricot: "navigation.apricot",
+  watermelon: "navigation.watermelon",
+  melon: "navigation.melon",
+  vegetables: "navigation.vegetables",
+  tomato: "navigation.tomato",
+  cucumber: "navigation.cucumber",
+  eggplant: "navigation.eggplant",
+  pepper: "navigation.pepper",
+  cabbage: "navigation.cabbage",
+  onion: "navigation.onion",
+  potato: "navigation.potato",
+  garlic: "navigation.garlic",
+  productLines: "navigation.productLines",
+  readyToEat: "navigation.readyToEat",
+  organic: "navigation.organic",
+  excitingFlavors: "navigation.excitingFlavors",
+  catalog: "navigation.catalog",
+  contact: "navigation.contact",
+}
+
+type NavigationItem = {
+  label: string
+  route: string
+  children?: readonly NavigationItem[]
+}
+
+type NavigationLink = {
+  label: string
+  route: string
+}
+
+export function isLocale(value: string): value is Locale {
+  return locales.some((locale) => locale === value)
+}
+
+export function getSiteLink(route: string, locale: Locale): string {
+  const page = PAGES[route as SiteRoute]
+  if (!page) return locale === "tr" ? "/" : "/en"
+  return page[locale] ?? (locale === "tr" ? "/" : "/en")
+}

@@ -1,0 +1,18 @@
+# paket ve cache klasörleri
+- node_modules
+- .pnpm
+- .pnpm-store
+- .yarn
+- .npm
+
+# build çıktıları
+- dist
+- build
+- .next
+- coverage
+- .turbo
+
+# kilit dosyaları
+- pnpm-lock.yaml
+- package-lock.json
+- yarn.lock

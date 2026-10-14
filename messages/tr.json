@@ -1,0 +1,82 @@
+{
+  "home": {
+    "title": "Anasayfa"
+  },
+  "about": {
+    "title": "Hakkımızda"
+  },
+  "metadata": {
+    "home": {
+      "title": "Anasayfa | Meypal",
+      "description": "Meypal, doğal ve kaliteli ürünleriyle hizmetinizde.",
+      "keywords": "Meypal, meyve, sebze, doğal ürünler"
+    },
+    "about": {
+      "title": "Hakkımızda | Meypal",
+      "description": "Meypal hakkında daha fazla bilgi edinin.",
+      "keywords": "Meypal, hakkımızda, şirket"
+    }
+  },
+  "header": {
+    "address": "Mersin, Türkiye",
+    "phone": "+90 324 238 04 38",
+    "email": "info@meypal.com.tr",
+    "language": "Dil seçimi",
+    "homeLabel": "Meypal ana sayfa",
+    "tagline": "Doğadan sofranıza",
+    "mainMenu": "Ana menü",
+    "openMenu": "Menüyü aç",
+    "mobileMenu": "Mobil menü",
+    "mobileContact": "Bizimle iletişime geçin"
+  },
+  "navigation": {
+    "home": "Anasayfa",
+    "company": "Kurumsal",
+    "about": "Hakkımızda",
+    "mission": "Misyonumuz",
+    "vision": "Vizyonumuz",
+    "citrus": "Narenciye",
+    "orange": "Portakal",
+    "mandarin": "Mandalina",
+    "grapefruit": "Greyfurt",
+    "lemon": "Limon",
+    "fruits": "Meyveler",
+    "peach": "Şeftali",
+    "cherry": "Kiraz",
+    "quince": "Ayva",
+    "fig": "İncir",
+    "pomegranate": "Nar",
+    "grape": "Üzüm",
+    "apricot": "Kayısı",
+    "watermelon": "Karpuz",
+    "melon": "Kavun",
+    "vegetables": "Sebzeler",
+    "tomato": "Domates",
+    "cucumber": "Salatalık",
+    "eggplant": "Patlıcan",
+    "pepper": "Biber",
+    "cabbage": "Lahana",
+    "onion": "Soğan",
+    "potato": "Patates",
+    "garlic": "Sarımsak",
+    "productLines": "Ürün grupları",
+    "readyToEat": "Tüketime hazır",
+    "organic": "Organik",
+    "excitingFlavors": "Özgün lezzetler",
+    "catalog": "Katalog",
+    "contact": "İletişim"
+  },
+  "footer": {
+    "eyebrow": "Doğadan gelen kalite",
+    "ctaTitle": "Tazeliği sofranıza taşıyalım",
+    "ctaDescription": "Ürünlerimiz ve iş birliği fırsatları hakkında bilgi almak için bize ulaşın.",
+    "ctaButton": "İletişime geçin",
+    "brandDescription": "Doğanın sunduğu taze ve kaliteli ürünleri dünyanın dört bir yanına ulaştırıyoruz.",
+    "company": "Kurumsal",
+    "products": "Ürünler",
+    "contact": "İletişim",
+    "address": "Camışerif Mahallesi, Mersin, Türkiye",
+    "phone": "+90 324 238 04 38",
+    "copyright": "© {year} Meypal. Tüm hakları saklıdır."
+  }
+}

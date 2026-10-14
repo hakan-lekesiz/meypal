@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@import "./utilities.css";
+
+/* Swiper Base Styles */
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
+@theme inline {
+  /* ── Typography ── */
+  --font-sans: "Inter", sans-serif;
+
+  /* ── Breakpoints (keep in sync with tokens.ts breakpoints) ── */
+  --breakpoint-xs: 360px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1472px;
+  --breakpoint-3xl: 1600px;
+}
+
+/* ============================================================
+   BASE — Design token CSS variables (Single Source of Truth)
+   ============================================================ */
+@layer base {
+  :root {
+    --ui-color-100: #111927;
+    --ui-color-card: #ffffff;
+    --ui-color-border: #e2e8f0;
+    --ui-color-foreground: #0f172a;
+    --ui-color-placeholder: #94a3b8;
+    --ui-color-muted-foreground: #64748b;
+    --ui-color-input-disabled: #f8fafc;
+    --ui-color-icon: #94a3b8;
+    --ui-color-destructive: #ef4444;
+  }
+
+  ::placeholder {
+    color: var(--ui-color-placeholder);
+    opacity: 1;
+  }
+
+  /* ─── Global resets ─── */
+  * {
+    box-sizing: border-box !important;
+  }
+  button {
+    cursor: pointer !important;
+  }
+  body {
+    background-color: #fff;
+    color: #000;
+    font-family: var(--font-sans);
+    min-height: 100vh;
+    letter-spacing: -0.01em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
