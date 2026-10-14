@@ -19,9 +19,9 @@ type NavigationLinksProps = {
 }
 
 const navLinkClass =
-  "whitespace-nowrap text-[0.83rem] font-semibold text-[#26342a] no-underline transition-colors duration-[160ms] hover:text-[#39804e]"
+  "whitespace-nowrap text-[0.83rem] font-semibold text-[#1e293b] no-underline transition-colors duration-[160ms] hover:text-[#006894]"
 const dropdownLinkClass =
-  "block rounded-[0.45rem] px-3 py-[0.65rem] text-[0.85rem] text-[#26342a] no-underline transition-colors duration-[160ms] hover:bg-[#f3f7f2] hover:text-[#39804e]"
+  "block rounded-[0.45rem] px-3 py-[0.65rem] text-[0.85rem] text-[#334155] no-underline transition-colors duration-[160ms] hover:bg-[#006894]/8 hover:text-[#006894]"
 
 export function NavigationLinks({ items, locale, t, mobile = false }: NavigationLinksProps) {
   return (
@@ -34,7 +34,7 @@ export function NavigationLinks({ items, locale, t, mobile = false }: Navigation
     >
       {items.map((item) => (
         <li
-          className={`group relative ${mobile ? "border-b border-[#edf0ed] last:border-b-0" : ""}`}
+          className={`group relative ${mobile ? "border-b border-[#f1f5f9] last:border-b-0" : ""}`}
           key={item.route}
         >
           <div className={`flex items-center gap-[0.35rem] ${mobile ? "min-h-12" : "min-h-11"}`}>
@@ -47,7 +47,7 @@ export function NavigationLinks({ items, locale, t, mobile = false }: Navigation
             {item.children && (
               <FaChevronDown
                 aria-hidden="true"
-                className={`text-[#829083] transition-transform duration-[160ms] group-hover:rotate-180 group-focus-within:rotate-180 ${mobile ? "hidden" : ""}`}
+                className={`text-[#94a3b8] transition-transform duration-[160ms] group-hover:rotate-180 group-hover:text-[#006894] group-focus-within:rotate-180 ${mobile ? "hidden" : ""}`}
                 size={10}
               />
             )}
@@ -57,13 +57,13 @@ export function NavigationLinks({ items, locale, t, mobile = false }: Navigation
               className={`m-0 list-none p-0 ${
                 mobile
                   ? "static block min-w-0 rounded-none border-0 bg-transparent pb-[0.6rem] pl-[0.8rem] shadow-none"
-                  : "absolute left-[-1rem] top-[calc(100%-1px)] hidden min-w-[210px] rounded-xl border border-[#e7ece7] bg-white p-[0.55rem] shadow-[0_16px_40px_rgb(24_48_31_/_12%)] group-hover:block group-focus-within:block"
+                  : "absolute left-[-1rem] top-[calc(100%-1px)] hidden min-w-[210px] rounded-xl border border-[#e2e8f0] bg-white p-[0.55rem] shadow-[0_16px_40px_rgb(0_104_148_/_12%)] group-hover:block group-focus-within:block"
               }`}
             >
               {item.children.map((child) => (
                 <li key={child.route}>
                   <Link
-                    className={`${dropdownLinkClass} ${mobile ? "px-[0.65rem] py-[0.55rem] text-[#5c6a5e]" : ""}`}
+                    className={`${dropdownLinkClass} ${mobile ? "px-[0.65rem] py-[0.55rem] text-[#64748b] hover:text-[#006894]" : ""}`}
                     href={getSiteLink(child.route, locale)}
                   >
                     {t(child.label)}

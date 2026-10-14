@@ -10,6 +10,13 @@
   /* ── Typography ── */
   --font-sans: "Inter", sans-serif;
 
+  /* ── Brand Colors ── */
+  --color-brand-orange: #f58220;
+  --color-brand-orange-hover: #dc6e11;
+  --color-brand-blue: #006894;
+  --color-brand-blue-dark: #005073;
+  --color-brand-blue-deep: #002f43;
+
   /* ── Breakpoints (keep in sync with tokens.ts breakpoints) ── */
   --breakpoint-xs: 360px;
   --breakpoint-sm: 640px;
@@ -25,6 +32,11 @@
    ============================================================ */
 @layer base {
   :root {
+    --brand-orange: #f58220;
+    --brand-orange-hover: #dc6e11;
+    --brand-blue: #006894;
+    --brand-blue-dark: #005073;
+    --brand-blue-deep: #002f43;
     --ui-color-100: #111927;
     --ui-color-card: #ffffff;
     --ui-color-border: #e2e8f0;
