@@ -41,7 +41,21 @@ Sitenin iki temel ana rengi bulunmaktadır:
 
 ---
 
-## 3. Header & Menü Standartları
+## 3. Favicon & İkon Standartları
+
+- **Favicon Konumu:** `public/favicon/` klasöründe yer alır.
+- **Desteklenen İkonlar:**
+  - `favicon.ico` (app/favicon.ico ve public/favicon.ico)
+  - `favicon-16x16.png`
+  - `favicon-32x32.png`
+  - `apple-touch-icon.png` (180x180)
+  - `android-chrome-192x192.png` & `android-chrome-512x512.png`
+  - `site.webmanifest` & `manifest.json` (Tema rengi: `#006894`)
+- **Root Layout Yapılandırması:** `app/[locale]/layout.tsx` dosyasında `metadata.icons` ve `metadata.manifest` olarak tanımlıdır.
+
+---
+
+## 4. Header & Menü Standartları
 
 - **Üst Bilgi Barı (Top Bar):**
   - Arkaplan: `#005073` (koyu mavi)
@@ -62,7 +76,7 @@ Sitenin iki temel ana rengi bulunmaktadır:
 
 ---
 
-## 4. Footer Standartları
+## 5. Footer Standartları
 
 - **Arkaplan:** `#002f43` (derin zengin mavi)
 - **CTA Banner:** `#006894` ve `#004e70` gradyanı (`bg-[linear-gradient(90deg,_#004e70_5%,_rgb(0_104_148_/_95%)_44%,_rgb(0_104_148_/_30%)_100%),url('/images/fruits/fruit-basket.jpg')]`)
@@ -73,7 +87,7 @@ Sitenin iki temel ana rengi bulunmaktadır:
 
 ---
 
-## 5. Buton & Tipografi Kuralları
+## 6. Buton & Tipografi Kuralları
 
 - **Birincil (Primary) Butonlar:**
   - Renk: `#F58220` (Turuncu)
@@ -87,7 +101,7 @@ Sitenin iki temel ana rengi bulunmaktadır:
 
 ---
 
-## 6. Kodlama & Mühendislik Standartları
+## 7. Kodlama & Mühendislik Standartları
 
 - **Next.js:** App Router yapısı (Next.js 16+ Turbopack)
 - **i18n:** `next-intl` (varsayılan: `tr`, diğer: `en`)
