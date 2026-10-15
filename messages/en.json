@@ -648,6 +648,11 @@
       "title": "E-Catalog - Meypal Product & Company Catalog | Meypal",
       "description": "Browse and download the Meypal fresh fruit, vegetable, and citrus e-catalog. Discover detailed information about our company profile and product range.",
       "keywords": "Meypal e-catalog, Meypal catalog, fruit catalog, download citrus catalog, Meypal PDF download"
+    },
+    "orange": {
+      "title": "Orange - Fresh Mediterranean Citrus | Meypal",
+      "description": "Juicy, aromatic, premium first-class fresh oranges cultivated in the fertile soils of Çukurova and Mediterranean. Exported worldwide by Meypal.",
+      "keywords": "orange, orange export, fresh oranges, Mersin orange, citrus exporter Turkey, valencia orange, washington navel, Meypal"
     }
   },
   "header": {
@@ -711,5 +716,47 @@
     "address": "Camışerif Mahallesi, Mersin, Türkiye",
     "phone": "+90 324 238 04 38",
     "copyright": "© {year} Meypal. All rights reserved."
+  },
+  "products": {
+    "common": {
+      "breadcrumb": "Product Details",
+      "overviewTitle": "About Product & Overview",
+      "featuresTitle": "Key Features & Health Benefits",
+      "featuresHeading": "{name} Features",
+      "freshBadge": "100% Fresh",
+      "qualityBadge": "Meypal Quality"
+    },
+    "orange": {
+      "aboutParagraph1": "Orange is a universally cherished fruit and an indispensable staple on dining tables worldwide. Belonging to the citrus family, in Turkey it is primarily grown in fertile provinces governed by the Mediterranean climate such as Adana, Mersin, Dörtyol, and Antalya. Highly juicy and flavourful, the orange peel is not only prized for jams and marmalades, but is also widely utilized in aromatherapy, cologne, and perfume manufacturing.",
+      "aboutParagraph2": "To enjoy the extensive health benefits of freshly squeezed orange juice, it should be consumed freshly pressed right after harvest. The naturally occurring active nutrients and antioxidants deliver maximum bio-availability when freshness is preserved.",
+      "aboutParagraph3": "The human body cannot structurally synthesize or store its daily requirement of Vitamin C. Therefore, this vital nutrient must be regularly replenished through fresh dietary sources. For anyone seeking to bolster their immune defense naturally and meet daily vitamin requirements, orange is the foremost choice. Meypal oranges are an exceptional source of Vitamin C and vital mineral compositions.",
+      "quote": "Freshly squeezed Mediterranean orange: nature's purest way to energize your morning and strengthen immune vitality.",
+      "gallery": {
+        "freshOrangesTitle": "Fresh Mediterranean Orange",
+        "freshOrangesAlt": "Meypal premium grade fresh Mediterranean oranges",
+        "juicingOrangesTitle": "Juicing & Table Selections",
+        "juicingOrangesAlt": "Juicy fresh oranges selected for juicing and table consumption",
+        "orchardHarvestTitle": "Careful Orchard Harvest",
+        "orchardHarvestAlt": "Fresh orange harvesting in Mediterranean citrus groves"
+      },
+      "features": {
+        "vitaminC": {
+          "title": "Rich Vitamin C Source",
+          "description": "Naturally fulfills daily Vitamin C requirements, reinforces immune defenses, and acts as a powerful antioxidant shield."
+        },
+        "climate": {
+          "title": "Ideal Mediterranean Climate",
+          "description": "Naturally ripens under the abundant sunshine and fertile soil of Mersin and Çukurova with an optimal sugar-to-acid ratio."
+        },
+        "juicy": {
+          "title": "High Juice Yield",
+          "description": "Thin-skinned, fleshy, and highly juicy varieties calibrated for both fresh table consumption and industrial juicing."
+        },
+        "versatile": {
+          "title": "Versatile Usage",
+          "description": "Beyond fresh fruit and juice, its aromatic peel is utilized in confectionery, marmalades, and natural essential oils."
+        }
+      }
+    }
   }
 }

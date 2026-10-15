@@ -1,5 +1,5 @@
 import { getTranslator } from "@/i18n/i18n"
-import { type Locale, PAGES, siteOrigin } from "@/shared/config"
+import { type Locale, PAGES, type SiteRoute, siteOrigin } from "@/shared/config"
 import { COMPANY_INFO, getBaseUrl } from "./constants"
 
 export function getCorporateStructuredData(locale: Locale) {
@@ -574,6 +574,98 @@ export async function getContactStructuredData(locale: Locale) {
             "@type": "ListItem",
             position: 2,
             name: t("navigation.contact"),
+            item: pageUrl,
+          },
+        ],
+      },
+    ],
+  }
+}
+
+export type ProductStructuredDataInput = {
+  name: string
+  description?: string
+  image?: string
+  route: SiteRoute
+  categoryRoute: SiteRoute
+  categoryName: string
+}
+
+export async function getProductStructuredData(
+  locale: Locale,
+  product: ProductStructuredDataInput,
+) {
+  const t = await getTranslator(locale)
+  const baseUrl = getBaseUrl()
+  const pageUrl = new URL(PAGES[product.route][locale], baseUrl).toString()
+  const homeUrl = new URL(PAGES.home[locale], baseUrl).toString()
+  const categoryUrl = new URL(PAGES[product.categoryRoute][locale], baseUrl).toString()
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ItemPage",
+        "@id": `${pageUrl}/#webpage`,
+        url: pageUrl,
+        name: product.name,
+        description: product.description,
+        about: { "@id": `${baseUrl}/#organization` },
+        mainEntity: {
+          "@type": "Product",
+          "@id": `${pageUrl}/#product`,
+          name: product.name,
+          description: product.description,
+          image: product.image ? new URL(product.image, baseUrl).toString() : undefined,
+          category: product.categoryName,
+          brand: {
+            "@type": "Brand",
+            name: COMPANY_INFO.name,
+          },
+          offers: {
+            "@type": "Offer",
+            availability: "https://schema.org/InStock",
+            priceCurrency: "USD",
+            price: "0",
+            priceSpecification: {
+              "@type": "UnitPriceSpecification",
+              priceType: "https://schema.org/InvoicePrice",
+              unitCode: "KGM",
+            },
+            seller: {
+              "@id": `${baseUrl}/#organization`,
+            },
+          },
+        },
+        publisher: { "@id": `${baseUrl}/#organization` },
+        isPartOf: {
+          "@type": "WebSite",
+          "@id": `${baseUrl}/#website`,
+          name: COMPANY_INFO.name,
+          url: baseUrl,
+        },
+        inLanguage: locale === "tr" ? "tr-TR" : "en-US",
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${pageUrl}/#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: t("navigation.home"),
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: product.categoryName,
+            item: categoryUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: product.name,
             item: pageUrl,
           },
         ],

@@ -648,6 +648,11 @@
       "title": "E-Katalog - Meypal Ürün ve Firma Kataloğu | Meypal",
       "description": "Meypal yaş sebze, meyve ve narenciye e-kataloğunu inceleyin ve indirin. Firma profili ve geniş ürün yelpazemiz hakkında detaylı bilgi edinin.",
       "keywords": "Meypal e-katalog, Meypal katalog, meyve kataloğu, narenciye kataloğu indir, Meypal PDF indir"
+    },
+    "orange": {
+      "title": "Portakal - Taze Akdeniz Narenciyesi | Meypal",
+      "description": "Akdeniz ve Çukurova'nın bereketli topraklarında yetişen sulu, aromatik ve birinci sınıf kaliteli taze portakallar. Meypal güvencesiyle 12 ay uluslararası ihracat.",
+      "keywords": "portakal, portakal ihracatı, taze portakal, Mersin portakal, narenciye ihracatı, valencia portakal, washington portakal, Meypal"
     }
   },
   "header": {
@@ -711,5 +716,47 @@
     "address": "Camışerif Mahallesi, Mersin, Türkiye",
     "phone": "+90 324 238 04 38",
     "copyright": "© {year} Meypal. Tüm hakları saklıdır."
+  },
+  "products": {
+    "common": {
+      "breadcrumb": "Ürün Detayı",
+      "overviewTitle": "Ürün Hakkında & Genel Bakış",
+      "featuresTitle": "Öne Çıkan Nitelikler & Sağlık Faydaları",
+      "featuresHeading": "{name} Nitelikleri",
+      "freshBadge": "%100 Taze",
+      "qualityBadge": "Meypal Kalitesi"
+    },
+    "orange": {
+      "aboutParagraph1": "Portakal, neredeyse herkesin sevdiği ve sofraların vazgeçilmezi olan bir meyve türüdür. Turunçgiller ailesinden olan bu meyve ülkemizde daha çok Adana, Mersin, Dörtyol ve Antalya gibi Akdeniz ikliminin hüküm sürdüğü bereketli illerde özenle yetişmektedir. Oldukça sulu ve lezzetli bir meyve olan portakalın aynı zamanda kabuğu reçel ve marmelat yapımında kullanıldığı gibi; aromaterapi, kolonya ve parfüm sanayisinde de geniş çapta değerlendirilmektedir.",
+      "aboutParagraph2": "Faydaları saymakla bitmeyen portakalın suyunu tüketmek istediğinizde, dalından yeni toplanmış ve taze sıkılmış olmasına özen göstermelisiniz. Doğal yapısındaki antioksidanlar ve etken maddeler tazelik korundukça maksimum biyoyararlanım sunar.",
+      "aboutParagraph3": "Vücudumuz yapısal olarak günlük C vitamini ihtiyacını kendi kendine üretememekte ve depolayamamaktadır. Bu nedenle C vitamini gibi hayati önem taşıyan bir besin değerinin taze gıdalar yoluyla dışarıdan düzenli alınması gerekir. Doğal yollarla bağışıklığını güçlendirmek ve günlük vitamin gereksinimini karşılamak isteyenlerin ilk tercihi portakaldır. Meypal portakalları, C vitamini ve zengin mineral kompozisyonu bakımından en kaliteli kaynaklardan biridir.",
+      "quote": "Taze sıkılmış Akdeniz portakalı; güne zinde başlamanın ve bağışıklık sistemini doğal yoldan korumanın en saf kaynağıdır.",
+      "gallery": {
+        "freshOrangesTitle": "Taze Akdeniz Portakalı",
+        "freshOrangesAlt": "Meypal birinci sınıf taze Akdeniz portakalları",
+        "juicingOrangesTitle": "Sıkmalık & Sofralık Seçim",
+        "juicingOrangesAlt": "Bol sulu taze sıkmalık Meypal portakalı",
+        "orchardHarvestTitle": "Bahçeden Özenle Hasat",
+        "orchardHarvestAlt": "Akdeniz narenciye bahçelerinde taze portakal hasadı"
+      },
+      "features": {
+        "vitaminC": {
+          "title": "Zengin C Vitamini Kaynağı",
+          "description": "Günlük C vitamini ihtiyacını doğal yoldan karşılar, bağışıklık sistemini destekler ve güçlü bir antioksidan kalkanı oluşturur."
+        },
+        "climate": {
+          "title": "İdeal Akdeniz İklimi",
+          "description": "Mersin ve Çukurova havzasının bol güneşli ve verimli topraklarında optimum şeker-asit dengesiyle doğal olarak olgunlaşır."
+        },
+        "juicy": {
+          "title": "Yüksek Meyve Suyu Verimi",
+          "description": "İnce kabuklu, dolgun lifli ve yüksek meyve suyu oranına sahip özel kalibre çeşitler hem sofralık hem de endüstriyel sıkıma uygundur."
+        },
+        "versatile": {
+          "title": "Çok Yönlü Kullanım",
+          "description": "Taze tüketim ve meyve suyunun yanı sıra kabuğu marmelat, reçel, tatlı sanayisi ve doğal aroma esanslarında değerlendirilir."
+        }
+      }
+    }
   }
 }
