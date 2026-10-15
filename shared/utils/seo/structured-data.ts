@@ -422,6 +422,54 @@ export async function getExcitingFlavorsStructuredData(locale: Locale) {
   }
 }
 
+export async function getProductLinesStructuredData(locale: Locale) {
+  const t = await getTranslator(locale)
+  const baseUrl = getBaseUrl()
+  const pageUrl = new URL(PAGES.productLines[locale], baseUrl).toString()
+  const homeUrl = new URL(PAGES.home[locale], baseUrl).toString()
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ItemPage",
+        "@id": `${pageUrl}/#webpage`,
+        url: pageUrl,
+        name: t("metadata.productLines.title"),
+        description: t("metadata.productLines.description"),
+        about: { "@id": `${baseUrl}/#organization` },
+        mainEntity: { "@id": `${baseUrl}/#organization` },
+        publisher: { "@id": `${baseUrl}/#organization` },
+        isPartOf: {
+          "@type": "WebSite",
+          "@id": `${baseUrl}/#website`,
+          name: COMPANY_INFO.name,
+          url: baseUrl,
+        },
+        inLanguage: locale === "tr" ? "tr-TR" : "en-US",
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${pageUrl}/#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: t("navigation.home"),
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: t("navigation.productLines"),
+            item: pageUrl,
+          },
+        ],
+      },
+    ],
+  }
+}
+
 export function createBreadcrumbListSchema(
   items: Array<{ name: string; url: string }>,
   pageUrl: string,
@@ -435,5 +483,101 @@ export function createBreadcrumbListSchema(
       name: item.name,
       item: item.url,
     })),
+  }
+}
+
+export async function getCatalogStructuredData(locale: Locale) {
+  const t = await getTranslator(locale)
+  const baseUrl = getBaseUrl()
+  const pageUrl = new URL(PAGES.catalog[locale], baseUrl).toString()
+  const homeUrl = new URL(PAGES.home[locale], baseUrl).toString()
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${pageUrl}/#webpage`,
+        url: pageUrl,
+        name: t("metadata.catalog.title"),
+        description: t("metadata.catalog.description"),
+        about: { "@id": `${baseUrl}/#organization` },
+        mainEntity: { "@id": `${baseUrl}/#organization` },
+        publisher: { "@id": `${baseUrl}/#organization` },
+        isPartOf: {
+          "@type": "WebSite",
+          "@id": `${baseUrl}/#website`,
+          name: COMPANY_INFO.name,
+          url: baseUrl,
+        },
+        inLanguage: locale === "tr" ? "tr-TR" : "en-US",
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${pageUrl}/#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: t("navigation.home"),
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: t("navigation.catalog"),
+            item: pageUrl,
+          },
+        ],
+      },
+    ],
+  }
+}
+
+export async function getContactStructuredData(locale: Locale) {
+  const t = await getTranslator(locale)
+  const baseUrl = getBaseUrl()
+  const pageUrl = new URL(PAGES.contact[locale], baseUrl).toString()
+  const homeUrl = new URL(PAGES.home[locale], baseUrl).toString()
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ContactPage",
+        "@id": `${pageUrl}/#webpage`,
+        url: pageUrl,
+        name: t("metadata.contact.title"),
+        description: t("metadata.contact.description"),
+        about: { "@id": `${baseUrl}/#organization` },
+        mainEntity: { "@id": `${baseUrl}/#organization` },
+        publisher: { "@id": `${baseUrl}/#organization` },
+        isPartOf: {
+          "@type": "WebSite",
+          "@id": `${baseUrl}/#website`,
+          name: COMPANY_INFO.name,
+          url: baseUrl,
+        },
+        inLanguage: locale === "tr" ? "tr-TR" : "en-US",
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${pageUrl}/#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: t("navigation.home"),
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: t("navigation.contact"),
+            item: pageUrl,
+          },
+        ],
+      },
+    ],
   }
 }

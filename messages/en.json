@@ -473,6 +473,30 @@
       "button": "Contact Us"
     }
   },
+  "productLines": {
+    "badge": "Meypal Product Lines",
+    "title": "Meypal Product Lines",
+    "subtitle": "A wide portfolio of product diversity combining enhanced qualities, high yield, and superior resistance",
+    "intro": "Meypal offers a wide range of product diversity with enhanced qualities to our valued consumers every year. This diversity meets the highest demands including quality, taste, yield, and pest and disease resistance. Our goal is to continuously develop and diversify our product palette in every aspect.",
+    "items": [
+      {
+        "id": "seven-product-lines",
+        "tag": "7 Distinct Lines",
+        "title": "Exceptional Characteristics & Harmonious Diversity",
+        "description": "To meet the demands of specific target groups and establish harmony within diversity, Meypal divides its product variety into 7 distinct product lines combined with exceptional characteristics, identified by symbols matching product traits.",
+        "image": "/images/product-lines/image.png",
+        "imageAlt": "Meypal 7 distinct product line symbols and features",
+        "imageWidth": 294,
+        "imageHeight": 176,
+        "highlight": "7 specialized product line symbols conforming to global standards"
+      }
+    ],
+    "contactCta": {
+      "title": "Contact Us for Our Product Lines & Solutions",
+      "description": "Get in touch with our expert team to learn more about our varieties, wholesale supply, and partnership opportunities.",
+      "button": "Contact Us"
+    }
+  },
   "excitingFlavors": {
     "badge": "Meypal Product Lines",
     "title": "Exciting Flavors",
@@ -531,6 +555,48 @@
       "button": "Contact Us"
     }
   },
+  "catalog": {
+    "eyebrow": "Meypal Catalog",
+    "title": "E-catalog",
+    "description": "You can access Meypal company profile and products via the download link below...",
+    "downloadBox": {
+      "title": "Download File",
+      "fileInfo": "1 file(s) 230 MB",
+      "button": "Download"
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Get in Touch with Us",
+    "subtitle": "Reach out to Meypal headquarters in Mersin, branch office in Antalya, or our London operations center.",
+    "hq": {
+      "tag": "Head Office",
+      "company": "MEYPAL TARIM ÜRÜNLERİ ZİRAAT GIDA TAŞIMACILIK TURİZM TİCARET İNŞAAT İTHALAT İHRACAT LTD.ŞTİ.",
+      "address": "Cami Şerif Mah. 5232 Sok. 11 Buğdaycı İşh. K:3/13 Akdeniz, Mersin, Turkey",
+      "phone": "+90 324 238 04 38",
+      "email": "info@meypal.com.tr"
+    },
+    "uk": {
+      "tag": "UK Office",
+      "title": "London Meypal (UK)",
+      "address": "Stand 63, New Spitalfields Market, 1 Sherrin Road, Leyton, London, E10 5SH",
+      "mobile": "+44 782 878 53 01",
+      "email": "sazimet@meypal.co.uk"
+    },
+    "branch": {
+      "tag": "Branch Office",
+      "title": "Antalya Branch",
+      "address": "Atatürk Mh. 22045 Sk. No 65 Aksu / Antalya, Turkey"
+    },
+    "labels": {
+      "address": "Address",
+      "phone": "Phone",
+      "mobile": "Mobile",
+      "email": "Email",
+      "callNow": "Call Now",
+      "sendEmail": "Send Email"
+    }
+  },
   "metadata": {
     "home": {
       "title": "Meypal | Fresh Fruits, Vegetables & Citrus Production & Export",
@@ -566,10 +632,25 @@
       "title": "Exciting Flavors - Gourmet Varieties & Vegetable Snacks | Meypal",
       "description": "Meypal exciting flavors. Extraordinary tomatoes, eggplants, and healthy crisp vegetable snacks for kids and families, selected through extensive sensory research.",
       "keywords": "exciting flavors, vegetable snacks, gourmet vegetables, mini cucumber, cherry tomato, healthy snacking, Meypal"
+    },
+    "productLines": {
+      "title": "Meypal Product Lines - Product Diversity & Quality Standards | Meypal",
+      "description": "Meypal delivers a wide range of product diversity with enhanced qualities every year. 7 distinct product lines combining quality, taste, yield, and disease resistance.",
+      "keywords": "Meypal product lines, produce diversity, agricultural diversity, 7 product lines, quality fruits and vegetables, yield, resistant crops"
+    },
+    "contact": {
+      "title": "Contact | Meypal - Mersin Head Office, Antalya Branch & London Office",
+      "description": "Contact Meypal. Address, phone, and email information for our headquarters in Mersin, branch in Antalya, and operations hub at New Spitalfields Market in London.",
+      "keywords": "Meypal contact, Meypal phone, Meypal address, Meypal Mersin, Meypal London, Meypal Antalya, citrus export contact"
+    },
+    "catalog": {
+      "title": "E-Catalog - Meypal Product & Company Catalog | Meypal",
+      "description": "Browse and download the Meypal fresh fruit, vegetable, and citrus e-catalog. Discover detailed information about our company profile and product range.",
+      "keywords": "Meypal e-catalog, Meypal catalog, fruit catalog, download citrus catalog, Meypal PDF download"
     }
   },
   "header": {
-    "address": "Cami Şerif Mah. 5232 Sok. 11 Buğdaycı İşh. K:3/13 Akdeniz, Mersin",
+    "address": "Cami Şerif Mah. 5232 Sok. 11 Buğdaycı Apt. K:3/13 Akdeniz, Mersin",
     "phone": "+90 324 238 04 38",
     "email": "info@meypal.com.tr",
     "language": "Language selection",

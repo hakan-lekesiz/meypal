@@ -1,6 +1,7 @@
 import { useId } from "react"
 import Image from "next/image"
 import {
+  FaArrowUpRightFromSquare,
   FaCircleCheck,
   FaGlobe,
   FaLocationDot,
@@ -10,7 +11,7 @@ import {
   FaWarehouse,
 } from "react-icons/fa6"
 import type { getTranslator } from "@/i18n/i18n"
-import type { Locale } from "@/shared/config"
+import { contactConfig, type Locale } from "@/shared/config"
 
 type Translate = Awaited<ReturnType<typeof getTranslator>>
 
@@ -172,9 +173,18 @@ export function AboutGlobalHubsSection({ locale: _locale, t }: { locale: Locale;
                   <FaLocationDot aria-hidden="true" className="text-[#F58220]" />
                   <span>{t("about.globalHubs.uk.addressTitle")}</span>
                 </div>
-                <p className="mt-2 text-xs font-bold text-[#1e293b] sm:text-sm">
-                  {t("about.globalHubs.uk.address")}
-                </p>
+                <a
+                  className="group mt-2 inline-flex items-center gap-1.5 text-xs font-bold text-[#1e293b] transition-colors hover:text-[#006894] sm:text-sm"
+                  href={contactConfig.maps.londonUk}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span>{t("about.globalHubs.uk.address")}</span>
+                  <FaArrowUpRightFromSquare
+                    aria-hidden="true"
+                    className="shrink-0 text-[11px] text-slate-400 transition-colors group-hover:text-[#006894]"
+                  />
+                </a>
               </div>
             </div>
 

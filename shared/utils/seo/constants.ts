@@ -37,7 +37,7 @@ export const COMPANY_INFO = {
   },
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Camişerif Mah., 5232 Sk., Buğdaycı İşhanı, Kat: 2, No: 11",
+    streetAddress: "Camişerif Mah., 5232 Sk., Buğdaycı Apartmanı, Kat: 2, No: 11",
     addressLocality: "Akdeniz",
     addressRegion: "Mersin",
     postalCode: "33060",
@@ -45,10 +45,10 @@ export const COMPANY_INFO = {
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 36.7997,
-    longitude: 34.63,
+    latitude: 36.8026,
+    longitude: 34.6319,
   },
-  hasMap: "https://maps.google.com/?q=Cami%C5%9Ferif+Mahallesi+Mersin",
+  hasMap: "https://maps.app.goo.gl/yr6ZMNja3AWu9gAx6",
   areaServed: [
     { "@type": "Country", name: "Turkey" },
     { "@type": "AdministrativeArea", name: "European Union" },

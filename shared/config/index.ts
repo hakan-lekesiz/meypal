@@ -129,7 +129,12 @@ export const footerProductLinks = [
 ] as const satisfies readonly NavigationLink[]
 
 export const contactConfig = {
-  mapUrl: "https://maps.google.com/maps?q=36.950319%2C30.7795101&z=17&hl=tr",
+  mapUrl: "https://maps.app.goo.gl/yr6ZMNja3AWu9gAx6",
+  maps: {
+    mersinHq: "https://maps.app.goo.gl/yr6ZMNja3AWu9gAx6",
+    antalyaBranch: "https://maps.app.goo.gl/vUj6jpzVGtVdk5VZ7",
+    londonUk: "https://maps.app.goo.gl/ZUAVnt23n6ZjBrEW7",
+  },
   phoneUrl: "tel:+903242380438",
   emailUrl: "mailto:info@meypal.com.tr",
 } as const
