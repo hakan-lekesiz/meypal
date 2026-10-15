@@ -380,6 +380,99 @@
       "button": "İletişime Geçin"
     }
   },
+  "organic": {
+    "badge": "Meypal Ürün Hatları",
+    "title": "Organik Tohum & Sebze Üretimi",
+    "subtitle": "1992'den bu yana tüm Avrupalı sertifikasyon kurumlarınca tanınan, kimyasal süreçten arındırılmış yüksek kaliteli organik tohum ve sebze üretimi",
+    "breadcrumb": "Ürün Grupları",
+    "intro": "1992 yılından bu yana organik tohum gereksinimlerinin tamamını karşılamak adına, tüm Avrupalı belgelendirme kurumlarınca tanınan geniş bir yelpazede organik üretilen sebze tohumları sunabilmek amacıyla, gecemizi gündüzümüze katarak çalışmaktayız. Hâlihazırda ürün çeşitliliğimizi genişletme yönünde çalışmalarımızı dur durak bilmeksizin sürdürmekteyiz.",
+    "stats": {
+      "exp": {
+        "value": "1992'den Beri",
+        "label": "Organik Tohum & Islah Deneyimi"
+      },
+      "cert": {
+        "value": "Avrupa Onaylı",
+        "label": "Tüm Belgelendirme Kurumlarınca Tanınan"
+      },
+      "clean": {
+        "value": "%100 Doğal",
+        "label": "Kimyasal Süreçten Arındırılmış"
+      }
+    },
+    "dedication": {
+      "tag": "Özel İhtimam",
+      "title": "Organik Tarıma ve Dayanıklılığa Özel Bir Önem",
+      "description": "Meypal’da bizler organik tarımın özel bir önem gösterilmeye değer bir konu olduğunu düşünmekteyiz. Unutulmamalıdır ki organik üretim, iyi dayanıklılık gerektirirken, diğer tüketici tercihleri ile beraber değerlendirildiğinde belirli bir çeşitliliği şart koşmaktadır. Bu sebeple tohum ıslahçılarımız, programlarında bu alıcı kitlesinin özel isteklerini dikkate alan bir yol izlemektedirler.",
+      "items": [
+        {
+          "title": "Tahsis Edilmiş Demo Tarlaları & Seralar",
+          "description": "Sadece organik ürün üretimine tahsis edilmiş demo tarlalarımız ve seralarımızda en ince ayrıntısına kadar test edilen yüksek kaliteli sebze tohumları geliştiriyoruz."
+        },
+        {
+          "title": "Hastalık Direnci & Uzun Raf Ömrü",
+          "description": "Profesyonel organik yetiştiricilere yönelik, en yeni gelişmeler ışığında zararlılara ve hastalıklara karşı dirençli, sağlam, leziz ve uzun raf ömürlü tohum seçenekleri sunuyoruz."
+        },
+        {
+          "title": "Uluslararası Mevzuata Harfiyen Uyum",
+          "description": "Uluslararası mevzuata harfiyen tabi olduğumuzu ve ihtiyaç duyulduğunda yetiştirme programlarımızı yeni yönetmeliklere hızlıca uyumlu hale getirdiğimizi beyan etmekteyiz."
+        }
+      ]
+    },
+    "varieties": {
+      "tag": "Geniş Yelpazemiz",
+      "title": "Kimyasal Süreçten Arındırılmış Tohum Çeşitliliği",
+      "description": "Organik metod ile üretilen tohum çeşitliliğimiz marul, domates, hıyar, kavun, hindiba ve biber tohumlarından oluşmaktadır. Meypal bu hususta, bu geniş ürün yelpazesini daha da genişletme doğrultusunda ciddi bir çalışma programı yürütmektedir.",
+      "listTitle": "Geniş Ürün Yelpazemiz",
+      "listSubtitle": "Kimyasal süreçten arındırılmış yüksek kaliteli sebze çeşitleri",
+      "items": [
+        "Havuç",
+        "Marul",
+        "Ispanak",
+        "Domates",
+        "Kereviz",
+        "Lahana",
+        "Karnabahar",
+        "Endivyen",
+        "Hıyar",
+        "Patlıcan",
+        "Alabaş",
+        "Pırasa",
+        "Anaç",
+        "Kavun",
+        "Biber"
+      ],
+      "preservationTitle": "Doğal Muhafaza & Endüstriyel Çözümler",
+      "preservationNote": "Sebzeler hasat edildikten kısa bir süre sonra, muntazam şekilde muhafaza edilerek doğanın zenginliği çok iyi bir şekilde korunabilmektedir. Dondurulmuş, kutulanmış veya kurutulmuş sebzeler; çeşitli, hazırlanması kolay ve sağlıklı bir öğüne makul bir fiyatla erişimi mümkün hale getirmektedir. Meypal, işte tam da bu sebepten bu endüstriyi doğru çeşitlerle desteklemektedir."
+    },
+    "features": {
+      "tag": "Belirli Özellikler",
+      "title": "Açık Tarla Uyumu & Dayanıklılık Standartları",
+      "intro": "Sebze endüstrisi %100 açık tarla ürünleri kullanmaktadır. Çeşitlerimizin en önemli özellikleri; hastalıklara dayanımı güçlü, farklı tarla koşullarına kolay uyum sağlayabilen yüksek kalitede ürünlerden oluşmasıdır.",
+      "items": [
+        {
+          "title": "Yüksek Verim & İklim Direnci",
+          "description": "Şiddetli hava şartlarına karşı dirençli, uzun bir hasat periyoduna sahip, farklı tarla ve toprak koşullarına kolaylıkla uyum sağlayabilen güçlü bitki yapısı."
+        },
+        {
+          "title": "Mekanik Hasat & Uzun Raf Ömrü",
+          "description": "Hasat sonrası uzun raf ömrü imkânı sağlayan, mekanik hasada uygun ve ürün iç kalitesi gün geçtikçe daha da değer kazanan özel çeşitler."
+        }
+      ]
+    },
+    "partnership": {
+      "tag": "İş Ortaklarımız",
+      "title": "Birlikte Çalışma Sistemi & Büyüyen Çeşitlilik",
+      "description": "Endüstriyel sebzeler; perakende pazarları, gıda hizmeti ve gıda endüstrisi için önemli bir kalemdir. Güçlü gıda tedarikçileri ile yakın temas halinde olarak, ıslah programlarımızı doğru seçenekler üzerinde yürütmeye özen gösteriyoruz. Ayrıca Meypal olarak, özellikle de organik üretime özel bir önem vermekteyiz.",
+      "futureTitle": "Büyüyen Çeşitliliğimiz",
+      "futureGoal": "Meypal olarak amacımız, ürün yelpazemizi her hâlükârda daha çok sebze çeşidi ile zenginleştirmektir. Dahası, kullanım imkânlarımızı da her daim arttırmak arzusundayız. İş ortaklarımız ile birlikte işleme sonrasında, tüketicilerin ihtiyaçlarını en iyi şekilde karşılayan ürünü aramaktayız."
+    },
+    "contactCta": {
+      "title": "Organik Tohum ve Üretim Çözümleri İçin Bize Ulaşın",
+      "description": "Organik çeşitlerimiz, teknik ıslah detayları ve toptan organik tohum tedariki hakkında bilgi almak için uzman ekibimizle iletişime geçin.",
+      "button": "İletişime Geçin"
+    }
+  },
   "metadata": {
     "home": {
       "title": "Meypal | Yaş Sebze, Meyve ve Narenciye Üretim & İhracatı",
@@ -405,6 +498,11 @@
       "title": "Kullanıma Hazır Ürünler - Convenience Gıda | Meypal",
       "description": "Meypal kullanıma hazır taze sebze ve meyveler. Salanova® marul ve Caribbean kavun ile modern işleme endüstrisi ve convenience pazarı için yüksek verimli çözümler.",
       "keywords": "kullanıma hazır ürünler, convenience gıda, hazır salata, Salanova, marul, Caribbean kavun, taze sebze işleme, Meypal gıda"
+    },
+    "organic": {
+      "title": "Organik Tohum ve Sebze Üretimi | Meypal",
+      "description": "1992'den bu yana tüm Avrupalı sertifikasyon kurumlarınca tanınan, kimyasal süreçten arındırılmış yüksek kaliteli organik tohum ve sebze üretimi.",
+      "keywords": "organik tohum, organik sebze, Meypal organik, organik tarım, organik marul, domates tohumu, kimyasal içermeyen tohum, dayanıklı sebze çeşitleri, açık tarla sebze"
     }
   },
   "header": {

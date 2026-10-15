@@ -380,6 +380,99 @@
       "button": "Get in Touch"
     }
   },
+  "organic": {
+    "badge": "Meypal Product Lines",
+    "title": "Organic Seed & Vegetable Production",
+    "subtitle": "Internationally certified, resilient, and chemical-free organic vegetable seed and produce varieties since 1992",
+    "breadcrumb": "Product Lines",
+    "intro": "Since 1992, we have been working tirelessly to meet all organic seed requirements and offer a wide range of organically produced vegetable seeds recognized by all European certification bodies. We continuously strive to expand our product diversity without pause.",
+    "stats": {
+      "exp": {
+        "value": "Since 1992",
+        "label": "Organic Seed & Breeding Heritage"
+      },
+      "cert": {
+        "value": "European Certified",
+        "label": "Recognized by All Certification Bodies"
+      },
+      "clean": {
+        "value": "100% Natural",
+        "label": "Chemical-Free Production"
+      }
+    },
+    "dedication": {
+      "tag": "Special Dedication",
+      "title": "Dedicated Commitment to Organic Farming & Resilience",
+      "description": "At Meypal, we believe organic farming deserves special attention and care. It is essential to remember that organic cultivation demands robust resilience, while meeting diverse consumer preferences requires a comprehensive variety. For this reason, our plant breeders pursue dedicated programs catering specifically to the needs of this target audience.",
+      "items": [
+        {
+          "title": "Dedicated Demo Fields & Greenhouses",
+          "description": "We develop and meticulously test high-quality vegetable seeds in demo fields and greenhouses exclusively allocated for organic production."
+        },
+        {
+          "title": "Pest Resistance & Extended Shelf Life",
+          "description": "Offering professional organic growers robust, flavorful options with strong resistance to pests and diseases and extended shelf life, guided by the latest scientific advancements."
+        },
+        {
+          "title": "Strict Regulatory Compliance",
+          "description": "We strictly adhere to international regulations and continuously adapt our breeding programs to remain in full alignment with evolving directives."
+        }
+      ]
+    },
+    "varieties": {
+      "tag": "Broad Portfolio",
+      "title": "Chemical-Free Seed Diversity",
+      "description": "Our organic seed range encompasses lettuce, tomato, cucumber, melon, chicory, and pepper seeds. Meypal pursues an extensive program to further expand this broad variety.",
+      "listTitle": "Our Chemical-Free Product Groups",
+      "listSubtitle": "Pure, natural, and high-performance vegetable varieties",
+      "items": [
+        "Carrot",
+        "Lettuce",
+        "Spinach",
+        "Tomato",
+        "Celery",
+        "Cabbage",
+        "Cauliflower",
+        "Endive",
+        "Cucumber",
+        "Eggplant",
+        "Kohlrabi",
+        "Leek",
+        "Rootstock",
+        "Melon",
+        "Pepper"
+      ],
+      "preservationTitle": "Natural Preservation & Industrial Solutions",
+      "preservationNote": "Vegetables preserved properly shortly after harvest maintain nature's abundance at its best. Frozen, canned, or dried vegetables enable accessible, versatile, easy-to-prepare, and healthy meals at affordable prices. That is precisely why Meypal supports this industry with optimal varieties."
+    },
+    "features": {
+      "tag": "Key Characteristics",
+      "title": "Open Field Adaptation & Quality Standards",
+      "intro": "The vegetable industry utilizes 100% open field crops. The foremost attributes of our varieties are high resilience to diseases and rapid adaptation to diverse field conditions with premium quality.",
+      "items": [
+        {
+          "title": "High Yield & Climate Resilience",
+          "description": "Exceptional resistance to harsh weather conditions, prolonged harvest periods, and seamless adaptability to varying field conditions."
+        },
+        {
+          "title": "Mechanical Harvesting & Shelf Life",
+          "description": "Extended post-harvest shelf life, full suitability for mechanical harvesting, and superior internal product quality that grows ever more vital."
+        }
+      ]
+    },
+    "partnership": {
+      "tag": "Our Partners",
+      "title": "Collaborative System & Growing Diversity",
+      "description": "Industrial vegetables represent an essential category for retail markets, food service, and food processing industries. In close collaboration with strong food suppliers, we conduct our breeding programs on the most viable choices, with a dedicated priority on organic production.",
+      "futureTitle": "Growing Diversity & Vision",
+      "futureGoal": "Our goal at Meypal is to enrich our portfolio with more vegetable varieties and constantly enhance utilization opportunities. Together with our partners, we strive to deliver crops that best satisfy consumer needs post-processing."
+    },
+    "contactCta": {
+      "title": "Contact Us for Organic Seed & Production Solutions",
+      "description": "Connect with our expert team to learn more about our organic varieties, technical breeding details, and wholesale organic supply opportunities.",
+      "button": "Contact Us"
+    }
+  },
   "metadata": {
     "home": {
       "title": "Meypal | Fresh Fruits, Vegetables & Citrus Production & Export",
@@ -405,6 +498,11 @@
       "title": "Ready to Eat Products - Convenience Food Solutions | Meypal",
       "description": "Meypal ready-to-eat fresh fruits and vegetables. High-efficiency solutions with Salanova® lettuce and Caribbean melon for the processing industry and convenience market.",
       "keywords": "ready to eat, convenience food, fresh cut salad, Salanova lettuce, Caribbean melon, fresh produce processing, Meypal"
+    },
+    "organic": {
+      "title": "Organic Seed & Vegetable Production | Meypal",
+      "description": "Recognized by all European certification bodies since 1992, Meypal offers high-quality, chemical-free organic vegetable seeds and produce.",
+      "keywords": "organic seed, organic vegetables, Meypal organic, organic farming, organic lettuce, tomato seed, chemical-free seed, disease-resistant crops, open-field vegetables"
     }
   },
   "header": {

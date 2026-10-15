@@ -312,6 +312,61 @@ export async function getReadyToEatStructuredData(locale: Locale) {
   }
 }
 
+export async function getOrganicStructuredData(locale: Locale) {
+  const t = await getTranslator(locale)
+  const baseUrl = getBaseUrl()
+  const pageUrl = new URL(PAGES.organic[locale], baseUrl).toString()
+  const homeUrl = new URL(PAGES.home[locale], baseUrl).toString()
+  const productLinesUrl = new URL(PAGES.productLines[locale], baseUrl).toString()
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ItemPage",
+        "@id": `${pageUrl}/#webpage`,
+        url: pageUrl,
+        name: t("metadata.organic.title"),
+        description: t("metadata.organic.description"),
+        about: { "@id": `${baseUrl}/#organization` },
+        mainEntity: { "@id": `${baseUrl}/#organization` },
+        publisher: { "@id": `${baseUrl}/#organization` },
+        isPartOf: {
+          "@type": "WebSite",
+          "@id": `${baseUrl}/#website`,
+          name: COMPANY_INFO.name,
+          url: baseUrl,
+        },
+        inLanguage: locale === "tr" ? "tr-TR" : "en-US",
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${pageUrl}/#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: t("navigation.home"),
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: t("navigation.productLines"),
+            item: productLinesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: t("navigation.organic"),
+            item: pageUrl,
+          },
+        ],
+      },
+    ],
+  }
+}
+
 export function createBreadcrumbListSchema(
   items: Array<{ name: string; url: string }>,
   pageUrl: string,
