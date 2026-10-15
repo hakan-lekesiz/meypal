@@ -1,0 +1,6 @@
+export { AboutHeroSection } from "./about-hero-section"
+export { AboutStorySection } from "./about-story-section"
+export { AboutTimelineSection } from "./about-timeline-section"
+export { AboutGlobalHubsSection } from "./about-global-hubs-section"
+export { AboutValuesSection } from "./about-values-section"
+export { AboutCtaSection } from "./about-cta-section"

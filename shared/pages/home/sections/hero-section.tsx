@@ -34,7 +34,7 @@ export function HeroSection({ slides, prevLabel, nextLabel }: HeroSectionProps) 
           disableOnInteraction: false,
           pauseOnMouseEnter: true,
         }}
-        className="hero-swiper h-[70vh] min-h-[520px] max-h-[760px] lg:h-[80vh] lg:min-h-[600px] lg:max-h-[820px]"
+        className="hero-swiper h-[400px] lg:h-[80vh] lg:min-h-[600px] lg:max-h-[820px]"
         effect="fade"
         fadeEffect={{ crossFade: true }}
         loop={slides.length > 1}
@@ -59,8 +59,8 @@ export function HeroSection({ slides, prevLabel, nextLabel }: HeroSectionProps) 
                 src={slide.image}
               />
               {/* Refined gradient overlay for text legibility */}
-              <div className="absolute inset-0 bg-gradient-to-r from-[#002f43]/92 via-[#002f43]/70 to-transparent max-md:from-[#002f43]/95 max-md:via-[#002f43]/80 max-md:to-[#002f43]/50" />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#002f43]/75 via-transparent to-black/35" />
+              <div className="absolute inset-0 bg-gradient-to-r from-[#002f43]/65 via-[#002f43]/20 to-transparent max-md:from-[#002f43]/70 max-md:via-[#002f43]/40 max-md:to-[#002f43]/15" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#002f43]/40 via-transparent to-black/10" />
             </div>
 
             {/* Slide Content */}
@@ -68,7 +68,7 @@ export function HeroSection({ slides, prevLabel, nextLabel }: HeroSectionProps) 
               <div className="grid-wrapper">
                 <div className="max-w-2xl text-white">
                   {/* Eyebrow badge */}
-                  <div className="inline-flex items-center gap-2 rounded-full border border-[#F58220]/40 bg-[#F58220]/20 px-4 py-1.5 text-xs font-bold text-[#F58220] backdrop-blur-md shadow-xs">
+                  <div className="inline-flex items-center gap-2 rounded-full border border-[#F58220]/40 bg-[#F58220]/10 px-4 py-1.5 text-xs font-bold text-[#F58220] backdrop-blur-md shadow-xs">
                     <span className="relative flex h-2 w-2">
                       <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#F58220] opacity-75" />
                       <span className="relative inline-flex h-2 w-2 rounded-full bg-[#F58220]" />

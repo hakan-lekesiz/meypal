@@ -147,6 +147,171 @@ export async function getAboutStructuredData(locale: Locale) {
   }
 }
 
+export async function getMissionStructuredData(locale: Locale) {
+  const t = await getTranslator(locale)
+  const baseUrl = getBaseUrl()
+  const pageUrl = new URL(PAGES.mission[locale], baseUrl).toString()
+  const homeUrl = new URL(PAGES.home[locale], baseUrl).toString()
+  const aboutUrl = new URL(PAGES.about[locale], baseUrl).toString()
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${pageUrl}/#webpage`,
+        url: pageUrl,
+        name: t("metadata.mission.title"),
+        description: t("metadata.mission.description"),
+        about: { "@id": `${baseUrl}/#organization` },
+        mainEntity: { "@id": `${baseUrl}/#organization` },
+        publisher: { "@id": `${baseUrl}/#organization` },
+        isPartOf: {
+          "@type": "WebSite",
+          "@id": `${baseUrl}/#website`,
+          name: COMPANY_INFO.name,
+          url: baseUrl,
+        },
+        inLanguage: locale === "tr" ? "tr-TR" : "en-US",
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${pageUrl}/#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: t("navigation.home"),
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: t("navigation.company"),
+            item: aboutUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: t("navigation.mission"),
+            item: pageUrl,
+          },
+        ],
+      },
+    ],
+  }
+}
+
+export async function getVisionStructuredData(locale: Locale) {
+  const t = await getTranslator(locale)
+  const baseUrl = getBaseUrl()
+  const pageUrl = new URL(PAGES.vision[locale], baseUrl).toString()
+  const homeUrl = new URL(PAGES.home[locale], baseUrl).toString()
+  const aboutUrl = new URL(PAGES.about[locale], baseUrl).toString()
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${pageUrl}/#webpage`,
+        url: pageUrl,
+        name: t("metadata.vision.title"),
+        description: t("metadata.vision.description"),
+        about: { "@id": `${baseUrl}/#organization` },
+        mainEntity: { "@id": `${baseUrl}/#organization` },
+        publisher: { "@id": `${baseUrl}/#organization` },
+        isPartOf: {
+          "@type": "WebSite",
+          "@id": `${baseUrl}/#website`,
+          name: COMPANY_INFO.name,
+          url: baseUrl,
+        },
+        inLanguage: locale === "tr" ? "tr-TR" : "en-US",
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${pageUrl}/#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: t("navigation.home"),
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: t("navigation.company"),
+            item: aboutUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: t("navigation.vision"),
+            item: pageUrl,
+          },
+        ],
+      },
+    ],
+  }
+}
+
+export async function getReadyToEatStructuredData(locale: Locale) {
+  const t = await getTranslator(locale)
+  const baseUrl = getBaseUrl()
+  const pageUrl = new URL(PAGES.readyToEat[locale], baseUrl).toString()
+  const homeUrl = new URL(PAGES.home[locale], baseUrl).toString()
+  const productLinesUrl = new URL(PAGES.productLines[locale], baseUrl).toString()
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ItemPage",
+        "@id": `${pageUrl}/#webpage`,
+        url: pageUrl,
+        name: t("metadata.readyToEat.title"),
+        description: t("metadata.readyToEat.description"),
+        about: { "@id": `${baseUrl}/#organization` },
+        mainEntity: { "@id": `${baseUrl}/#organization` },
+        publisher: { "@id": `${baseUrl}/#organization` },
+        isPartOf: {
+          "@type": "WebSite",
+          "@id": `${baseUrl}/#website`,
+          name: COMPANY_INFO.name,
+          url: baseUrl,
+        },
+        inLanguage: locale === "tr" ? "tr-TR" : "en-US",
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${pageUrl}/#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: t("navigation.home"),
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: t("navigation.productLines"),
+            item: productLinesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: t("navigation.readyToEat"),
+            item: pageUrl,
+          },
+        ],
+      },
+    ],
+  }
+}
+
 export function createBreadcrumbListSchema(
   items: Array<{ name: string; url: string }>,
   pageUrl: string,

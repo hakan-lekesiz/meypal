@@ -16,16 +16,16 @@ export async function HomePage({ locale }: { locale: Locale }) {
 
   const slides: HeroSlide[] = [
     {
-      badge: t("home.hero.slides.0.badge"),
-      title: t("home.hero.slides.0.title"),
-      description: t("home.hero.slides.0.description"),
-      image: "/images/fruits/hero-fruits.jpg",
-    },
-    {
       badge: t("home.hero.slides.1.badge"),
       title: t("home.hero.slides.1.title"),
       description: t("home.hero.slides.1.description"),
       image: "/images/fruits/citrus-mandarin.jpeg",
+    },
+    {
+      badge: t("home.hero.slides.0.badge"),
+      title: t("home.hero.slides.0.title"),
+      description: t("home.hero.slides.0.description"),
+      image: "/images/fruits/hero-fruits.jpg",
     },
     {
       badge: t("home.hero.slides.2.badge"),

@@ -119,7 +119,266 @@
     }
   },
   "about": {
-    "title": "Hakkımızda"
+    "title": "Hakkımızda",
+    "breadcrumb": "Kurumsal",
+    "hero": {
+      "badge": "1945'ten Günümüze · 3 Kuşaktır Aile Şirketi",
+      "title": "Doğadan Sofralara 70 Yıllık Güven ve İhracat Başarısı",
+      "description": "1945 yılında başlayan üretim yolculuğumuzu bugün Türkiye ve İngiltere merkezli küresel tedarik ağımızla sürdürüyoruz. Dalından ilk günkü tazelikle, 12 ay boyunca dünya sofralarına.",
+      "stats": {
+        "founded": "1945",
+        "foundedLabel": "Kuruluş Yılı",
+        "experience": "70+",
+        "experienceLabel": "Yıllık Tecrübe",
+        "generations": "3 Kuşak",
+        "generationsLabel": "Aile Şirketi Güveni",
+        "supply": "12 Ay",
+        "supplyLabel": "Kesintisiz İhracat"
+      }
+    },
+    "story": {
+      "badge": "Tarihçemiz & Mirasımız",
+      "title": "Topraktan Dünyaya Uzanan Bir Başarı Hikayesi",
+      "paragraph1": "1945 yılında yaş sebze meyve üretimine başlayan firmamız yaklaşık 70 yılık tecrübesiyle üretimini ve ürün kalitesini arttırarak faaliyetlerini 3 kuşaktır aile şirketi olarak sürdürmektedir.",
+      "paragraph2": "1980’li yıllarda iç piyasada göstermiş olduğu başarısını ihracat vasfıyla başta Ortadoğu ve Balkan ülkeleri olmak üzere 1990’lı yıllardan itibaren bu ağı Rusya ve Avrupa ülkelerine kadar genişleterek 2000’li yılların başlarında deneyimli iş kadrosuyla birlikte ülkemizin dört bir yanından yılın 12 ayı ihracat faaliyetlerini sürdüren bir firmadır.",
+      "imageCaption": "3 Kuşaklık Tecrübe",
+      "imageSub": "Meypal Tarım Üretim Standartları"
+    },
+    "timeline": {
+      "badge": "Gelişim Yolculuğumuz",
+      "title": "Adım Adım Büyüyen İhracat Gücümüz",
+      "subtitle": "Yerel tarımsal üretimden küresel tedarik zincirine uzanan 70 yılı aşkın kilometre taşlarımız.",
+      "milestones": [
+        {
+          "year": "1945",
+          "title": "Üretime Başlangıç",
+          "description": "Yaş sebze ve meyve üretimiyle toprağa ilk tohumlar atıldı; dürüst ticaret ve kaliteli üretim temelleri kuruldu."
+        },
+        {
+          "year": "1980'ler",
+          "title": "İhracata İlk Adım",
+          "description": "İç piyasada elde edilen üstün başarı ihracat vasfına dönüştürülerek başta Ortadoğu ve Balkan ülkelerine sevkiyatlar başladı."
+        },
+        {
+          "year": "1990'lar",
+          "title": "Avrupa ve Rusya Koridoru",
+          "description": "İhracat ağı hızla genişletilerek Rusya Federasyonu ve Avrupa ülkelerine düzenli sevkiyatlar gerçekleştirildi."
+        },
+        {
+          "year": "2000'ler",
+          "title": "12 Ay Kesintisiz İhracat & Globalleşme",
+          "description": "Deneyimli iş kadrosuyla ülkemizin dört bir yanından yılın 12 ayı ihracat sürdürülürken, yatırımlar Avrupa ve İngiltere'ye yönlendirildi."
+        },
+        {
+          "year": "2012",
+          "title": "Londra Meypal & Birleşik Krallık Ağı",
+          "description": "Londra New Spitalfields Market'ta kurulan ortak şirket ile Birleşik Krallık geneline hizmet veren entegre dağıtım ağı hayata geçti."
+        }
+      ]
+    },
+    "globalHubs": {
+      "badge": "Küresel Operasyon Merkezlerimiz",
+      "title": "Türkiye & İngiltere: İki Güçlü Merkez, Tek Kalite Standardı",
+      "description": "2000’li yıllarda globalleşen ekonominin etkisiyle yönünü ve yatırımlarını başta İngiltere olmak üzere Avrupa’ya çeviren firmamız, 2012 yılında Londra New Spitalfields Market'ta ve Türkiye’de kurulan ortak şirketle sektörde daha sağlam adımlarla ilerlemektedir.",
+      "turkey": {
+        "badge": "Üretim & İhracat Üssü",
+        "title": "Türkiye Meypal",
+        "tagline": "Tedarik, Paketleme ve Soğuk Zincir İhracatı",
+        "description": "Türkiye Meypal olarak faaliyetlerimizi devamlı bir şekilde Mersin, Antalya, Denizli, Manisa ve Bursa gibi belirli şehirlerde bulunan anlaşmalı olduğumuz tesislerde kendi ürünlerimizi Avrupa standartlarına uygun bir şekilde paketleyerek, uzman lojistik firmalarımızla birlikte soğuk zinciri koruyarak ürünlerin dalından koparılmış gibi ilk günkü tazelikleriyle kara, hava, deniz yoluyla taşınarak Avrupalı müşterilerimizin sofralarına ulaştırmaktayız.",
+        "facilitiesTitle": "Anlaşmalı Tesis & Üretim Merkezlerimiz",
+        "cities": ["Mersin", "Antalya", "Denizli", "Manisa", "Bursa"],
+        "logisticsTitle": "Çok Modlu Soğuk Zincir Lojistiği",
+        "logistics": "Kara, hava ve deniz yoluyla sıcaklık kontrollü kesintisiz sevkiyat",
+        "standardTitle": "Avrupa Standartları",
+        "standard": "Titiz kalibrasyon, hijyenik tasnif ve yüksek kalite ambalajlama"
+      },
+      "uk": {
+        "badge": "İthalat & Dağıtım Üssü",
+        "title": "İngiltere Meypal (UK)",
+        "tagline": "Küresel İthalat & Birleşik Krallık Dağıtım Ağı",
+        "description": "İngiltere Meypal olarak ise Türkiye’den başladığımız ithalat serüvenimizi daha sonraları Avrupa, Amerika, Afrika ve Asya’ya kadar genişleterek ithalat faaliyetlerini son hızla devam ettirip kendi bünyesinde gelişen dağıtım ağıyla Birleşik Krallığın her noktasına hizmet vermekteyiz.",
+        "addressTitle": "Londra Operasyon & Toptan Merkezi",
+        "address": "Stand 63, New Spitalfields Market, 1 Sherrin Road, Leyton, London, E10 5SH",
+        "importRegionsTitle": "Global İthalat Ağımız",
+        "regions": ["Türkiye", "Avrupa", "Amerika", "Afrika", "Asya"],
+        "distributionTitle": "Birleşik Krallık Geneli Dağıtım",
+        "distribution": "Kendi bünyesinde gelişen güçlü dağıtım filosuyla İngiltere'nin her noktasına günlük teslimat"
+      }
+    },
+    "values": {
+      "badge": "İlkelerimiz & Değerlerimiz",
+      "title": "Bizi Geleceğe Taşıyan Temel Prensiplerimiz",
+      "description": "Kurulduğumuz tarihten itibaren firmamız sektörde sürekliliği sağlayıp, faaliyet alanı içerisinde daha kaliteli hizmet vermeyi amaç edinerek yoluna emin adımlarla devam etmektedir.",
+      "items": [
+        {
+          "title": "Milli Temsiliyet Bilinci",
+          "description": "İhraç ettiğimiz her ürünün ülkemizi temsil ettiğini düşünerek, ürünlerimizin en üstün kalite ve uluslararası standartlarda olmasına özen gösteriyoruz."
+        },
+        {
+          "title": "İstihdam ve Ekonomik Katkı",
+          "description": "Firmamız gelişip büyüdükçe ülkemize ekonomik alanda katkı sağlayarak, öncelikli hedef olarak istihdam oluşturmayı ve refah üretmeyi amaçlamaktadır."
+        },
+        {
+          "title": "Teknoloji ve Sürekli Yenilenme",
+          "description": "Alanında deneyimli işçi kadromuzla birlikte, teknolojik ve sektörel gelişmeleri yakından takip ederek sürekli kendimizi yeniliyor ve bilinçle hareket ediyoruz."
+        },
+        {
+          "title": "Yüksek Hedefler & Üretim Aşkı",
+          "description": "Hedeflerimizi daima yüksek tutarak Akdeniz'in bereketini dünya sofralarına taşımak için daima çalışmaya, üretmeye ve taşımaya devam ediyoruz."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "İş Ortaklığı & İhracat",
+      "title": "Tazeliği ve Meypal Kalitesini Birlikte Taşıyalım",
+      "description": "70 yıllık köklü tecrübemiz, Avrupa standartlarındaki soğuk zincir lojistiğimiz ve küresel dağıtım ağımızla iş ortaklarımıza değer katıyoruz.",
+      "contactBtn": "İletişime Geçin",
+      "catalogBtn": "E-Kataloğu İnceleyin"
+    }
+  },
+  "mission": {
+    "badge": "Meypal · Kurumsal Değerler",
+    "title": "Misyonumuz",
+    "breadcrumb": "Kurumsal",
+    "statement": "Şeffaf, dinamik, gelişime ve değişime açık, kaliteli üretim, hızlı ve güvenilir ihracat, yüksek müşteri memnuniyeti sloganıyla şirketimizi ve ülkemizi uluslararası piyasada en iyi şekilde temsil etmektir.",
+    "subtext": "Akdeniz'in bereketli topraklarından aldığımız gücü, 70 yılı aşkın köklü üretim tecrübemiz ve küresel vizyonumuzla harmanlayarak uluslararası pazarlara güvenle taşıyoruz.",
+    "principlesTitle": "Misyonumuzun Temel Taşları",
+    "principlesSubtitle": "Tarladan dünya sofralarına uzanan her adımda taviz vermediğimiz temel çalışma prensiplerimiz.",
+    "principles": [
+      {
+        "index": "01",
+        "title": "Şeffaf ve Dinamik Yönetim",
+        "description": "Tüm ticari ve operasyonel süreçlerimizde dürüst, açık ve gelişime hızla adapte olan dinamik bir yönetim kültürü uyguluyoruz."
+      },
+      {
+        "index": "02",
+        "title": "Gelişime ve Değişime Açıklık",
+        "description": "Sektörel yenilikleri, modern tarım teknolojilerini ve küresel standartları benimseyerek işimizi sürekli geliştiriyoruz."
+      },
+      {
+        "index": "03",
+        "title": "Kaliteli ve Güvenli Üretim",
+        "description": "Hasattan paketlemeye kadar her aşamada uluslararası gıda güvenliği ve titiz kalite kontrol standartlarından ödün vermiyoruz."
+      },
+      {
+        "index": "04",
+        "title": "Hızlı ve Güvenilir İhracat",
+        "description": "Avrupa standartlarındaki modern soğuk zincir lojistiğimizle 12 ay boyunca kesintisiz ve zamanında teslimat sağlıyoruz."
+      },
+      {
+        "index": "05",
+        "title": "Yüksek Müşteri Memnuniyeti",
+        "description": "Dünya genelindeki tüm iş ortaklarımızla şeffaf iletişime dayalı, uzun soluklu ve güven temelli iş birlikleri inşa ediyoruz."
+      },
+      {
+        "index": "06",
+        "title": "Uluslararası Temsil Gücü",
+        "description": "Mersin'den aldığımız güçle Türkiye'nin tarımsal zenginliğini ve üretim gücünü küresel arenada gururla temsil ediyoruz."
+      }
+    ],
+    "signature": "Meypal Tarım Ürünleri",
+    "signatureSub": "1945'ten Beri Akdeniz'den Dünyaya"
+  },
+  "vision": {
+    "badge": "Meypal · Gelecek Vizyonumuz",
+    "title": "Vizyonumuz",
+    "breadcrumb": "Kurumsal",
+    "statement": "Türkiye Meypal ihracat olarak 2013 yılında 15.000 ton olan ihracat rakamımızı 2015 yılında 30.000 ton, 2016 yılı faaliyetlerimizde ise yaklaşık olarak 40.000 ton seviyesine kadar çıkarmayı başardık. İhracat hedefimiz 60.000 ton ürünle sektörün öncü firmalarından biri olmak; Londra Meypal ithalat olarak ise 2013 yılında 5.000 ton olan ithalat rakamımızı 2015 yılında 20.000 tona, 2016 yılında ise 30.000 tona kadar çıkararak, günümüzde ise Meypal Türkiye hariç dünyanın dört bir yanından 70’e yakın tedarikçimizle birlikte 50.000 ton ithalat hedefine ulaşmayı ve yatırımlarımızı artırarak daha çok istihdam sağlamayı amaçlamaktayız.",
+    "subtext": "Mersin'deki köklü üretim gücümüzü Londra merkezli küresel dağıtım ağımızla birleştirerek, dünya genelinde 70'e yakın uluslararası tedarikçi ortağımızla güvenle büyüyoruz.",
+    "principlesTitle": "Vizyonumuzun Temel Hedefleri",
+    "principlesSubtitle": "Küresel pazarlarda sürdürülebilir büyüme, istikrarlı hacim artışı ve yüksek katma değer ilkelerimiz.",
+    "principles": [
+      {
+        "index": "01",
+        "title": "Türkiye İhracatında Sürekli Büyüme",
+        "description": "15.000 tondan 40.000 tona taşıdığımız ihracat başarımızı, yıllık 60.000 ton hedefiyle sektörün öncüsü olarak sürdürüyoruz."
+      },
+      {
+        "index": "02",
+        "title": "Londra Merkezli Küresel İthalat Ağı",
+        "description": "İngiltere ve Avrupa pazarındaki ithalat hacmimizi 50.000 ton hedefine ulaştırarak uluslararası dağıtımda stratejik bir köprü kuruyoruz."
+      },
+      {
+        "index": "03",
+        "title": "70+ Küresel Tedarikçi İş Ortaklığı",
+        "description": "Dünyanın dört bir yanından 70'e yakın seçkin üretici ve tedarikçiyle 12 ay boyunca kesintisiz tedarik zinciri yönetiyoruz."
+      },
+      {
+        "index": "04",
+        "title": "Sektörde Liderlik & Güvenilirlik",
+        "description": "Yaş meyve, sebze ve narenciyede kaliteden ödün vermeden Akdeniz ve Avrupa pazarında referans marka konumumuzu güçlendiriyoruz."
+      },
+      {
+        "index": "05",
+        "title": "Yatırım & İstihdam Artışı",
+        "description": "Soğuk hava depoları, lojistik filosu ve paketleme tesislerimize yaptığımız sürekli yatırımlarla yeni istihdam olanakları yaratıyoruz."
+      },
+      {
+        "index": "06",
+        "title": "Sürdürülebilir Küresel Gelecek",
+        "description": "Çevreye duyarlı tarımsal standartlar ve modern operasyonel altyapımızla gelecek nesillere kalıcı bir kurumsal miras bırakıyoruz."
+      }
+    ],
+    "signature": "Meypal Tarım Ürünleri",
+    "signatureSub": "Mersin & Londra · 1945'ten Beri Küresel Vizyon"
+  },
+  "readyToEat": {
+    "badge": "Meypal Ürün Hatları",
+    "title": "Kullanıma Hazır Ürünler",
+    "subtitle": "Processing endüstrisi ve convenience pazarı için yüksek verimli, taze ve pratik çözümler",
+    "breadcrumb": "Ürün Grupları",
+    "intro": "Marulda pazar lideri olan Meypal, convenience pazarının merkezinde ve processing endüstrisi ile yakın temas halinde bulunmaktadır. İş sahamızda faaliyet gösteren her kesim ile yakın dayanışma içerisinde olmakta, onların problemlerini kendi problemimiz olarak görerek çözüm stratejileri geliştirmekte ve yeni ürünler yaratmaktayız. Öte yandan, özel ıslah programlarımızı geliştirmekteki başlıca amacımız; uzun raf ömrü, mükemmel renk ve üstün lezzete ulaşmaktır.",
+    "items": [
+      {
+        "id": "convenience-center",
+        "tag": "Sektörel Liderlik",
+        "title": "Convenience Pazarı & İşleme Endüstrisi",
+        "description": "Marulda pazar lideri olan Meypal, convenience pazarının merkezinde ve processing endüstrisi ile yakın temas halinde bulunmaktadır. İş sahamızda faaliyet gösteren her kesim ile yakın dayanışma içerisinde olmakta, onların problemlerini kendi problemimiz olarak görerek çözüm stratejileri geliştirmekte ve yeni ürünler yaratmaktayız. Öte yandan, özel ıslah programlarımızı geliştirmekteki başlıca amacımız, uzun raf ömrü, mükemmel renk ve lezzete ulaşmaktır.",
+        "image": "/images/ready-to-eat/image-6.png",
+        "imageAlt": "Meypal taze yeşillik ve sebze işleme hazırlığı",
+        "imageWidth": 314,
+        "imageHeight": 209,
+        "highlight": "Uzun raf ömrü, canlı renkler ve yüksek lezzet standartları"
+      },
+      {
+        "id": "specific-features",
+        "tag": "Kalite Kriterleri",
+        "title": "Belirli Özellikleri & Yüksek Kârlılık",
+        "description": "Bu endüstri için, çekici renk ve mükemmel lezzet tek başına yetmemektedir. Birçok belirli talep arasında, paketleme esnasında düşük zayiat, iyi bir sunum ve raf ömrü fazlasıyla önem arz etmektedir. Üreticilerin, yüksek verim ve daha az işgücü ihtiyacı yönündeki beklentileri de aynı şekilde karşılık bulmaktadır. Meypal’ın çeşit sebze yelpazesi, işleme sanayisinde faaliyet gösteren firmalar ve yanı sıra üreticilerin en yüksek düzeyde kârlılık elde etmesine olanak sağlamaktadır.",
+        "image": "/images/ready-to-eat/image-4.png",
+        "imageAlt": "Kullanıma hazır taze salata ve sebze sunumu",
+        "imageWidth": 323,
+        "imageHeight": 222,
+        "highlight": "Düşük paketleme zayiatı, kusursuz sunum ve optimum raf ömrü"
+      },
+      {
+        "id": "collaboration",
+        "tag": "Ortak Akıl",
+        "title": "Birlikte Çalışma & Güçlü İş Ortaklığı",
+        "description": "Doğru çeşit seçimi, birlikte çalışmayı gerektirmektedir. Başarılı bir son tüketim ürününe sahip olmak için, çeşide ilişkin temel özelliklerin önemli olması kadar, gübreleme ve sulama koşulları da temel bir rol oynamaktadır. Ayrıca ürünün, yıkanılabilirlik, işlenebilirlik ve depolanabilirlik özellikleri de olmazsa olmazlar arasında yerini almaktadır. İşte tam bu noktada, iş ortaklarımız ile gerçekleştirdiğimiz bilgi alışverişimiz ön plandadır; bu bir çeşitten kanaatimizce en iyi sonucu almanın da yegâne yoludur. Tüm dünya pazarlarından gelebilecek istekleri öngörebilme noktasında, uluslararası bir bağlantı olan convenience gıda uzmanları ile irtibatımızı sürdürmekteyiz. Hazır gıda uzmanları ile birlikte çalışmaktayız.",
+        "image": "/images/ready-to-eat/image-3.png",
+        "imageAlt": "Salanova pratik ve lezzetli marul yaprakları amblemi",
+        "imageWidth": 120,
+        "imageHeight": 123,
+        "highlight": "Yıkanabilirlik, işlenebilirlik ve depolanabilirlik optimizasyonu"
+      },
+      {
+        "id": "successful-results",
+        "tag": "İnovatif Çözümler",
+        "title": "Başarılı Sonuçlar: Salanova® & Caribbean",
+        "description": "Convenience gıda türünde, tek bir bıçak darbesi ile pek çok yaprağa ayrılabilen başarılı bir ürün ve bir marul tipi olarak Salanova®’yı gösterebiliriz. Bir diğer ürün ise, geliştirilmiş raf ömrü ile Kantolop Kavun türündeki Caribbean’dır. İnce, pürüzsüz yüzeyi ve küçük çekirdekleri bu ürünü işleme endüstrisi için de çok cazip hale getirmektedir. Genel eğilim, marulun mekanik olarak hasat edilmesidir. Günümüzde fabrikada yapılan kesme işlemi artık demode olmuştur. Tatlı ve çıtır çeşitlerimiz bu amaç için ideal gözükmektedir.",
+        "image": "/images/ready-to-eat/image-8.png",
+        "imageAlt": "Caribbean kantolop kavun çeşidi",
+        "imageWidth": 176,
+        "imageHeight": 169,
+        "highlight": "Tek bıçak darbesiyle Salanova® ve uzun raf ömürlü Caribbean kavun"
+      }
+    ],
+    "contactCta": {
+      "title": "İşleme Endüstrisi İçin Özel Çözümler",
+      "description": "Convenience ve gıda işleme tesislerinizin ihtiyaç duyduğu çeşitler ve teknik iş birliği için uzman ekibimizle iletişime geçin.",
+      "button": "İletişime Geçin"
+    }
   },
   "metadata": {
     "home": {
@@ -131,6 +390,21 @@
       "title": "Hakkımızda - Yaş Meyve, Sebze ve Narenciye İhracatı",
       "description": "1945'ten bu yana 3 kuşaktır süregelen deneyimimizle Mersin'den dünya pazarlarına taze narenciye, meyve ve sebze ihraç ediyoruz. Meypal kurumsal vizyonu ve değerleri.",
       "keywords": "Meypal hakkımızda, narenciye ihracatçısı, Mersin meyve ihracatı, kurumsal, yaş sebze meyve tedarikçisi, Akdeniz ihracat"
+    },
+    "mission": {
+      "title": "Misyonumuz - Kaliteli Üretim ve Güvenilir İhracat",
+      "description": "Şeffaf, dinamik, kaliteli üretim, hızlı ve güvenilir ihracat ve yüksek müşteri memnuniyeti ile şirketimizi ve ülkemizi uluslararası piyasada en iyi şekilde temsil ediyoruz.",
+      "keywords": "Meypal misyon, kurumsal misyon, kaliteli üretim, güvenilir ihracat, narenciye ihracatı, müşteri memnuniyeti, Mersin"
+    },
+    "vision": {
+      "title": "Vizyonumuz - Küresel Tedarik Zinciri ve Sürdürülebilir Büyüme",
+      "description": "Türkiye ve Londra merkezli operasyonlarımız, 70'e yakın küresel tedarikçimiz ve büyüyen ihracat hacmimizle sektörün öncü ve güvenilir markası olmayı hedefliyoruz.",
+      "keywords": "Meypal vizyon, kurumsal vizyon, narenciye ihracatı, meyve sebze ithalatı, Londra Meypal, küresel tedarikçi ağı, tarımsal istihdam, Mersin ihracat"
+    },
+    "readyToEat": {
+      "title": "Kullanıma Hazır Ürünler - Convenience Gıda | Meypal",
+      "description": "Meypal kullanıma hazır taze sebze ve meyveler. Salanova® marul ve Caribbean kavun ile modern işleme endüstrisi ve convenience pazarı için yüksek verimli çözümler.",
+      "keywords": "kullanıma hazır ürünler, convenience gıda, hazır salata, Salanova, marul, Caribbean kavun, taze sebze işleme, Meypal gıda"
     }
   },
   "header": {

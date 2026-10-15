@@ -128,7 +128,7 @@ export const routing = defineRouting({
       en: "/product-lines",
     },
     "/ready-to-eat": {
-      tr: "/kullanima-hazir-urunler-2",
+      tr: "/kullanima-hazir-urunler",
       en: "/ready-to-eat",
     },
     "/organic": {

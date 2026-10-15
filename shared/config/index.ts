@@ -37,7 +37,7 @@ export const PAGES = {
   potato: { tr: "/sebze/patates", en: "/vegetables/potato" },
   garlic: { tr: "/sebze/sarimsak", en: "/vegetables/garlic" },
   productLines: { tr: "/meypal-urun-hatlari", en: "/product-lines" },
-  readyToEat: { tr: "/kullanima-hazir-urunler-2", en: "/ready-to-eat" },
+  readyToEat: { tr: "/kullanima-hazir-urunler", en: "/ready-to-eat" },
   organic: { tr: "/organik", en: "/organic" },
   excitingFlavors: { tr: "/heyecan-verici-tatlar", en: "/exciting-flavors" },
   catalog: { tr: "/e-katalog", en: "/e-catalog" },
@@ -129,7 +129,7 @@ export const footerProductLinks = [
 ] as const satisfies readonly NavigationLink[]
 
 export const contactConfig = {
-  mapUrl: "https://maps.google.com/?q=Cami%C5%9Ferif+Mahallesi+Mersin",
+  mapUrl: "https://maps.google.com/maps?q=36.950319%2C30.7795101&z=17&hl=tr",
   phoneUrl: "tel:+903242380438",
   emailUrl: "mailto:info@meypal.com.tr",
 } as const

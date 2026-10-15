@@ -119,7 +119,266 @@
     }
   },
   "about": {
-    "title": "About Us"
+    "title": "About Us",
+    "breadcrumb": "Corporate",
+    "hero": {
+      "badge": "Since 1945 · 3 Generations of Family Business",
+      "title": "70 Years of Trust and Export Excellence From Nature to Table",
+      "description": "Starting our production journey in 1945, today we operate a comprehensive global supply network based in Turkey and the United Kingdom. Delivering produce with day-one freshness to tables worldwide 12 months a year.",
+      "stats": {
+        "founded": "1945",
+        "foundedLabel": "Founding Year",
+        "experience": "70+",
+        "experienceLabel": "Years of Experience",
+        "generations": "3 Gens",
+        "generationsLabel": "Family Enterprise Trust",
+        "supply": "12 Mo",
+        "supplyLabel": "Uninterrupted Supply"
+      }
+    },
+    "story": {
+      "badge": "Our Heritage & Story",
+      "title": "A Journey of Excellence from Soil to Global Markets",
+      "paragraph1": "Starting fresh fruit and vegetable production in 1945, our company continues its operations as a third-generation family business, continuously enhancing its production capacity and product quality with over 70 years of experience.",
+      "paragraph2": "Transforming its domestic market success into export excellence during the 1980s, primarily to the Middle East and Balkan countries, our company expanded this network to Russia and European countries from the 1990s onward. By the early 2000s, with an experienced team, it became a leading enterprise conducting export operations 12 months a year across every corner of Turkey.",
+      "imageCaption": "3-Generation Expertise",
+      "imageSub": "Meypal Agricultural Production Standards"
+    },
+    "timeline": {
+      "badge": "Our Growth Journey",
+      "title": "Milestones of Our Global Expansion",
+      "subtitle": "Over 70 years of progress connecting local agricultural excellence to global supply chains.",
+      "milestones": [
+        {
+          "year": "1945",
+          "title": "Production Commences",
+          "description": "First seeds sown in fresh fruit and vegetable cultivation, laying the foundation of honest commerce and uncompromising quality."
+        },
+        {
+          "year": "1980s",
+          "title": "First Steps in Export",
+          "description": "Domestic excellence evolved into export capabilities, inaugurating produce shipments to Middle Eastern and Balkan markets."
+        },
+        {
+          "year": "1990s",
+          "title": "European & Russian Expansion",
+          "description": "Our export network broadened rapidly, delivering regular refrigerated shipments across the Russian Federation and European nations."
+        },
+        {
+          "year": "2000s",
+          "title": "12-Month Year-Round Export & Globalization",
+          "description": "With an experienced team, 12-month nationwide export was established while key strategic investments were directed toward Europe and the UK."
+        },
+        {
+          "year": "2012",
+          "title": "Meypal London & UK Distribution Network",
+          "description": "An affiliated enterprise was established at London's New Spitalfields Market, launching a dedicated distribution network across the United Kingdom."
+        }
+      ]
+    },
+    "globalHubs": {
+      "badge": "Global Operational Hubs",
+      "title": "Turkey & United Kingdom: Two Strong Pillars, One Standard of Quality",
+      "description": "Embracing global economic dynamics in the 2000s, our company shifted focus and investments toward Europe, primarily the UK. With our joint enterprise established in 2012 at London's New Spitalfields Market and Meypal Tarım in Turkey, we continue to advance with confident strides in the industry.",
+      "turkey": {
+        "badge": "Production & Export Hub",
+        "title": "Meypal Turkey",
+        "tagline": "Sourcing, Packaging & Cold-Chain Export",
+        "description": "As Meypal Turkey, we pack our products to European standards in contracted facilities across key agricultural hubs including Mersin, Antalya, Denizli, Manisa, and Bursa. Working with specialized logistics partners, we preserve the cold chain and deliver produce with day-one freshness—as if freshly picked from the branch—to European dining tables via road, air, and sea freight.",
+        "facilitiesTitle": "Contracted Facilities & Production Hubs",
+        "cities": ["Mersin", "Antalya", "Denizli", "Manisa", "Bursa"],
+        "logisticsTitle": "Multimodal Cold Chain Logistics",
+        "logistics": "Temperature-controlled continuous transport via road, air, and sea freight",
+        "standardTitle": "European Quality Standards",
+        "standard": "Precision calibration, hygienic sorting, and premium export-grade packaging"
+      },
+      "uk": {
+        "badge": "Import & Distribution Hub",
+        "title": "Meypal UK",
+        "tagline": "Global Import & Nationwide UK Distribution",
+        "description": "As Meypal UK, our import journey that began with Turkey has expanded to Europe, the Americas, Africa, and Asia, continuously advancing import operations and serving every point across the United Kingdom through our dedicated distribution network.",
+        "addressTitle": "London Logistics & Wholesale Center",
+        "address": "Stand 63, New Spitalfields Market, 1 Sherrin Road, Leyton, London, E10 5SH",
+        "importRegionsTitle": "Global Sourcing Network",
+        "regions": ["Turkey", "Europe", "Americas", "Africa", "Asia"],
+        "distributionTitle": "Nationwide UK Coverage",
+        "distribution": "Delivering daily to every corner of the United Kingdom with our dedicated fleet and distribution logistics"
+      }
+    },
+    "values": {
+      "badge": "Our Principles & Values",
+      "title": "Core Foundations Driving Us Into the Future",
+      "description": "Since the day we were founded, our company has advanced with confident steps, aiming to ensure sectoral continuity and deliver higher quality service.",
+      "items": [
+        {
+          "title": "National Representation & Excellence",
+          "description": "Recognizing that every product we export represents our country, we take utmost care to uphold the highest international quality and safety standards."
+        },
+        {
+          "title": "Employment & Economic Contribution",
+          "description": "As our enterprise grows, we continuously generate employment, foster prosperity, and contribute meaningfully to the national economy."
+        },
+        {
+          "title": "Technology & Continuous Renewal",
+          "description": "Together with our experienced team, we closely track technological and industrial advancements, constantly innovating and operating with elevated awareness."
+        },
+        {
+          "title": "High Targets & Passion for Production",
+          "description": "Keeping our standards ambitious, we relentlessly pursue our mission to work, produce, and deliver Mediterranean bounty to dining tables worldwide."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Partnership & Export",
+      "title": "Delivering Freshness and Meypal Quality Together",
+      "description": "With over 70 years of proven heritage, European-standard cold chain logistics, and an international network, we create enduring value for our partners.",
+      "contactBtn": "Get in Touch",
+      "catalogBtn": "Explore E-Catalog"
+    }
+  },
+  "mission": {
+    "badge": "Meypal · Corporate Values",
+    "title": "Our Mission",
+    "breadcrumb": "Company",
+    "statement": "To represent our company and our country in the international market in the best possible way under the motto of transparency, dynamism, openness to growth and change, high-quality production, fast and reliable export, and high customer satisfaction.",
+    "subtext": "Blending the fertile abundance of the Mediterranean with over 70 years of rooted agricultural heritage and a forward-looking global vision.",
+    "principlesTitle": "Pillars of Our Mission",
+    "principlesSubtitle": "The core operational principles we uphold at every stage from harvest to global dining tables.",
+    "principles": [
+      {
+        "index": "01",
+        "title": "Transparent & Agile Governance",
+        "description": "Upholding honesty, clarity, and adaptive management across all commercial and operational processes."
+      },
+      {
+        "index": "02",
+        "title": "Openness to Growth & Change",
+        "description": "Constantly advancing by adopting modern agricultural technology and evolving global market standards."
+      },
+      {
+        "index": "03",
+        "title": "Quality & Safe Production",
+        "description": "Maintaining rigorous international food safety and sorting criteria from orchard harvest to packaging."
+      },
+      {
+        "index": "04",
+        "title": "Fast & Reliable Export",
+        "description": "Ensuring uninterrupted year-round supply and timely delivery backed by European-standard cold chain logistics."
+      },
+      {
+        "index": "05",
+        "title": "High Customer Satisfaction",
+        "description": "Building sustainable, transparent, and enduring partnerships with our valued clients worldwide."
+      },
+      {
+        "index": "06",
+        "title": "Global Representation",
+        "description": "Proudly representing Turkey's agricultural excellence and productive strength in international arenas."
+      }
+    ],
+    "signature": "Meypal Agricultural Produce",
+    "signatureSub": "From the Mediterranean to the World Since 1945"
+  },
+  "vision": {
+    "badge": "Meypal · Future Vision",
+    "title": "Our Vision",
+    "breadcrumb": "Company",
+    "statement": "As Meypal Turkey Export, we increased our export volume from 15,000 tons in 2013 to 30,000 tons in 2015 and approximately 40,000 tons in 2016. Our target is to lead the sector with 60,000 tons of export produce. As London Meypal Import, we grew our import volume from 5,000 tons in 2013 to 20,000 tons in 2015 and 30,000 tons in 2016; today, together with nearly 70 suppliers worldwide beyond Meypal Turkey, we aim to achieve our 50,000-ton import target, expanding our investments and generating greater employment.",
+    "subtext": "Combining our rooted agricultural strength in Mersin with our global distribution hub in London, we scale sustainably with nearly 70 international supply partners worldwide.",
+    "principlesTitle": "Key Pillars of Our Vision",
+    "principlesSubtitle": "Sustainable volume growth, global distribution excellence, and lasting economic value.",
+    "principles": [
+      {
+        "index": "01",
+        "title": "Continuous Export Volume Growth",
+        "description": "Building upon our expansion from 15,000 tons to 40,000 tons, advancing steadily toward our 60,000-ton export target."
+      },
+      {
+        "index": "02",
+        "title": "London Global Import Hub",
+        "description": "Scaling our UK and European import operations to 50,000 tons, forming a strategic international distribution bridge."
+      },
+      {
+        "index": "03",
+        "title": "70+ Global Sourcing Partners",
+        "description": "Collaborating with nearly 70 premium worldwide suppliers to guarantee 12-month uninterrupted supply across all markets."
+      },
+      {
+        "index": "04",
+        "title": "Industry Leadership & Trust",
+        "description": "Reinforcing our position as the benchmark brand for quality and reliability across Mediterranean and European corridors."
+      },
+      {
+        "index": "05",
+        "title": "Investment & Job Creation",
+        "description": "Continuously investing in cold chain facilities, logistics, and packaging infrastructure to generate meaningful employment."
+      },
+      {
+        "index": "06",
+        "title": "Sustainable Global Future",
+        "description": "Balancing high-volume international trade with eco-conscious agricultural practices and enduring corporate values."
+      }
+    ],
+    "signature": "Meypal Agricultural Produce",
+    "signatureSub": "Mersin & London · Global Vision Since 1945"
+  },
+  "readyToEat": {
+    "badge": "Meypal Product Lines",
+    "title": "Ready to Eat Products",
+    "subtitle": "High-efficiency, fresh, and convenient solutions for the processing industry and convenience market",
+    "breadcrumb": "Product Lines",
+    "intro": "As a market leader in lettuce, Meypal is positioned right at the heart of the convenience market and maintains close contact with the processing industry. We work in close cooperation with all stakeholders in our business field, treating their challenges as our own to devise solution strategies and introduce new products. Our primary aim in developing specialized breeding programs is achieving long shelf life, vibrant color, and superior taste.",
+    "items": [
+      {
+        "id": "convenience-center",
+        "tag": "Industry Leadership",
+        "title": "Convenience Market & Processing Industry",
+        "description": "As a market leader in lettuce, Meypal is positioned right at the heart of the convenience market and maintains close contact with the processing industry. We work in close cooperation with all stakeholders in our business field, treating their challenges as our own to devise solution strategies and introduce new products. Our primary aim in developing specialized breeding programs is achieving long shelf life, vibrant color, and superior taste.",
+        "image": "/images/ready-to-eat/image-6.png",
+        "imageAlt": "Meypal fresh greens and vegetable processing preparation",
+        "imageWidth": 314,
+        "imageHeight": 209,
+        "highlight": "Long shelf life, vibrant natural colors, and top-tier taste standards"
+      },
+      {
+        "id": "specific-features",
+        "tag": "Quality Criteria",
+        "title": "Specific Attributes & High Profitability",
+        "description": "For this industry, attractive appearance and great flavor alone are not enough. Among numerous specific demands, minimal waste during packaging, excellent presentation, and extended shelf life are of utmost importance. Growers' expectations for high yield and lower labor requirements are equally met. Meypal’s diverse range of vegetables allows processing companies and growers alike to maximize profitability.",
+        "image": "/images/ready-to-eat/image-4.png",
+        "imageAlt": "Ready to eat packaged fresh salad and vegetables bowl",
+        "imageWidth": 323,
+        "imageHeight": 222,
+        "highlight": "Low packaging waste, pristine presentation, and optimal shelf life"
+      },
+      {
+        "id": "collaboration",
+        "tag": "Collaborative Innovation",
+        "title": "Cooperation & Strong Partnerships",
+        "description": "Selecting the right variety demands close collaboration. Beyond the intrinsic traits of the crop, fertilization and irrigation conditions play a vital role in delivering a successful end-consumer product. Additionally, washability, processability, and storage stability are indispensable requirements. This is where our knowledge sharing with partners takes center stage—the definitive way to achieve optimal results from every variety. To anticipate demands from global markets, we maintain ongoing ties and joint projects with international convenience food specialists.",
+        "image": "/images/ready-to-eat/image-3.png",
+        "imageAlt": "Salanova convenient fresh lettuce leaves emblem",
+        "imageWidth": 120,
+        "imageHeight": 123,
+        "highlight": "Optimized washability, processability, and cold storage resilience"
+      },
+      {
+        "id": "successful-results",
+        "tag": "Innovative Solutions",
+        "title": "Proven Success: Salanova® & Caribbean Melon",
+        "description": "In the convenience food category, Salanova® exemplifies a standout lettuce variety that separates into countless individual leaves with a single cut. Another highlight is the Caribbean Cantaloupe melon, featuring enhanced shelf life. Its thin, smooth rind and compact seed cavity make it exceptionally attractive for the processing sector. With mechanical lettuce harvesting becoming standard, manual factory cutting is obsolete. Our sweet, crisp varieties are perfectly suited for automated processing.",
+        "image": "/images/ready-to-eat/image-8.png",
+        "imageAlt": "Caribbean cantaloupe melon variety",
+        "imageWidth": 176,
+        "imageHeight": 169,
+        "highlight": "Single-cut Salanova® and high-yield, long shelf life Caribbean melon"
+      }
+    ],
+    "contactCta": {
+      "title": "Custom Solutions for the Processing Industry",
+      "description": "Get in touch with our technical team to discuss specialized varieties and partnership opportunities for your convenience and food processing operations.",
+      "button": "Get in Touch"
+    }
   },
   "metadata": {
     "home": {
@@ -131,6 +390,21 @@
       "title": "About Us - Fresh Fruits, Vegetables & Citrus Exporter",
       "description": "Since 1945 across 3 generations, Meypal exports premium citrus, fruits, and vegetables from Mersin to global markets. Learn about our heritage, mission, and quality standards.",
       "keywords": "About Meypal, citrus exporter Turkey, Mersin fruit export, fresh produce supplier, agricultural export company"
+    },
+    "mission": {
+      "title": "Our Mission - Quality Production & Reliable Export",
+      "description": "Representing our company and country in the international market with transparency, dynamism, high-quality production, fast and reliable exports, and high customer satisfaction.",
+      "keywords": "Meypal mission, corporate mission, quality production, reliable export, citrus exporter Turkey, customer satisfaction"
+    },
+    "vision": {
+      "title": "Our Vision - Global Supply Chain & Sustainable Growth",
+      "description": "With our operations in Turkey and London, nearly 70 global suppliers, and growing export volume, we aim to be the premier and trusted leader in the fresh produce industry.",
+      "keywords": "Meypal vision, corporate vision, citrus export, fresh produce import, Meypal London, global suppliers, agricultural employment, Mersin"
+    },
+    "readyToEat": {
+      "title": "Ready to Eat Products - Convenience Food Solutions | Meypal",
+      "description": "Meypal ready-to-eat fresh fruits and vegetables. High-efficiency solutions with Salanova® lettuce and Caribbean melon for the processing industry and convenience market.",
+      "keywords": "ready to eat, convenience food, fresh cut salad, Salanova lettuce, Caribbean melon, fresh produce processing, Meypal"
     }
   },
   "header": {
