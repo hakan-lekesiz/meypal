@@ -585,8 +585,9 @@
     },
     "branch": {
       "tag": "Branch Office",
-      "title": "Antalya Branch",
-      "address": "Atatürk Mh. 22045 Sk. No 65 Aksu / Antalya, Turkey"
+      "title": "Antalya Branch / Cold Storage & Processing Plant",
+      "address": "Atatürk Mh. 22045 Sk. No 65 Aksu / Antalya, Turkey",
+      "phone": "+90 542 548 38 38"
     },
     "labels": {
       "address": "Address",

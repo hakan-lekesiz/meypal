@@ -585,8 +585,9 @@
     },
     "branch": {
       "tag": "Şube",
-      "title": "Antalya Şubesi",
-      "address": "Atatürk Mh. 22045 Sk. No 65 Aksu / Antalya"
+      "title": "Antalya Şube / Soğuk Hava Deposu ve İşletim Fabrikası",
+      "address": "Atatürk Mh. 22045 Sk. No 65 Aksu / Antalya",
+      "phone": "+90 542 548 38 38"
     },
     "labels": {
       "address": "Adres",

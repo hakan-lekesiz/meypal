@@ -54,7 +54,7 @@ export function ContactInfoSection({ locale, t }: { locale: Locale; t: Translate
           className="flex flex-col justify-between rounded-2xl border border-slate-200/90 bg-white p-6 shadow-sm transition-shadow hover:shadow-md sm:p-7 md:col-span-2 lg:col-span-1"
         >
           <div>
-            <h2 className="flex min-h-[4.5rem] items-center text-sm font-bold uppercase tracking-wide text-[#0f172a] leading-snug">
+            <h2 className="flex min-h-[5.5rem] items-center text-sm font-bold uppercase tracking-wide text-[#0f172a] leading-snug">
               {t("contact.hq.company")}
             </h2>
 
@@ -131,7 +131,7 @@ export function ContactInfoSection({ locale, t }: { locale: Locale; t: Translate
           className="flex flex-col justify-between rounded-2xl border border-slate-200/90 bg-white p-6 shadow-sm transition-shadow hover:shadow-md sm:p-7"
         >
           <div>
-            <h2 className="flex min-h-[4.5rem] items-center text-lg font-bold text-[#0f172a]">
+            <h2 className="flex min-h-[5.5rem] items-center text-lg font-bold text-[#0f172a]">
               {t("contact.uk.title")}
             </h2>
 
@@ -211,7 +211,7 @@ export function ContactInfoSection({ locale, t }: { locale: Locale; t: Translate
           className="flex flex-col justify-between rounded-2xl border border-slate-200/90 bg-white p-6 shadow-sm transition-shadow hover:shadow-md sm:p-7"
         >
           <div>
-            <h2 className="flex min-h-[4.5rem] items-center text-lg font-bold text-[#0f172a]">
+            <h2 className="flex min-h-[5.5rem] items-center text-base font-bold text-[#0f172a] leading-snug">
               {t("contact.branch.title")}
             </h2>
 
@@ -248,9 +248,9 @@ export function ContactInfoSection({ locale, t }: { locale: Locale; t: Translate
                   </span>
                   <a
                     className="mt-0.5 inline-block font-semibold text-[#006894] hover:underline"
-                    href="tel:+903242380438"
+                    href="tel:+905425483838"
                   >
-                    +90 324 238 04 38
+                    0542 548 38 38
                   </a>
                 </div>
               </div>
@@ -275,7 +275,7 @@ export function ContactInfoSection({ locale, t }: { locale: Locale; t: Translate
           <div className="mt-8 border-t border-slate-100 pt-5">
             <a
               className="inline-flex w-full items-center justify-center rounded-xl border border-[#006894] px-4 py-2.5 text-xs font-bold text-[#006894] transition-colors hover:bg-[#006894]/10"
-              href="tel:+903242380438"
+              href="tel:+905425483838"
             >
               {t("contact.labels.callNow")}
             </a>
