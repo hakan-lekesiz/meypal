@@ -56,11 +56,12 @@ export function CoreValuesSection({ t }: { locale: Locale; t: Translate }) {
         </div>
 
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {items.map((item) => {
+          {items.map((item, index) => {
             const Icon = item.icon
+            const delayClass = index === 1 ? "reveal-delay-1" : index === 2 ? "reveal-delay-2" : ""
             return (
               <div
-                className={`group relative rounded-2xl border border-[#e2e8f0] bg-white p-7 shadow-xs transition-all duration-300 hover:-translate-y-1 hover:shadow-xl ${item.borderColor}`}
+                className={`reveal ${delayClass} group relative rounded-2xl border border-[#e2e8f0] bg-white p-7 shadow-xs transition-all duration-300 hover:-translate-y-1 hover:shadow-xl ${item.borderColor}`}
                 key={item.title}
               >
                 <div className="flex items-center justify-between">

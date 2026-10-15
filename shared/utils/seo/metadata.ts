@@ -20,7 +20,10 @@ export function createRootLayoutMetadata(locale: Locale): Metadata {
     },
     description: defaultDescription,
     applicationName: "Meypal",
-    authors: [{ name: "Meypal", url: siteOrigin }],
+    authors: [
+      { name: "Hakan Lekesiz", url: "https://www.linkedin.com/in/hakan-lekesiz/" },
+      { name: "Meypal", url: siteOrigin },
+    ],
     creator: "Meypal",
     publisher: "Meypal",
     formatDetection: {
@@ -107,7 +110,10 @@ export async function createPageMetadata({
     title: isAbsoluteTitle ? { absolute: title } : title,
     description,
     keywords,
-    authors: [{ name: "Meypal", url: siteOrigin }],
+    authors: [
+      { name: "Hakan Lekesiz", url: "https://www.linkedin.com/in/hakan-lekesiz/" },
+      { name: "Meypal", url: siteOrigin },
+    ],
     creator: "Meypal",
     publisher: "Meypal",
     metadataBase: new URL(baseUrl),

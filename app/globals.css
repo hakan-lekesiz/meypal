@@ -90,3 +90,84 @@
   background-color: #f58220;
   width: 32px;
 }
+
+/* ============================================================
+   SUBTLE ANIMATIONS & SCROLL REVEAL
+   ============================================================ */
+:root {
+  --ease-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.7s var(--ease-smooth),
+    transform 0.7s var(--ease-smooth);
+  will-change: opacity, transform;
+}
+
+.reveal.in-view {
+  opacity: 1;
+}
+
+.reveal.in-view:not(:hover) {
+  transform: translateY(0);
+}
+
+.reveal-delay-1 {
+  transition-delay: 0.1s;
+}
+
+.reveal-delay-2 {
+  transition-delay: 0.2s;
+}
+
+.reveal-delay-3 {
+  transition-delay: 0.3s;
+}
+
+.reveal-delay-4 {
+  transition-delay: 0.4s;
+}
+
+/* Subtle badge floating */
+@keyframes floatY {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes floatYReverse {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
+
+.animate-float {
+  animation: floatY 5s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: floatYReverse 5.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .animate-float,
+  .animate-float-delayed {
+    animation: none !important;
+  }
+}

@@ -35,7 +35,7 @@ export function AboutCompanySection({ locale, t }: { locale: Locale; t: Translat
       <div className="grid-wrapper">
         <div className="grid items-center gap-12 lg:grid-cols-12 lg:gap-16">
           {/* Image & Trust Side */}
-          <div className="relative order-2 lg:order-1 lg:col-span-5">
+          <div className="reveal relative order-2 lg:order-1 lg:col-span-5">
             <div className="relative mx-auto max-w-[500px]">
               <div className="overflow-hidden rounded-3xl border border-[#e2e8f0] shadow-xl">
                 <Image
@@ -49,7 +49,7 @@ export function AboutCompanySection({ locale, t }: { locale: Locale; t: Translat
               </div>
 
               {/* Founding Year Badge */}
-              <div className="absolute -bottom-4 left-2 rounded-2xl border border-white/80 bg-white p-3.5 shadow-xl sm:-bottom-8 sm:-left-6 sm:p-5">
+              <div className="animate-float absolute -bottom-4 left-2 rounded-2xl border border-white/80 bg-white p-3.5 shadow-xl sm:-bottom-8 sm:-left-6 sm:p-5">
                 <div className="flex items-center gap-2.5 sm:gap-3">
                   <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#006894] text-white sm:h-12 sm:w-12">
                     <FaCalendarCheck aria-hidden="true" className="text-lg sm:text-xl" />
@@ -66,7 +66,7 @@ export function AboutCompanySection({ locale, t }: { locale: Locale; t: Translat
               </div>
 
               {/* Family Business Badge */}
-              <div className="absolute right-2 -top-4 rounded-2xl border border-white/80 bg-[#002f43] p-3 text-white shadow-xl sm:-right-6 sm:-top-6 sm:p-4">
+              <div className="animate-float-delayed absolute -top-4 right-2 rounded-2xl border border-white/80 bg-[#002f43] p-3 text-white shadow-xl sm:-right-6 sm:-top-6 sm:p-4">
                 <span className="text-xs font-bold uppercase tracking-wider text-[#F58220]">
                   {locale === "tr" ? "3 Kuşaklık Miras" : "3-Gen Heritage"}
                 </span>
@@ -78,7 +78,7 @@ export function AboutCompanySection({ locale, t }: { locale: Locale; t: Translat
           </div>
 
           {/* Text & Pillars Side */}
-          <div className="order-1 lg:order-2 lg:col-span-7">
+          <div className="reveal reveal-delay-2 order-1 lg:order-2 lg:col-span-7">
             <span className="text-xs font-bold uppercase tracking-[0.14em] text-[#F58220]">
               {t("home.aboutCompany.badge")}
             </span>

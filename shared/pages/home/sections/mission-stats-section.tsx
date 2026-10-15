@@ -60,7 +60,7 @@ export function MissionStatsSection({ t }: { locale: Locale; t: Translate }) {
         </div>
 
         {/* Mission statement quote block */}
-        <div className="mx-auto mt-10 max-w-4xl rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur-md sm:p-8">
+        <div className="reveal mx-auto mt-10 max-w-4xl rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur-md sm:p-8">
           <div className="flex items-start gap-4">
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#F58220]/20 text-[#F58220]">
               <FaQuoteLeft aria-hidden="true" className="text-xl" />
@@ -73,11 +73,19 @@ export function MissionStatsSection({ t }: { locale: Locale; t: Translate }) {
 
         {/* Stats grid */}
         <div className="mt-12 grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-4">
-          {stats.map((stat) => {
+          {stats.map((stat, index) => {
             const Icon = stat.icon
+            const delayClass =
+              index === 1
+                ? "reveal-delay-1"
+                : index === 2
+                  ? "reveal-delay-2"
+                  : index === 3
+                    ? "reveal-delay-3"
+                    : ""
             return (
               <div
-                className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xs transition-all duration-300 hover:border-[#F58220]/40 hover:bg-white/10"
+                className={`reveal ${delayClass} group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xs transition-all duration-300 hover:border-[#F58220]/40 hover:bg-white/10`}
                 key={stat.label}
               >
                 <div className="flex items-center justify-between">

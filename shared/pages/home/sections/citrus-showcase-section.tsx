@@ -72,46 +72,58 @@ export function CitrusShowcaseSection({ locale, t }: { locale: Locale; t: Transl
         </div>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {categories.map((category) => (
-            <Link
-              className="group flex flex-col overflow-hidden rounded-2xl border border-[#e2e8f0] bg-white text-inherit no-underline shadow-xs transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
-              href={getSiteLink(category.route, locale)}
-              key={category.route}
-            >
-              <div className="relative h-56 w-full overflow-hidden bg-slate-100">
-                <Image
-                  alt={category.title}
-                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-108"
-                  height={600}
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                  src={category.image}
-                  width={800}
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
-                <span className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-bold text-[#006894] shadow-sm backdrop-blur-xs">
-                  {category.badge}
-                </span>
-                <div className="absolute bottom-3 left-4 right-4">
-                  <h3 className="text-lg font-bold text-white drop-shadow-xs">{category.title}</h3>
-                  <p className="line-clamp-1 text-xs text-white/90">{category.subtitle}</p>
-                </div>
-              </div>
-
-              <div className="flex flex-1 flex-col justify-between p-5">
-                <p className="line-clamp-3 text-xs leading-relaxed text-[#64748b]">
-                  {category.description}
-                </p>
-
-                <div className="mt-5 flex items-center gap-1.5 text-xs font-bold text-[#006894] transition-colors group-hover:text-[#F58220]">
-                  <span>{locale === "tr" ? "İncele" : "Explore"}</span>
-                  <FaArrowRight
-                    aria-hidden="true"
-                    className="transition-transform duration-200 group-hover:translate-x-1"
+          {categories.map((category, index) => {
+            const delayClass =
+              index === 1
+                ? "reveal-delay-1"
+                : index === 2
+                  ? "reveal-delay-2"
+                  : index === 3
+                    ? "reveal-delay-3"
+                    : ""
+            return (
+              <Link
+                className={`reveal ${delayClass} group flex flex-col overflow-hidden rounded-2xl border border-[#e2e8f0] bg-white text-inherit no-underline shadow-xs transition-all duration-300 hover:-translate-y-1 hover:shadow-xl`}
+                href={getSiteLink(category.route, locale)}
+                key={category.route}
+              >
+                <div className="relative h-56 w-full overflow-hidden bg-slate-100">
+                  <Image
+                    alt={category.title}
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-108"
+                    height={600}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    src={category.image}
+                    width={800}
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+                  <span className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-bold text-[#006894] shadow-sm backdrop-blur-xs">
+                    {category.badge}
+                  </span>
+                  <div className="absolute bottom-3 left-4 right-4">
+                    <h3 className="text-lg font-bold text-white drop-shadow-xs">
+                      {category.title}
+                    </h3>
+                    <p className="line-clamp-1 text-xs text-white/90">{category.subtitle}</p>
+                  </div>
                 </div>
-              </div>
-            </Link>
-          ))}
+
+                <div className="flex flex-1 flex-col justify-between p-5">
+                  <p className="line-clamp-3 text-xs leading-relaxed text-[#64748b]">
+                    {category.description}
+                  </p>
+
+                  <div className="mt-5 flex items-center gap-1.5 text-xs font-bold text-[#006894] transition-colors group-hover:text-[#F58220]">
+                    <span>{locale === "tr" ? "İncele" : "Explore"}</span>
+                    <FaArrowRight
+                      aria-hidden="true"
+                      className="transition-transform duration-200 group-hover:translate-x-1"
+                    />
+                  </div>
+                </div>
+              </Link>
+            )
+          })}
         </div>
       </div>
     </section>

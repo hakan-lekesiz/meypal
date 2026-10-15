@@ -140,14 +140,18 @@ export async function Footer({ locale }: { locale: Locale }) {
           </div>
         </div>
 
-        <div className="flex items-center justify-between gap-4 border-t border-white/10 pt-[1.15rem] text-[0.78rem] text-[#8eaebd] max-[600px]:items-start max-[600px]:flex-col">
+        <div className="flex items-center justify-between gap-4 border-t border-white/10 pt-[1.15rem] text-[0.78rem] text-[#8eaebd] max-[600px]:flex-col max-[600px]:items-end max-[600px]:gap-1">
           <span>{t("footer.copyright", { year: new Date().getFullYear() })}</span>
-          <Link
-            className="text-[#c2d7e5] no-underline transition-colors duration-[160ms] hover:text-[#F58220]"
-            href={getSiteLink("contact", locale)}
-          >
-            {t("navigation.contact")}
-          </Link>
+          <div className="flex flex-wrap items-center gap-4 max-[600px]:gap-3">
+            <a
+              className="text-[0.72rem] text-[#8eaebd]/70 no-underline transition-colors duration-[160ms] hover:text-[#c2d7e5]"
+              href="https://www.linkedin.com/in/hakan-lekesiz/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Powered By Hakan Lekesiz
+            </a>
+          </div>
         </div>
       </div>
     </footer>

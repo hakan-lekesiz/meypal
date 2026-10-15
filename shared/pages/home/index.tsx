@@ -1,5 +1,6 @@
 import { getTranslator } from "@/i18n/i18n"
 import { MainLayout } from "@/shared/components/layouts"
+import { ScrollReveal } from "@/shared/components/scroll-reveal"
 import type { Locale } from "@/shared/config"
 import {
   AboutCompanySection,
@@ -37,6 +38,7 @@ export async function HomePage({ locale }: { locale: Locale }) {
 
   return (
     <MainLayout currentRoute="home" locale={locale}>
+      <ScrollReveal />
       <HeroSection
         nextLabel={t("home.hero.nextSlide")}
         prevLabel={t("home.hero.prevSlide")}
