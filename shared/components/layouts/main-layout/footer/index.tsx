@@ -117,6 +117,7 @@ export async function Footer({ locale }: { locale: Locale }) {
               <a
                 className="grid grid-cols-[16px_1fr] items-start gap-[0.7rem] text-[0.84rem] leading-[1.6] text-[#c2d7e5] no-underline transition-colors duration-[160ms] hover:text-[#F58220]"
                 href={contactConfig.mapUrl}
+                target="_blank"
               >
                 <FaLocationDot aria-hidden="true" className="mt-[0.2rem] text-[#F58220]" />
                 <span>{t("footer.address")}</span>

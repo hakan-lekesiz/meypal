@@ -9,7 +9,7 @@ export function CatalogDownloadSection({ locale, t }: { locale: Locale; t: Trans
   const isTr = locale === "tr"
   const pdfHref = isTr
     ? "/images/catalog/tr_meypal_katalog.pdf"
-    : "/images/catalog/en_meypal_catalog.pdf"
+    : "https://drive.google.com/file/d/1RcdWxBqEv1-ynKxevp7_YviuniHmGz8M/view?usp=sharing"
   const pdfDownloadName = isTr ? "tr_meypal_katalog.pdf" : "en_meypal_catalog.pdf"
 
   return (
@@ -54,6 +54,7 @@ export function CatalogDownloadSection({ locale, t }: { locale: Locale; t: Trans
                       className="text-lg font-bold text-[#1e293b] underline decoration-slate-300 underline-offset-4 transition-colors hover:text-[#006894]"
                       download={pdfDownloadName}
                       href={pdfHref}
+                      target="_blank"
                     >
                       {t("catalog.downloadBox.title")}
                     </a>
@@ -69,6 +70,7 @@ export function CatalogDownloadSection({ locale, t }: { locale: Locale; t: Trans
                   className="inline-flex items-center justify-center rounded-md bg-[#3b82f6] px-5 py-2.5 text-sm font-semibold text-white shadow-xs transition-all duration-200 hover:bg-[#2563eb] hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#3b82f6] focus:ring-offset-2"
                   download={pdfDownloadName}
                   href={pdfHref}
+                  target="_blank"
                 >
                   {t("catalog.downloadBox.button")}
                 </a>
