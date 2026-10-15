@@ -473,6 +473,64 @@
       "button": "İletişime Geçin"
     }
   },
+  "excitingFlavors": {
+    "badge": "Meypal Ürün Hatları",
+    "title": "Heyecan Verici Tatlar",
+    "subtitle": "Kapsamlı duyusal ve tüketici araştırmalarına dayanan sıra dışı lezzetler ve sağlıklı sebze atıştırmalıkları",
+    "breadcrumb": "Ürün Grupları",
+    "intro": "Meypal, sıra dışı tatların daha fazla ilgiyi hak ettiği kanaatindedir. Meypal, kapsamlı duyusal ve tüketici araştırmalarına dayanarak, kendine özgü bir lezzet deneyimini garanti edecek bir dizi çeşidi sizler için seçti.",
+    "items": [
+      {
+        "id": "distinctive-flavor",
+        "tag": "Kendine Özgülük",
+        "title": "Kendine Özgülük & Eşsiz Lezzet Deneyimi",
+        "description": "Meypal’ın ıslah felsefesinde lezzet, her daim en büyük öneme sahip olurken, Heyecan Verici Tatlar yelpazesi kendisine has çeşitleri ile özellikle göze çarpmaktadır. Örneğin; şaşırtıcı tatlı-ekşi dengesine sahip bir domates ya da yağı daha az emen bir patlıcan, kızartma için biçilmiş kaftandır. Ürün yelpazemizden bir dizi eşsiz çeşidi bu şekilde seçmekteyiz.",
+        "image": "/images/exciting-flavors/image-10.png",
+        "imageAlt": "Heyecan verici lezzetlerle hazırlanan gurme wrap ve sebze sunumu",
+        "imageWidth": 594,
+        "imageHeight": 219,
+        "highlight": "Şaşırtıcı tatlı-ekşi dengesi ve kızartmada yağı daha az emen özel çeşitler"
+      },
+      {
+        "id": "distinct-platform",
+        "tag": "Katma Değer",
+        "title": "Ayrı Platform & Yeni Pazar Fırsatları",
+        "description": "Heyecan Verici Tatlar kategorisinde bulunan özel çeşitlerimiz, hak ettiği yerlerini almıştır. Ayrıca bu özel ürünler, özellikle de gıda servis şirketlerine ve daha yüksek perakende segmentindeki şirketlere daha fazla katma değer sunmaktadır. En nihayetinde, heyecan uyandıran tatlar yetiştiricilere aynı zamanda yeni pazarlara hizmet götürme imkânını tanımaktadır. Bu fark yaratan ürün hattının dikkat çeken kısmı, çok özel ve heyecan uyandıran tatlar kataloğudur.",
+        "image": "/images/exciting-flavors/image-11.png",
+        "imageAlt": "Kızartmaya ve gurme lezzetlere uygun özel patlıcan çeşidi",
+        "imageWidth": 142,
+        "imageHeight": 123,
+        "highlight": "Gıda servis ve üst perakende segmenti için yüksek katma değer"
+      },
+      {
+        "id": "exciting-snacks",
+        "tag": "Tüketime Hazır",
+        "title": "Heyecan Verici Atıştırmalıklar",
+        "description": "Sebze atıştırmalıkları, dünya genelinde sebze tüketimini arttırmak için en mükemmel yol olarak gözüküyor. Meypal, işte tam da bu sebeple, çağımız tüketicilerinin isteklerine tam anlamıyla yanıt verecek bir dizi çeşit seçmiştir; muhteşem bir lezzete sahip tüketime hazır ve küçük boyutlu tüketim sebzeleri.",
+        "image": "/images/exciting-flavors/image-12.png",
+        "imageAlt": "Karpuz ve çeri domatesli yaratıcı meyve sebze atıştırmalık sunumu",
+        "imageWidth": 559,
+        "imageHeight": 219,
+        "highlight": "Muhteşem lezzete sahip tüketime hazır ve küçük boyutlu tüketim sebzeleri"
+      },
+      {
+        "id": "healthy-snacking",
+        "tag": "Sağlıklı Yaşam",
+        "title": "Sağlıklı Bir Ara Öğünden de Fazlası & Çocuklar İçin İdeal",
+        "description": "Her geçen gün artan bir oranda tüketici, sağlıklı bir ‘ara öğün’ olarak atıştırmalık sebzelerin faydalarını göz önünde bulundurmaktadır. Bu trende karşılık olarak Meypal, anında tüketime hazır baldan tatlı erik domatesleri, küçük ele sığan boyutta çıtır çıtır kokteyl salatalıkları gibi ideal atıştırmalıklardan oluşan ve her daim büyüyen, kendisine özgü nitelikteki geniş bir ürün yelpazesini tüketicilerin damaklarına ulaştırmaktadır. Senelerdir gerçek manada yenilikçi bir atıştırmalık ürünü olarak mini salatalık çocuklar için ideal bir ödüldür. Ayrıca geniş bir yelpazede çeri domates ile beraber kereviz, turp, bebek pancar ve havuç da sunan Meypal sağlıklı ve çeşitli bir atıştırmalık paketi için mükemmel içeriği piyasa ile buluşturmaktadır.",
+        "image": "/images/exciting-flavors/image-13.png",
+        "imageAlt": "Taze mini atıştırmalık havuçlar",
+        "imageWidth": 148,
+        "imageHeight": 148,
+        "highlight": "Tüm yıl boyunca kesintisiz lezzet, uzun raf ömrü ve çekici görünüm"
+      }
+    ],
+    "contactCta": {
+      "title": "Haydi Bir Şeyler Atıştıralım – Demo Tarlalarımıza Davetlisiniz",
+      "description": "Güvenilirlik ve doğal ürün üretimi her zaman en önemli ön şartımızdır. Meypal uzmanlarımız bireysel ve konuya özel tavsiyeler sunmaktadır. Bizzat yerinde gözlem yapmanız ve atıştırmalık ürünlerimizi test etmeniz için sizleri demo tarlalarımıza davet ediyoruz. Sadece gördüğünüze inanmak yerine, deneyimleyerek farkına varın.",
+      "button": "İletişime Geçin"
+    }
+  },
   "metadata": {
     "home": {
       "title": "Meypal | Yaş Sebze, Meyve ve Narenciye Üretim & İhracatı",
@@ -503,6 +561,11 @@
       "title": "Organik Tohum ve Sebze Üretimi | Meypal",
       "description": "1992'den bu yana tüm Avrupalı sertifikasyon kurumlarınca tanınan, kimyasal süreçten arındırılmış yüksek kaliteli organik tohum ve sebze üretimi.",
       "keywords": "organik tohum, organik sebze, Meypal organik, organik tarım, organik marul, domates tohumu, kimyasal içermeyen tohum, dayanıklı sebze çeşitleri, açık tarla sebze"
+    },
+    "excitingFlavors": {
+      "title": "Heyecan Verici Tatlar - Özel Lezzetler & Sebze Atıştırmalıkları | Meypal",
+      "description": "Meypal heyecan verici tatlar. Kapsamlı duyusal testlerle seçilen sıra dışı domates, patlıcan ve çocuklar için sağlıklı çıtır sebze atıştırmalıkları.",
+      "keywords": "heyecan verici tatlar, sebze atıştırmalıkları, gurme sebzeler, mini salatalık, çeri domates, sağlıklı ara öğün, Meypal"
     }
   },
   "header": {
@@ -550,7 +613,7 @@
     "productLines": "Ürün grupları",
     "readyToEat": "Tüketime hazır",
     "organic": "Organik",
-    "excitingFlavors": "Özgün lezzetler",
+    "excitingFlavors": "Heyecan verici tatlar",
     "catalog": "Katalog",
     "contact": "İletişim"
   },

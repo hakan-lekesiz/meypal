@@ -473,6 +473,64 @@
       "button": "Contact Us"
     }
   },
+  "excitingFlavors": {
+    "badge": "Meypal Product Lines",
+    "title": "Exciting Flavors",
+    "subtitle": "Extraordinary flavors, unique varieties, and healthy vegetable snacks based on extensive sensory research",
+    "breadcrumb": "Product Lines",
+    "intro": "Meypal believes that extraordinary flavors deserve greater attention. Based on extensive sensory and consumer research, Meypal has selected a range of varieties for you that guarantee a truly distinctive taste experience.",
+    "items": [
+      {
+        "id": "distinctive-flavor",
+        "tag": "Uniqueness",
+        "title": "Uniqueness & Exceptional Taste Experience",
+        "description": "While flavor has always been of paramount importance in Meypal's breeding philosophy, our Exciting Flavors range stands out with its distinct varieties. For instance, a tomato with a surprising sweet-and-sour balance or an eggplant that absorbs less oil is cut out for frying. In this way, we select a range of unique varieties from our product portfolio.",
+        "image": "/images/exciting-flavors/image-10.png",
+        "imageAlt": "Delicious meal presentation prepared with exciting flavors",
+        "imageWidth": 594,
+        "imageHeight": 219,
+        "highlight": "Surprising sweet-sour balance and low oil absorption varieties"
+      },
+      {
+        "id": "distinct-platform",
+        "tag": "Value Added",
+        "title": "A Dedicated Platform & New Market Opportunities",
+        "description": "Our special varieties within the Exciting Flavors category have earned their well-deserved place. These premium products offer enhanced added value, particularly to foodservice companies and higher retail segments. Ultimately, exciting flavors empower growers to reach new markets. The highlight of this distinctive line is our specialized catalog of exciting tastes.",
+        "image": "/images/exciting-flavors/image-11.png",
+        "imageAlt": "Special eggplant variety ideal for frying and gourmet recipes",
+        "imageWidth": 142,
+        "imageHeight": 123,
+        "highlight": "High added value tailored for food service and premium retail"
+      },
+      {
+        "id": "exciting-snacks",
+        "tag": "Ready to Eat",
+        "title": "Exciting Snacks",
+        "description": "Vegetable snacking is seen worldwide as the perfect way to increase vegetable consumption. For this very reason, Meypal has curated a collection of varieties precisely tailored to the desires of modern consumers: ready-to-eat, bite-sized vegetables packed with wonderful flavor.",
+        "image": "/images/exciting-flavors/image-12.png",
+        "imageAlt": "Playful snack skewers with watermelon and cherry tomatoes",
+        "imageWidth": 559,
+        "imageHeight": 219,
+        "highlight": "Ready-to-eat, bite-sized snacking vegetables with exceptional taste"
+      },
+      {
+        "id": "healthy-snacking",
+        "tag": "Healthy Living",
+        "title": "More Than a Healthy Snack & Ideal for Kids",
+        "description": "An increasing number of consumers recognize the health benefits of snack vegetables as a daily in-between treat. Responding to this trend, Meypal delivers a continually growing, exclusive assortment ranging from honey-sweet plum cherry tomatoes to palm-sized crispy cocktail cucumbers. As a truly innovative snack product, mini cucumbers make an ideal treat for children. Along with cherry tomatoes, celery, radishes, baby beets, and carrots, Meypal provides the perfect ingredients for healthy snack assortments.",
+        "image": "/images/exciting-flavors/image-13.png",
+        "imageAlt": "Fresh mini snack baby carrots",
+        "imageWidth": 148,
+        "imageHeight": 148,
+        "highlight": "Year-round consistent flavor, long shelf life, and appealing look"
+      }
+    ],
+    "contactCta": {
+      "title": "Let's Have a Snack – You Are Invited to Our Demo Fields",
+      "description": "Reliability and natural produce cultivation remain vital prerequisites for success. Meypal specialists provide individual, tailored recommendations. We warmly invite you to visit our demo fields to observe and taste our snacking products firsthand. Experience the difference for yourself.",
+      "button": "Contact Us"
+    }
+  },
   "metadata": {
     "home": {
       "title": "Meypal | Fresh Fruits, Vegetables & Citrus Production & Export",
@@ -503,6 +561,11 @@
       "title": "Organic Seed & Vegetable Production | Meypal",
       "description": "Recognized by all European certification bodies since 1992, Meypal offers high-quality, chemical-free organic vegetable seeds and produce.",
       "keywords": "organic seed, organic vegetables, Meypal organic, organic farming, organic lettuce, tomato seed, chemical-free seed, disease-resistant crops, open-field vegetables"
+    },
+    "excitingFlavors": {
+      "title": "Exciting Flavors - Gourmet Varieties & Vegetable Snacks | Meypal",
+      "description": "Meypal exciting flavors. Extraordinary tomatoes, eggplants, and healthy crisp vegetable snacks for kids and families, selected through extensive sensory research.",
+      "keywords": "exciting flavors, vegetable snacks, gourmet vegetables, mini cucumber, cherry tomato, healthy snacking, Meypal"
     }
   },
   "header": {
