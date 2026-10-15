@@ -57,7 +57,7 @@ export function PdpAboutSection({ product, t }: PdpAboutSectionProps) {
         </div>
 
         {/* Right Column: Visual Composition with 2 images and clean shadow cards */}
-        <div className="relative lg:col-span-5 max-lg:hidden">
+        <div className="relative lg:col-span-5">
           <div className="relative mx-auto max-w-[480px]">
             {/* Primary Featured Image Card */}
             <div className="relative overflow-hidden rounded-3xl border border-[#e2e8f0] bg-white shadow-xl">

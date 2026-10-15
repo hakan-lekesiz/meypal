@@ -653,6 +653,11 @@
       "title": "Portakal - Taze Akdeniz Narenciyesi | Meypal",
       "description": "Akdeniz ve Çukurova'nın bereketli topraklarında yetişen sulu, aromatik ve birinci sınıf kaliteli taze portakallar. Meypal güvencesiyle 12 ay uluslararası ihracat.",
       "keywords": "portakal, portakal ihracatı, taze portakal, Mersin portakal, narenciye ihracatı, valencia portakal, washington portakal, Meypal"
+    },
+    "mandarin": {
+      "title": "Mandalina - Taze Akdeniz Mandalina Çeşitleri | Meypal",
+      "description": "Akdeniz'in en kaliteli mandalina çeşitleri: Satsuma, Dobashi, Robinson, Fremont, Nova, W. Murcott ve Orri. Meypal güvencesiyle taze ve güvenilir ihracat.",
+      "keywords": "mandalina, mandalina çeşitleri, satsuma mandalina, murcott, nova, fremont, narenciye ihracatı, taze mandalina, mersin mandalina, Meypal"
     }
   },
   "header": {
@@ -755,6 +760,104 @@
         "versatile": {
           "title": "Çok Yönlü Kullanım",
           "description": "Taze tüketim ve meyve suyunun yanı sıra kabuğu marmelat, reçel, tatlı sanayisi ve doğal aroma esanslarında değerlendirilir."
+        }
+      }
+    },
+    "mandarin": {
+      "aboutParagraph1": "Mandalina; ılıman iklimde yetişmekte olan turunçgiller familyasına ait eşsiz bir meyvedir. Sarı, turuncu ve kırmızı tonlarda olan mandalina; bol sulu, etli ve aromatik yapısıyla sofraların en sevilen meyvelerindendir.",
+      "aboutParagraph2": "Portakala nazaran daha yumuşak dokulu ve ince kabuklu olan mandalina, kabuğu kolayca soyularak taze olarak tüketildiği gibi, sıkılarak canlandırıcı meyve suyu şeklinde de keyifle içilebilir. Türkiye’de özellikle Ege ve Akdeniz bölgesinin bereketli kıyı kesimlerinde yüksek kalitede yetiştirilmektedir.",
+      "aboutParagraph3": "Meypal olarak erken hasattan geç döneme kadar uzanan geniş bir takvimde birinci sınıf mandalina çeşitlerini en yüksek tazelik ve hijyen standartlarıyla dünya pazarlarına sunuyoruz. Başlıca çeşitlerimizin detayları aşağıda sıralanmıştır.",
+      "quote": "Akdeniz güneşinin tatlı hediyesi mandalina; kolay soyulan ince kabuğu ve eşsiz aromasıyla doğanın en pratik lezzetidir.",
+      "intro": {
+        "title": "Mandalina Çeşitleri",
+        "description": "Meypal güvencesiyle Akdeniz ve Ege havzasının bereketli topraklarında yetiştirilen, erkenciden geçciye zengin mandalina çeşitlerimiz."
+      },
+      "varieties": {
+        "ellendale": {
+          "name": "Ellendale",
+          "tag": "Geç Hasat & Üstün Kalite",
+          "description": "Meyveleri son derece büyük ve kalitelidir. Sulu, hoş kokulu, lezzetli ve şeker asit oranı ideal olan bir çeşittir. Hasadı Şubat-Mart aylarında yapılır. Meyvenin hücre aralarında bağlantısı kesilmesi halinde bile ağaç üzerinde uzun süre kalabilir. Ticari depolama ve taşımaya uygundur."
+        },
+        "dobashi": {
+          "name": "Dobashi",
+          "tag": "Soğuğa Dayanıklı & Erkenci",
+          "description": "Ağaçları kuvvetli olup turunçgiller familyası çeşitleri arasında soğuğa en dayanıklı çeşitlerden biri olarak bilinir. Güçlü, genç ve dalları ufak dikenlere sahiptir. Erkenci bir çeşittir. Ticari olarak depolama ve taşımaya uygundur, verimlidir. İnce kabuklu, yüksek lezzetli ve sağlam dokuludur."
+        },
+        "robinson": {
+          "name": "Robinson",
+          "tag": "Bol Sulu & İnce Kabuk",
+          "description": "Ağaçların dalları dikensiz olup yaprakları geniş ve mızrak biçimindedir. Kabuğu ince, pürüzsüz ve kolay soyulabilmektedir. Ticari depolama ve taşımaya uygundur. Oldukça büyük ve lezzetli meyvelere sahiptir. Meyve eti oldukça sulu ve kalitesi çok yüksektir."
+        },
+        "lee": {
+          "name": "Lee",
+          "tag": "Tatlı, Aromatik & Gevrek",
+          "description": "Meyvesinin kabuğu ince, koyu kırmızı-turuncu tonda, yuvarlağa yakın, kolay soyulabilen, tatlı, lezzetli, hoş kokulu ve oldukça gevrek dokulu bir çeşittir."
+        },
+        "sanburst": {
+          "name": "Sanburst",
+          "tag": "Canlı Renk & Yoğun Lezzet",
+          "description": "Ağacı büyük olup erken hasat edilen bir çeşittir. Meyvesi basık, kabuk rengi turuncudan kırmızıya doğru giden tondadır. Meyve eti renkli ve suludur. Kasım ayı ortasından Aralık ayı ortasına kadar olgunlaşır."
+        },
+        "fremont": {
+          "name": "Fremont",
+          "tag": "Parlak Kırmızı & Yüksek Verim",
+          "description": "Ağaçları orta kuvvetlidir ve dikine büyüme eğilimlidir. Erken yaşta meyve verir. Meyve kabuğu koyu kırmızı-portakal renkli, pürüzsüz ve parlaktır. Depolama ve taşımaya uygundur. Yuvarlak biçimli ve bol aromalıdır."
+        },
+        "satsuma": {
+          "name": "Satsuma",
+          "tag": "Çekirdeksiz & İnce Kabuklu",
+          "description": "Akdeniz bölgesinde ve ülkemizde en çok tanınan mandalina türlerinden biridir. Erken ürün veren son derece verimli bir çeşittir. Ticari depolama ve taşımaya uygun olup kabuğu ince ve kolay soyulur. Çekirdeksiz, yoğun aromalı ve kokuludur. Hasadı Eylül sonu - Ekim başıdır."
+        },
+        "okitsu": {
+          "name": "Okitsu",
+          "tag": "Süper Erkenci & Şekerli",
+          "description": "Mandalinalar arasında en erken ürün veren çeşitlerden biridir. Meyveleri iri ve yassı şekildedir. Çekirdeksiz, tatlı ve kabuğu kolayca soyulur. Satsuma'ya göre yaklaşık 2 hafta daha erken hasat edilir. Depolamaya elverişlidir."
+        },
+        "wMurcott": {
+          "name": "W. Murcott",
+          "tag": "Aromatik & Bal Gibi Tatlı",
+          "description": "Meyve kabuğu kırmızıya yakın turuncu renktedir, iç kısmı ise parlak turuncudur. Geç hasadı yapılan bir mandalina türüdür (Şubat-Mart döneminde olgunlaşır). Kendine has hoş bir kokusu vardır ve oldukça tatlı bir lezzete sahiptir."
+        },
+        "nova": {
+          "name": "Nova",
+          "tag": "İri Boyut & Zengin Aroma",
+          "description": "Ağaçları büyük, kuvvetli ve yaprakları parlaktır. Meyve eti kalitesi son derece yüksek, iri ve lezzetlidir. Verimi oldukça yüksek olan bir çeşittir. Hasadı Kasım-Aralık aylarında gerçekleştirilir."
+        },
+        "orri": {
+          "name": "Orri",
+          "tag": "Premium Gurme Lezzet",
+          "description": "Kabuk rengi parlak turuncu, sulu ve pürüzsüz kabuklu bir mandalina türüdür. Hasadı Şubat-Nisan döneminde yapılır. Çok tatlıdır, asit oranı düşüktür ve son derece kolay soyulur. Ortalama 120 gram ağırlığındadır."
+        },
+        "murcott": {
+          "name": "Murcott",
+          "tag": "Yoğun Kokulu & Sulu",
+          "description": "Meyve kabuğu kırmızımsı turuncu, iç kısmı ise parlak turuncu renktedir. Geç olgunlaşan bir mandalina çeşididir (Şubat-Mart döneminde hasadı yapılır). Kendine has zengin bir aroması ve yoğun tatlılığı vardır."
+        }
+      },
+      "gallery": {
+        "satsumaTitle": "Taze Satsuma Hasadı",
+        "satsumaAlt": "Meypal birinci sınıf taze Satsuma mandalinaları",
+        "orriTitle": "Dalından Taze Toplanan Mandalinalar",
+        "orriAlt": "Akdeniz bahçelerinden taze toplanmış mandalinalar",
+        "novaTitle": "İnce Kabuklu Premium Çeşitler",
+        "novaAlt": "Meypal birinci sınıf ihracat kalitesinde mandalina"
+      },
+      "features": {
+        "vitaminC": {
+          "title": "Doğal C Vitamini Deposu",
+          "description": "Yüksek C vitamini içeriğiyle bağışıklık sistemini kuvvetlendirir, soğuk kış günlerinde vücudun doğal direncini artırır."
+        },
+        "climate": {
+          "title": "Akdeniz & Ege Havzası",
+          "description": "Çukurova ve Ege'nin ılıman ikliminde bol güneş ışığıyla olgunlaşarak mükemmel tat ve aroma profiline ulaşır."
+        },
+        "sweet": {
+          "title": "Doğal Şeker-Asit Dengesi",
+          "description": "Özel çeşitlerimiz dengeli asit oranı ve yoğun doğal meyve şekeri sayesinde eşsiz bir damak lezzeti sunar."
+        },
+        "easyPeel": {
+          "title": "Kolay Soyulabilir & Çekirdeksiz",
+          "description": "İnce kabuklu yapısıyla pratik bir şekilde soyulur; çekirdeksiz ve sulu meyve dilimleriyle her yaştan tüketici için idealdir."
         }
       }
     }

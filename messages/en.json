@@ -653,6 +653,11 @@
       "title": "Orange - Fresh Mediterranean Citrus | Meypal",
       "description": "Juicy, aromatic, premium first-class fresh oranges cultivated in the fertile soils of Çukurova and Mediterranean. Exported worldwide by Meypal.",
       "keywords": "orange, orange export, fresh oranges, Mersin orange, citrus exporter Turkey, valencia orange, washington navel, Meypal"
+    },
+    "mandarin": {
+      "title": "Mandarin - Premium Mediterranean Mandarin Varieties | Meypal",
+      "description": "Premium Mediterranean mandarin varieties: Satsuma, Dobashi, Robinson, Fremont, Nova, W. Murcott, and Orri. Exported fresh and reliably worldwide by Meypal.",
+      "keywords": "mandarin, mandarin varieties, satsuma mandarin, murcott, nova, fremont, citrus exporter Turkey, fresh mandarin, Mersin mandarin, Meypal"
     }
   },
   "header": {
@@ -755,6 +760,104 @@
         "versatile": {
           "title": "Versatile Usage",
           "description": "Beyond fresh fruit and juice, its aromatic peel is utilized in confectionery, marmalades, and natural essential oils."
+        }
+      }
+    },
+    "mandarin": {
+      "aboutParagraph1": "Mandarin is a distinguished fruit belonging to the citrus family that flourishes in the temperate Mediterranean basin. Boasting vibrant yellow, orange, and red tones, mandarins are delightfully juicy, tender, and deeply aromatic.",
+      "aboutParagraph2": "Featuring a softer texture and thinner skin compared to oranges, mandarins peel effortlessly by hand for wholesome fresh snacking, and can also be pressed into refreshing, vitamin-rich citrus juice. In Turkey, they are cultivated to superior quality across the fertile coastal plains of the Aegean and Mediterranean.",
+      "aboutParagraph3": "Meypal delivers a comprehensive portfolio of premier mandarin varieties spanning from early-season harvests to late-ripening selections, meeting rigorous international hygiene and freshness benchmarks. Discover our cultivated varieties in detail below.",
+      "quote": "A sun-drenched Mediterranean delight: with its effortlessly peelable rind and vibrant citrus sweetness, mandarin is nature's finest healthy snack.",
+      "intro": {
+        "title": "Mandarin Varieties",
+        "description": "Cultivated across the fertile groves of the Mediterranean and Aegean under Meypal quality assurance, from early harvest to late-season varieties."
+      },
+      "varieties": {
+        "ellendale": {
+          "name": "Ellendale",
+          "tag": "Late Harvest & Superior Quality",
+          "description": "Produces exceptionally large and high-quality fruit. Aromatic, remarkably juicy, and flavourful with an ideal sugar-to-acid balance. Harvested between February and March, it stays resilient on the tree for extended periods and excels in commercial cold storage and global transport."
+        },
+        "dobashi": {
+          "name": "Dobashi",
+          "tag": "Cold Resistant & Early Variety",
+          "description": "Grown on robust trees known as one of the most cold-hardy citrus varieties. An early-season variety with thin skin, firm texture, and outstanding flavor profile. Highly productive and well-suited for long-distance transport and commercial storage."
+        },
+        "robinson": {
+          "name": "Robinson",
+          "tag": "Extremely Juicy & Smooth Rind",
+          "description": "Trees feature thornless branches with broad, spear-shaped leaves. Fruits possess a thin, smooth skin that peels easily. High-quality, juicy pulp with exceptional taste. Outstanding suitability for commercial handling and shipping."
+        },
+        "lee": {
+          "name": "Lee",
+          "tag": "Sweet, Fragrant & Crisp",
+          "description": "Distinguished by thin, deep reddish-orange skin and a round shape. Highly crisp, sweetly fragrant, and tenderly delicious, making it a favorite for fresh table consumption."
+        },
+        "sanburst": {
+          "name": "Sanburst",
+          "tag": "Vibrant Color & Rich Taste",
+          "description": "Cultivated on large trees with early-season harvest characteristics. Flattened fruits with vibrant reddish-orange rinds, deep colored flesh, and abundant juice. Ripens steadily from mid-November through mid-December."
+        },
+        "fremont": {
+          "name": "Fremont",
+          "tag": "Bright Red & High Yield",
+          "description": "Medium-vigor trees with upright growth and early fruiting traits. The fruit features a bright reddish-orange, smooth, and glossy peel. Highly aromatic and round, with excellent resilience in storage and transit."
+        },
+        "satsuma": {
+          "name": "Satsuma",
+          "tag": "Seedless & Easy Peel",
+          "description": "The most widely celebrated mandarin across the Mediterranean basin. An exceptionally high-yielding early variety. Features thin, easily peelable skin, virtually seedless segments, and intense natural fragrance. Harvest spans late September through early October."
+        },
+        "okitsu": {
+          "name": "Okitsu",
+          "tag": "Super Early & Naturally Sweet",
+          "description": "One of the earliest ripening mandarin varieties, harvesting about two weeks ahead of standard Satsuma. Produces large, slightly flattened, seedless, and wonderfully sweet fruit that peels with ease and stores well."
+        },
+        "wMurcott": {
+          "name": "W. Murcott",
+          "tag": "Rich Aroma & Honeyed Sweetness",
+          "description": "Features a deep orange-reddish skin and brilliant orange interior. A celebrated late-season variety maturing from February through March. Known for its distinct fragrance and exceptionally sweet taste."
+        },
+        "nova": {
+          "name": "Nova",
+          "tag": "Large Size & Bold Flavor",
+          "description": "Thrives on large, vigorous trees with glossy foliage. Delivers superior fruit quality, large calibre, and intensely pleasant flavor. A very high-yielding variety harvested through November and December."
+        },
+        "orri": {
+          "name": "Orri",
+          "tag": "Premium Gourmet Selection",
+          "description": "A high-end mandarin variety with bright orange, lustrous rind and extraordinarily juicy pulp. Harvested from February to April, it boasts very low acidity, high sugar content, and exceptional peelability at an average weight of 120 grams."
+        },
+        "murcott": {
+          "name": "Murcott",
+          "tag": "Distinct Fragrance & Juicy",
+          "description": "Features a reddish-orange peel and bright, radiant segments. A late-ripening variety harvested during February and March, renowned for its lingering fragrant bouquet and sweet juiciness."
+        }
+      },
+      "gallery": {
+        "satsumaTitle": "Fresh Satsuma Harvest",
+        "satsumaAlt": "Meypal premium grade fresh Satsuma mandarins",
+        "orriTitle": "Fresh Orchard Mandarins",
+        "orriAlt": "Freshly handpicked mandarins from Mediterranean orchards",
+        "novaTitle": "Thin-Skinned Export Selection",
+        "novaAlt": "Meypal first-class export quality fresh mandarins"
+      },
+      "features": {
+        "vitaminC": {
+          "title": "Natural Vitamin C Reservoir",
+          "description": "High Vitamin C concentration fortifies immune defenses, serving as vital nutritional support during cold winter months."
+        },
+        "climate": {
+          "title": "Mediterranean & Aegean Basins",
+          "description": "Ripens under generous sunshine in fertile coastal soils to achieve its pinnacle sweetness, aroma, and delicate skin."
+        },
+        "sweet": {
+          "title": "Optimal Sugar-Acid Balance",
+          "description": "Our select varieties offer low natural acidity paired with high soluble solids for an irresistibly refreshing taste."
+        },
+        "easyPeel": {
+          "title": "Effortless Peeling & Seedless",
+          "description": "Naturally thin and flexible rind that peels effortlessly by hand, making seedless segments the perfect wholesome snack."
         }
       }
     }
