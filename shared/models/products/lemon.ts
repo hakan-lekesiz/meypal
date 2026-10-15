@@ -1,0 +1,116 @@
+import type { ProductDetail } from "../product"
+
+export const lemonProduct: ProductDetail = {
+  id: "lemon",
+  route: "lemon",
+  categoryRoute: "citrus",
+  titleKey: "navigation.lemon",
+  categoryKey: "navigation.citrus",
+  badgeKey: "navigation.citrus",
+  scientificName: "Citrus limon",
+  image: "/images/products/lemon/limon.jpg",
+  intro: {
+    titleKey: "products.lemon.intro.title",
+    descriptionKey: "products.lemon.intro.description",
+  },
+  varieties: [
+    {
+      id: "enterdonat",
+      name: "products.lemon.varieties.enterdonat.name",
+      tag: "products.lemon.varieties.enterdonat.tag",
+      description: "products.lemon.varieties.enterdonat.description",
+      image: "/images/products/lemon/cropped-o-1.jpg",
+      imageAlt: "products.lemon.varieties.enterdonat.name",
+    },
+    {
+      id: "kutdiken",
+      name: "products.lemon.varieties.kutdiken.name",
+      tag: "products.lemon.varieties.kutdiken.tag",
+      description: "products.lemon.varieties.kutdiken.description",
+      image: "/images/products/lemon/images-24.jpg",
+      imageAlt: "products.lemon.varieties.kutdiken.name",
+    },
+    {
+      id: "kibris",
+      name: "products.lemon.varieties.kibris.name",
+      tag: "products.lemon.varieties.kibris.tag",
+      description: "products.lemon.varieties.kibris.description",
+      image: "/images/products/lemon/limon.jpg",
+      imageAlt: "products.lemon.varieties.kibris.name",
+    },
+    {
+      id: "lizbon",
+      name: "products.lemon.varieties.lizbon.name",
+      tag: "products.lemon.varieties.lizbon.tag",
+      description: "products.lemon.varieties.lizbon.description",
+      image: "/images/products/lemon/cropped-o-1-1.jpg",
+      imageAlt: "products.lemon.varieties.lizbon.name",
+    },
+    {
+      id: "mayer",
+      name: "products.lemon.varieties.mayer.name",
+      tag: "products.lemon.varieties.mayer.tag",
+      description: "products.lemon.varieties.mayer.description",
+      image: "/images/products/lemon/cropped-ytr.jpg",
+      imageAlt: "products.lemon.varieties.mayer.name",
+    },
+    {
+      id: "misket",
+      name: "products.lemon.varieties.misket.name",
+      tag: "products.lemon.varieties.misket.tag",
+      description: "products.lemon.varieties.misket.description",
+      image: "/images/products/lemon/cropped-1071522_cover_rect.jpeg",
+      imageAlt: "products.lemon.varieties.misket.name",
+    },
+    {
+      id: "molla-mehmet",
+      name: "products.lemon.varieties.mollaMehmet.name",
+      tag: "products.lemon.varieties.mollaMehmet.tag",
+      description: "products.lemon.varieties.mollaMehmet.description",
+      image: "/images/products/lemon/moal.jpg",
+      imageAlt: "products.lemon.varieties.mollaMehmet.name",
+    },
+  ],
+  gallery: [
+    {
+      src: "/images/products/lemon/cropped-yb.jpg",
+      altKey: "products.lemon.gallery.lemonHarvestAlt",
+      titleKey: "products.lemon.gallery.lemonHarvestTitle",
+      aspectRatio: "landscape",
+    },
+    {
+      src: "/images/products/lemon/limon.jpg",
+      altKey: "products.lemon.gallery.freshLemonAlt",
+      titleKey: "products.lemon.gallery.freshLemonTitle",
+      aspectRatio: "landscape",
+    },
+    {
+      src: "/images/products/lemon/cropped-1071522_cover_rect.jpeg",
+      altKey: "products.lemon.gallery.citrusGroveAlt",
+      titleKey: "products.lemon.gallery.citrusGroveTitle",
+      aspectRatio: "portrait",
+    },
+  ],
+  features: [
+    {
+      icon: "FaHeartPulse",
+      titleKey: "products.lemon.features.vitaminC.title",
+      descriptionKey: "products.lemon.features.vitaminC.description",
+    },
+    {
+      icon: "FaSun",
+      titleKey: "products.lemon.features.climate.title",
+      descriptionKey: "products.lemon.features.climate.description",
+    },
+    {
+      icon: "FaWineGlass",
+      titleKey: "products.lemon.features.acidity.title",
+      descriptionKey: "products.lemon.features.acidity.description",
+    },
+    {
+      icon: "FaBoxOpen",
+      titleKey: "products.lemon.features.exportStorage.title",
+      descriptionKey: "products.lemon.features.exportStorage.description",
+    },
+  ],
+}

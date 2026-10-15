@@ -658,6 +658,16 @@
       "title": "Mandalina - Taze Akdeniz Mandalina Çeşitleri | Meypal",
       "description": "Akdeniz'in en kaliteli mandalina çeşitleri: Satsuma, Dobashi, Robinson, Fremont, Nova, W. Murcott ve Orri. Meypal güvencesiyle taze ve güvenilir ihracat.",
       "keywords": "mandalina, mandalina çeşitleri, satsuma mandalina, murcott, nova, fremont, narenciye ihracatı, taze mandalina, mersin mandalina, Meypal"
+    },
+    "lemon": {
+      "title": "Limon - Taze Akdeniz Limon Çeşitleri | Meypal",
+      "description": "Akdeniz'in en kaliteli limon çeşitleri: Enterdonat, Kütdiken, Kıbrıs Limonu, Lizbon, Mayer, Misket ve Molla Mehmet. Meypal güvencesiyle taze ve güvenilir ihracat.",
+      "keywords": "limon, limon çeşitleri, enterdonat limon, kütdiken, mayer limon, misket limon, narenciye ihracatı, taze limon, mersin limon, Meypal"
+    },
+    "grapefruit": {
+      "title": "Greyfurt - Taze Akdeniz Greyfurt Çeşitleri | Meypal",
+      "description": "Akdeniz'in en kaliteli sulu ve lezzetli greyfurt çeşitleri: Star Ruby ve Riored. Meypal güvencesiyle taze, vitamin dolu ve güvenilir ihracat.",
+      "keywords": "greyfurt, greyfurt çeşitleri, star ruby greyfurt, riored greyfurt, narenciye ihracatı, taze greyfurt, mersin greyfurt, Meypal"
     }
   },
   "header": {
@@ -858,6 +868,127 @@
         "easyPeel": {
           "title": "Kolay Soyulabilir & Çekirdeksiz",
           "description": "İnce kabuklu yapısıyla pratik bir şekilde soyulur; çekirdeksiz ve sulu meyve dilimleriyle her yaştan tüketici için idealdir."
+        }
+      }
+    },
+    "lemon": {
+      "aboutParagraph1": "Limon; turunçgiller familyasına ait, yıl boyu büyümeyi sürdüren ve kışın yapraklarını dökmeyen küçük bir ağaç türünün son derece değerli ve aromatik meyvesidir. Ülkemizde özellikle Akdeniz Bölgesi'nin Mersin, Erdemli, Silifke ve Çukurova havzasında en yüksek kalite standartlarında yetiştirilmektedir.",
+      "aboutParagraph2": "Oldukça sulu, parlak sarı kabuklu ve yüksek asit içeriğine sahip olan limon, zengin C vitamini deposu olup hem mutfakların, içeceklerin ve gurme lezzetlerin vazgeçilmez tatlandırıcısı hem de modern gıda endüstrisinin temel hammaddesidir.",
+      "aboutParagraph3": "Meypal olarak, Türkiye'nin en kaliteli erkenci ve geçci limon çeşitlerini uluslararası standartlarda tasnif ediyor, modern soğuk hava zincirimizle tazeliğini koruyarak dünya pazarlarına 12 ay kesintisiz ihraç ediyoruz. Başlıca çeşitlerimizin detayları aşağıda yer almaktadır.",
+      "quote": "Akdeniz'in bereketli topraklarından gelen saf tazelik: yüksek asit dengesi, bol suyu ve canlandırıcı aromasıyla limon, doğanın en güçlü sağlık kaynağıdır.",
+      "intro": {
+        "title": "Limon Çeşitleri",
+        "description": "Meypal güvencesiyle Akdeniz havzasının verimli topraklarında yetiştirilen, erkenciden depolamaya uygun geçciye zengin limon çeşitlerimiz."
+      },
+      "varieties": {
+        "enterdonat": {
+          "name": "Enterdonat",
+          "tag": "Dünya Lideri & Erkenci Tür",
+          "description": "En erkenci bir tür olan Enterdonat, dünyada en çok Türkiye’nin Doğu Akdeniz Bölgesi’nde yetiştirilmektedir. Dünyanın en fazla Enterdonat üreten ülkesi 450.000 ton ile Türkiye’dir. Meyvesi büyük, uzun ve silindirik biçimindedir. Meyvenin en belirgin özelliği meme başının yana yatık olmasıdır. Meyve kabuğu düzgün, açık yeşil renkli ve parlaktır. Çekirdek sayısı az olan meyvenin eti yeşilimsi sarı renktedir. Erkenci bir tür olduğu için depolamaya elverişli değildir. Ağaçları orta kuvvetli ve dikensize yakındır. İhracat dönemi Eylül – Ekim – Kasım – Aralık aylarıdır."
+        },
+        "kutdiken": {
+          "name": "Kütdiken",
+          "tag": "Üstün Kalite & Uzun Depolama",
+          "description": "Ülkemizde üretilen en eski limon çeşidi olup üretimi ve depolaması en fazla yapılan çeşittir. Çok üstün meyve kalitesine sahiptir. Meyve kabuğu düzgün, parlak, meyve etine sıkı bağlı, yeşil sarı veya limon sarısı renktedir. Meme kısmı fazla gelişmemiştir. Meyve elips şeklindedir, çekirdeklidir, bol sulu ve yüksek asitlidir. Yüksek verimlidir ve düzenli meyve verir. Ağaçları orta kuvvette büyür, meyvelerin ağaç üzerinde dağılımı düzgündür. Orta mevsim çeşididir."
+        },
+        "kibris": {
+          "name": "Kıbrıs Limonu",
+          "tag": "Geleneksel & Yüksek Asitli",
+          "description": "Bu limon çeşidi daha çok Alanya ve Anamur yöresinde yaygındır. 1920’lerde Kıbrıs’tan getirildiği sanılmaktadır. Meyve kabuğu sarı renkli, parlak, düzgün, dalgalı ve 5,24 mm kalınlığındadır. Meyveleri oval-silindirik şekillidir. Sap kısmında belirgin boyun olmasına karşın limonlara özgü meme yok denecek kadar küçüktür; çeşidin en belirgin özelliği budur. Asit içeriği %7-10 civarındadır. Erken ürüne yatan bu çeşidin ağaçları oldukça verimlidir. Meyveler Kasım ayı ortalarından itibaren olgunlaşır."
+        },
+        "lizbon": {
+          "name": "Lizbon",
+          "tag": "Verimli & Güçlü Ağaç Yapısı",
+          "description": "Dünya narenciye pazarında yoğun talep gören Lizbon limonu, güçlü ve dayanıklı ağaç yapısı ile dikkat çeker. Meyveleri sulu, asit oranı yüksek, parlak sarı kabuklu ve aromatik özelliktedir. Taze tüketim ve ihracata son derece elverişlidir."
+        },
+        "mayer": {
+          "name": "Mayer",
+          "tag": "Yediveren & Eşsiz Lezzet",
+          "description": "Mayer’in diğer limon çeşitlerinden farklı bir özelliği maksimum 2,5-3 m boyunda olmaları ve bol verimli yapılarıdır. Dona karşı diğer limon çeşitlerine nazaran daha dayanıklıdır. Yediveren çeşidi yılın her mevsiminde meyve vermekte olup bol güneşli ılıman iklimi sever. Portakal ile limon karışımı eşsiz, tatlımsı ve hafif bir aroması mevcuttur. Dikildikten 1 yıl sonra hızla meyve vermeye başlar."
+        },
+        "misket": {
+          "name": "Misket (Misket Limonu)",
+          "tag": "Canlandırıcı Aroma & Kokteyl Tercihi",
+          "description": "Türkiye’de yeşil limon veya Misket limonu (Lime) olarak bilinir. Kendine has ferahlatıcı, yoğun ve aromatik tadı vardır. Özellikle mojito ve gurme kokteyllerin, serinletici içeceklerin hazırlanmasında tercih edilir. Salatalarda, gurme yemeklerde ve tatlılarda üstün lezzetlendirici olarak kullanılır."
+        },
+        "mollaMehmet": {
+          "name": "Molla Mehmet",
+          "tag": "Yerli Mersin Çeşidi & Yüksek Verim",
+          "description": "Ülkemizde özellikle Mersin ilinde yaygın olarak yetiştirilen çok önemli bir yerli limon çeşididir. Meyveleri sarı renkli, kabuğu orta kalınlıktadır. Sap tarafında belirgin bir boyun bulunur. Titre edilebilir asit içeriği %6-10 civarındadır. Uçkurutan hastalığına (Phoma tracheiphila) göreceli dayanıklılığı vardır; yüksek verimli ve düzenli ürün verir."
+        }
+      },
+      "gallery": {
+        "lemonHarvestTitle": "Taze Limon Hasadı",
+        "lemonHarvestAlt": "Meypal birinci sınıf taze limon hasadı",
+        "freshLemonTitle": "Bol Sulu Dalından Limon",
+        "freshLemonAlt": "Mersin bahçelerinden dalından toplanan taze limonlar",
+        "citrusGroveTitle": "Akdeniz Narenciye Bahçeleri",
+        "citrusGroveAlt": "Meypal yüksek kaliteli ihracatlık taze narenciyeler"
+      },
+      "features": {
+        "vitaminC": {
+          "title": "Maksimum C Vitamini",
+          "description": "Doğal bir bağışıklık kalkanı olarak yüksek C vitamini ve antioksidan flavonoidler sunar."
+        },
+        "climate": {
+          "title": "Mersin & Akdeniz İklimi",
+          "description": "Mersin ve Çukurova'nın mikroklimalı bereketli topraklarında ideal kabuk parlaklığı ve meyve eti kalitesine ulaşır."
+        },
+        "acidity": {
+          "title": "Yüksek Asitlik & Meyve Suyu",
+          "description": "Zengin meyve suyu randımanı ve %6-10 arasındaki dengeli asit oranı ile içecek ve gastronomi sektörünün vazgeçilmezidir."
+        },
+        "exportStorage": {
+          "title": "Depolama & İhracata Uygunluk",
+          "description": "Kütdiken ve yerli çeşitlerimizin soğuk hava tesislerinde uzun süre tazeliğini koruması sayesinde 12 ay kesintisiz tedarik sağlanır."
+        }
+      }
+    },
+    "grapefruit": {
+      "aboutParagraph1": "Hafif sarı ve kalın bir kabuğa sahip olan greyfurtun iç kısımları dışarıdan bakıldığında portakalı andırsa bile tat olarak bu meyveden çok daha farklıdır. Sulu yetişen greyfurt, beyaz ya da kırmızı iç renge sahip olabilir. Bazı greyfurt türleri çekirdeksiz olarak büyürken bazılarının içerisinde minik çekirdekler mevcuttur.",
+      "aboutParagraph2": "Lif açısından oldukça zengin bir meyve olan greyfurt ayrıca çok sayıda vitamin, besin ve mineral içerir. Bu meyvede çeşitli faydalı yağlar da bulunur. Pantotenik asit, tiamin, niasin ve piridoksin içeren meyve A, E, C ve K vitaminleri ile mükemmel bir sağlık ürünü haline gelir. Meyvenin içinde bol miktarda kalsiyum, demir, bakır, fosfor, selenyum ve magnezyum da vardır.",
+      "aboutParagraph3": "Greyfurt yedikten sonra ağızda ferah ve hafif acımsı bir tat bırakır. Meyvenin iç zarını temizleyip tüketmek veya hafif tatlandırmak bu özel lezzeti daha da dengeler. Meypal olarak Akdeniz'in en seçkin bahçelerinden topladığımız Star Ruby ve Riored çeşitlerini taptaze sofralara ulaştırıyoruz.",
+      "quote": "Zengin vitamin ve mineral içeriği, kendine has ferahlatıcı aroması ve güçlü antioksidan yapısıyla greyfurt, Akdeniz narenciyesinin en seçkin lezzetlerinden biridir.",
+      "intro": {
+        "title": "Greyfurt Çeşitleri",
+        "description": "Meypal güvencesiyle Akdeniz havzasının bereketli topraklarında yetiştirilen, içi ve dışı kırmızı Star Ruby ve Riored greyfurt çeşitlerimiz."
+      },
+      "varieties": {
+        "starRuby": {
+          "name": "Star Ruby",
+          "tag": "Kırmızı & Zengin Aromalı",
+          "description": "Star Ruby, içi ve dışı kırmızı renkte olan greyfurt çeşididir. Kasım ayında olgunlaşır ve uzun süre ağaç üzerinde kalabilir. Sulu yapısı ve canlı kırmızı meyve etiyle dünya pazarlarında en çok tercih edilen çeşitlerin başında gelir."
+        },
+        "riored": {
+          "name": "Riored",
+          "tag": "Düzgün Meyve Yapısı & Üstün Kalite",
+          "description": "Riored düzgün meyve şekli ve kızarmış kabuk yapısı, kırmızı iç rengi ile tercih edilen greyfurt çeşididir. Hasat dönemleri Ocak-Şubat aylarıdır. İhracat standartlarına uygunluğu ve yüksek kalibre kalitesiyle öne çıkar."
+        }
+      },
+      "gallery": {
+        "freshGrapefruitTitle": "Taze Akdeniz Greyfurtu",
+        "freshGrapefruitAlt": "Meypal birinci sınıf taze dalından greyfurt",
+        "starRubyTitle": "Kırmızı Star Ruby Greyfurt",
+        "starRubyAlt": "İçi ve dışı kırmızı taze Star Ruby greyfurt",
+        "harvestTitle": "Özenli Narenciye Hasadı",
+        "harvestAlt": "Meypal Akdeniz narenciye bahçelerinde taze greyfurt hasadı"
+      },
+      "features": {
+        "vitaminC": {
+          "title": "A, C & K Vitaminleri",
+          "description": "A, E, C ve K vitaminlerinin yanı sıra pantotenik asit, tiamin, niasin ve piridoksin ile bağışıklık sistemine güçlü destek verir."
+        },
+        "climate": {
+          "title": "Akdeniz & Çukurova Güneşi",
+          "description": "Çukurova ve Akdeniz'in verimli mikroklimalarında bol güneşle olgunlaşarak ideal et rengi ve aromasına ulaşır."
+        },
+        "antioxidant": {
+          "title": "Likopen & Güçlü Antioksidan",
+          "description": "Kırmızı renkli meyve etinden gelen yüksek likopen ve flavonoidler sayesinde hücre sağlığını korumaya yardımcı olur."
+        },
+        "exportStorage": {
+          "title": "Uzun Raf Ömrü & Dayanıklılık",
+          "description": "Ağaçta ve modern soğuk hava tesislerimizde uzun süre kalitesini korur; uluslararası ihracat sevkiyatlarına tam uygundur."
         }
       }
     }

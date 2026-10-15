@@ -23,7 +23,9 @@ export function PdpAlternatingListSection({ product, t }: PdpAlternatingListSect
   return (
     <section aria-labelledby={headingId} className="space-y-8 pb-12 md:space-y-10 md:pb-16">
       <h2 className="sr-only" id={headingId}>
-        {t("products.mandarin.intro.title")}
+        {product.intro?.titleKey
+          ? t(product.intro.titleKey)
+          : t(`products.${product.id}.intro.title`)}
       </h2>
 
       {/* Alternating Varieties List */}

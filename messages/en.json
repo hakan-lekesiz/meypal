@@ -658,6 +658,16 @@
       "title": "Mandarin - Premium Mediterranean Mandarin Varieties | Meypal",
       "description": "Premium Mediterranean mandarin varieties: Satsuma, Dobashi, Robinson, Fremont, Nova, W. Murcott, and Orri. Exported fresh and reliably worldwide by Meypal.",
       "keywords": "mandarin, mandarin varieties, satsuma mandarin, murcott, nova, fremont, citrus exporter Turkey, fresh mandarin, Mersin mandarin, Meypal"
+    },
+    "lemon": {
+      "title": "Lemon - Premium Mediterranean Lemon Varieties | Meypal",
+      "description": "Finest Mediterranean lemon varieties: Enterdonat, Kutdiken, Cyprus Lemon, Lisbon, Meyer, Lime, and Molla Mehmet. Fresh and reliable global export by Meypal.",
+      "keywords": "lemon, lemon varieties, enterdonat lemon, kutdiken, meyer lemon, lime, citrus exporter Turkey, fresh lemon, Mersin lemon, Meypal"
+    },
+    "grapefruit": {
+      "title": "Grapefruit - Fresh Mediterranean Grapefruit Varieties | Meypal",
+      "description": "Premium juicy and aromatic Mediterranean grapefruit varieties: Star Ruby and Riored. Exported fresh, nutrient-rich, and reliably worldwide by Meypal.",
+      "keywords": "grapefruit, grapefruit varieties, star ruby grapefruit, riored grapefruit, citrus exporter Turkey, fresh grapefruit, Mersin grapefruit, Meypal"
     }
   },
   "header": {
@@ -858,6 +868,127 @@
         "easyPeel": {
           "title": "Effortless Peeling & Seedless",
           "description": "Naturally thin and flexible rind that peels effortlessly by hand, making seedless segments the perfect wholesome snack."
+        }
+      }
+    },
+    "lemon": {
+      "aboutParagraph1": "Lemon is an evergreen small tree species belonging to the citrus family, celebrated worldwide for its extraordinarily valuable, zesty, and aromatic fruit. In Turkey, it thrives under optimal agro-climatic conditions across the Mediterranean coastline, notably in Mersin, Erdemli, Silifke, and the fertile Çukurova delta.",
+      "aboutParagraph2": "Remarkably juicy, with vibrant yellow skin and a high natural acidity level, lemon is an abundant source of Vitamin C. It serves as both an essential culinary accent for beverages, salads, and gourmet cuisines, as well as an indispensable raw material for modern food and cosmetic industries.",
+      "aboutParagraph3": "Meypal grades and packages Turkey's premier early-season and late-season storage lemon varieties according to strict international quality standards. With our seamless cold-chain logistics, we deliver first-class freshness to global destinations throughout the year. Explore our featured lemon varieties below.",
+      "quote": "Pure vitality from the fertile Mediterranean: with its high natural acidity, abundant juice, and exhilarating aroma, lemon is nature's strongest citrus essence.",
+      "intro": {
+        "title": "Lemon Varieties",
+        "description": "Grown under Meypal quality standards across the sunlit groves of the Mediterranean, from early-harvest varieties to long-storing winter selections."
+      },
+      "varieties": {
+        "enterdonat": {
+          "name": "Enterdonat",
+          "tag": "Global Leader & Early Season",
+          "description": "The earliest maturing lemon variety, Enterdonat is predominantly cultivated in Turkey's Eastern Mediterranean region. Turkey leads worldwide production with over 450,000 tons. The fruit is large, elongated, and cylindrical, characterized by its distinctly slanted nipple. The peel is smooth, light green, and shiny, while the pale greenish-yellow pulp has very few seeds. Being an early variety, it is ideal for fresh consumption rather than long storage. The export season spans September through December."
+        },
+        "kutdiken": {
+          "name": "Kutdiken",
+          "tag": "Superior Quality & Extended Storage",
+          "description": "The oldest and most extensively grown and stored lemon variety in Turkey. Possesses exceptional fruit quality with a smooth, glossy, tightly adhering lemon-yellow rind. The fruit is elliptic, seeded, exceptionally juicy, and highly acidic. Trees demonstrate high vigor, regular fruiting, and well-balanced fruit distribution across the canopy. A premier mid-season variety perfect for extended cold storage."
+        },
+        "kibris": {
+          "name": "Cyprus Lemon",
+          "tag": "Traditional & High Acidity",
+          "description": "Commonly cultivated in the Alanya and Anamur regions, believed to have been introduced from Cyprus in the 1920s. Features a vibrant yellow, shiny, wavy peel of 5.24 mm thickness. The fruit is oval-cylindrical with a distinct neck at the stem and a nearly absent nipple, which is its defining physical trait. Boasts an acidity level of 7-10% and high tree productivity. Fruits ripen from mid-November onwards."
+        },
+        "lizbon": {
+          "name": "Lisbon",
+          "tag": "High Yield & Vigorous Canopy",
+          "description": "Highly prized across global markets, Lisbon lemon trees are vigorous, hardy, and productive. The fruit is juicy, high in citric acidity, with a smooth yellow peel and intense aroma. Highly suitable for fresh table consumption and international transport."
+        },
+        "mayer": {
+          "name": "Meyer",
+          "tag": "Ever-Bearing & Unique Flavor",
+          "description": "Distinct from other lemons by its compact tree stature (up to 2.5–3 meters) and prolific year-round fruiting habit. Meyer lemons are considerably more cold-tolerant than standard varieties and thrive in sunny, moderate climates. The fruit carries a distinct, sweeter aroma reminiscent of an orange-lemon hybrid. Young trees begin bearing fruit just one year after planting."
+        },
+        "misket": {
+          "name": "Lime (Misket)",
+          "tag": "Refreshing Zest & Mixology Choice",
+          "description": "Known as green lemon or Lime in Turkey. Celebrated for its unique, zesty, and intensely fragrant profile, lime is the undisputed choice for premium cocktails like mojitos, refreshing beverages, citrus marinades, gourmet dressings, and desserts."
+        },
+        "mollaMehmet": {
+          "name": "Molla Mehmet",
+          "tag": "Native Mersin Variety & High Yield",
+          "description": "An important native lemon variety widely grown across the Mersin region. Features yellow fruit with medium rind thickness and a distinct neck at the stem end. Has a titratable acidity of 6-10% and notable natural resistance against Mal Secco (Phoma tracheiphila). Regular bearing with high yields."
+        }
+      },
+      "gallery": {
+        "lemonHarvestTitle": "Fresh Lemon Harvest",
+        "lemonHarvestAlt": "Meypal premium grade fresh lemon harvest",
+        "freshLemonAlt": "Fresh juicy lemons handpicked from Mediterranean orchards",
+        "freshLemonTitle": "Juicy Orchard Lemons",
+        "citrusGroveTitle": "Mediterranean Citrus Groves",
+        "citrusGroveAlt": "Meypal first-class export quality fresh citrus fruit"
+      },
+      "features": {
+        "vitaminC": {
+          "title": "Maximum Vitamin C",
+          "description": "Provides abundant natural Vitamin C and antioxidant flavonoids to support immune defenses year-round."
+        },
+        "climate": {
+          "title": "Mersin & Mediterranean Microclimate",
+          "description": "Nurtured in the coastal microclimate of Mersin and Çukurova, achieving optimal rind luster and pulp texture."
+        },
+        "acidity": {
+          "title": "High Acidity & Juice Yield",
+          "description": "Delivers superior juice extract and a balanced 6-10% natural acidity, highly sought after in gastronomy and beverages."
+        },
+        "exportStorage": {
+          "title": "Long Storage & Reliable Export",
+          "description": "Varieties like Kutdiken endure long cold-storage periods without flavor loss, ensuring reliable 12-month international export."
+        }
+      }
+    },
+    "grapefruit": {
+      "aboutParagraph1": "With its thick, light-yellow rind and vibrant segments that resemble an orange in appearance, grapefruit offers a distinctly different, invigorating citrus flavor. Juicy and succulent, grapefruit can present either white or intense red internal flesh. While some varieties grow seedless, others contain delicate small seeds.",
+      "aboutParagraph2": "Exceptionally rich in dietary fiber, grapefruit is packed with a multitude of essential vitamins, nutrients, and minerals, as well as beneficial essential oils. Containing pantothenic acid, thiamine, niacin, and pyridoxine, along with vitamins A, E, C, and K, it stands as an outstanding natural wellness choice. It also provides abundant calcium, iron, copper, phosphorus, selenium, and magnesium.",
+      "aboutParagraph3": "Grapefruit leaves a crisp, refreshing, and subtly pleasant tangy finish on the palate. Removing the thin inner pith membranes further softens any natural bitterness. Meypal meticulously selects and packages premier Star Ruby and Riored grapefruit varieties from sunny Mediterranean groves to deliver peak freshness globally.",
+      "quote": "Renowned for its robust vitamin profile, vibrant ruby hue, and invigorating zest, grapefruit is one of the Mediterranean's finest citrus treasures.",
+      "intro": {
+        "title": "Grapefruit Varieties",
+        "description": "Cultivated in the fertile soils of the Mediterranean basin under Meypal assurance: our vibrant red-fleshed Star Ruby and Riored grapefruit varieties."
+      },
+      "varieties": {
+        "starRuby": {
+          "name": "Star Ruby",
+          "tag": "Deep Red & Rich Aroma",
+          "description": "Star Ruby is a premier grapefruit variety celebrated for its rich red interior and blushing exterior. Maturing in November, it can remain on the tree for an extended period. With exceptional juiciness and radiant crimson pulp, it remains a global favorite in fresh markets."
+        },
+        "riored": {
+          "name": "Riored",
+          "tag": "Uniform Fruit & Superior Quality",
+          "description": "Riored is favored for its well-rounded, uniform fruit shape, blushed rind, and deep red flesh. Harvested primarily in January and February, it stands out for its high caliber consistency and strong suitability for international export standards."
+        }
+      },
+      "gallery": {
+        "freshGrapefruitTitle": "Fresh Mediterranean Grapefruit",
+        "freshGrapefruitAlt": "Meypal first-class fresh grapefruit from the branch",
+        "starRubyTitle": "Ruby Red Star Ruby Grapefruit",
+        "starRubyAlt": "Fresh Star Ruby grapefruit with rich red pulp and skin",
+        "harvestTitle": "Careful Citrus Harvest",
+        "harvestAlt": "Fresh grapefruit harvest in Meypal Mediterranean citrus groves"
+      },
+      "features": {
+        "vitaminC": {
+          "title": "Vitamins A, C & K",
+          "description": "Provides powerful immune and vitality support through vitamins A, E, C, and K, complemented by pantothenic acid, thiamine, and niacin."
+        },
+        "climate": {
+          "title": "Mediterranean Sun",
+          "description": "Ripened under the abundant Mediterranean sunshine of Çukurova, achieving optimal flesh coloration, natural sweetness, and aroma."
+        },
+        "antioxidant": {
+          "title": "Lycopene & Antioxidants",
+          "description": "Rich in natural lycopene and bioflavonoids derived from its deep red segments, helping protect cellular health."
+        },
+        "exportStorage": {
+          "title": "Long Shelf-Life & Export Durability",
+          "description": "Maintains premium fruit firmness on tree and within modern temperature-controlled cold storage, ideal for international transit."
         }
       }
     }
