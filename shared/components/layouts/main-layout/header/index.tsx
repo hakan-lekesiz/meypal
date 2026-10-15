@@ -63,7 +63,7 @@ export default async function Header({
         </div>
       </div>
 
-      <header className="sticky top-0 z-40 border-b border-[#e2e8f0] bg-white/95 backdrop-blur-xl">
+      <header className="sticky top-0 z-40 border-b border-[#e2e8f0] bg-white shadow-sm">
         <div className="grid-wrapper flex min-h-[86px] items-center justify-between gap-6 max-[700px]:min-h-[72px]">
           <Link
             aria-label={t("header.homeLabel")}
@@ -88,7 +88,8 @@ export default async function Header({
             className={`${contactLinkClass} max-[1199px]:hidden`}
             href={getSiteLink("contact", locale)}
           >
-            {t("navigation.contact")} <FaArrowRight aria-hidden="true" />
+            <span>{t("navigation.contact")}</span>
+            <FaArrowRight aria-hidden="true" className="shrink-0" />
           </Link>
 
           <details className="group hidden max-[1199px]:block">
@@ -103,10 +104,11 @@ export default async function Header({
                 <NavigationLinks items={navigationConfig} locale={locale} mobile t={t} />
               </nav>
               <Link
-                className="my-2 block w-full rounded-full bg-[#F58220] px-4 py-[0.85rem] text-center text-[0.85rem] font-semibold text-white no-underline shadow-[0_4px_14px_rgb(245_130_32_/_30%)] transition-[background-color,transform] duration-[160ms] hover:-translate-y-px hover:bg-[#dc6e11]"
+                className="my-2 flex w-full items-center justify-center gap-[0.65rem] rounded-full bg-[#F58220] px-4 py-[0.85rem] text-[0.85rem] font-semibold text-white no-underline shadow-[0_4px_14px_rgb(245_130_32_/_30%)] transition-[background-color,transform] duration-[160ms] hover:-translate-y-px hover:bg-[#dc6e11]"
                 href={getSiteLink("contact", locale)}
               >
-                {t("header.mobileContact")} <FaArrowRight aria-hidden="true" />
+                <span>{t("header.mobileContact")}</span>
+                <FaArrowRight aria-hidden="true" className="shrink-0" />
               </Link>
               <nav
                 aria-label={t("header.language")}

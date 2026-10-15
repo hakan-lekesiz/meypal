@@ -1,24 +1,140 @@
 {
   "home": {
-    "title": "Home"
+    "title": "Home",
+    "hero": {
+      "slides": [
+        {
+          "badge": "Since 1945 · 3 Generations of Family Trust",
+          "title": "Fresh & Reliable Produce From Farm to Table",
+          "description": "Exporting the finest Mediterranean citrus, fruits, and vegetables to global markets year-round with over 70 years of heritage."
+        },
+        {
+          "badge": "Mediterranean Harvest · Citrus",
+          "title": "Sun-Ripened Quality, Purest Taste of Nature",
+          "description": "First-class oranges, mandarins, lemons, and grapefruits cultivated in the fertile soils of Mersin and Çukurova."
+        },
+        {
+          "badge": "Global Export & Dependable Logistics",
+          "title": "12 Months of Uninterrupted Global Supply",
+          "description": "Reliable distribution from orchards to international markets supported by modern cold storage and full cold chain monitoring."
+        }
+      ],
+      "prevSlide": "Previous slide",
+      "nextSlide": "Next slide"
+    },
+    "coreValues": {
+      "badge": "Why Meypal?",
+      "title": "Premium Produce Direct From Nature",
+      "subtitle": "Rigorous inspection, optimal food safety standards, and dependable cold-chain logistics from orchard to shelf.",
+      "item1": {
+        "title": "From Nature to You",
+        "description": "Every batch of fruits and vegetables reaching your retail shelves is selected, graded, and packed to highest quality standards.",
+        "tag": "Natural & Pure"
+      },
+      "item2": {
+        "title": "Freshness & Rapid Delivery",
+        "description": "Preserving farm-fresh vitality through uninterrupted temperature-controlled cold chain logistics and timely distribution.",
+        "tag": "Cold Chain"
+      },
+      "item3": {
+        "title": "Extensive Product Variety",
+        "description": "Featuring citrus, peppers, fresh vegetables, pomegranates, quinces, lemons, grapes, greens, and onions all 12 months.",
+        "tag": "Rich Selection"
+      }
+    },
+    "citrusShowcase": {
+      "badge": "Featured Products",
+      "title": "Meypal Citrus & Fresh Produce",
+      "description": "First-class citrus and fresh harvests grown in the fertile soils of the Mediterranean basin, packaged to meet international retail standards.",
+      "citrus": {
+        "title": "Citrus",
+        "subtitle": "Orange, Mandarin, Grapefruit, Lemon",
+        "description": "Juicy, aromatic, and vitamin-rich Mediterranean citrus carefully graded and exported worldwide."
+      },
+      "fruits": {
+        "title": "Fresh Fruits",
+        "subtitle": "Pomegranate, Grape, Quince, Cherry, Peach, Fig",
+        "description": "Harvested at peak ripeness with ideal brix and balance for international markets."
+      },
+      "vegetables": {
+        "title": "Vegetables & Greens",
+        "subtitle": "Peppers, Tomatoes, Cucumbers, Onions",
+        "description": "Essential fresh vegetables and greenhouse produce cultivated with sustainable agricultural practices."
+      },
+      "productLines": {
+        "title": "Special Product Lines",
+        "subtitle": "Organic, Ready-to-Eat & Gourmet Selection",
+        "description": "Value-added product lines tailored to the requirements of modern supermarkets and consumers."
+      },
+      "ctaExplore": "View All Products"
+    },
+    "missionStats": {
+      "badge": "Our Mission & Strength",
+      "title": "Meypal's Global Impact in Numbers",
+      "missionQuote": "To represent our company and country in international markets with transparent, dynamic, and adaptive quality production, fast and reliable exports, and high customer satisfaction.",
+      "statSatisfaction": "100%",
+      "statSatisfactionLabel": "Customer Satisfaction",
+      "statSatisfactionSub": "International service standards",
+      "statExperience": "70+",
+      "statExperienceLabel": "Years of Heritage",
+      "statExperienceSub": "3 generations since 1945",
+      "statShipment": "1,000+",
+      "statShipmentLabel": "Annual Shipments",
+      "statShipmentSub": "Balkans, Middle East, Russia, Europe",
+      "statDelivery": "99%",
+      "statDeliveryLabel": "On-Time Delivery",
+      "statDeliverySub": "Flawless cold chain tracking"
+    },
+    "aboutCompany": {
+      "badge": "Who We Are",
+      "title": "A 3-Generation Family Enterprise Delivering Excellence",
+      "paragraph1": "Starting fresh produce cultivation in 1945, our company has steadily expanded production capacity and quality over more than 70 years, thriving as a third-generation family business.",
+      "paragraph2": "Building upon our domestic reputation in the 1980s, Meypal expanded exports across the Middle East and Balkans, moving into Russia and European markets in the 1990s. Since the early 2000s, our seasoned team has managed year-round export operations sourced from premier agricultural regions across Turkey.",
+      "establishedYear": "1945",
+      "establishedLabel": "Founded In",
+      "pillar1": {
+        "title": "Organic & Field-Fresh",
+        "description": "Natural farming practices, controlled soil management, and a transparent food safety chain from field to fork."
+      },
+      "pillar2": {
+        "title": "Meypal Product Lines",
+        "description": "Custom calibration, specialized packaging, and convenient ready-to-eat solutions matching international retail demands."
+      },
+      "pillar3": {
+        "title": "Superior Quality & Assurance",
+        "description": "Globally certified production processes, comprehensive laboratory testing, and stringent quality assurance at each shipment."
+      },
+      "ctaMore": "Discover Our Story"
+    },
+    "operationCta": {
+      "badge": "Continuous Operation",
+      "title": "12 Months of Uninterrupted Supply to Global Markets",
+      "description": "Meypal delivers the abundance of the Mediterranean to international buyers through state-of-the-art cold storage and rapid logistics. Contact us today for strategic partnerships and wholesale export inquiries.",
+      "feature1": "12-Month Year-Round Supply",
+      "feature2": "Advanced Cold Storage Facilities",
+      "feature3": "International Certifications",
+      "feature4": "Rapid & Dependable Logistics",
+      "ctaContact": "Request a Quote",
+      "ctaCatalog": "View E-Catalog"
+    }
   },
   "about": {
     "title": "About Us"
   },
   "metadata": {
     "home": {
-      "title": "Home | Meypal",
-      "description": "Meypal brings you natural, high-quality products.",
-      "keywords": "Meypal, fruit, vegetables, natural products"
+      "title": "Meypal | Fresh Fruits, Vegetables & Citrus Production & Export",
+      "description": "Your trusted partner in fresh fruit, vegetable, and citrus export across 3 generations since 1945. Delivering Mediterranean quality produce worldwide all 12 months.",
+      "keywords": "Meypal, citrus exporter, fresh fruits vegetables, Turkish citrus, orange export, lemon, mandarin, grapefruit, agricultural export, food industry, Mediterranean produce"
     },
     "about": {
-      "title": "About Us | Meypal",
-      "description": "Learn more about Meypal.",
-      "keywords": "Meypal, about us, company"
+      "title": "About Us - Fresh Fruits, Vegetables & Citrus Exporter",
+      "description": "Since 1945 across 3 generations, Meypal exports premium citrus, fruits, and vegetables from Mersin to global markets. Learn about our heritage, mission, and quality standards.",
+      "keywords": "About Meypal, citrus exporter Turkey, Mersin fruit export, fresh produce supplier, agricultural export company"
     }
   },
   "header": {
-    "address": "Mersin, Türkiye",
+    "address": "Cami Şerif Mah. 5232 Sok. 11 Buğdaycı İşh. K:3/13 Akdeniz, Mersin",
     "phone": "+90 324 238 04 38",
     "email": "info@meypal.com.tr",
     "language": "Language selection",

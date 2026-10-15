@@ -5,6 +5,7 @@
 @import "swiper/css";
 @import "swiper/css/navigation";
 @import "swiper/css/pagination";
+@import "swiper/css/effect-fade";
 
 @theme inline {
   /* ── Typography ── */
@@ -69,4 +70,23 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+}
+
+/* ── Hero Swiper Custom Pagination ── */
+.hero-swiper .swiper-pagination {
+  bottom: 24px !important;
+}
+
+.hero-swiper .swiper-pagination-bullet {
+  background-color: rgba(255, 255, 255, 0.55);
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-swiper .swiper-pagination-bullet-active {
+  background-color: #f58220;
+  width: 32px;
 }

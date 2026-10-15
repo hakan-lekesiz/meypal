@@ -1,112 +1,193 @@
-# Meypal Proje Kuralları ve Tasarım Sistemi (Design Guidelines)
+# Meypal Project Architecture & AI Agent Instructions
 
-Bu dosya, projede yapılacak tüm geliştirme ve tasarım taleplerinde geçerli olan kuralları içerir. Tüm yeni bileşenler, sayfalar, stil güncellemeleri ve istekler bu kurallara harfiyen uyularak gerçekleştirilmelidir.
-
----
-
-## 1. Marka Renk Paleti (Brand Colors)
-
-Sitenin iki temel ana rengi bulunmaktadır:
-- 🟠 **Turuncu (Primary Accent / CTA):** `#F58220`
-  - **Hover:** `#dc6e11`
-  - **Light/Soft Tint:** `#fff4ec` / `#feecd9`
-  - **Kullanım:** Tüm birincil aksiyon / CTA butonları, vurgu rozetleri (eyebrow text), ikon vurguları, aktif durumlar, hover efektleri.
-- 🔵 **Mavi (Primary Brand):** `#006894`
-  - **Koyu Ton (Header Top Bar):** `#005073`
-  - **Derin Ton (Footer Arka Planı):** `#002f43`
-  - **Kullanım:** Header üst bilgi barı, footer ana arka planı, zemin gradyanları, kart başlıkları, link hover renkleri, marka elementleri.
-
-### Yardımcı & Nötr Renkler
-- **Metin Renkleri:**
-  - Koyu Başlık / Metin: `#0f172a` (slate-900), `#1e293b` (slate-800)
-  - Muted / Açıklama Metni: `#64748b` (slate-500)
-  - Footer Metinleri: `#c2d7e5` (yumuşak buz mavisi) ve `#8eaebd`
-  - Footer Başlıkları: `#ffffff`
-- **Kenarlıklar (Borders):**
-  - Açık yüzeyler için: `#e2e8f0` (slate-200)
-  - Koyu footer yüzeyleri için: `rgba(255, 255, 255, 0.1)`
+This document summarizes the codebase architecture, existing progress, and rules for creating new pages and components. It is written in English for AI agents working on this repository.
 
 ---
 
-## 2. Logo Kullanımı
+## 1. Project Overview & Core Philosophy
 
-- **Logo Dosyası:** Her zaman `public/logo.png` (`/logo.png`) kullanılmalıdır.
-- **Boyutlar:** Orijinal resim `572px × 251px` çözünürlüğündedir.
-- **Next.js Entegrasyonu:**
-  - Kesinlikle native `<img>` etiketi kullanılmamalı, her zaman `next/image` (`<Image />`) bileşeni kullanılmalıdır.
-- **Header:**
-  - Beyaz arkaplan üzerinde doğrudan `<Image src="/logo.png" alt="Meypal" width={572} height={251} priority className="h-14 w-auto object-contain max-[700px]:h-10" />` şeklinde kullanılır.
-- **Footer:**
-  - Koyu arkaplan üzerinde logonun mükemmel ve net görünmesi için beyaz yuvarlatılmış kart içinde (`className="inline-flex items-center rounded-xl bg-white px-3 py-2 no-underline shadow-sm transition-transform duration-[160ms] hover:-translate-y-px"`) kullanılır.
-
----
-
-## 3. Favicon & İkon Standartları
-
-- **Favicon Konumu:** `public/favicon/` klasöründe yer alır.
-- **Desteklenen İkonlar:**
-  - `favicon.ico` (app/favicon.ico ve public/favicon.ico)
-  - `favicon-16x16.png`
-  - `favicon-32x32.png`
-  - `apple-touch-icon.png` (180x180)
-  - `android-chrome-192x192.png` & `android-chrome-512x512.png`
-  - `site.webmanifest` & `manifest.json` (Tema rengi: `#006894`)
-- **Root Layout Yapılandırması:** `app/[locale]/layout.tsx` dosyasında `metadata.icons` ve `metadata.manifest` olarak tanımlıdır.
+- **Framework:** Next.js 16 (App Router + Turbopack), React 19, TypeScript.
+- **Styling:** Tailwind CSS v4 (`@tailwindcss/postcss`).
+- **Internationalization:** `next-intl` (Default: `tr`, Secondary: `en`, `localePrefix: "never"`).
+- **Linter & Formatter:** Biome (run `pnpm lint` or `pnpm lint:fix`).
+  - Formatting rules: Double quotes (`"`), no semicolons (`asNeeded`).
+  - Native `<img>` is prohibited; always use `next/image` (`<Image />`).
+- **Deployment & Rendering Mode:** **Strict Static Site Generation (SSG)**.
+  - Zero dynamic runtime / SSR allowed. Every page must compile statically during `pnpm build`.
+  - Output routes in build logs must display `● (SSG)` or `○ (Static)`. Never `ƒ (Dynamic)`.
 
 ---
 
-## 4. Header & Menü Standartları
+## 2. Work Done So Far
 
-- **Üst Bilgi Barı (Top Bar):**
-  - Arkaplan: `#005073` (koyu mavi)
-  - İkonlar: `#F58220` (turuncu)
-  - Dil seçimi aktif durum: `[&[aria-current=page]]:text-[#F58220] [&[aria-current=page]]:bg-white/20`
-  - Link hover: `hover:text-[#F58220]`
-- **Ana Navigasyon:**
-  - Nav linkleri: `#1e293b`, hover rengi: `#006894`
-  - Dropdown menü: beyaz zemin, `#e2e8f0` kenarlık, `shadow-[0_16px_40px_rgb(0_104_148_/_12%)]`, hover: `hover:bg-[#006894]/8 hover:text-[#006894]`
-- **Header İletişim Butonu:**
-  - Arkaplan: `#F58220` (turuncu), hover: `#dc6e11`
-  - Metin: Beyaz, `font-semibold`, gölge: `shadow-[0_4px_14px_rgb(245_130_32_/_30%)]`
-- **Mobil Menü (Çok Önemli):**
-  - **Asla "Menüyü aç" yazısı gösterilmemelidir.**
-  - Sadece hamburger ikonu (`FaBars`) gösterilmelidir.
-  - Erişilebilirlik için `<summary aria-label={t("header.openMenu")}>` etiketi kullanılmalıdır.
-  - İkon rengi: `#006894`, açık menüde `group-open:text-[#F58220]`.
+1. **Global Layout & Shell:**
+   - `shared/components/layouts/main-layout/MainLayout.tsx` wraps every page.
+   - Header: Top contact/language bar (`#005073`), solid white main bar (`bg-white`), responsive mobile drawer with hamburger-only button.
+   - Footer: Deep navy (`#002f43`), CTA banner with gradient, logo in white rounded card, dynamic contact links, company & product link columns.
+2. **SEO & Structured Data:**
+   - Reusable SEO engine in `shared/utils/seo`: `createPageMetadata`, `createRootLayoutMetadata`, `JsonLd`, and Schema.org generators.
+   - GEO tags for Mersin, Turkey headquarters (`TR-33`, lat/long coordinates) applied globally.
+   - `app/sitemap.ts` and `app/robots.ts` fully automated with multilingual hreflang alternates.
+3. **Routing & Navigation Registry:**
+   - `shared/config/index.ts`: Central source of truth for `PAGES`, `navigationConfig`, `footerCompanyLinks`, `footerProductLinks`, and `contactConfig`.
+   - `i18n/routing.ts`: Path mappings between Turkish and English slugs.
+4. **Pages Implemented:**
+   - **Home Page** (`app/[locale]/page.tsx` -> `shared/pages/home/index.tsx`): 6 modular sections (`HeroSection` with Swiper, `CoreValuesSection`, `CitrusShowcaseSection`, `MissionStatsSection`, `AboutCompanySection`, `OperationCtaSection`).
+   - **About Page Scaffold** (`app/[locale]/about/page.tsx` -> `shared/pages/about/index.tsx`): baseline established with Breadcrumb schema and layout.
 
 ---
 
-## 5. Footer Standartları
+## 3. Directory & Architectural Pattern
 
-- **Arkaplan:** `#002f43` (derin zengin mavi)
-- **CTA Banner:** `#006894` ve `#004e70` gradyanı (`bg-[linear-gradient(90deg,_#004e70_5%,_rgb(0_104_148_/_95%)_44%,_rgb(0_104_148_/_30%)_100%),url('/images/fruits/fruit-basket.jpg')]`)
-- **Eyebrow / Üst Başlık:** `#F58220` (turuncu), uppercase, font-bold
-- **CTA Butonu:** `#F58220`, hover: `#dc6e11`, metin: beyaz, font-bold
-- **İletişim İkonları:** Konum, telefon ve e-posta ikonları `#F58220` renginde
-- **Link Hoverları:** Tüm footer linkleri hover durumunda `#F58220` rengini alır.
+Follow this strict separation of concerns:
+
+```text
+app/
+  [locale]/
+    layout.tsx               # Root locale shell (HTML lang, font, ThemeProvider, root metadata)
+    page.tsx                 # Home page route wrapper (SSG + metadata + JsonLd)
+    [route]/
+      page.tsx               # Route wrapper (SSG + metadata + JsonLd)
+shared/
+  config/
+    index.ts                 # PAGES mapping, nav items, contact details, locales
+  pages/
+    [page]/
+      index.tsx              # Page container component (<MainLayout>)
+      sections/              # Page-specific modular section components
+  components/
+    layouts/                 # MainLayout, Header, Footer
+    ui/                      # Reusable atom/molecule components
+    client-actions/          # Interactive client widgets (e.g. WhatsApp button)
+  utils/
+    seo/                     # Metadata creators, Schema.org generators, JsonLd component
+messages/
+  tr.json                    # Turkish translations (UI copy & metadata)
+  en.json                    # English translations (UI copy & metadata)
+```
 
 ---
 
-## 6. Buton & Tipografi Kuralları
+## 4. Brand Design Tokens & UI Guidelines
 
-- **Birincil (Primary) Butonlar:**
-  - Renk: `#F58220` (Turuncu)
-  - Hover: `#dc6e11`
-  - Metin: Beyaz, `font-semibold` veya `font-bold`
-  - Yuvarlatma: `rounded-full` (veya tasarım durumuna göre `rounded-xl`)
-- **İkincil (Secondary) Butonlar:**
-  - Renk: `#006894` (Mavi) veya outline `#006894`
-  - Hover: `#005073`
-- **Yazı Tipi:** `Inter, sans-serif`
+- **Primary Colors:**
+  - 🟠 **Orange (Primary CTA / Accents):** `#F58220` (Hover: `#dc6e11`, Light tint: `#fff4ec` / `#feecd9`).
+  - 🔵 **Blue (Primary Brand / Headers):** `#006894` (Header top bar: `#005073`, Footer background: `#002f43`).
+- **Typography & Text:**
+  - Font: `Inter, sans-serif`.
+  - Dark Headings: `#0f172a` (slate-900), `#1e293b` (slate-800).
+  - Body / Muted: `#64748b` (slate-500).
+- **Buttons:**
+  - Primary: `bg-[#F58220] hover:bg-[#dc6e11] text-white font-semibold rounded-full`.
+  - Secondary: `border border-[#006894] text-[#006894] hover:bg-[#006894]/10 rounded-full`.
+- **Layouts & Containers:**
+  - Use `grid-wrapper` utility class for standardized horizontal max-width and responsive padding.
+- **Logo:**
+  - File: `public/logo.png` (`572px × 251px`).
+  - Header: Pure white background, `h-14 w-auto object-contain`.
+  - Footer: Inset in white rounded container `rounded-xl bg-white px-3 py-2`.
 
 ---
 
-## 7. Kodlama & Mühendislik Standartları
+## 5. Guide: Creating a New Page (Agent Checklist)
 
-- **Next.js:** App Router yapısı (Next.js 16+ Turbopack)
-- **i18n:** `next-intl` (varsayılan: `tr`, diğer: `en`)
-- **Tailwind CSS:** Tailwind v4, `@theme inline` içindeki marka tokenları kullanılabilir.
-- **Linter & Formatter:** Biome (`pnpm lint` / `pnpm check`)
-  - Semicolons: `asNeeded`
-  - Quotes: Double quotes (`"`)
-  - `<img>` kullanımı yasak, her zaman `next/image` (`<Image />`)
+When tasked with adding a new page (e.g., `citrus`, `contact`, `mission`), execute the following steps in order:
+
+### Step 1: Register Route in Config & Routing
+1. Check `shared/config/index.ts`:
+   - Ensure the page key and localized slugs exist in `PAGES` (e.g., `citrus: { tr: "/narenciye", en: "/citrus" }`).
+   - Ensure `pageTitleKeys` contains the translation key mapping.
+2. Check `i18n/routing.ts`:
+   - Ensure `routing.pathnames` has the matching route mapping.
+
+### Step 2: Add Translations
+Add keys to both `messages/tr.json` and `messages/en.json`:
+- **SEO Metadata:** Under `metadata.<routeKey>`:
+  ```json
+  "metadata": {
+    "myRoute": {
+      "title": "Page Title | Meypal",
+      "description": "Page description...",
+      "keywords": "keyword1, keyword2"
+    }
+  }
+  ```
+- **Page Content:** Under a dedicated top-level namespace (e.g., `"myRoute": { ... }`).
+
+### Step 3: Define Structured Data (JSON-LD)
+In `shared/utils/seo/structured-data.ts`:
+- Create an async function `get<Name>StructuredData(locale: Locale)`.
+- Include `BreadcrumbList` schema and a relevant Schema.org entity (`WebPage`, `AboutPage`, `ContactPage`, `ItemPage`, etc.).
+- Re-export the helper in `shared/utils/index.ts`.
+
+### Step 4: Create Page UI Component
+Create `shared/pages/<page-name>/index.tsx`:
+- Keep it an async Server Component by default.
+- Fetch translations with `const t = await getTranslator(locale)`.
+- Wrap page in `<MainLayout currentRoute="<routeKey>" locale={locale}>`.
+- Break large pages into sub-components inside `shared/pages/<page-name>/sections/`.
+- Only use `"use client"` on leaf components that need browser events or hooks.
+
+### Step 5: Create App Router Entrypoint
+Create `app/[locale]/<route-folder>/page.tsx`. This file must be a thin wrapper with exact SSG requirements:
+
+```tsx
+import { isLocale, locales, type Locale } from "@/shared/config"
+import { notFound } from "next/navigation"
+import { setRequestLocale } from "next-intl/server"
+import type { Metadata } from "next"
+import { createPageMetadata, get<Name>StructuredData, JsonLd } from "@/shared/utils"
+import { <Name>Page } from "@/shared/pages/<page-name>"
+
+// 1. Force static generation
+export const dynamic = "force-static"
+export const dynamicParams = false
+
+// 2. Generate params for all supported locales
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }))
+}
+
+type PageProps = { params: Promise<{ locale: string }> }
+
+// 3. Dynamic metadata via createPageMetadata
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale: routeLocale } = await params
+  if (!isLocale(routeLocale)) notFound()
+
+  const locale: Locale = routeLocale
+  setRequestLocale(locale) // Required for static next-intl
+
+  return createPageMetadata({
+    locale,
+    route: "<routeKey>",
+  })
+}
+
+// 4. Default export page component
+export default async function Page({ params }: PageProps) {
+  const { locale: routeLocale } = await params
+  if (!isLocale(routeLocale)) notFound()
+
+  const locale: Locale = routeLocale
+  setRequestLocale(locale) // Required for static next-intl
+
+  const structuredData = await get<Name>StructuredData(locale)
+
+  return (
+    <>
+      <JsonLd data={structuredData} />
+      <<Name>Page locale={locale} />
+    </>
+  )
+}
+```
+
+---
+
+## 6. Strict Verification Commands
+
+Before concluding any task or PR:
+1. `pnpm.cmd lint` (or `cmd /c pnpm lint`) — Ensure Biome passes with 0 warnings/errors. Run `pnpm.cmd lint:fix` to auto-fix formatting issues.
+2. `pnpm.cmd build` (or `cmd /c pnpm build`) — Verify Turbopack builds successfully and all generated routes are marked with `● (SSG)` or `○ (Static)`.
+

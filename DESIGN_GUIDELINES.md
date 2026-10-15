@@ -63,6 +63,7 @@ Sitenin iki temel ana rengi bulunmaktadır:
   - Dil seçimi aktif durum: `[&[aria-current=page]]:text-[#F58220] [&[aria-current=page]]:bg-white/20`
   - Link hover: `hover:text-[#F58220]`
 - **Ana Navigasyon:**
+  - Header zemin rengi: **Her zaman saf beyaz kalmalıdır (`bg-white`).** Kesinlikle yarı saydam veya backdrop-blur verilmemelidir. Sayfa aşağı scroll edildiğinde de arka plan rengi saf beyaz (`bg-white shadow-sm`) olarak kalmalıdır.
   - Nav linkleri: `#1e293b`, hover rengi: `#006894`
   - Dropdown menü: beyaz zemin, `#e2e8f0` kenarlık, `shadow-[0_16px_40px_rgb(0_104_148_/_12%)]`, hover: `hover:bg-[#006894]/8 hover:text-[#006894]`
 - **Header İletişim Butonu:**
@@ -110,3 +111,46 @@ Sitenin iki temel ana rengi bulunmaktadır:
   - Semicolons: `asNeeded`
   - Quotes: Double quotes (`"`)
   - `<img>` kullanımı yasak, her zaman `next/image` (`<Image />`)
+
+---
+
+## 8. Statik Render ve Build Mimarisi (SSG - Kesin Kural)
+
+**ÖNEMLİ:** Projedeki anasayfa ve sonradan eklenecek tüm sayfalar **yalnızca build aşamasında derlenmelidir (SSG - Static Site Generation)**. Sayfalar dynamic/SSR olmamalı, kullanıcı her geldiğinde sunucuda yeniden derleme yapılmamalıdır. Tek seferde build sırasında derlenip statik HTML olarak sunulmalıdır.
+
+Tüm sayfa ve layout geliştirmelerinde aşağıdaki kurallara harfiyen uyulmalıdır:
+1. **Force Static:** Her `page.tsx` ve dinamik parametre alan `layout.tsx` dosyasında şu yapılandırma yer almalıdır:
+   ```ts
+   export const dynamic = "force-static"
+   export const dynamicParams = false
+   ```
+2. **generateStaticParams:** Dinamik parametre içeren (`[locale]` vb.) tüm sayfalarda ve layoutlarda `generateStaticParams()` zorunludur:
+   ```ts
+   export function generateStaticParams() {
+     return locales.map((locale) => ({ locale }))
+   }
+   ```
+3. **next-intl setRequestLocale:** `next-intl`'in statik derlemeden çıkmasını (dynamic opt-out) engellemek için, `generateMetadata` fonksiyonu ve sayfa/layout bileşeninin ilk satırında mutlaka `setRequestLocale(locale)` çağrılmalıdır:
+   ```ts
+   setRequestLocale(locale)
+   ```
+4. **Build Doğrulaması:** `pnpm build` çalıştırıldığında oluşturulan rotaların yanında **`● (SSG)`** veya **`○ (Static)`** simgesi görünmelidir. Asla **`ƒ (Dynamic)`** olmamalıdır!
+5. **Dinamik Fonksiyon Yasağı:** Sayfa seviyesinde statik derlemeyi bozacak `cookies()`, `headers()`, runtime `searchParams` gibi dinamik sunucu fonksiyonları doğrudan kullanılmamalıdır.
+
+---
+
+## 9. SEO & GEO (Coğrafi Hedefleme) Standartları
+
+- **MetadataBase:** `siteOrigin` ("https://meypal.com.tr") temel alınarak yapılandırılmalıdır.
+- **Alternates (Hreflang):** Her sayfa için `canonical` ve `languages` (`tr`, `en`, `"x-default": tr`) tanımlanmalıdır.
+- **Robots:** `index: true`, `follow: true` ve zengin GoogleBot parametreleri tanımlanmalıdır.
+- **GEO Meta Etiketleri:** Şirketin Mersin merkezli konumu için her sayfada `other` alanına aşağıdaki GEO meta etiketleri eklenmelidir:
+  - `"geo.region": "TR-33"`
+  - `"geo.placename": "Mersin, Türkiye"`
+  - `"geo.position": "36.7997;34.6300"`
+  - `ICBM: "36.7997, 34.6300"`
+- **Structured Data (JSON-LD Schema):**
+  - Root Layout'ta ve anasayfada: `Organization`, `LocalBusiness`, `WholesaleStore` şeması, firma adresi, Mersin koordinatları (`GeoCoordinates`), harita URL'i (`hasMap`), telefon, e-posta, servis bölgeleri (`areaServed`) ve `WebSite` şeması yer almalıdır.
+  - İç sayfalarda: `BreadcrumbList` ve ilgili sayfa tipi (`AboutPage` vb.) schema işaretlemesi bulunmalıdır.
+- **Sitemap & Robots:** `app/sitemap.ts` tüm dillerdeki URL'leri hreflang `alternates`, `lastModified`, `changeFrequency` ve `priority` değerleriyle birlikte statik olarak üretmelidir.
+

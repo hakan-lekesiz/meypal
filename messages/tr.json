@@ -1,24 +1,140 @@
 {
   "home": {
-    "title": "Anasayfa"
+    "title": "Anasayfa",
+    "hero": {
+      "slides": [
+        {
+          "badge": "1945'ten Beri · 3 Kuşaktır Süregelen Güven",
+          "title": "Tarladan Sofranıza Taze ve Güvenilir Tedarik",
+          "description": "70 yılı aşkın tecrübemizle Akdeniz'in en taze narenciye, meyve ve sebzelerini 12 ay boyunca kesintisiz olarak dünya pazarlarına ulaştırıyoruz."
+        },
+        {
+          "badge": "Akdeniz'in İncisi · Narenciye",
+          "title": "Güneşin Tadı, Doğanın En Saf Hali",
+          "description": "Mersin ve Çukurova'nın bereketli topraklarında yetişen birinci sınıf portakal, mandalina, limon ve greyfurt çeşitleri."
+        },
+        {
+          "badge": "Küresel İhracat & Güvenilir Lojistik",
+          "title": "12 Ay Kesintisiz Uluslararası Tedarik",
+          "description": "Modern soğuk hava depolarımız ve eksiksiz soğuk zincir takibimizle tarladan dünya pazarlarına güvenilir sevkiyat."
+        }
+      ],
+      "prevSlide": "Önceki slayt",
+      "nextSlide": "Sonraki slayt"
+    },
+    "coreValues": {
+      "badge": "Neden Meypal?",
+      "title": "Doğadan Gelen Meypal Kalitesi",
+      "subtitle": "Tarladan nihai tüketiciye kadar her adımda titiz denetim, üstün hijyen ve güvenilir tedarik zinciri.",
+      "item1": {
+        "title": "Doğadan Sizlere",
+        "description": "Tarladan raflarınıza kadar gelen tüm meyve ve sebzeler Meypal kalitesiyle özenle seçilir, tasnif edilir ve paketlenir.",
+        "tag": "Doğal & Güvenilir"
+      },
+      "item2": {
+        "title": "Tazelik & Hızlı Teslimat",
+        "description": "Kalite ve zamanında teslimat ilkesiyle, gelişmiş soğuk zincir lojistiği sayesinde ürünler tazeliğini ilk günkü gibi korur.",
+        "tag": "Soğuk Zincir"
+      },
+      "item3": {
+        "title": "Geniş Ürün Yelpazesi",
+        "description": "Başlıca; narenciye, biber, sebze çeşitleri, nar, ayva, limon, yeşillikler, üzüm, armut ve soğan ile 12 ay zengin ürün çeşitliliği.",
+        "tag": "Zengin Çeşit"
+      }
+    },
+    "citrusShowcase": {
+      "badge": "Öne Çıkan Ürünlerimiz",
+      "title": "Meypal Narenciye & Taze Mahsuller",
+      "description": "Çukurova ve Akdeniz havzasının bereketli topraklarında yetişen birinci sınıf narenciye ve taze mahsuller uluslararası standartlarda hazırlanır.",
+      "citrus": {
+        "title": "Narenciye",
+        "subtitle": "Portakal, Mandalina, Greyfurt, Limon",
+        "description": "Vitamin dolu, sulu ve aromatik Akdeniz narenciyeleri özenle kalibre edilir ve ihraç edilir."
+      },
+      "fruits": {
+        "title": "Taze Meyveler",
+        "subtitle": "Nar, Üzüm, Ayva, Kiraz, Şeftali, İncir",
+        "description": "Mevsiminde toplanan, şeker ve asit dengesi mükemmel en kaliteli taze meyveler."
+      },
+      "vegetables": {
+        "title": "Sebzeler & Yeşillikler",
+        "subtitle": "Biber Çeşitleri, Domates, Marul, Soğan",
+        "description": "Sofraların vazgeçilmezi taze sebzeler ve sera mahsulleri güvenli tarım standartlarıyla üretilir."
+      },
+      "productLines": {
+        "title": "Özel Ürün Hatları",
+        "subtitle": "Organik, Tüketime Hazır & Gurme Lezzetler",
+        "description": "Modern perakende ve tüketici ihtiyaçlarına özel hazırlanmış katma değerli ürün hatları."
+      },
+      "ctaExplore": "Tüm Ürünleri İnceleyin"
+    },
+    "missionStats": {
+      "badge": "Değerlerimiz & Misyonumuz",
+      "title": "Sayılarla Meypal'in Küresel Gücü",
+      "missionQuote": "Şeffaf, dinamik, gelişime ve değişime açık, kaliteli üretim, hızlı ve güvenilir ihracat, yüksek müşteri memnuniyeti sloganıyla şirketimizi ve ülkemizi uluslararası piyasada en iyi şekilde temsil etmektir.",
+      "statSatisfaction": "%100",
+      "statSatisfactionLabel": "Müşteri Memnuniyeti",
+      "statSatisfactionSub": "Uluslararası standartlarda hizmet",
+      "statExperience": "70+",
+      "statExperienceLabel": "Yıllık Tecrübe",
+      "statExperienceSub": "1945'ten günümüze 3 kuşak",
+      "statShipment": "1.000+",
+      "statShipmentLabel": "Yıllık Sevkiyat",
+      "statShipmentSub": "Balkanlar, Ortadoğu, Rusya, Avrupa",
+      "statDelivery": "%99",
+      "statDeliveryLabel": "Zamanında Teslimat",
+      "statDeliverySub": "Eksiksiz soğuk zincir takibi"
+    },
+    "aboutCompany": {
+      "badge": "Biz Kimiz?",
+      "title": "3 Kuşaktır Süregelen Güven ve İhracat Başarısı",
+      "paragraph1": "1945 yılında yaş sebze meyve üretimine başlayan firmamız, yaklaşık 70 yılı aşkın tecrübesiyle üretimini ve ürün kalitesini artırarak faaliyetlerini 3 kuşaktır aile şirketi olarak sürdürmektedir.",
+      "paragraph2": "1980’li yıllarda iç piyasada göstermiş olduğu başarısını ihracat vasfıyla başta Ortadoğu ve Balkan ülkeleri olmak üzere, 1990’lı yıllardan itibaren bu ağı Rusya ve Avrupa ülkelerine kadar genişleterek 2000’li yılların başlarında deneyimli iş kadrosuyla birlikte ülkemizin dört bir yanından yılın 12 ayı ihracat faaliyetlerini sürdüren lider bir kuruluştur.",
+      "establishedYear": "1945",
+      "establishedLabel": "Kuruluş Yılı",
+      "pillar1": {
+        "title": "Organik & Tarladan",
+        "description": "Doğal tarım uygulamaları, kontrollü gübreleme ve tarladan itibaren izlenebilir gıda güvenliği zinciri."
+      },
+      "pillar2": {
+        "title": "Meypal Ürün Hatları",
+        "description": "Uluslararası alıcıların talep ettiği kalibrasyon, ambalajlama ve tüketime hazır paketleme standartları."
+      },
+      "pillar3": {
+        "title": "Üstün Kalite & Güvence",
+        "description": "Global standartlarda sertifikalı üretim, laboratuvar analizleri ve her partide titiz kalite kontrolü."
+      },
+      "ctaMore": "Hakkımızda Detaylı Bilgi"
+    },
+    "operationCta": {
+      "badge": "Kesintisiz Operasyon",
+      "title": "Tarladan Dünya Pazarlarına 12 Ay Kesintisiz Lojistik",
+      "description": "Meypal, Akdeniz'in bereketini modern depolama ve hızlı sevkiyat altyapısıyla küresel alıcılara ulaştırıyor. İş ortaklığımız ve toptan tedarik imkanlarımız için hemen bizimle iletişime geçin.",
+      "feature1": "12 Ay Sürekli Tedarik",
+      "feature2": "Modern Soğuk Hava Depoları",
+      "feature3": "Uluslararası Sertifikasyon",
+      "feature4": "Hızlı & Güvenilir Sevkiyat",
+      "ctaContact": "Teklif & İletişim",
+      "ctaCatalog": "E-Kataloğu İncele"
+    }
   },
   "about": {
     "title": "Hakkımızda"
   },
   "metadata": {
     "home": {
-      "title": "Anasayfa | Meypal",
-      "description": "Meypal, doğal ve kaliteli ürünleriyle hizmetinizde.",
-      "keywords": "Meypal, meyve, sebze, doğal ürünler"
+      "title": "Meypal | Yaş Sebze, Meyve ve Narenciye Üretim & İhracatı",
+      "description": "1945'ten bu yana 3 kuşaktır yaş sebze, meyve ve narenciye ihracatında güvenilir çözüm ortağınız. Akdeniz'in taze mahsullerini 12 ay boyunca dünyaya ulaştırıyoruz.",
+      "keywords": "Meypal, narenciye ihracatı, yaş sebze meyve, mersin narenciye, portakal ihracatı, limon, mandalina, greyfurt, taze meyve, tarımsal ihracat, gıda endüstrisi, Akdeniz meyve"
     },
     "about": {
-      "title": "Hakkımızda | Meypal",
-      "description": "Meypal hakkında daha fazla bilgi edinin.",
-      "keywords": "Meypal, hakkımızda, şirket"
+      "title": "Hakkımızda - Yaş Meyve, Sebze ve Narenciye İhracatı",
+      "description": "1945'ten bu yana 3 kuşaktır süregelen deneyimimizle Mersin'den dünya pazarlarına taze narenciye, meyve ve sebze ihraç ediyoruz. Meypal kurumsal vizyonu ve değerleri.",
+      "keywords": "Meypal hakkımızda, narenciye ihracatçısı, Mersin meyve ihracatı, kurumsal, yaş sebze meyve tedarikçisi, Akdeniz ihracat"
     }
   },
   "header": {
-    "address": "Mersin, Türkiye",
+    "address": "Cami Şerif Mah. 5232 Sok. 11 Buğdaycı İşh. K:3/13 Akdeniz, Mersin",
     "phone": "+90 324 238 04 38",
     "email": "info@meypal.com.tr",
     "language": "Dil seçimi",

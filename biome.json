@@ -19,6 +19,7 @@
       "!**/build",
       "!**/coverage",
       "!**/.turbo",
+      "!**/old-site",
       "!next-env.d.ts"
     ]
   },
