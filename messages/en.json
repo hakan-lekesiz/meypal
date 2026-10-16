@@ -723,6 +723,51 @@
       "title": "Melon - Sweet & Long Shelf-Life Caribbean Melons | Meypal",
       "description": "Innovative Caribbean and muskmelon varieties offering thin rind, small seed cavity, honey sweetness, and extended transit durability exported by Meypal.",
       "keywords": "melon, melon export, Caribbean melon, fresh melon Turkey, sweet melon, Cucumis melo, Meypal"
+    },
+    "vegetables": {
+      "title": "Fresh Vegetables - Mediterranean Vegetable Production & Export | Meypal",
+      "description": "Tomato, cucumber, eggplant, pepper, cabbage, onion, potato, and garlic. Exported fresh from fertile Mediterranean soils worldwide with Meypal quality.",
+      "keywords": "fresh vegetables, vegetable export Turkey, Turkish tomato, cucumber, eggplant, pepper, cabbage, onion, potato, garlic, Mersin, Meypal"
+    },
+    "tomato": {
+      "title": "Tomato - Vine, Beef & Cherry Tomato Varieties | Meypal",
+      "description": "Intermediate truss, loose, beef, and cocktail cherry tomatoes. High disease resistance, rich flavor, and superior shelf life exported worldwide by Meypal.",
+      "keywords": "tomato, tomato export, truss tomato, beef tomato, cherry tomato, greenhouse tomatoes, Solanum lycopersicum, Meypal"
+    },
+    "cucumber": {
+      "title": "Cucumber - Crisp Fresh Mediterranean Cucumbers | Meypal",
+      "description": "Innovative Blueleaf concept and snack mini to long greenhouse cucumbers. Crisp, juicy, hydrating, and high-yielding varieties exported fresh by Meypal.",
+      "keywords": "cucumber, cucumber export Turkey, snack cucumber, mini cucumber, blueleaf cucumber, fresh cucumber, Cucumis sativus, Meypal"
+    },
+    "eggplant": {
+      "title": "Eggplant (Aubergine) - Oval, Long & Striped Varieties | Meypal",
+      "description": "Glossy deep-black oval, slender cylindrical, white, and graffiti striped eggplants. Spineless calyx, white flesh, and long shelf life exported by Meypal.",
+      "keywords": "eggplant, aubergine export, oval eggplant, graffiti eggplant, white eggplant, Solanum melongena, Meypal"
+    },
+    "pepper": {
+      "title": "Peppers - Blocky Bell, Pointed & Capia Pepper Varieties | Meypal",
+      "description": "Vibrant blocky bell peppers, pointed long green peppers, and sweet capia peppers. Crisp texture, bright colors, and sweet-piquant flavors exported worldwide.",
+      "keywords": "pepper, bell pepper export, sweet pepper, capia pepper, pointed pepper, Capsicum annuum, Mersin, Meypal"
+    },
+    "cabbage": {
+      "title": "Cabbage - Fresh White & Winter Head Cabbage Varieties | Meypal",
+      "description": "Franklin, Ramada, Nautic, and Ducati white head cabbage selections. Heavy, compact, crisp heads rich in vitamin C and boasting extended storage life.",
+      "keywords": "cabbage, white cabbage, cabbage export, winter cabbage, Ramada cabbage, Brassica oleracea, Meypal"
+    },
+    "onion": {
+      "title": "Onion - Fresh Yellow & Red Dry Onions | Meypal",
+      "description": "High-quality yellow and red storage onions cultivated in fertile soils. Thick protective skins, pungent aroma, and superb winter dormancy for global export.",
+      "keywords": "onion, dry onion export, yellow onion, red onion, Allium cepa, fresh onions Turkey, Meypal"
+    },
+    "potato": {
+      "title": "Potato - Fresh Table & Processing Potato Varieties | Meypal",
+      "description": "First-class yellow-fleshed fresh table potatoes. Rich in potassium and vitamins, smooth skin, and calibrated sizing exported worldwide with cold chain care.",
+      "keywords": "potato, table potato export, fresh potatoes Turkey, yellow potato, Solanum tuberosum, Meypal"
+    },
+    "garlic": {
+      "title": "Garlic - Natural Aromatic White & Dry Garlic | Meypal",
+      "description": "Aromatic, large-clove fresh and dried garlic boasting high allicin content. Renowned flavor intensity, firm cloves, and long storage endurance exported by Meypal.",
+      "keywords": "garlic, garlic export, dry garlic, fresh garlic, Allium sativum, Kastamonu garlic, white garlic, Meypal"
     }
   },
   "header": {
@@ -1468,6 +1513,340 @@
           "description": "Small seed cavity and resilient external netting yield maximum edible portion and long-lasting export transit life."
         }
       }
+    },
+    "tomato": {
+      "aboutParagraph1": "Meypal cultivates an ever-broadening portfolio of intermediate truss, loose, beef, and cherry tomatoes engineered to thrive across diverse growing environments. We possess full capacity for hi-tech modern winter greenhouse production with cold tolerance as well as resilient open-field cultivation.",
+      "aboutParagraph2": "In response to rising demand for specialty snack vegetables, Meypal focuses actively on flavor perception, sugar-acid brix balance, and succulent pulp. Beyond outstanding yields and vigor, overall fruit texture and aromatic eating experience guide our selections.",
+      "aboutParagraph3": "Because pest pressure, viruses, and bacteria continually challenge global tomato production, Meypal invests heavily in genetic disease resistance and sturdy rootstock breeding to deliver clean, safe, and residue-free tomatoes worldwide.",
+      "quote": "Nurtured in advanced climate-controlled greenhouses and fertile soils, our tomatoes excel in deep red brilliance, firm texture, and authentic vine aroma.",
+      "intro": {
+        "title": "Tomato Varieties",
+        "description": "High-performing vine, loose, fleshy beef, and sweet cocktail cherry tomato cultivars."
+      },
+      "varieties": {
+        "intermediateSalkim": {
+          "name": "Intermediate (Truss)",
+          "tag": "Truss Harvest & High Caliber",
+          "description": "Uniform truss ripening, vibrant green calyx, and non-shattering vine attachment meeting top-tier international supermarket standards."
+        },
+        "intermediateTekli": {
+          "name": "Intermediate (Loose)",
+          "tag": "Firm Skin & Extended Shelf Life",
+          "description": "Loose-harvest variety with firm pericarp, brilliant red coloration, and exceptional tolerance to long-distance palletized transport."
+        },
+        "beef": {
+          "name": "Beef (Red – Pink)",
+          "tag": "Slicing Size & Rich Umami",
+          "description": "Multi-locular, fleshy, and succulent beef tomato offering authentic heirloom fragrance and heavy weight for culinary slicing."
+        },
+        "ceri": {
+          "name": "Cherry & Cocktail Tomato",
+          "tag": "Snack Size & Elevated Brix",
+          "description": "Compact bite-sized snack tomatoes bursting with sweet aromatic juice, perfect for healthy convenience snacking."
+        }
+      },
+      "gallery": {
+        "vineTomatoesTitle": "Fresh Vine-Ripened Tomatoes",
+        "vineTomatoesAlt": "Meypal premium first-class fresh truss tomatoes",
+        "freshTomatoesTitle": "Lustrous Red Field Tomatoes",
+        "freshTomatoesAlt": "Meypal high-quality fresh slicing tomatoes",
+        "greenhouseTomatoesTitle": "Modern Greenhouse Production",
+        "greenhouseTomatoesAlt": "Hi-tech sustainable greenhouse tomato cultivation"
+      },
+      "features": {
+        "lycopene": {
+          "title": "Potent Lycopene & Vitamin C",
+          "description": "Packed with heart-healthy antioxidant lycopene, vitamin C, and potassium that fortify daily immune vitality."
+        },
+        "greenhouse": {
+          "title": "Hi-Tech 4-Season Cultivation",
+          "description": "Modern hydroponic and climate-controlled greenhouses guarantee uniform supply across all 12 calendar months."
+        },
+        "resistance": {
+          "title": "Viral & Bacterial Hardiness",
+          "description": "Bred with natural resistance genes to minimize chemical treatments, ensuring pure and wholesome produce."
+        },
+        "exportCaliber": {
+          "title": "Export Caliber & Firmness",
+          "description": "Dense wall structure and firm flesh withstand international refrigerated container voyages with minimal shrinkage."
+        }
+      }
+    },
+    "cucumber": {
+      "aboutParagraph1": "Meypal occupies a leading position in the international cucumber market. Our dedicated breeding and agronomy team continually develops innovative cucumber genetics across all growing regimes, exemplified by our Blueleaf® concept and BonDefense series.",
+      "aboutParagraph2": "Blueleaf varieties empower growers to achieve darker, healthier foliage even in unheated winter structures, maintaining extended high-yield cycles and supreme fruit uniformity.",
+      "aboutParagraph3": "Our portfolio encompasses diverse sizes and profiles: from sleek long European English types to snack-size cocktail mini cucumbers. Bite-sized snack cucumbers are particularly loved by children and wellness-focused consumers for convenient between-meal nourishment.",
+      "quote": "Bred with revolutionary Blueleaf® technology, our cucumbers deliver crisp bite, intense hydration, and refreshing orchard purity.",
+      "gallery": {
+        "freshCucumbersTitle": "Crisp Fresh Cucumbers",
+        "freshCucumbersAlt": "Meypal first-class dark green fresh cucumbers",
+        "crispCucumbersAlt": "Meypal succulent sliced crisp cucumber",
+        "crispCucumbersTitle": "Fresh Cut Juicy Cucumber",
+        "snackCucumbersAlt": "Snack mini cocktail cucumbers",
+        "snackCucumbersTitle": "Mini Snack Cucumber"
+      },
+      "features": {
+        "hydration": {
+          "title": "95% Hydration & Minerals",
+          "description": "High botanical water and electrolyte content delivers guilt-free replenishment and digestive comfort."
+        },
+        "blueleaf": {
+          "title": "Blueleaf® Technology",
+          "description": "Dark green, photo-efficient foliage keeps plants naturally vigorous, yielding uniform fruits over longer seasons."
+        },
+        "crispSnack": {
+          "title": "Seedless & Thin-Skinned",
+          "description": "Thin tender skin requires no peeling, paired with crisp seedless flesh tailored for immediate table snacking."
+        },
+        "exportQuality": {
+          "title": "Precision Calibrated Sizing",
+          "description": "Uniform length and diameter grading ensure optimal carton density and attractive retail display presentations."
+        }
+      }
+    },
+    "eggplant": {
+      "aboutParagraph1": "Meypal offers an elite range of eggplants characterized by exceptional fruit quality, uniform geometry, and long-lasting shelf life. Engineered for protected winter greenhouses as well as open fields, our program covers year-round supply.",
+      "aboutParagraph2": "Our selections span cylindrical, oval, round, and graffiti striped profiles. Alongside morphological versatility, we provide a spectrum of vibrant skin tones: lustrous midnight-black, emerald-green, pure ivory-white, and purple-white striped.",
+      "aboutParagraph3": "Meypal eggplants are highly sought after in global markets thanks to spineless calyxes, intense color retention post-harvest, and pure white non-bitter flesh that absorbs minimal oil during cooking.",
+      "quote": "With their glossy midnight skin, spineless calyx, and succulent white flesh, Meypal eggplants represent culinary elegance.",
+      "intro": {
+        "title": "Eggplant Varieties",
+        "description": "Oval, cylindrical, ivory white, and graffiti striped gourmet eggplant cultivars."
+      },
+      "varieties": {
+        "ovalSiyah": {
+          "name": "Oval Black Eggplant",
+          "tag": "Glossy Midnight Black & Spineless",
+          "description": "Robust plant vigor, uniform oval geometry, spineless green calyx, and brilliant black gloss with extended transit endurance."
+        },
+        "ovalBeyaz": {
+          "name": "Oval White Eggplant",
+          "tag": "Pure Ivory & Gourmet Texture",
+          "description": "Snow-white tender skin and non-bitter sweet flesh with zero seediness, highly prized in gourmet Mediterranean gastronomy."
+        },
+        "uzunSilindirik": {
+          "name": "Long Cylindrical Eggplant",
+          "tag": "Slender Classic & High Yield",
+          "description": "Straight, slender cylindrical profile with deep black gloss and tender flesh, ideal for roasting, stuffing, and sautéing."
+        },
+        "ovalCizgili": {
+          "name": "Oval Striped (Graffiti) Eggplant",
+          "tag": "Graffiti & Low Oil Absorption",
+          "description": "Attractive purple and white stripes encasing delicate sweet flesh that absorbs noticeably less cooking oil."
+        }
+      },
+      "gallery": {
+        "freshEggplantTitle": "Fresh Mediterranean Eggplants",
+        "freshEggplantAlt": "Meypal premium fresh glossy eggplants",
+        "glossyEggplantTitle": "Lustrous Dark Midnight Fruit",
+        "glossyEggplantAlt": "Harvest-ready glossy black eggplants",
+        "harvestEggplantTitle": "Protected Greenhouse Harvest",
+        "harvestEggplantAlt": "Fresh eggplant harvesting in modern protected facilities"
+      },
+      "features": {
+        "fiber": {
+          "title": "Dietary Fiber & Low Glycemic",
+          "description": "Naturally low in calories yet rich in soluble fiber and nasunin antioxidants that protect vascular elasticity."
+        },
+        "spineless": {
+          "title": "100% Spineless Calyx",
+          "description": "Completely free of thorns on the calyx and stem, safeguarding fruit skin against handling scratches."
+        },
+        "whiteFlesh": {
+          "title": "Non-Browning Pure White Flesh",
+          "description": "Dense, seedless internal flesh resists oxidation after cutting and maintains velvety texture upon cooking."
+        },
+        "shelfLife": {
+          "title": "Superior Post-Harvest Firmness",
+          "description": "Strong green calyx and resilient skin prevent dehydration, maintaining orchard-fresh sheen across export shipping."
+        }
+      }
+    },
+    "pepper": {
+      "aboutParagraph1": "Peppers (Capsicum annuum) offer a rich spectrum of colors, shapes, and heat profiles cultivated 12 months a year. Meypal commands an expanding footprint in the international sweet and specialty pepper market.",
+      "aboutParagraph2": "In blocky bell peppers, we present a vibrant array of red, yellow, orange, and green cultivars. Tailored for both high-tech heated greenhouses and open fields, our cultivars satisfy demanding retail specifications.",
+      "aboutParagraph3": "Our breeding program also delivers pointed green peppers (Sivri), mild Turkish Charleston peppers, and rich sweet red Capia peppers to European and Mediterranean wholesale markets with unmatched crispness.",
+      "quote": "Radiating with vivid rainbow hues, our sweet and crunchy peppers deliver concentrated vitamin C and farm-fresh vitality.",
+      "gallery": {
+        "freshPeppersTitle": "Fresh Colorful Peppers",
+        "freshPeppersAlt": "Meypal premium bell and pointed sweet peppers",
+        "colorfulPeppersTitle": "Red, Yellow & Green Bell Peppers",
+        "colorfulPeppersAlt": "Vibrant and crunchy sweet export peppers",
+        "crispPeppersTitle": "Crisp & Juicy Pepper Harvest",
+        "crispPeppersAlt": "Freshly picked crunchy sweet peppers from the vine"
+      },
+      "features": {
+        "vitaminC": {
+          "title": "Extraordinary Vitamin C Density",
+          "description": "Sweet bell and capia peppers contain up to three times more vitamin C than citrus, plus abundant provitamin A."
+        },
+        "greenhouse": {
+          "title": "Greenhouse & Open Field Excellence",
+          "description": "Cultivated across controlled soil and soilless media to maintain flawless wall thickness and uniformity."
+        },
+        "crispSweet": {
+          "title": "Thick-Walled & Crisp Sweet Bite",
+          "description": "Substantial flesh thickness delivers an audible crunch and sweet juicy release in culinary salads and sautés."
+        },
+        "exportStandards": {
+          "title": "Optically Graded Export Sizing",
+          "description": "Sorted by computer vision for weight, color, and diameter into precise export retail cartons."
+        }
+      }
+    },
+    "cabbage": {
+      "aboutParagraph1": "Cabbage (Brassica oleracea var. capitata), belonging to the Brassicaceae family, is a stalwart cool-season vegetable rich in vitamin C and glucosinolates. Meypal excels in high-density, disease-resistant white cabbage production.",
+      "aboutParagraph2": "Franklin, Ramada, Nautic, and Ducati cultivars provide an unbroken harvest calendar spanning 80 to 140 days to maturity, covering spring, summer, and autumn planting regimes.",
+      "aboutParagraph3": "Characterized by tightly packed leaves, small cores, and resistance to white mold (Sclerotinia), our cabbages range from 3 kg to 5 kg, delivering high kitchen yield and remarkable winter storage resilience.",
+      "quote": "Harvested from cool Mediterranean highlands, our crisp, tight-headed cabbages provide wholesome nutrition throughout winter.",
+      "intro": {
+        "title": "White Cabbage Varieties",
+        "description": "Machine-harvestable, tight-headed, and disease-resistant white cabbage cultivars."
+      },
+      "varieties": {
+        "franklin": {
+          "name": "Franklin",
+          "tag": "120 Days & Highly Resilient",
+          "description": "Spring and summer variety maturing in 120 days. Features extremely tight, firm internal head density suited for mechanical harvesting."
+        },
+        "ramada": {
+          "name": "Ramada",
+          "tag": "80 Days Early & 3 kg",
+          "description": "Early 80-day cultivar with dark green outer wrap, round geometry, and excellent internal color averaging 3 kg."
+        },
+        "nautic": {
+          "name": "Nautic",
+          "tag": "140 Days & Sclerotinia Resistance",
+          "description": "Autumn-planted 140-day cabbage. Large, dense, round heads boasting proven field tolerance against white mold."
+        },
+        "ducati": {
+          "name": "Ducati",
+          "tag": "5 kg Heavy Head & Short Core",
+          "description": "Snow-white interior, short internal stem, flattened-round shape, and heavy heads reaching up to 5 kg for industrial processing."
+        }
+      },
+      "gallery": {
+        "freshCabbageTitle": "Fresh White Head Cabbage",
+        "freshCabbageAlt": "Meypal premium first-class fresh white cabbage",
+        "fieldCabbageTitle": "Field Ripened Cabbage Heads",
+        "fieldCabbageAlt": "Healthy compact cabbage heads growing in fertile fields",
+        "harvestCabbageTitle": "Harvest-Ready White Cabbages",
+        "harvestCabbageAlt": "Carefully trimmed fresh white cabbage heads"
+      },
+      "features": {
+        "vitaminC": {
+          "title": "Rich in Vitamins C & K",
+          "description": "Supplies potent antioxidant ascorbic acid, vitamin K, and protective sulfur compounds that fortify bones and immunity."
+        },
+        "winterResistant": {
+          "title": "Cold & Frost Hardiness",
+          "description": "Natural thermal tolerance against winter frost preserves leaf crispness and green vitality directly in the field."
+        },
+        "tightHeads": {
+          "title": "Compact Density & High Yield",
+          "description": "Void-free internal leaf layers ensure maximum culinary recovery and crunch with minimal trimming waste."
+        },
+        "storageLife": {
+          "title": "Months of Controlled Storage",
+          "description": "Stores cleanly in ventilated cold facilities for up to 6 months without loss of moisture or crispness."
+        }
+      }
+    },
+    "onion": {
+      "aboutParagraph1": "The onion (Allium cepa) stands as one of humanity's foundational culinary vegetables. Adhering to organic and sustainable standards, Meypal supplies premier dry storage onions to global markets.",
+      "aboutParagraph2": "Our yellow cooking onions and vibrant purple-red salad onions feature firm bulbs, tight protective tunic scales, and pungent culinary depth.",
+      "aboutParagraph3": "Cured and sorted in modern ventilated facilities, Meypal onions exhibit strong dormancy and rot resistance, preserving their firm grade across long container voyages and multi-month winter storage.",
+      "quote": "The foundational essence of world cuisine: our onions deliver firm layers, thick golden skins, and authentic pungent flavor.",
+      "gallery": {
+        "freshOnionsTitle": "Fresh Storage Onions",
+        "freshOnionsAlt": "Meypal premium first-class yellow and red dry onions",
+        "yellowOnionsTitle": "Golden Yellow Cooking Onions",
+        "yellowOnionsAlt": "Meypal high-quality golden cured dry onions",
+        "redOnionsTitle": "Vibrant Red Salad Onions",
+        "redOnionsAlt": "Fresh flavorful red onions for culinary use"
+      },
+      "features": {
+        "quercetin": {
+          "title": "Quercetin & Organosulfur",
+          "description": "Packed with heart-protective flavonoid quercetin and allicin precursors that promote cardiovascular vitality."
+        },
+        "climate": {
+          "title": "Deep Mineral Alluvial Soils",
+          "description": "Grown in well-drained fertile plains to develop high dry matter and tight, multi-layered skin envelopes."
+        },
+        "flavor": {
+          "title": "Pungent & Savory Essence",
+          "description": "Optimal balance of aromatic sulfur oils provides deep savory warmth in braising, roasting, and sauces."
+        },
+        "exportStorage": {
+          "title": "Long Winter Storage Dormancy",
+          "description": "Thick outer scales prevent sprout development, enabling 6-8 months of reliable storage and transatlantic freight."
+        }
+      }
+    },
+    "potato": {
+      "aboutParagraph1": "The potato (Solanum tuberosum) is the fourth most consumed food crop globally after rice, wheat, and maize. Meypal sources top-grade table and processing potatoes cultivated under strict GAP protocols.",
+      "aboutParagraph2": "Nutritionally dense, fresh potatoes supply vitamins A, C, K, B6, and E, alongside folate and abundant potassium—acting as a wholesome staple of energy and dietary wellness.",
+      "aboutParagraph3": "With smooth skins, shallow eyes, uniform sizing, and firm yellow flesh that holds together upon boiling or baking, Meypal potatoes satisfy both supermarket retail and commercial food service demands.",
+      "quote": "The earth's most versatile staple: Meypal potatoes offer smooth skin, golden flesh, and rich nutrient fullness.",
+      "gallery": {
+        "freshPotatoesTitle": "Fresh Table Potatoes",
+        "freshPotatoesAlt": "Meypal premium fresh yellow potatoes",
+        "washedPotatoesTitle": "Washed & Calibrated Potatoes",
+        "washedPotatoesAlt": "Meypal smooth-skinned graded table potatoes",
+        "harvestPotatoesTitle": "Freshly Harvested Field Potatoes",
+        "harvestPotatoesAlt": "Bountiful potato harvest from fertile soils"
+      },
+      "features": {
+        "potassium": {
+          "title": "Potassium & Vitamin B6",
+          "description": "Supplies more potassium per serving than bananas, aiding electrolyte balance, nerve function, and stamina."
+        },
+        "soil": {
+          "title": "Sandy-Loam Fertile Grounds",
+          "description": "Cultivated in loose, stone-free soils that encourage symmetrical tuber formation and unblemished skins."
+        },
+        "versatile": {
+          "title": "Superb Culinary Versatility",
+          "description": "Balanced starch and dry matter provide melting smoothness when mashed, baked, or golden roasted."
+        },
+        "exportStorage": {
+          "title": "Dark Climate-Controlled Storage",
+          "description": "Safeguarded in specialized anti-greening dark cold storage facilities to guarantee year-round supply."
+        }
+      }
+    },
+    "garlic": {
+      "aboutParagraph1": "Garlic (Allium sativum), belonging to the Alliaceae family, has been treasured for millennia as both a culinary cornerstone and nature's premier therapeutic botanical.",
+      "aboutParagraph2": "Boasting 6.36g of protein, 401mg potassium, and 181mg calcium per 100g alongside bioactive allicin, garlic serves as a natural antioxidant and antimicrobial shield.",
+      "aboutParagraph3": "Meypal selects large-clobed, pungent white and purple garlic bulbs from famous Turkish terroirs including Kastamonu (Taskopru), providing robust, dried, and long-lasting export quality worldwide.",
+      "quote": "Nature's most powerful botanical shield: Meypal garlic brings intense aroma, large plump cloves, and authentic therapeutic vitality.",
+      "gallery": {
+        "freshGarlicTitle": "Fresh Cured Garlic Bulbs",
+        "freshGarlicAlt": "Meypal premium first-class fresh dry garlic bulbs",
+        "whiteGarlicTitle": "Large Plump White Cloves",
+        "whiteGarlicAlt": "Meypal aromatic and dense garlic cloves",
+        "harvestGarlicTitle": "Cured Garlic Bundles",
+        "harvestGarlicAlt": "Field-cured braided garlic bundles"
+      },
+      "features": {
+        "allicin": {
+          "title": "High Allicin Bioactivity",
+          "description": "Releases powerful organosulfur allicin upon crushing, providing natural antibacterial and immune support."
+        },
+        "origin": {
+          "title": "Renowned Taskopru Terroir",
+          "description": "Harvested from sulfur-rich volcanic and alluvial soils, producing unmatched pungency and high dry matter."
+        },
+        "pungent": {
+          "title": "Concentrated Savory Bouquet",
+          "description": "A single clove imparts profound savory complexity to sauces, marinades, and gourmet cuisine."
+        },
+        "storage": {
+          "title": "Extended Natural Dormancy",
+          "description": "Resists sprouting and desiccation naturally for up to a year when stored in cool, well-ventilated dry conditions."
+        }
+      }
     }
   },
   "categories": {
@@ -1496,6 +1875,13 @@
       "subtitle": "Sun-Ripened Quality and Natural Wholesome Flavor",
       "productsCount": "{count} Fresh Fruit Varieties",
       "description": "Harvested from the most fertile orchards of Anatolia and the Mediterranean, Meypal brings quince, sweet cherry, black fig, peach, pomegranate, table grape, apricot, watermelon, and melon varieties to world markets with cutting-edge cold-chain logistics and quality standards."
+    },
+    "vegetables": {
+      "badge": "Fresh Vegetables",
+      "title": "Mediterranean & Anatolian Fresh Vegetables",
+      "subtitle": "Natural & Wholesome Farm Vegetables from Fertile Soils",
+      "productsCount": "{count} Fresh Vegetable Varieties",
+      "description": "Meypal harvests tomatoes, cucumbers, eggplants, peppers, cabbages, onions, potatoes, and garlic in their peak freshness from modern greenhouses and open fields, exporting them globally under the highest hygiene and quality benchmarks."
     }
   }
 }

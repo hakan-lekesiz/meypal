@@ -723,6 +723,51 @@
       "title": "Kavun - Kokulu & Tatlı Caribbean Kavun İhracatı | Meypal",
       "description": "Yüksek raf ömrü, ince kabuk, küçük çekirdek evi ve bal gibi tatlı aromasıyla yenilikçi Caribbean ve sofralık kavun çeşitleri. 12 ay uluslararası tedarik.",
       "keywords": "kavun, kavun ihracatı, caribbean kavun, taze kavun, tatlı kavun, convenience kavun, Mersin, Meypal"
+    },
+    "vegetables": {
+      "title": "Taze Sebzeler - Akdeniz Sebze Üretimi & İhracatı | Meypal",
+      "description": "Domates, hıyar, patlıcan, biber, lahana, soğan, patates ve sarımsak. Meypal güvencesiyle Akdeniz'in bereketli topraklarından dünya sofralarına taze sebze ihracatı.",
+      "keywords": "taze sebze, sebze ihracatı, domates ihracatı, biber, salatalık, patlıcan, lahana, soğan, patates, sarımsak, Akdeniz sebze, Mersin, Meypal"
+    },
+    "tomato": {
+      "title": "Domates - Salkım, Beef & Çeri Domates Çeşitleri | Meypal",
+      "description": "Intermediate salkım, tekli, beef ve çeri domates çeşitleri. Yüksek hastalık dayanımlı, mükemmel lezzet ve raf ömrüne sahip birinci sınıf domates ihracatı.",
+      "keywords": "domates, domates ihracatı, salkım domates, beef domates, çeri domates, örtüaltı domates, Mersin domates, Meypal"
+    },
+    "cucumber": {
+      "title": "Hıyar & Salatalık - Çıtır Taze Akdeniz Salatalığı | Meypal",
+      "description": "Blueleaf konsepti ve atıştırmalık mini boydan uzun boya kadar zengin hıyar çeşitleri. Taze, sulu, çıtır ve yüksek verimli salatalık ihracatı.",
+      "keywords": "hıyar, salatalık, salatalık ihracatı, atıştırmalık salatalık, mini salatalık, blueleaf hıyar, taze hıyar, Meypal"
+    },
+    "eggplant": {
+      "title": "Patlıcan - Oval, Uzun & Çizgili Patlıcan Çeşitleri | Meypal",
+      "description": "Koyu siyah parlak oval, uzun silindirik, beyaz ve çizgili patlıcan çeşitleri. Dikensiz kaliks, beyaz meyve eti ve uzun raf ömrüyle dünya kalitesinde ihracat.",
+      "keywords": "patlıcan, patlıcan ihracatı, oval patlıcan, çizgili patlıcan, beyaz patlıcan, silindirik patlıcan, Mersin patlıcan, Meypal"
+    },
+    "pepper": {
+      "title": "Biber - Dolmalık, Sivri & Kapya Biber Çeşitleri | Meypal",
+      "description": "Blocky dolmalık, sivri, çarliston ve kapya biberler. Canlı renkler, çıtır doku, tatlı ve acı lezzet alternatifleri ile 12 ay uluslararası biber ihracatı.",
+      "keywords": "biber, biber ihracatı, dolmalık biber, sivri biber, blocky biber, kapya biber, tatlı biber, Mersin biber, Meypal"
+    },
+    "cabbage": {
+      "title": "Lahana - Taze Beyaz & Kış Lahanası Çeşitleri | Meypal",
+      "description": "Franklin, Ramada, Nautic ve Ducati çeşitleriyle iri, sıkı başlı, dayanıklı beyaz lahana üretimi. Zengin C vitamini ve uzun depolama ömrüyle güvenilir ihracat.",
+      "keywords": "lahana, beyaz lahana, lahana ihracatı, ramada lahana, nautic lahana, ducati lahana, taze lahana, Meypal"
+    },
+    "onion": {
+      "title": "Soğan - Kuru & Taze Sarı, Kırmızı Soğan İhracatı | Meypal",
+      "description": "Bereketli topraklarda yetiştirilen sarı ve kırmızı kuru soğan çeşitleri. Sağlam kabuk yapısı, yoğun aroma ve mükemmel kış depolama dayanıklılığı.",
+      "keywords": "soğan, kuru soğan, soğan ihracatı, sarı soğan, kırmızı soğan, Allium cepa, taze soğan, Meypal"
+    },
+    "potato": {
+      "title": "Patates - Taze Yemeklik & Sanayilik Patates İhracatı | Meypal",
+      "description": "Birinci sınıf sarı etli taze yemeklik patatesler. Yüksek potasyum ve vitamin içeriği, pürüzsüz kabuk ve optimum kalibre ile uluslararası patates ihracatı.",
+      "keywords": "patates, patates ihracatı, taze patates, yemeklik patates, sarı patates, Solanum tuberosum, Mersin, Meypal"
+    },
+    "garlic": {
+      "title": "Sarımsak - Doğal Antibiyotik Aromatik Sarımsak İhracatı | Meypal",
+      "description": "Yoğun aromalı, iri dişli ve yüksek allisin içerikli taze ve kuru sarımsaklar. Uzun raf ömrü ve üstün kalibre ile dünya standartlarında sarımsak ihracatı.",
+      "keywords": "sarımsak, sarımsak ihracatı, kuru sarımsak, taze sarımsak, Allium sativum, Kastamonu sarımsak, Meypal"
     }
   },
   "header": {
@@ -1468,6 +1513,340 @@
           "description": "Küçük çekirdek evi, yüksek et randımanı ve nakliyeye dayanıklı kabuğuyla ihracatta fire vermeden uzun süre dayanır."
         }
       }
+    },
+    "tomato": {
+      "aboutParagraph1": "Meypal olarak, sürekli genişleyen bir yelpazede, farklı yetiştirme şartlarına uygun, en yüksek kalitede intermediate salkım, tekli, beef ve çeri domatesler yetiştiriyoruz. Tüm dünyada yüksek teknolojiye uygun, kış üretimi için soğuğa dayanıklı ve açık tarla şartlarına uyumlu çeşitler üretme kapasitesine sahibiz.",
+      "aboutParagraph2": "Meypal, atıştırmalık sebze olarak spesiyal çeşitlere artan talebi dikkate alarak, lezzet duyusu üzerine etkin bir biçimde çalışmaktadır. Kusursuz üretim, direnç ve yüksek verimlilik özellikleri yanında, genel meyve kalitesi ve nefis şeker-asit dengesi üzerine odaklanıyoruz.",
+      "aboutParagraph3": "Zararlı virüsler ve bakteriler domates yetiştiriciliği için sürekli baskı oluştururken, Meypal güvenilir, temiz ve sağlıklı ürünler yetiştirmek adına direnç konusuna yoğun yatırım yapmaktadır. Geniş yelpazedeki anaç üretimimiz doğrudan bu amaca hizmet etmektedir.",
+      "quote": "Yüksek teknolojik seralarımızda ve verimli tarlalarımızda özenle yetiştirdiğimiz domatesler; dalındaki aroması, parlak kırmızı rengi ve lezzetiyle fark yaratır.",
+      "intro": {
+        "title": "Domates Çeşitlerimiz",
+        "description": "Pazar ihtiyaçlarına göre geliştirilen salkım, tekli, etli beef ve çıtır atıştırmalık çeri domates çeşitlerimiz."
+      },
+      "varieties": {
+        "intermediateSalkim": {
+          "name": "Intermediate (Salkım)",
+          "tag": "Salkım & Yüksek Kalibre",
+          "description": "Salkımda homojen kızarma, kalın yeşil taç yaprağı ve dökülmeyen salkım yapısıyla ihracat standartlarının zirvesindedir."
+        },
+        "intermediateTekli": {
+          "name": "Intermediate (Tekli)",
+          "tag": "Düzgün Meyve & Uzun Raf Ömrü",
+          "description": "Tekli hasada uygun, sert kabuklu, taşımaya son derece mukavim, parlak kırmızı renkli intermediate çeşittir."
+        },
+        "beef": {
+          "name": "Beef (Kırmızı – Pembe)",
+          "tag": "İri Dilimlik & Yoğun Lezzet",
+          "description": "Geleneksel domates kokusuna sahip, çok odacıklı, etli, dolgun dilimlik kırmızı ve pembe beef domates çeşididir."
+        },
+        "ceri": {
+          "name": "Çeri & Kokteyl Domates",
+          "tag": "Atıştırmalık & Yüksek Brix",
+          "description": "Küçük boyutlu, ağızda patlayan çıtır sulu dokusu ve bal tatlısı lezzetiyle özellikle sağlıklı ara öğünler için vazgeçilmezdir."
+        }
+      },
+      "gallery": {
+        "vineTomatoesTitle": "Taze Salkım Domates",
+        "vineTomatoesAlt": "Meypal birinci sınıf taze salkım domatesler",
+        "freshTomatoesTitle": "Parlak Kırmızı Taze Domatesler",
+        "freshTomatoesAlt": "Meypal yüksek kaliteli taze sofralık domatesler",
+        "greenhouseTomatoesTitle": "Modern Sera Üretimi",
+        "greenhouseTomatoesAlt": "Yüksek teknolojili seralarda yetiştirilen taze domatesler"
+      },
+      "features": {
+        "lycopene": {
+          "title": "Güçlü Likopen & C Vitamini",
+          "description": "Doğal antioksidan likopen ve C vitamini açısından zengin içeriğiyle hücresel sağlığı ve kalbi korumaya yardımcı olur."
+        },
+        "greenhouse": {
+          "title": "Yüksek Teknoloji & 4 Mevsim Üretim",
+          "description": "Isıtmalı modern seralar ve kontrollü tarım ile yılın 12 ayı kesintisiz ve standart kalitede üretim sağlanır."
+        },
+        "resistance": {
+          "title": "Virüs & Hastalık Dayanımı",
+          "description": "Gelişmiş ıslah ve dirençli anaç çalışmaları sayesinde minimum kimyasal girdiyle güvenli ve temiz ürün yetiştirilir."
+        },
+        "exportCaliber": {
+          "title": "Uluslararası Kalibre & Raf Ömrü",
+          "description": "Sert meyve eti ve kalın perikarp yapısıyla uzun ihracat sevkiyatlarında diri kalır ve raf ömrünü korur."
+        }
+      }
+    },
+    "cucumber": {
+      "aboutParagraph1": "Meypal, uluslararası hıyar pazarında öncü konumdadır. Kendini işine adamış ıslahçı ve üretici ağımız, tüm yetiştirme şartlarında sürekli olarak yeni ve yenilikçi hıyar çeşitleri geliştirmektedir. Bu yenilikçi gelişmelerden iki önemli örnek Blueleaf® konsepti ve BonDefense çeşitlerimizdir.",
+      "aboutParagraph2": "Blueleaf çeşitleri, üreticiye ısıtmasız yetiştiricilik koşullarında da daha sağlıklı ve koyu yeşil yapraklara ulaşma, dolayısıyla daha uzun süre yüksek verimli ve kaliteli meyve alma imkanı sunar.",
+      "aboutParagraph3": "Hıyarlarda geniş bir ürün çeşitliliğimiz bulunmaktadır. Farklı renklerde, şekillerde, mini boydan uzun boya, pürüzsüz silindirik formlardan çıtır kornişon tiplerine kadar tek lokmalık yemeye en uygun formdaki atıştırmalık salatalıklarımızla pazarda fark yaratıyoruz.",
+      "quote": "Blueleaf® teknolojisiyle yetiştirilen çıtır, sulu ve ferahlatıcı hıyarlarımız; doğallığı ve yüksek lezzeti sofralarınıza taşır.",
+      "gallery": {
+        "freshCucumbersTitle": "Taze Çıtır Salatalık",
+        "freshCucumbersAlt": "Meypal birinci sınıf parlak yeşil taze salatalıklar",
+        "crispCucumbersAlt": "Meypal sulu ve taze dilim salatalık",
+        "crispCucumbersTitle": "Taze Kesilmiş Sulu Hıyar",
+        "snackCucumbersAlt": "Atıştırmalık çıtır mini hıyar",
+        "snackCucumbersTitle": "Mini Atıştırmalık Hıyar"
+      },
+      "features": {
+        "hydration": {
+          "title": "%95 Su & Doğal Ferahlık",
+          "description": "Yüksek su ve mineral içeriğiyle vücudu hızla nemlendirir, sindirimi rahatlatır ve kalorisiz ferahlık sunar."
+        },
+        "blueleaf": {
+          "title": "Blueleaf® Teknolojisi",
+          "description": "Koyu yeşil, fotosentez gücü yüksek yaprak yapısı sayesinde bitki daha sağlıklı gelişir ve verim sürekliliği artar."
+        },
+        "crispSnack": {
+          "title": "Çıtır Doku & İnce Kabuk",
+          "description": "Soyulmadan tüketilebilen ince, pürüzsüz kabuğu ve çekirdeksiz çıtır iç yapısıyla mükemmel bir atıştırmalıktır."
+        },
+        "exportQuality": {
+          "title": "Homojen Kalibre & Düzgün Boy",
+          "description": "Hassas boylama ünitelerimizde standart milimetrik kalibrelerde sınıflandırılarak paletli ihracata hazır hale getirilir."
+        }
+      }
+    },
+    "eggplant": {
+      "aboutParagraph1": "Meypal, mükemmel meyve kalitesi, homojen ebatları ve uzun raf ömrüne sahip geniş bir patlıcan çeşitliliğine sahiptir. Kontrollü örtüaltı seralarda ve açık tarlalarda tüm yıl boyunca korumalı üretime uygun çeşitler sunmaktayız.",
+      "aboutParagraph2": "Patlıcan türlerimiz silindirik, oval, yuvarlak ve çizgili tiplerden oluşmaktadır. Biçimsel farklılıkların yanında parlak siyah, yeşil, kar beyazı ve mor-beyaz alacalı renklerde geniş bir lezzet yelpazesi sağlamaktayız.",
+      "aboutParagraph3": "Meypal patlıcan çeşitleri; canlı meyve renkleri, tamamen dikensiz kaliksleri ve hasat sonrası yeşilliğini koruyan güçlü sap yapıları sebebiyle uluslararası pazarda çok rağbet görmektedir. Düşük yağ tutma oranı ve beyaz meyve eti kalitesi en büyük avantajlarımızdandır.",
+      "quote": "Parlak koyu rengi, dikensiz kaliksi ve yağ çekmeyen pürüzsüz beyaz etiyle Meypal patlıcanları; gastronominin asil lezzetidir.",
+      "intro": {
+        "title": "Patlıcan Çeşitlerimiz",
+        "description": "Oval, silindirik, beyaz ve çizgili gurme patlıcan türlerimizle geniş ürün yelpazesi."
+      },
+      "varieties": {
+        "ovalSiyah": {
+          "name": "Oval Siyah Patlıcan",
+          "tag": "Parlak Koyu Siyah & Dikensiz",
+          "description": "Bitki yapısı güçlü, uniform meyveli, koyu siyah parlak renkli ve dikensiz kalikse sahip, uzun raf ömürlü klasik oval çeşittir."
+        },
+        "ovalBeyaz": {
+          "name": "Oval Beyaz Patlıcan",
+          "tag": "Kar Beyazı & Gurme Lezzet",
+          "description": "Mükemmel meyve et beyazlığına sahip, dikensiz, acılık içermeyen ve gurme mutfaklarda özel soslarla tercih edilen beyaz çeşittir."
+        },
+        "uzunSilindirik": {
+          "name": "Uzun – Silindirik Patlıcan",
+          "tag": "Kemer Tipi & Yüksek Verim",
+          "description": "Koyu siyah parlak renkte, düzgün silindirik hatlı, çekirdeksiz ve közlemelik/kızartmalık için ideal yüksek verimli kemer patlıcanıdır."
+        },
+        "ovalCizgili": {
+          "name": "Oval Çizgili (Alacalı) Patlıcan",
+          "tag": "Graffiti & Düşük Yağ Emme",
+          "description": "Mor-beyaz çizgili alacalı kabuğu, kızartmalarda yağı minimum seviyede emen et dokusu ve tatlı aromasıyla öne çıkan çeşittir."
+        }
+      },
+      "gallery": {
+        "freshEggplantTitle": "Taze Akdeniz Patlıcanı",
+        "freshEggplantAlt": "Meypal birinci sınıf taze parlak patlıcan",
+        "glossyEggplantTitle": "Koyu Siyah & Parlak Meyveler",
+        "glossyEggplantAlt": "Hasada hazır parlak siyah patlıcanlar",
+        "harvestEggplantTitle": "Serada Özenli Patlıcan Hasadı",
+        "harvestEggplantAlt": "Meypal seralarında taze patlıcan hasadı"
+      },
+      "features": {
+        "fiber": {
+          "title": "Yüksek Lif & Düşük Kalori",
+          "description": "Düşük glisemik indeks ve zengin çözünür lif içeriğiyle tokluk hissi sağlar ve sindirimi destekler."
+        },
+        "spineless": {
+          "title": "Dikensiz Kaliks Güvencesi",
+          "description": "Meyve kaliksinde diken bulunmaması hasat, paketleme ve tüketim aşamalarında meyveye zarar gelmesini engeller."
+        },
+        "whiteFlesh": {
+          "title": "Kararmayan Beyaz Meyve Eti",
+          "description": "Çekirdeksiz ve sıkı et yapısı sayesinde kesildiğinde kararmaya karşı dirençlidir ve pişerken formunu korur."
+        },
+        "shelfLife": {
+          "title": "Uzun Raf Ömrü & Diri Doku",
+          "description": "Sağlam kabuk yapısı ve dayanıklı kaliksi ile soğuk zincir lojistiğinde uzun süre parlaklığını ve diriliğini korur."
+        }
+      }
+    },
+    "pepper": {
+      "aboutParagraph1": "Biber (Capsicum annuum), yıl boyunca yetiştirilen çok farklı renk, şekil ve ebatlarda geniş bir çeşitlilik sunar. Meypal, uluslararası tatlı ve acı biber piyasasında hızla yükselen bir pazar payına sahiptir.",
+      "aboutParagraph2": "Blocky (dolmalık) biberlerde kırmızı, sarı, turuncu ve yeşil renklerde mükemmel bir çeşitliliğimiz bulunmaktadır. Büyük veya küçük meyveli, erkenci, açık tarlaya ve modern ısıtmalı sera koşullarına uygun çeşitlerle pazarın taleplerini karşılıyoruz.",
+      "aboutParagraph3": "Ayrıca sivri, çarliston ve kapya biber tiplerinde yürüttüğümüz kapsamlı yetiştirme programlarıyla tüm Akdeniz ve Avrupa pazarlarına hizmet götürmekteyiz. Meypal, vitamin zengini ve çıtır biberleriyle sofralara tazelik katmaktadır.",
+      "quote": "Gökkuşağının tüm canlı renklerini taşıyan çıtır biberlerimiz; zengin C vitamini ve eşsiz lezzetiyle sofraların enerjisidir.",
+      "gallery": {
+        "freshPeppersTitle": "Taze Renkli Biberler",
+        "freshPeppersAlt": "Meypal birinci sınıf taze dolmalık ve sivri biberler",
+        "colorfulPeppersTitle": "Kırmızı, Sarı & Yeşil Biber Çeşitleri",
+        "colorfulPeppersAlt": "Meypal parlak ve canlı taze biber çeşitleri",
+        "crispPeppersTitle": "Çıtır & Sulu Biber Hasadı",
+        "crispPeppersAlt": "Dalından yeni toplanmış çıtır taze biberler"
+      },
+      "features": {
+        "vitaminC": {
+          "title": "Narenciyeden Yüksek C Vitamini",
+          "description": "Özellikle kırmızı ve sarı biberler, portakaldan katbekat daha fazla C vitamini ve provitamin A içerir."
+        },
+        "greenhouse": {
+          "title": "Sera & Açık Tarla Uyumu",
+          "description": "Modern örtüaltı tesislerde ve açık tarlalarda yılın her döneminde homojen kalitede üretim imkanı sağlar."
+        },
+        "crispSweet": {
+          "title": "Kalın Etli & Çıtır Tatlı Doku",
+          "description": "Kalın kabuk zarı ve sulu meyve etiyle ısırdığınızda çıtır bir ses verir; taze salatalarda ve yemeklerde lezzeti artırır."
+        },
+        "exportStandards": {
+          "title": "Global İhracat Kalibrasyonu",
+          "description": "Ağırlık ve boylarına göre optik kalibrasyon makinelerinde boylanarak uluslararası perakende standartlarında paketlenir."
+        }
+      }
+    },
+    "cabbage": {
+      "aboutParagraph1": "Lahana (Brassica oleracea), turpgiller familyasından bütün dünyada güz ve kış sebzesi olarak yetiştirilen, iri ve sıkı yapraklı, C vitamini yönünden son derece zengin bir sebzedir. Meypal, modern lahana üretiminde yüksek verimli çeşitleriyle öne çıkmaktadır.",
+      "aboutParagraph2": "Franklin, Ramada, Nautic ve Ducati beyaz lahana çeşitlerimiz; yaz, bahar ve sonbahar dikimlerine uygun olarak 80 ile 140 gün arasında değişen olgunlaşma süreleriyle kesintisiz bir hasat takvimi sunar.",
+      "aboutParagraph3": "Meyve iç kısımları son derece sıkı, kapalı ve homojen büyüyen lahanalarımız; beyaz küf ve yaprak hastalıklarına karşı yüksek dayanıklılığa sahiptir. 3 kg'dan 5 kg'a kadar standart ağırlıklarda kalibre edilen lahanalarımız uzun depolama ömrüne sahiptir.",
+      "quote": "Akdeniz'in serin yaylalarında yetişen sıkı başlı taze lahanalarımız; vitamin dolu yapraklarıyla kış sofralarının sağlıklı temelidir.",
+      "intro": {
+        "title": "Beyaz Lahana Çeşitlerimiz",
+        "description": "Makineli hasada uygun, sıkı başlı ve hastalıklara dirençli seçkin beyaz lahana çeşitlerimiz."
+      },
+      "varieties": {
+        "franklin": {
+          "name": "Franklin",
+          "tag": "120 Gün & Çok Dayanıklı",
+          "description": "Yaz ve bahar aylarında yetişen, 120 günde olgunlaşan, çok sıkı meyve yapısına sahip ve makineli hasada son derece uygun dayanıklı lahana çeşididir."
+        },
+        "ramada": {
+          "name": "Ramada",
+          "tag": "80 Gün Erkenci & 3 kg",
+          "description": "Olgunlaşma süresi 80 gün olan erkenci çeşittir. Koyu yeşil dış yapraklı, yuvarlak şekilli, içi çok kaliteli ve yaklaşık 3 kg ağırlığındadır."
+        },
+        "nautic": {
+          "name": "Nautic",
+          "tag": "140 Gün & Beyaz Küf Dayanımı",
+          "description": "140 günde olgunlaşan sonbahar dikimine uygun çeşittir. İri, yuvarlak, çok sıkı iç yapılı ve beyaz küf hastalığına karşı yüksek dirençlidir."
+        },
+        "ducati": {
+          "name": "Ducati",
+          "tag": "5 kg İri Baş & Kısa Sap",
+          "description": "İçi kar beyazı, sap kısmı kısa, basık yuvarlak meyveli ve yaklaşık 5 kg ağırlığa ulaşabilen yüksek verimli kışlık çeşittir."
+        }
+      },
+      "gallery": {
+        "freshCabbageTitle": "Taze Beyaz Lahana",
+        "freshCabbageAlt": "Meypal birinci sınıf taze beyaz lahana",
+        "fieldCabbageTitle": "Tarlada Olgunlaşan Lahana Başları",
+        "fieldCabbageAlt": "Meypal tarlasında sıkı ve sağlıklı lahana üretimi",
+        "harvestCabbageTitle": "Hasada Hazır Taze Lahanalar",
+        "harvestCabbageAlt": "Özenle kesilmiş temiz beyaz lahanalar"
+      },
+      "features": {
+        "vitaminC": {
+          "title": "Zengin C & K Vitamini Deposu",
+          "description": "Yüksek C ve K vitamini ile kükürtlü antioksidan bileşikler sayesinde bağışıklığı ve kemik sağlığını güçlendirir."
+        },
+        "winterResistant": {
+          "title": "Soğuğa & Donlara Dayanıklılık",
+          "description": "Kış aylarının sert hava koşullarına ve don olaylarına karşı doğal direnç göstererek kalitesini sahada korur."
+        },
+        "tightHeads": {
+          "title": "Ekstra Sıkı Baş & Yüksek Randıman",
+          "description": "Boşluksuz sıkı yaprak katmanları sayesinde kesildiğinde yüksek et randımanı ve mükemmel çıtırlık sunar."
+        },
+        "storageLife": {
+          "title": "Aylarca Süren Depolama Gücü",
+          "description": "Kontrollü soğuk hava depolarında aylarca tazeliğini ve suyunu kaybetmeden ilk günkü diriliğiyle muhafaza edilir."
+        }
+      }
+    },
+    "onion": {
+      "aboutParagraph1": "Soğan (Allium cepa), insanlık tarihinin en kadim ve evrensel sebzelerinden biri olup, sofraların lezzet temelidir. Meypal, doğal ve organik üretim standartlarına özel önem vererek zengin soğan ürün gamını dünya pazarlarına sunmaktadır.",
+      "aboutParagraph2": "Gerek yemeklik sarı soğan gerekse salatalık ve gurme tatlar için mor/kırmızı soğan çeşitlerimiz; sert gövdesi, sağlam kabuk yapısı ve yoğun lezzet profiliyle öne çıkar.",
+      "aboutParagraph3": "Tarladan hasat edildikten sonra modern kurutma ve tasnif tesislerimizde kalibre edilen Meypal soğanları; çimlenmeye ve çürümeye karşı yüksek dayanıklılığı ile uzun kış ayları boyunca ve denizaşırı sevkiyatlarda kalitesini korur.",
+      "quote": "Yemeklerin vazgeçilmez lezzet mimarı olan soğanlarımız; sert yapısı, sağlam kabuğu ve doğal aromasıyla kalitenin teminatıdır.",
+      "gallery": {
+        "freshOnionsTitle": "Taze Kuru Soğan",
+        "freshOnionsAlt": "Meypal birinci sınıf taze sarı ve kırmızı kuru soğanlar",
+        "yellowOnionsTitle": "Altın Sarısı Yemeklik Soğanlar",
+        "yellowOnionsAlt": "Meypal yüksek kaliteli altın sarısı kuru soğan",
+        "redOnionsTitle": "Mor & Kırmızı Salatalık Soğanlar",
+        "redOnionsAlt": "Taze lezzetli mor soğan çeşitleri"
+      },
+      "features": {
+        "quercetin": {
+          "title": "Doğal Kuersetin & Antioksidan",
+          "description": "Güçlü kuersetin flavonoidleri ve kükürtlü bileşiklerle kalp-damar sağlığını ve bağışıklık sistemini destekler."
+        },
+        "climate": {
+          "title": "Derin Alüvyonlu Topraklar",
+          "description": "İdeal drenajlı ve mineralce zengin topraklarda yetişerek sağlam yumru büyüklüğüne ve yüksek kuru maddeye ulaşır."
+        },
+        "flavor": {
+          "title": "Keskin & Karakteristik Lezzet",
+          "description": "Yemeklere benzersiz bir koku ve tat derinliği katan dengeli asit ve uçucu yağ kompozisyonuna sahiptir."
+        },
+        "exportStorage": {
+          "title": "Yüksek Kış Depolama Kabiliyeti",
+          "description": "Sıkı çok katmanlı dış kabuk yapısı sayesinde havalandırmalı depolarda 6-8 aya kadar fire vermeden saklanabilir."
+        }
+      }
+    },
+    "potato": {
+      "aboutParagraph1": "Patates (Solanum tuberosum), pirinç, buğday ve mısırdan sonra dünyada en çok tüketilen temel gıda kaynağıdır. Meypal, patates grubunda hem sofralık yemeklik tüketim hem de sanayilik işleme için en üst kalitede yumruları tedarik etmektedir.",
+      "aboutParagraph2": "Patates, önemli miktarda esansiyel besin öğesi içerir. A, C, K, B6 ve E vitaminlerinin yanı sıra folat açısından zengin bir potasyum deposudur. Sağlıklı karbonhidrat ve lif kaynağı olarak küresel gıdanın vazgeçilmezidir.",
+      "aboutParagraph3": "Meypal patatesleri, pürüzsüz kabuk yapısı, homojen yumru iriliği, sığ göz derinliği ve pişirildiğinde dağılmayan sarı meyve etiyle hem perakende zincirlerinin hem de gıda servis sektörünün ilk tercihidir.",
+      "quote": "Toprağın sunduğu en bereketli armağan; pürüzsüz kabuğu, sarı meyve eti ve zengin besin değeriyle Meypal patatesleridir.",
+      "gallery": {
+        "freshPotatoesTitle": "Taze Yemeklik Patates",
+        "freshPotatoesAlt": "Meypal birinci sınıf taze sarı patates",
+        "washedPotatoesTitle": "Yıkanmış & Kalibre Edilmiş Patatesler",
+        "washedPotatoesAlt": "Meypal pürüzsüz kabuklu boylanmış patatesler",
+        "harvestPotatoesTitle": "Tarladan Yeni Çıkarılan Patatesler",
+        "harvestPotatoesAlt": "Bereketli hasat sonrası taze patatesler"
+      },
+      "features": {
+        "potassium": {
+          "title": "Yüksek Potasyum & B6 Vitamini",
+          "description": "Muzdan daha zengin potasyum ve B6 vitamini içeriğiyle kas fonksiyonlarını ve enerji metabolizmasını destekler."
+        },
+        "soil": {
+          "title": "Kumlu-Tınlı Verimli Topraklar",
+          "description": "Yumruların düzgün ve simetrik gelişmesini sağlayan yumuşak toprak yapısında yetiştirilerek pürüzsüz kabuk elde edilir."
+        },
+        "versatile": {
+          "title": "Mükemmel Pişirme & Kızartma Performansı",
+          "description": "Dengeli kuru madde ve nişasta oranı sayesinde haşlama, fırınlama ve kızartmada üstün lezzet ve kıvam sunar."
+        },
+        "exportStorage": {
+          "title": "Karanlık & Soğuk Hava Depolama",
+          "description": "Yeşillenmeyi önleyen özel karanlık ve iklimlendirmeli depolarda uzun süre diriliğini koruyarak ihraç edilir."
+        }
+      }
+    },
+    "garlic": {
+      "aboutParagraph1": "Sarımsak (Allium sativum), Alliaceae familyasına dahil olan, kokulu uçucu yağları ve keskin aromasıyla binlerce yıldır hem mutfakların baş tacı hem de doğanın en güçlü şifa kaynağı olarak kabul edilen mucizevi bir sebzedir.",
+      "aboutParagraph2": "100 gramında 6,36 g protein, 401 mg potasyum ve 181 mg kalsiyum gibi yüksek mineral değerleri barındıran sarımsak, içerdiği doğal allisin bileşeni ile en güçlü doğal antibiyotik ve antioksidanlardan biridir.",
+      "aboutParagraph3": "Meypal, Türkiye'nin Kastamonu (Taşköprü) ve Balıkesir gibi meşhur havzalarından toplanan iri dişli, dolgun, beyaz ve pembe kabuklu kaliteli sarımsakları titizlikle seçerek dünya pazarlarına ulaştırmaktadır.",
+      "quote": "Doğanın en güçlü doğal koruyucusu; yoğun kokusu, iri dişleri ve zengin allisin gücüyle taze Meypal sarımsaklarıdır.",
+      "gallery": {
+        "freshGarlicTitle": "Taze Kuru Sarımsak",
+        "freshGarlicAlt": "Meypal birinci sınıf taze kuru sarımsak başları",
+        "whiteGarlicTitle": "İri Dişli Beyaz Sarımsak",
+        "whiteGarlicAlt": "Meypal dolgun dişli yüksek aromalı sarımsak",
+        "harvestGarlicTitle": "Özenle Hasat Edilen Sarımsak Demetleri",
+        "harvestGarlicAlt": "Tarlada kurutulan ve bağlanan taze sarımsaklar"
+      },
+      "features": {
+        "allicin": {
+          "title": "Güçlü Allisin & Doğal Savunma",
+          "description": "Ezildiğinde açığa çıkan biyoaktif allisin maddesiyle doğal bir antibakteriyel kalkan ve bağışıklık desteği sunar."
+        },
+        "origin": {
+          "title": "Taşköprü & Anadolu Kökeni",
+          "description": "Yüksek kükürtlü toprak yapısı sayesinde dünyada benzeri olmayan bir aroma keskinliği ve tıbbi değer taşır."
+        },
+        "pungent": {
+          "title": "Yoğun Aroma & Zengin Uçucu Yağ",
+          "description": "Tek bir dişi dahi yemeklere derin bir lezzet ve iştah açıcı rayiha katmak için yeterlidir."
+        },
+        "storage": {
+          "title": "Yıllık Dayanım & Çimlenmeme",
+          "description": "Kuru ve serin ortamda uzun aylar boyunca pörsümeden ve içinin boşalmasına izin vermeden dayanıklılığını korur."
+        }
+      }
     }
   },
   "categories": {
@@ -1496,6 +1875,13 @@
       "subtitle": "Güneşin Tadı ve Doğanın Tazeliği ile Yetişen Meyveler",
       "productsCount": "{count} Çeşit Taze Meyve",
       "description": "Meypal olarak Akdeniz ve Anadolu'nun en bereketli bahçelerinden ayva, kiraz, siyah incir, şeftali, nar, üzüm, kayısı, karpuz ve kavun çeşitlerimizi en uygun olgunlukta topluyor; ileri teknoloji soğuk zincir ve kalibrasyon tesislerimizde işleyerek uluslararası pazarlara güvenle ulaştırıyoruz."
+    },
+    "vegetables": {
+      "badge": "Taze Sebzeler",
+      "title": "Akdeniz & Anadolu Taze Sebze Çeşitleri",
+      "subtitle": "Bereketli Topraklardan Sofralara Doğal & Güvenilir Sebzeler",
+      "productsCount": "{count} Çeşit Taze Sebze",
+      "description": "Meypal olarak domates, hıyar, patlıcan, biber, lahana, soğan, patates ve sarımsak mahsullerimizi modern seralar ve açık tarlalardan en taze haliyle topluyor; yüksek hijyen ve kalite standartlarıyla dünya pazarlarına ihraç ediyoruz."
     }
   }
 }
