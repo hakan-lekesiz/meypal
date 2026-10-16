@@ -48,43 +48,43 @@ export const routing = defineRouting({
       en: "/citrus/lemon",
     },
     "/fruit": {
-      tr: "/meyveler",
+      tr: "/meyve",
       en: "/fruit",
     },
     "/fruit/peach": {
-      tr: "/meyveler/seftali",
+      tr: "/meyve/seftali",
       en: "/fruit/peach",
     },
     "/fruit/cherry": {
-      tr: "/meyveler/kiraz",
+      tr: "/meyve/kiraz",
       en: "/fruit/cherry",
     },
     "/fruit/quince": {
-      tr: "/meyveler/ayva",
+      tr: "/meyve/ayva",
       en: "/fruit/quince",
     },
     "/fruit/fig": {
-      tr: "/meyveler/incir",
+      tr: "/meyve/incir",
       en: "/fruit/fig",
     },
     "/fruit/pomegranate": {
-      tr: "/meyveler/nar",
+      tr: "/meyve/nar",
       en: "/fruit/pomegranate",
     },
     "/fruit/grape": {
-      tr: "/meyveler/uzum",
+      tr: "/meyve/uzum",
       en: "/fruit/grape",
     },
     "/fruit/apricot": {
-      tr: "/meyveler/kayisi",
+      tr: "/meyve/kayisi",
       en: "/fruit/apricot",
     },
     "/fruit/watermelon": {
-      tr: "/meyveler/karpuz",
+      tr: "/meyve/karpuz",
       en: "/fruit/watermelon",
     },
     "/fruit/melon": {
-      tr: "/meyveler/kavun",
+      tr: "/meyve/kavun",
       en: "/fruit/melon",
     },
     "/vegetables": {

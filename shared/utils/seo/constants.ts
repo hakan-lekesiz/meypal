@@ -49,6 +49,10 @@ export const COMPANY_INFO = {
     longitude: 34.6319,
   },
   hasMap: "https://maps.app.goo.gl/yr6ZMNja3AWu9gAx6",
+  sameAs: [
+    "https://maps.app.goo.gl/yr6ZMNja3AWu9gAx6",
+    "https://www.linkedin.com/in/hakan-lekesiz/",
+  ],
   areaServed: [
     { "@type": "Country", name: "Turkey" },
     { "@type": "AdministrativeArea", name: "European Union" },

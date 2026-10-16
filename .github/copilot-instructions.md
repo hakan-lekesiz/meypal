@@ -185,9 +185,38 @@ export default async function Page({ params }: PageProps) {
 
 ---
 
-## 6. Strict Verification Commands
+## 6. SEO, GEO & Semantic HTML Standards (Mandatory)
+
+Whenever creating or modifying components, pages, metadata, or sitemaps:
+
+1. **Semantic Heading Hierarchy (`h1` -> `h2` -> `h3`):**
+   - Every route/page **must have exactly one `<h1>` element**.
+   - In Product Detail Pages (`PDP`), the main product title in `PdpAboutSection` is the single `<h1>`. Sub-sections, feature titles, and alternating varieties must use `<h2>` or `<h3>`.
+   - In Category/PLP pages, the category title in `PlpHeroSection` is the single `<h1>`. Product grid sections and cards use `<h2>` and `<h3>`.
+   - Never skip heading levels (e.g., do not place `<h4>` directly under `<h2>`).
+
+2. **Image Accessibility & SEO:**
+   - **Never leave `alt=""` empty** on visible or background imagery that carries brand or contextual meaning.
+   - All `Image` components must provide localized, keyword-rich, and descriptive `alt` attributes (e.g., Turkish: *"Meypal Akdeniz taze meyve ve sebze ihracat sepeti"*, English: *"Meypal fresh fruits and vegetables export produce basket"*).
+   - Use `priority` only on above-the-fold hero images to optimize Largest Contentful Paint (LCP).
+
+3. **Sitemap (`app/sitemap.ts`) Integrity:**
+   - All categories and individual product detail routes (e.g. orange, mandarin, lemon, grapefruit, tomato, pepper, peach, grape, etc.) must be registered in the sitemap.
+   - Use a fixed/stable `lastModified` date (e.g., release/content baseline date) instead of `new Date()`. Dynamic `new Date()` invalidates Googlebot crawl cache on every hit and consumes crawl budget unnecessarily.
+   - Differentiate priorities: Home `1.0`, Main corporate/categories `0.8`, Products `0.7`, Secondary `0.6`.
+
+4. **GEO (Geotargeting) & Local Business Entities:**
+   - Keep global GEO metadata in `shared/utils/seo/constants.ts` (`geo.region: "TR-33"`, `geo.placename: "Mersin, Türkiye"`, `ICBM`, lat/long).
+   - Corporate Schema.org (`LocalBusiness` / `Organization`) must include:
+     - Accurate `address`, `geo: GeoCoordinates`, `foundingLocation`, `areaServed`, `hasMap`.
+     - Official digital presence in `sameAs` array (Google Maps profile, LinkedIn, etc.) to reinforce Knowledge Graph entity connection.
+
+---
+
+## 7. Strict Verification Commands
 
 Before concluding any task or PR:
 1. `pnpm.cmd lint` (or `cmd /c pnpm lint`) — Ensure Biome passes with 0 warnings/errors. Run `pnpm.cmd lint:fix` to auto-fix formatting issues.
 2. `pnpm.cmd build` (or `cmd /c pnpm build`) — Verify Turbopack builds successfully and all generated routes are marked with `● (SSG)` or `○ (Static)`.
+
 

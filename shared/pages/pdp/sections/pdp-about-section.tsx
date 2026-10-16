@@ -31,12 +31,12 @@ export function PdpAboutSection({ product, t }: PdpAboutSectionProps) {
       <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-14">
         {/* Left Column: Rich editorial text */}
         <div className="lg:col-span-7">
-          <h2
+          <h1
             className="mt-3 text-2xl font-black tracking-tight text-[#0f172a] sm:text-3xl lg:text-4xl"
             id={headingId}
           >
             {t(product.titleKey)}
-          </h2>
+          </h1>
 
           <div className="mt-6 space-y-4 text-sm leading-relaxed text-[#475569] sm:text-base">
             <p>{t(p1Key)}</p>

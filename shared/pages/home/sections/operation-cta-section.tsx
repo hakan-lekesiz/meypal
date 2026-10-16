@@ -26,7 +26,7 @@ export function OperationCtaSection({ locale, t }: { locale: Locale; t: Translat
           {/* Background image overlay with blend */}
           <div className="pointer-events-none absolute inset-0 opacity-15 mix-blend-overlay">
             <Image
-              alt=""
+              alt={t("home.operationCta.imageAlt")}
               className="h-full w-full object-cover"
               height={1000}
               src="/images/fruits/fresh-fruit-basket.jpg"

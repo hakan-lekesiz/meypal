@@ -31,7 +31,7 @@ export function AboutHeroSection({ locale, t }: { locale: Locale; t: Translate }
       {/* Background Image with Lightened Overlay */}
       <div className="absolute inset-0">
         <Image
-          alt=""
+          alt={t("about.hero.imageAlt")}
           className="h-full w-full object-cover object-center"
           fill
           priority

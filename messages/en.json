@@ -115,7 +115,8 @@
       "feature3": "International Certifications",
       "feature4": "Rapid & Dependable Logistics",
       "ctaContact": "Request a Quote",
-      "ctaCatalog": "View E-Catalog"
+      "ctaCatalog": "View E-Catalog",
+      "imageAlt": "Meypal fresh fruits and vegetables export produce basket"
     }
   },
   "about": {
@@ -134,7 +135,8 @@
         "generationsLabel": "Family Enterprise Trust",
         "supply": "12 Mo",
         "supplyLabel": "Uninterrupted Supply"
-      }
+      },
+      "imageAlt": "Meypal fresh fruits and vegetables harvest in Mediterranean region"
     },
     "story": {
       "badge": "Our Heritage & Story",
@@ -233,7 +235,8 @@
       "title": "Delivering Freshness and Meypal Quality Together",
       "description": "With over 70 years of proven heritage, European-standard cold chain logistics, and an international network, we create enduring value for our partners.",
       "contactBtn": "Get in Touch",
-      "catalogBtn": "Explore E-Catalog"
+      "catalogBtn": "Explore E-Catalog",
+      "imageAlt": "Meypal fresh fruit basket and Mediterranean export products"
     }
   },
   "mission": {
@@ -830,7 +833,7 @@
     "contact": "Contact",
     "address": "Camışerif Mahallesi, Mersin, Türkiye",
     "phone": "+90 324 238 04 38",
-    "copyright": "© {year} Meypal. All rights reserved."
+    "copyright": "© 2025 Meypal. All rights reserved."
   },
   "products": {
     "common": {
@@ -1883,5 +1886,11 @@
       "productsCount": "{count} Fresh Vegetable Varieties",
       "description": "Meypal harvests tomatoes, cucumbers, eggplants, peppers, cabbages, onions, potatoes, and garlic in their peak freshness from modern greenhouses and open fields, exporting them globally under the highest hygiene and quality benchmarks."
     }
+  },
+  "notFound": {
+    "badge": "404",
+    "title": "Page Not Found",
+    "description": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+    "homeBtn": "Return to Homepage"
   }
 }

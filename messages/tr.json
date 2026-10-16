@@ -115,7 +115,8 @@
       "feature3": "Uluslararası Sertifikasyon",
       "feature4": "Hızlı & Güvenilir Sevkiyat",
       "ctaContact": "Teklif & İletişim",
-      "ctaCatalog": "E-Kataloğu İncele"
+      "ctaCatalog": "E-Kataloğu İncele",
+      "imageAlt": "Meypal taze meyve ve sebze sepeti Akdeniz ihracat ürünleri"
     }
   },
   "about": {
@@ -134,7 +135,8 @@
         "generationsLabel": "Aile Şirketi Güveni",
         "supply": "12 Ay",
         "supplyLabel": "Kesintisiz İhracat"
-      }
+      },
+      "imageAlt": "Meypal taze meyve ve sebze üretimi ve Akdeniz hasadı"
     },
     "story": {
       "badge": "Tarihçemiz & Mirasımız",
@@ -233,7 +235,8 @@
       "title": "Tazeliği ve Meypal Kalitesini Birlikte Taşıyalım",
       "description": "70 yıllık köklü tecrübemiz, Avrupa standartlarındaki soğuk zincir lojistiğimiz ve küresel dağıtım ağımızla iş ortaklarımıza değer katıyoruz.",
       "contactBtn": "İletişime Geçin",
-      "catalogBtn": "E-Kataloğu İnceleyin"
+      "catalogBtn": "E-Kataloğu İnceleyin",
+      "imageAlt": "Meypal taze meyve sepeti ve Akdeniz ihracat ürünleri"
     }
   },
   "mission": {
@@ -830,7 +833,7 @@
     "contact": "İletişim",
     "address": "Camışerif Mahallesi, Mersin, Türkiye",
     "phone": "+90 324 238 04 38",
-    "copyright": "© {year} Meypal. Tüm hakları saklıdır."
+    "copyright": "© 2025 Meypal. Tüm hakları saklıdır."
   },
   "products": {
     "common": {
@@ -1883,5 +1886,11 @@
       "productsCount": "{count} Çeşit Taze Sebze",
       "description": "Meypal olarak domates, hıyar, patlıcan, biber, lahana, soğan, patates ve sarımsak mahsullerimizi modern seralar ve açık tarlalardan en taze haliyle topluyor; yüksek hijyen ve kalite standartlarıyla dünya pazarlarına ihraç ediyoruz."
     }
+  },
+  "notFound": {
+    "badge": "404",
+    "title": "Sayfa Bulunamadı",
+    "description": "Aradığınız sayfa taşınmış, silinmiş veya geçici olarak kullanılamıyor olabilir.",
+    "homeBtn": "Anasayfaya Dön"
   }
 }

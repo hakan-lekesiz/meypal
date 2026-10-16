@@ -48,7 +48,7 @@ export function createRootLayoutMetadata(locale: Locale): Metadata {
       alternateLocale: isTr ? ["en_US"] : ["tr_TR"],
       images: [
         {
-          url: "/images/home/opengraph-image.png",
+          url: "/images/home/opengraph-image.jpg",
           width: 1200,
           height: 630,
           alt: "Meypal",
@@ -59,7 +59,7 @@ export function createRootLayoutMetadata(locale: Locale): Metadata {
       card: "summary_large_image",
       title: defaultTitle,
       description: defaultDescription,
-      images: ["/images/home/opengraph-image.png"],
+      images: ["/images/home/opengraph-image.jpg"],
     },
     other: {
       ...GEO_METADATA,
@@ -104,7 +104,7 @@ export async function createPageMetadata({
   const trUrl = new URL(pagePath.tr, baseUrl).toString()
   const enUrl = new URL(pagePath.en, baseUrl).toString()
 
-  const ogImage = image ?? `/images/${route}/opengraph-image.png`
+  const ogImage = image ?? `/images/${route}/opengraph-image.jpg`
 
   return {
     title: isAbsoluteTitle ? { absolute: title } : title,

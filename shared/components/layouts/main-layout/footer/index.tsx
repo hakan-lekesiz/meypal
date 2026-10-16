@@ -1,6 +1,5 @@
 import Link from "next/link"
 import Image from "next/image"
-import { useId } from "react"
 import { FaArrowRight, FaEnvelope, FaLocationDot, FaPhone } from "react-icons/fa6"
 import { getTranslator } from "@/i18n/i18n"
 import {
@@ -43,7 +42,7 @@ function FooterLinks({
 }
 
 export async function Footer({ locale }: { locale: Locale }) {
-  const ctaTitleId = useId()
+  const ctaTitleId = "footer-cta-title"
   const t = await getTranslator(locale)
 
   return (
@@ -141,7 +140,7 @@ export async function Footer({ locale }: { locale: Locale }) {
         </div>
 
         <div className="flex items-center justify-between gap-4 border-t border-white/10 pt-[1.15rem] text-[0.78rem] text-[#8eaebd] max-[600px]:flex-col max-[600px]:items-end max-[600px]:gap-1">
-          <span>{t("footer.copyright", { year: new Date().getFullYear() })}</span>
+          <span>{t("footer.copyright")}</span>
           <div className="flex flex-wrap items-center gap-4 max-[600px]:gap-3">
             <a
               className="text-[0.72rem] text-[#8eaebd]/70 no-underline transition-colors duration-[160ms] hover:text-[#c2d7e5]"
