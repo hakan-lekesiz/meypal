@@ -48,43 +48,43 @@ export const routing = defineRouting({
       en: "/citrus/lemon",
     },
     "/fruit": {
-      tr: "/meyve-sebze",
+      tr: "/meyveler",
       en: "/fruit",
     },
     "/fruit/peach": {
-      tr: "/meyve-sebze/seftali",
+      tr: "/meyveler/seftali",
       en: "/fruit/peach",
     },
     "/fruit/cherry": {
-      tr: "/meyve-sebze/kiraz",
+      tr: "/meyveler/kiraz",
       en: "/fruit/cherry",
     },
     "/fruit/quince": {
-      tr: "/meyve-sebze/ayva",
+      tr: "/meyveler/ayva",
       en: "/fruit/quince",
     },
     "/fruit/fig": {
-      tr: "/meyve-sebze/incir",
+      tr: "/meyveler/incir",
       en: "/fruit/fig",
     },
     "/fruit/pomegranate": {
-      tr: "/meyve-sebze/nar",
+      tr: "/meyveler/nar",
       en: "/fruit/pomegranate",
     },
     "/fruit/grape": {
-      tr: "/meyve-sebze/uzum",
+      tr: "/meyveler/uzum",
       en: "/fruit/grape",
     },
     "/fruit/apricot": {
-      tr: "/meyve-sebze/kayisi",
+      tr: "/meyveler/kayisi",
       en: "/fruit/apricot",
     },
     "/fruit/watermelon": {
-      tr: "/meyve-sebze/karpuz",
+      tr: "/meyveler/karpuz",
       en: "/fruit/watermelon",
     },
     "/fruit/melon": {
-      tr: "/meyve-sebze/kavun",
+      tr: "/meyveler/kavun",
       en: "/fruit/melon",
     },
     "/vegetables": {

@@ -673,6 +673,56 @@
       "title": "Grapefruit - Fresh Mediterranean Grapefruit Varieties | Meypal",
       "description": "Premium juicy and aromatic Mediterranean grapefruit varieties: Star Ruby and Riored. Exported fresh, nutrient-rich, and reliably worldwide by Meypal.",
       "keywords": "grapefruit, grapefruit varieties, star ruby grapefruit, riored grapefruit, citrus exporter Turkey, fresh grapefruit, Mersin grapefruit, Meypal"
+    },
+    "fruits": {
+      "title": "Fresh Fruits - Mediterranean & Anatolian Fruit Export | Meypal",
+      "description": "Premium fresh fruits harvested from fertile Anatolian and Mediterranean orchards: Quince, cherry, black fig, and peach varieties exported reliably worldwide by Meypal.",
+      "keywords": "fresh fruits, fruit export Turkey, Turkish cherry export, quince export, black fig, peach varieties, ufo peach, Mersin, Meypal"
+    },
+    "quince": {
+      "title": "Quince - Fresh & Fragrant Anatolian Quince | Meypal",
+      "description": "Premium Turkish quince varieties: Esme, Ekmek, and Lemon quince. High in dietary fiber, vitamins, and fragrant aroma, exported worldwide with cold chain assurance.",
+      "keywords": "quince, quince export, fresh quince, Turkish quince, esme quince, fruit exporter Turkey, Meypal"
+    },
+    "cherry": {
+      "title": "Cherry - Premium Fresh Turkish Cherries | Meypal",
+      "description": "From Turkey, the world leader in cherry production: firm, juicy, sweet, and aromatic cherry varieties exported with uninterrupted cold-chain logistics by Meypal.",
+      "keywords": "cherry, cherry export, Turkish cherries, Napoleon cherry, 0900 ziraat, sweet cherry exporter, Meypal"
+    },
+    "fig": {
+      "title": "Black Fig - Premium Mediterranean Fresh Figs | Meypal",
+      "description": "Authentic Mediterranean black figs (Ficus carica) with exceptional aroma, rich texture, and supreme nutritional profile. Exported fresh worldwide by Meypal.",
+      "keywords": "black fig, fresh fig export, Turkish figs, Ficus carica, purple fig exporter, Mediterranean fig, Meypal"
+    },
+    "peach": {
+      "title": "Peach & Flat Peach - Fresh Mediterranean Peach Varieties | Meypal",
+      "description": "Flodasun, Early Amber, Redhaven, Washington, and Ufo flat peaches from sunny Mediterranean orchards. Juicy, sweet, fragrant, and carefully calibrated by Meypal.",
+      "keywords": "peach, flat peach, ufo peach, peach export, redhaven peach, fresh peaches Turkey, Mediterranean peaches, Meypal"
+    },
+    "pomegranate": {
+      "title": "Pomegranate - Premium Turkish Hicaz Pomegranate Export | Meypal",
+      "description": "Certified Turkish Hicaz pomegranates: deep ruby arils, balanced sweet-tart flavor, and exceptional 6-month cold storage durability exported worldwide by Meypal.",
+      "keywords": "pomegranate, Hicaz pomegranate, pomegranate export, fresh pomegranate, Turkish pomegranate exporter, Punica granatum, Meypal"
+    },
+    "grape": {
+      "title": "Table Grapes - Fresh Anatolian Grape Varieties | Meypal",
+      "description": "Premium fresh table grapes including Pembe Gemre, Super Asma, and Trakya Ilkeren. Large juicy berries and resilient bunches exported worldwide by Meypal.",
+      "keywords": "table grapes, fresh grapes export, Turkish grapes, Pembe Gemre, Super Asma, Trakya Ilkeren, Vitis vinifera, Meypal"
+    },
+    "apricot": {
+      "title": "Apricot - Fresh Anatolian Table & Dried Apricots | Meypal",
+      "description": "Finest Turkish apricots from Malatya and Mediterranean groves: Hasanbey, Hacihaliloglu, Alyanak, and Salak. High brix sweetness, velvety texture, and aroma.",
+      "keywords": "apricot, apricot export Turkey, fresh apricots, Malatya apricot, Hasanbey apricot, Prunus armeniaca, Meypal"
+    },
+    "watermelon": {
+      "title": "Watermelon - Fresh Sweet Mediterranean Watermelon | Meypal",
+      "description": "Crimson Sweet and Sugar Baby watermelon varieties focused on personal sizing, high lycopene, and refreshing sweetness exported fresh worldwide by Meypal.",
+      "keywords": "watermelon, watermelon export, Crimson Sweet, Sugar Baby, fresh watermelon Turkey, Citrullus lanatus, Meypal"
+    },
+    "melon": {
+      "title": "Melon - Sweet & Long Shelf-Life Caribbean Melons | Meypal",
+      "description": "Innovative Caribbean and muskmelon varieties offering thin rind, small seed cavity, honey sweetness, and extended transit durability exported by Meypal.",
+      "keywords": "melon, melon export, Caribbean melon, fresh melon Turkey, sweet melon, Cucumis melo, Meypal"
     }
   },
   "header": {
@@ -996,13 +1046,435 @@
           "description": "Maintains premium fruit firmness on tree and within modern temperature-controlled cold storage, ideal for international transit."
         }
       }
+    },
+    "quince": {
+      "aboutParagraph1": "Quince is one of the most beloved and historically celebrated fruits across the Mediterranean and Anatolia, with a cultivation legacy dating back nearly 4,000 years. Its rich nutrients and wholesome qualities have supported human health and child immune development for generations.",
+      "aboutParagraph2": "With an exceptionally versatile culinary and aromatic profile, quince was even used in Roman times for crafting perfumes, essential oils, and infused honeys. While naturally firm and fiber-rich, quinces cultivated in warmer Mediterranean microclimates yield softer, juicier, and more succulent textures.",
+      "aboutParagraph3": "In Turkey, three principal varieties lead commercial production: Esme, Lemon, and Ekmek quince. Esme quince from the Marmara region is renowned for its juicy, pleasantly tart flavor. Ekmek quince features balanced sweetness, while Lemon quince provides refreshing tanginess. Meypal carefully sorts, sizes, and exports premier Turkish quinces worldwide.",
+      "quote": "With its 4,000-year heritage, heavenly floral fragrance, and golden perfection, Anatolian quince is nature's timeless gift of health.",
+      "gallery": {
+        "freshQuinceTitle": "Fresh Tree-Ripened Quince",
+        "freshQuinceAlt": "Meypal premium first-class fresh golden quinces",
+        "slicedQuinceTitle": "Freshly Sliced Fragrant Quince",
+        "slicedQuinceAlt": "Meypal aromatic and juicy sliced quince",
+        "basketQuinceTitle": "Harvest Basket of Quinces",
+        "basketQuinceAlt": "Carefully hand-picked fresh Turkish quinces"
+      },
+      "features": {
+        "immune": {
+          "title": "Immune Defense & Pectin",
+          "description": "Rich in vitamin C, soluble pectin fiber, and protective polyphenols that support digestion and fortify natural immunity."
+        },
+        "climate": {
+          "title": "Optimal Microclimate",
+          "description": "Nurtured under generous sunshine, developing balanced sugar-acid proportions, pleasant texture, and intense floral aroma."
+        },
+        "aroma": {
+          "title": "Incomparable Fragrance",
+          "description": "Celebrated for its distinct, perfume-like bouquet and pleasing tartness, prized in fresh dishes and gourmet culinary creations."
+        },
+        "storage": {
+          "title": "Excellent Storage & Transit",
+          "description": "Naturally durable peel and modern temperature-controlled cold facilities ensure superior resilience during international shipping."
+        }
+      }
+    },
+    "cherry": {
+      "aboutParagraph1": "Known scientifically as Prunus avium, sweet cherries are the crown jewel of early summer. Cherries are deeply cherished across tables worldwide—consumed fresh, in fruit platters, pressed into artisan juices, or made into exquisite gourmet preserves.",
+      "aboutParagraph2": "Cultivated in fertile Anatolian valleys where microclimates allow optimal chilling hours and warm sun, Turkish cherries boast unparalleled quality. Looking at international production and export rankings, Turkey proudly stands at the very forefront of the global cherry industry.",
+      "aboutParagraph3": "Among world-famous varieties, 0900 Ziraat (Turkish Napoleon) leads with its large caliber, crunchy flesh, deep ruby-black color, and resilient shelf life. Meypal manages a complete cold chain with rapid hydrocooling, ensuring cherries retain orchard-crisp freshness across international borders.",
+      "quote": "Ripened under the fertile sun of Turkey, our premium sweet cherries offer unmatched firmness, size, and rich flavor admired worldwide.",
+      "gallery": {
+        "freshCherriesTitle": "Dark Ruby Sweet Cherries",
+        "freshCherriesAlt": "Meypal first-class fresh dark red cherries",
+        "crateCherriesTitle": "Export-Ready Packed Cherries",
+        "crateCherriesAlt": "Carefully calibrated and packed Turkish cherries for export",
+        "ripeCherriesTitle": "Plump & Crisp Orchard Fruit",
+        "ripeCherriesAlt": "Hand-picked glossy and juicy cherries"
+      },
+      "features": {
+        "antioxidant": {
+          "title": "Anthocyanins & Antioxidants",
+          "description": "Packed with potent anthocyanin antioxidants and natural melatonin, promoting cellular longevity and restful sleep."
+        },
+        "exportLeader": {
+          "title": "World-Leading Export Quality",
+          "description": "Sourced from Turkey's renowned cherry orchards adhering to strict GlobalGAP and international caliber certifications."
+        },
+        "firmJuicy": {
+          "title": "Crunchy Texture & High Caliber",
+          "description": "Delivers satisfying crunch, high brix sweetness, and exceptional sizing that fulfill the highest culinary standards."
+        },
+        "coldChain": {
+          "title": "Unbroken Hydrocooled Cold Chain",
+          "description": "Immediate post-harvest hydrocooling and controlled-atmosphere transport preserve stem greenness and fruit firmness to the destination."
+        }
+      }
+    },
+    "fig": {
+      "aboutParagraph1": "The fig (Ficus carica), native to the Eastern Mediterranean and Southwest Asia, is among the most ancient cultivated fruit trees in human civilization. Celebrated for its unique jammy texture, floral aroma, and honeyed flavor, it holds a prestigious place among premium seasonal fruits.",
+      "aboutParagraph2": "Fresh black figs are packed with bioavailable calcium, potassium, magnesium, and dietary fiber. Meypal unites modern production and distribution guarantees with the authentic heritage of traditional Mediterranean horticulture.",
+      "aboutParagraph3": "Handling delicate transit needs with advanced protective packaging and precision temperature control, Meypal selects the finest purple-black Mediterranean figs for seamless worldwide air and land export.",
+      "quote": "A timeless treasure of Mediterranean heritage, the black fig enchants with its honeyed richness, silky texture, and pure wholesome vitality.",
+      "gallery": {
+        "freshFigsTitle": "Fresh Mediterranean Black Figs",
+        "freshFigsAlt": "Meypal premium fresh dark purple black figs",
+        "slicedFigTitle": "Honey-Filled Fig Cross-Section",
+        "slicedFigAlt": "Meypal luscious open fresh fig showing vibrant pulp"
+      },
+      "features": {
+        "nutritional": {
+          "title": "Rich in Calcium & Potassium",
+          "description": "Delivers notable amounts of vital minerals including calcium, iron, and potassium to support cardiovascular and bone health."
+        },
+        "mediterranean": {
+          "title": "Authentic Mediterranean Origin",
+          "description": "Cultivated in indigenous Mediterranean soil conditions where ideal dry warmth promotes maximum natural sugars."
+        },
+        "fiber": {
+          "title": "High Prebiotic Soluble Fiber",
+          "description": "Contains gentle, soluble pectin and dietary fibers that nourish gut health and aid everyday digestion."
+        },
+        "premiumExport": {
+          "title": "Dedicated Packaging & Air Freight",
+          "description": "Cradled in protective trays and swift cold-chain transport channels to guarantee peak freshness upon arrival."
+        }
+      }
+    },
+    "peach": {
+      "aboutParagraph1": "Meypal delivers an expansive selection of both round peaches and flat Ufo peaches year after year. Our program guarantees exceptional flavor, high sugar brix, firm export durability, and resistance to post-harvest handling.",
+      "aboutParagraph2": "Bathed in the warm sun of Mediterranean and Aegean valleys, peach orchards achieve generous fruit size, velvety skins, and juicy flesh. Whether yellow or white fleshed, their aromatic succulence makes them a worldwide summer favorite.",
+      "aboutParagraph3": "Alongside classic round varieties such as Flodasun, Early Amber, Redhaven, and Washington, our sweet flat Ufo peaches continue to delight modern retail and food service markets with effortless eating quality and sweet fragrance.",
+      "quote": "Kissed by the Mediterranean sunshine, our peaches and Ufo flat peaches deliver unmatched juiciness, sweetness, and velvety perfection.",
+      "intro": {
+        "title": "Peach Varieties",
+        "description": "High-yielding, succulent, and fragrant peach varieties harvested across early, mid, and late seasons with Meypal quality assurance."
+      },
+      "varieties": {
+        "flodasun": {
+          "name": "Flodasun",
+          "tag": "Early Season & Yellow Flesh",
+          "description": "Semi-upright vigorous tree maturing in late May in the Mediterranean. Averages 120g with juicy yellow flesh and high orchard yield."
+        },
+        "earlyAmber": {
+          "name": "Early Amber",
+          "tag": "Vigorous & Productive",
+          "description": "Spreading tree structure ripening in late May. Averages 150g with sweet yellow flesh, ideal for coastal Mediterranean climates."
+        },
+        "springtime": {
+          "name": "Springtime",
+          "tag": "White Flesh & Juicy",
+          "description": "Flat-rounded shape averaging 90g with red blush over yellow ground. Tender white juicy flesh with refreshing sweet flavor."
+        },
+        "precocissima": {
+          "name": "Precocissima",
+          "tag": "Deep Red & Aromatic",
+          "description": "Upright vigorous tree ripening early. Averages 100g with intense dark red coloration, greenish-white flesh, and pleasant tartness."
+        },
+        "earlyRed": {
+          "name": "Early Red",
+          "tag": "Fine Texture & Sweet",
+          "description": "Vigorous and highly productive tree. Averages 125g, dark red over yellow, with fine-grained sweet flesh and rich aroma."
+        },
+        "blazingGold": {
+          "name": "Blazing Gold",
+          "tag": "Deep Yellow & Sweet",
+          "description": "Averages 143g with vibrant red blush over golden-yellow skin. Features yellow, aromatic, and fine-textured sweet flesh."
+        },
+        "merrillGemFree": {
+          "name": "Merrill Gem Free",
+          "tag": "Frost Resistant & Large",
+          "description": "Averages 197g large caliber, dark red striped, with firm yellow flesh and high resilience against late spring frosts."
+        },
+        "cardinal": {
+          "name": "Cardinal",
+          "tag": "Solid Red & Sweet",
+          "description": "Averages 161g with uniform red skin over deep yellow ground. Fine texture and balanced sweetness, well suited for Mediterranean valleys."
+        },
+        "dixired": {
+          "name": "Dixired",
+          "tag": "Low Fiber & Balanced",
+          "description": "Averages 175g with dark red marbling on yellow base. Low-fiber, moderately juicy, and aromatic sweet flesh."
+        },
+        "starkingDelicious": {
+          "name": "Starking Delicious",
+          "tag": "Sub-Elongated & Sweet",
+          "description": "Averages 184g, slightly elongated with light red mottling on yellow-green ground. Moderately juicy, sweet, and aromatic."
+        },
+        "coronet": {
+          "name": "Coronet",
+          "tag": "Freestone & Durable",
+          "description": "Averages 156g with bright red coloration over yellow ground. Freestone characteristic with excellent shipping and transit durability."
+        },
+        "redhaven": {
+          "name": "Redhaven (R-1)",
+          "tag": "Classic Favorite & Large",
+          "description": "A benchmark variety averaging 185g with dark red blush, melting yellow sweet flesh, freestone separation, and high transit firmness."
+        },
+        "washington": {
+          "name": "Washington",
+          "tag": "Extra Large (200g+) & Rich Flavor",
+          "description": "Exceptional size averaging 208g with deep red blush, aromatic yellow flesh, freestone seed, and strong cold hardiness."
+        }
+      },
+      "gallery": {
+        "freshPeachesTitle": "Fresh Mediterranean Peaches",
+        "freshPeachesAlt": "Meypal premium fresh juicy sweet peaches",
+        "orchardPeachesTitle": "Bountiful Orchard Harvest",
+        "orchardPeachesAlt": "Meypal fresh peach harvest basket in orchard",
+        "ripePeachesTitle": "Velvety Ripe Fruit",
+        "ripePeachesAlt": "Tree-ripened fragrant peaches ready for export"
+      },
+      "features": {
+        "vitamins": {
+          "title": "Vitamins A & C",
+          "description": "Rich in beta-carotene (provitamin A), vitamin C, and potassium, promoting cellular wellness and glowing skin health."
+        },
+        "climate": {
+          "title": "Mediterranean Sun",
+          "description": "Ripened under abundant sunny days to attain peak brix sweetness, velvety texture, and vivid crimson blushing."
+        },
+        "sweetJuicy": {
+          "title": "Supreme Juiciness & Succulence",
+          "description": "High juice yield and pleasant natural acidity balance make these peaches highly sought after for both table and gourmet use."
+        },
+        "transport": {
+          "title": "Engineered for Long Transit",
+          "description": "Sized and packed with modern cushioning technology to preserve firm skin and optimal condition during long-haul transport."
+        }
+      }
+    },
+    "pomegranate": {
+      "aboutParagraph1": "At Meypal, we uphold uncompromising standards of natural authenticity and supreme fruit quality. The pomegranate (Punica granatum), belonging to the Lythraceae family, is an ancient sacred fruit composed of hundreds of vibrant ruby arils encased in a crowned protective rind.",
+      "aboutParagraph2": "A 100g serving delivers concentrated antioxidant punicalagins, vitamins C and K, essential potassium, and beneficial dietary fibers. Balanced in caloric profile, pomegranates are completely cholesterol-free and virtually free of saturated fats, acting as a natural vitality elixir.",
+      "aboutParagraph3": "Representing the largest share of Turkish pomegranate exports, the certified Hicaz pomegranate is globally acclaimed for its deep ruby arils, harmonious sweet-tart flavor balance, large fruit size, and extraordinary capability to store for up to 6 months in cold storage without quality loss.",
+      "quote": "With its jewel-like ruby arils, signature sweet-tart aroma, and profound antioxidant vitality, Hicaz pomegranate embodies Mediterranean abundance.",
+      "intro": {
+        "title": "Pomegranate Varieties",
+        "description": "Certified and world-leading Turkish Hicaz pomegranate cultivated with supreme agricultural care."
+      },
+      "varieties": {
+        "hicazNar": {
+          "name": "Hicaz Pomegranate",
+          "tag": "BATEM Certified & Global Export Leader",
+          "description": "Registered by Antalya West Mediterranean Agricultural Research Institute (BATEM). The flagship of Turkish fruit exports, featuring dark red skin, intense ruby arils, balanced acidity, and unmatched 6-month cold storage durability."
+        }
+      },
+      "gallery": {
+        "freshPomegranatesTitle": "Fresh Mediterranean Hicaz Pomegranates",
+        "freshPomegranatesAlt": "Meypal first-class fresh branch-picked Hicaz pomegranates",
+        "openedPomegranateTitle": "Vibrant Ruby Red Pomegranate Arils",
+        "openedPomegranateAlt": "Meypal luscious opened fresh pomegranate showing glistening seeds",
+        "orchardPomegranateTitle": "Bountiful Orchard Harvest",
+        "orchardPomegranateAlt": "Sunlit pomegranate grove harvest in Mediterranean Turkey"
+      },
+      "features": {
+        "antioxidant": {
+          "title": "Punicalagins & Vitamin C",
+          "description": "Packed with concentrated polyphenolic antioxidants that combat oxidative stress and promote cardiovascular longevity."
+        },
+        "climate": {
+          "title": "Mediterranean Microclimate",
+          "description": "Nurtured in fertile valleys with abundant sunshine and mild autumns, securing intense skin color and optimal sweet-tart brix."
+        },
+        "tartSweet": {
+          "title": "Signature Sweet-Tart Harmony",
+          "description": "Neither overly acidic nor sugary, its nuanced flavor profile is the premier choice for table use, culinary dressings, and juicing."
+        },
+        "storage": {
+          "title": "6 Months Storage Longevity",
+          "description": "Durable, thick protective rind permits up to 6 months of flawless preservation under precision controlled-atmosphere storage."
+        }
+      }
+    },
+    "grape": {
+      "aboutParagraph1": "Grapes stand among the most ancient cultivated treasures of Anatolia and the Mediterranean—the historical cradle of viticulture. Meypal delivers fresh table grape varieties that bring together high orchard yield, large berry caliber, high natural brix, and transit resilience.",
+      "aboutParagraph2": "Our export-grade table grapes feature generous, well-formed bunches with firm, conical, fleshy berries. Rich in natural fructose, potassium, and protective grape polyphenols including resveratrol, they provide immediate revitalizing nourishment.",
+      "aboutParagraph3": "Renowned varieties including Pembe Gemre, classic table Super Asma, and early-ripening Trakya Ilkeren maintain exceptional berry attachment and freshness post-harvest. Meypal packs each bunch with care in specialized ventilated packaging for dependable worldwide transit.",
+      "quote": "Rooted in thousands of years of Anatolian viticulture, our crisp, sweet, and sun-kissed table grapes bring timeless vineyard flavor to world tables.",
+      "intro": {
+        "title": "Table Grape Varieties",
+        "description": "High-yielding, resilient, and exquisitely flavored table grape varieties spanning early to late harvest windows."
+      },
+      "varieties": {
+        "pembeGemre": {
+          "name": "Pembe Gemre",
+          "tag": "Large Clusters & Rosy Large Berries",
+          "description": "Features large, moderately dense clusters with attractive pinkish-red berries. Ripening in September, this high-yielding variety is widely celebrated for table consumption."
+        },
+        "superAsma": {
+          "name": "Super Asma Table Grape",
+          "tag": "Golden-Green & Dense Berries",
+          "description": "The quintessential Turkish table grape. Large bunches with tightly packed, slightly oval, golden-yellow-green berries maturing in August with honeyed sweetness."
+        },
+        "trakyaIlkeren": {
+          "name": "Trakya Ilkeren",
+          "tag": "Early Season & Conical Fleshy Berries",
+          "description": "Produces substantial, heavy clusters with fleshy conical berries. Reaches early maturity while retaining outstanding freshness on the vine and during transport."
+        }
+      },
+      "gallery": {
+        "freshGrapesTitle": "Fresh Table Grape Bunches",
+        "freshGrapesAlt": "Meypal premium first-class fresh table grapes",
+        "bunchGrapesTitle": "Bountiful Vineyard Harvest",
+        "bunchGrapesAlt": "Freshly harvested large grape clusters from sunny vineyards",
+        "redGrapesTitle": "Rosy & Red Grape Selection",
+        "redGrapesAlt": "Meypal aromatic pink table grape clusters"
+      },
+      "features": {
+        "antioxidant": {
+          "title": "Resveratrol & Flavonoids",
+          "description": "Abundant in natural trans-resveratrol and anthocyanins located in the skin, delivering powerful cellular and cardiovascular defense."
+        },
+        "climate": {
+          "title": "Sunny Anatolian Slopes",
+          "description": "Cultivated on sun-drenched terraced slopes where daytime heat and nighttime breezes produce firm skins and elevated sugar levels."
+        },
+        "sweetJuicy": {
+          "title": "Crisp Berry Texture & High Brix",
+          "description": "Exhibits a refreshing crunch, luscious juice release, and clean natural sweetness beloved across international markets."
+        },
+        "storage": {
+          "title": "Non-Shattering Durable Bunches",
+          "description": "Strong pedicel attachment and thick skins protect against shatter and moisture loss across extended transit routes."
+        }
+      }
+    },
+    "apricot": {
+      "aboutParagraph1": "Apricot (Prunus armeniaca), belonging to the Rosaceae family, is one of the most delicate and treasured stone fruits cultivated across Anatolia. Slightly larger than a walnut, fresh apricots gleam with golden-yellow to deep velvety orange hues and offer fragrant tenderness.",
+      "aboutParagraph2": "Abundant in provitamin A (beta-carotene), vitamin C, and dietary potassium, fresh apricots fortify eyesight, skin elasticity, and daily digestive vitality. Their cleanly separating freestone pit makes table consumption effortless and enjoyable.",
+      "aboutParagraph3": "Meypal sources world-famous varieties including Hasanbey, Hacihaliloglu, Alyanak, and Salak (Aprikoz) directly from premier Malatya and Mediterranean groves. Packed in protective cushioned punnets, our fresh apricots travel swiftly under cold-chain conditions.",
+      "quote": "Basked in golden sunlight, our velvety fresh Anatolian apricots captivate with honeyed sweetness, silky texture, and unmistakable floral fragrance.",
+      "intro": {
+        "title": "Apricot Varieties",
+        "description": "Internationally renowned table and dried apricot selections from Malatya and Mediterranean orchards."
+      },
+      "varieties": {
+        "hasanbey": {
+          "name": "Hasanbey Apricot",
+          "tag": "Premier Table Cultivar",
+          "description": "Malatya's undisputed queen of table apricots. Exceptional fruit size, juicy honeyed pulp, and golden-orange skin deliver an unforgettable fresh eating experience."
+        },
+        "hacihaliloglu": {
+          "name": "Hacihaliloglu Apricot",
+          "tag": "Highest Natural Brix & Aroma",
+          "description": "The world-famous benchmark for flavor and sugar concentration. Exceptionally rich dry matter and sweet aromatic pulp prize it for dual table and drying use."
+        },
+        "alyanak": {
+          "name": "Alyanak & Salak (Aprikoz)",
+          "tag": "Red-Blushed & Extra Large",
+          "description": "Characterized by radiant crimson-blushed cheeks, extra-large sizing, and balanced sweet-tart juiciness highly requested in international fresh markets."
+        }
+      },
+      "gallery": {
+        "freshApricotsTitle": "Fresh Tree-Ripened Apricots",
+        "freshApricotsAlt": "Meypal premium first-class fresh golden apricots",
+        "ripeApricotsTitle": "Velvety Golden Stone Fruit",
+        "ripeApricotsAlt": "Meypal juicy and aromatic ripe fresh apricots",
+        "harvestApricotsTitle": "Carefully Packed Orchard Apricots",
+        "harvestApricotsAlt": "Fresh apricot harvest from Malatya and Mediterranean groves"
+      },
+      "features": {
+        "vitamins": {
+          "title": "Rich in Beta-Carotene (Vitamin A)",
+          "description": "Packed with provitamin A carotenoids, vitamin C, and potassium that support visual acuity, skin health, and immune vitality."
+        },
+        "climate": {
+          "title": "Microclimatic Valley Sunlight",
+          "description": "Harvested in sheltered valley basins featuring sharp day-night temperature swings that concentrate rich natural fruit sugars."
+        },
+        "sweetJuicy": {
+          "title": "Melting Pulp & Floral Fragrance",
+          "description": "Velvety skin encasing tender, honey-sweet flesh makes fresh apricots an irresistible seasonal delicacy."
+        },
+        "exportStorage": {
+          "title": "Cushioned Punnet Transit",
+          "description": "Safeguarded within custom-molded clamshells and rapid temperature-controlled transit to preclude bruising and preserve firmness."
+        }
+      }
+    },
+    "watermelon": {
+      "aboutParagraph1": "Watermelon (Citrullus lanatus) is a beloved annual vine belonging to the Cucurbitaceae family, celebrated for its refreshing crispness and sweet scarlet flesh. Holding deep historical roots in Mediterranean and Anatolian summer tables, it is the ultimate symbol of cooling hydration.",
+      "aboutParagraph2": "Composed of 92% natural water enriched with electrolytes and potent lycopene—in concentrations exceeding even fresh tomatoes—watermelon provides clean, revitalizing hydration with remarkably low calories, zero fat, and pure wholesome pleasure.",
+      "aboutParagraph3": "Meypal excels in both classic large Crimson Sweet field watermelons and convenient, refrigerator-friendly, seedless Sugar Baby personal melons. Sized with precision and tested for brix sweetness, our watermelons reach global retailers in pristine condition.",
+      "quote": "Sun-ripened in Mediterranean soils, our crisp, sweet, and bursting watermelons offer nature's purest hydration and summer delight.",
+      "intro": {
+        "title": "Watermelon Varieties",
+        "description": "From substantial striped family-size cultivars to modern personal snack watermelons."
+      },
+      "varieties": {
+        "crimsonSweet": {
+          "name": "Crimson Sweet",
+          "tag": "Classic Striped & Generous Caliber",
+          "description": "Recognized by prominent dark and light green striping, dense scarlet flesh, and high sugar brix. The international standard for large family-size summer watermelons."
+        },
+        "sugarBaby": {
+          "name": "Sugar Baby",
+          "tag": "Dark Green & Personal Size",
+          "description": "Solid dark green rind with micro-seeds or seedless genetics. Convenient personal sizing tailored for modern convenience and small household refrigerators."
+        }
+      },
+      "gallery": {
+        "freshWatermelonTitle": "Fresh Field Watermelon",
+        "freshWatermelonAlt": "Meypal first-class fresh striped watermelon",
+        "slicedWatermelonTitle": "Crisp Ruby Red Watermelon Slice",
+        "slicedWatermelonAlt": "Meypal juicy and sweet scarlet watermelon slice"
+      },
+      "features": {
+        "lycopene": {
+          "title": "High Bioactive Lycopene",
+          "description": "Imparts vibrant crimson flesh with concentrated lycopene and L-citrulline, aiding vascular health and post-exercise recovery."
+        },
+        "climate": {
+          "title": "Deep Çukurova Soils",
+          "description": "Thrives under intense Mediterranean sunlight in fertile alluvial soils to yield dense cell structure and balanced sweetness."
+        },
+        "hydration": {
+          "title": "92% Natural Hydration",
+          "description": "Supplies pure botanical water combined with potassium and magnesium to restore bodily fluid balance during summer heat."
+        },
+        "convenience": {
+          "title": "Robust Rind & Modern Sizing",
+          "description": "Features resilient rind thickness that resists transit compression, ideal for containerized pallet freight."
+        }
+      }
+    },
+    "melon": {
+      "aboutParagraph1": "Melon (Cucumis melo) represents one of the fastest-growing categories in the Meypal fresh produce catalog. Through continuous breeding partnerships worldwide, Meypal has perfected an all-year melon program characterized by uncompromising quality and sweetness.",
+      "aboutParagraph2": "Innovation drives Meypal forward. The Caribbean melon family leads modern melon breeding, offering fragrant golden-orange flesh, paper-thin rind, minimal seed cavity, and exceptional brix that redefine consumer convenience and gourmet presentation.",
+      "aboutParagraph3": "Because melons must travel long distances to global destinations, shelf life is of paramount importance. Meypal melons combine stable high yields and robust disease resistance with long-lasting post-harvest firmness, arriving tree-fresh across weeks of transit.",
+      "quote": "Our innovative Caribbean melon program redefines fresh melons with its thin rind, compact seed cavity, and luscious honeyed sweetness.",
+      "gallery": {
+        "freshMelonTitle": "Fresh Net-Rinded Caribbean Melon",
+        "freshMelonAlt": "Meypal first-class fresh sweet melon",
+        "slicedMelonTitle": "Succulent Sliced Fresh Melon",
+        "slicedMelonAlt": "Meypal orange-fleshed aromatic and juicy melon wedges"
+      },
+      "features": {
+        "vitamins": {
+          "title": "Vitamins A, C & Folate",
+          "description": "Packed with bioavailable beta-carotene, vitamin C, and folate to bolster natural immunity and radiant cellular vitality."
+        },
+        "climate": {
+          "title": "Mediterranean Sun & Warmth",
+          "description": "Maximizes natural photosynthesis during warm summer days to accumulate elevated brix sugar and intoxicating aroma."
+        },
+        "aroma": {
+          "title": "Honeyed Bouquet & Silky Flesh",
+          "description": "Delivers melt-in-the-mouth juiciness paired with room-filling musky fragrance prized in gourmet culinary settings."
+        },
+        "shelfLife": {
+          "title": "Extended Shelf Life & Thin Rind",
+          "description": "Small seed cavity and resilient external netting yield maximum edible portion and long-lasting export transit life."
+        }
+      }
     }
   },
   "categories": {
     "common": {
       "breadcrumb": "Product Category",
       "allProducts": "All Products",
-      "productsCount": "{count} Citrus Varieties",
+      "productsCount": "{count} Product Varieties",
       "viewProduct": "View Product",
       "varieties": "{count} Varieties",
       "freshGuarantee": "100% Fresh & Natural",
@@ -1015,7 +1487,15 @@
       "badge": "Mediterranean Citrus",
       "title": "Fresh & Aromatic Citrus Varieties",
       "subtitle": "Premium Citrus Ripened under Mediterranean Sunshine",
+      "productsCount": "{count} Citrus Varieties",
       "description": "Since 1945, Meypal carefully harvests oranges, mandarins, lemons, and grapefruits cultivated in the Mediterranean's most fertile orchards, processing them in modern calibration and cold storage facilities for worldwide export."
+    },
+    "fruits": {
+      "badge": "Fresh Fruits",
+      "title": "Mediterranean & Anatolian Fresh Fruits",
+      "subtitle": "Sun-Ripened Quality and Natural Wholesome Flavor",
+      "productsCount": "{count} Fresh Fruit Varieties",
+      "description": "Harvested from the most fertile orchards of Anatolia and the Mediterranean, Meypal brings quince, sweet cherry, black fig, peach, pomegranate, table grape, apricot, watermelon, and melon varieties to world markets with cutting-edge cold-chain logistics and quality standards."
     }
   }
 }

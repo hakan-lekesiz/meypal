@@ -18,6 +18,10 @@ export function PlpProductGridSection({ category, locale, t }: PlpProductGridSec
   const sectionId = useId()
   const products = category.products
 
+  const productsCountText = t.has(`categories.${category.id}.productsCount`)
+    ? t(`categories.${category.id}.productsCount`, { count: products.length })
+    : t("categories.common.productsCount", { count: products.length })
+
   return (
     <section aria-labelledby={sectionId} className="relative">
       {/* Section Header */}
@@ -30,7 +34,7 @@ export function PlpProductGridSection({ category, locale, t }: PlpProductGridSec
             className="mt-1 text-2xl font-bold tracking-tight text-[#0f172a] sm:text-3xl"
             id={sectionId}
           >
-            {t("categories.common.productsCount", { count: products.length })}
+            {productsCountText}
           </h2>
         </div>
 

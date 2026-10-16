@@ -673,6 +673,56 @@
       "title": "Greyfurt - Taze Akdeniz Greyfurt Çeşitleri | Meypal",
       "description": "Akdeniz'in en kaliteli sulu ve lezzetli greyfurt çeşitleri: Star Ruby ve Riored. Meypal güvencesiyle taze, vitamin dolu ve güvenilir ihracat.",
       "keywords": "greyfurt, greyfurt çeşitleri, star ruby greyfurt, riored greyfurt, narenciye ihracatı, taze greyfurt, mersin greyfurt, Meypal"
+    },
+    "fruits": {
+      "title": "Taze Meyveler - Akdeniz & Anadolu Meyve İhracatı | Meypal",
+      "description": "Meypal güvencesiyle Akdeniz ve Anadolu'nun bereketli bahçelerinden özenle toplanan birinci sınıf taze meyveler: Ayva, kiraz, siyah incir ve şeftali çeşitleri.",
+      "keywords": "taze meyve, meyve ihracatı, Türk meyvesi ihracatı, ayva ihracatı, kiraz ihracatı, siyah incir ihracatı, şeftali çeşitleri, Mersin, Meypal"
+    },
+    "quince": {
+      "title": "Ayva - Taze & Aromatik Anadolu Ayvası | Meypal",
+      "description": "Türkiye'nin en seçkin bahçelerinden eşme, ekmek ve limon ayvası çeşitleri. 4000 yıllık geçmişe sahip, bol vitaminli ve aromatik ayva ihracatı.",
+      "keywords": "ayva, ayva ihracatı, taze ayva, eşme ayvası, ekmek ayvası, limon ayvası, meyve ihracatı, Meypal"
+    },
+    "cherry": {
+      "title": "Kiraz - Birinci Sınıf Türk Kirazı İhracatı | Meypal",
+      "description": "Dünya kiraz üretiminde lider olan Türkiye'nin en kaliteli, sert, sulu ve aromatik kiraz çeşitleri. Meypal soğuk zincir güvencesiyle dünya pazarlarına.",
+      "keywords": "kiraz, kiraz ihracatı, Türk kirazı, Napolyon kiraz, 0900 ziraat, taze kiraz ihracatı, Mersin kiraz, Meypal"
+    },
+    "fig": {
+      "title": "Siyah İncir - Akdeniz'in Eşsiz Lezzeti | Meypal",
+      "description": "Doğu Akdeniz'in geleneksel ve otantik ruhunu yansıtan, eşsiz aroması ve yüksek besin değeriyle birinci sınıf taze siyah incir ihracatı.",
+      "keywords": "siyah incir, taze incir ihracatı, bursa siyahı, incir ihracatı, Akdeniz inciri, Ficus carica, Meypal"
+    },
+    "peach": {
+      "title": "Şeftali & Ufo Şeftali - Taze Akdeniz Şeftali Çeşitleri | Meypal",
+      "description": "Akdeniz'in bol güneşli bahçelerinden Flodasun, Early Amber, Redhaven, Washington ve Ufo şeftali çeşitleri. Yüksek kalibreli, sulu ve tatlı taze şeftali ihracatı.",
+      "keywords": "şeftali, ufo şeftali, yassı şeftali, şeftali ihracatı, flodasun, redhaven, taze şeftali, Akdeniz şeftali, Meypal"
+    },
+    "pomegranate": {
+      "title": "Nar - Taze Akdeniz Hicaz Narı İhracatı | Meypal",
+      "description": "Türkiye'nin tescilli ve ihracat lideri Hicaz narı. Koyu kırmızı daneleri, mayhoş aroması ve yüksek antioksidan içeriğiyle 6 ay depolanabilir birinci sınıf taze nar ihracatı.",
+      "keywords": "nar, hicaz narı, nar ihracatı, taze nar, Akdeniz narı, BATEM tescilli nar, mayhoş nar, Mersin, Meypal"
+    },
+    "grape": {
+      "title": "Üzüm - Taze Sofralık Anadolu Üzümü İhracatı | Meypal",
+      "description": "Pembe Gemre, Süper Asma ve Trakya İlkeren gibi birinci sınıf sofralık taze üzüm çeşitleri. İri daneli, sulu ve dayanıklı salkımlarla dünya standartlarında ihracat.",
+      "keywords": "üzüm, taze üzüm ihracatı, sofralık üzüm, pembe gemre, süper asma, trakya ilkeren, Türk üzümü, Mersin, Meypal"
+    },
+    "apricot": {
+      "title": "Kayısı - Taze Sofralık & Kurutmalık Anadolu Kayısısı | Meypal",
+      "description": "Hasanbey, Hacıhaliloğlu, Alyanak ve Şalak çeşitleri ile Malatya ve Akdeniz'in taze kayısı ihracatı. Yüksek brix, hoş koku ve kadife dokulu birinci sınıf taze kayısılar.",
+      "keywords": "kayısı, kayısı ihracatı, taze kayısı, hasanbey kayısı, hacıhaliloğlu, alyanak, Malatya kayısısı, sofralık kayısı, Meypal"
+    },
+    "watermelon": {
+      "title": "Karpuz - Tatlı & Sulu Akdeniz Karpuzu İhracatı | Meypal",
+      "description": "Crimson Sweet ve Sugar Baby çeşitleri ile kişisel ebatta ve sofralık taze karpuz üretimi. Bol sulu, yüksek likopenli ve tatlı taze karpuz ihracatı.",
+      "keywords": "karpuz, karpuz ihracatı, crimson sweet, sugar baby, taze karpuz, Çukurova karpuz, Mersin karpuz, Meypal"
+    },
+    "melon": {
+      "title": "Kavun - Kokulu & Tatlı Caribbean Kavun İhracatı | Meypal",
+      "description": "Yüksek raf ömrü, ince kabuk, küçük çekirdek evi ve bal gibi tatlı aromasıyla yenilikçi Caribbean ve sofralık kavun çeşitleri. 12 ay uluslararası tedarik.",
+      "keywords": "kavun, kavun ihracatı, caribbean kavun, taze kavun, tatlı kavun, convenience kavun, Mersin, Meypal"
     }
   },
   "header": {
@@ -996,13 +1046,435 @@
           "description": "Ağaçta ve modern soğuk hava tesislerimizde uzun süre kalitesini korur; uluslararası ihracat sevkiyatlarına tam uygundur."
         }
       }
+    },
+    "quince": {
+      "aboutParagraph1": "Ayva, günümüzde en çok sevilen ve tüketilen meyveler arasındadır. Bu noktada ayvanın geçmişi yaklaşık 4000 yıl öncesine dayanmaktadır. Faydaları sayesinde, gelişim çağındaki çocukların bağışıklık sistemleri daha güçlü gelişmektedir.",
+      "aboutParagraph2": "Ayvanın kullanım alanının da oldukça geniş olması, Roma Uygarlığı döneminde parfüm ve bal yapımında da kullanılmasına vesile olmuştur. Genel yapısı itibariyle sert ve lifli bir meyve olan ayva, yetiştiği iklimin şartlarına göre yumuşaklık gösterebilir. Daha sıcak iklimlerde yetişen ayvaların daha sulu ve yumuşak olduğu görülmektedir.",
+      "aboutParagraph3": "Ülkemizde en çok yetiştirilen üç adet ayva çeşidi bulunmaktadır: Eşme, limon ve ekmek ayvası. Eşme ayvası Marmara Bölgesi'ne has, sulu ve mayhoş lezzetiyle öne çıkar. Ekmek ayvası yaygın ve dengeli aromalı bir çeşittir. Limon ayvası ise mayhoş ferahlığıyla son yıllarda popülerlik kazanmıştır. Meypal, birinci sınıf ayvaları kalibre ederek uluslararası pazarlara sunar.",
+      "quote": "4000 yıllık köklü geçmişi, eşsiz aroması ve yüksek besin değeriyle Anadolu ayvası; doğallığın ve sağlığın altın sarısı simgesidir.",
+      "gallery": {
+        "freshQuinceTitle": "Taze Dalından Ayva",
+        "freshQuinceAlt": "Meypal birinci sınıf taze sarı ayva",
+        "slicedQuinceTitle": "Dilimlenmiş Taze Ayva",
+        "slicedQuinceAlt": "Meypal sulu ve aromatik dilimlenmiş ayva",
+        "basketQuinceTitle": "Bahçe Hasadı Ayva Sepeti",
+        "basketQuinceAlt": "Özenle toplanmış kaliteli taze ayvalar"
+      },
+      "features": {
+        "immune": {
+          "title": "Güçlü Bağışıklık Desteği",
+          "description": "Zengin C vitamini, pektin ve antioksidan içeriğiyle bağışıklık sistemini destekler ve hastalıklara karşı doğal koruma sağlar."
+        },
+        "climate": {
+          "title": "İdeal İklim Koşulları",
+          "description": "Sıcak ve ılıman iklim şartlarında optimum şeker-asit dengesi, yumuşak doku ve zengin aroma kazanır."
+        },
+        "aroma": {
+          "title": "Eşsiz Koku & Mayhoş Lezzet",
+          "description": "Kendine has yoğun parfüm aroması ve mayhoş lezzetiyle taze tüketimden gurme mutfaklara kadar çok yönlüdür."
+        },
+        "storage": {
+          "title": "Mükemmel Depolama & İhracat",
+          "description": "Dayanıklı kabuk yapısı ve modern soğuk hava muhafazası sayesinde uzun süreli ihracat nakliyesine son derece uygundur."
+        }
+      }
+    },
+    "cherry": {
+      "aboutParagraph1": "Bilim dünyasında Prunus avium olarak bilinen kiraz, yaz mevsiminin olmazsa olmazlarından biridir. Tatlılardan meyve tabaklarına, suyunun sıkılmasından reçelinin yapılmasına kadar hayatın hemen her alanında tüketilen kiraz, sağlıklı ve bir o kadar da lezzetlidir.",
+      "aboutParagraph2": "Dünyanın pek çok yerinde yetiştirilen kiraz, Türkiye'de de bolca bulunmaktadır ve iklim koşulları sağlandığında olağanüstü verim ve kaliteye ulaşmaktadır. Uluslararası kiraz üretimi ve ihracatına göz gezdirildiğinde listenin başında Türkiye yer almaktadır.",
+      "aboutParagraph3": "Oldukça farklı lezzette birçok kiraz çeşidi bulunmaktadır. Ülkemizin gururu 0900 Ziraat (Türk Napolyonu), iri tanesi, koyu kırmızı rengi, sert dokusu ve uzun raf ömrüyle dünya sofralarının bir numaralı tercihidir. Meypal, ileri soğuk zincir lojistiğiyle kirazın bahçe tazeliğini koruyarak ihraç eder.",
+      "quote": "Türkiye'nin verimli topraklarında olgunlaşan birinci sınıf kirazlar, üstün kalibresi ve karşı konulmaz lezzetiyle dünya pazarlarının gözdesidir.",
+      "gallery": {
+        "freshCherriesTitle": "Koyu Kırmızı Taze Kiraz",
+        "freshCherriesAlt": "Meypal birinci sınıf taze kirazlar",
+        "crateCherriesTitle": "İhracata Hazır Kiraz Kasaları",
+        "crateCherriesAlt": "Boylanmış ve kalibre edilmiş taze Türk kirazı",
+        "ripeCherriesTitle": "Dolgun & Sulu Meyveler",
+        "ripeCherriesAlt": "Dalından taze toplanmış parlak kiraz"
+      },
+      "features": {
+        "antioxidant": {
+          "title": "Antosiyanin & Antioksidan",
+          "description": "Koyu kırmızı rengini veren güçlü antosiyaninler ve melatonin içeriğiyle hücre yenilenmesini ve kaliteli uykuyu destekler."
+        },
+        "exportLeader": {
+          "title": "Dünya İhracat Lideri Kalite",
+          "description": "Türkiye'nin lider üretim gücü ve 0900 Ziraat çeşidinin uluslararası kabul gören standartlarıyla dünya kalitesindedir."
+        },
+        "firmJuicy": {
+          "title": "Sert Doku & Yüksek Kalibre",
+          "description": "Çıtır sertlikte meyve eti, optimum şeker oranı ve iri dane çapıyla en yüksek gastronomi beklentilerini karşılar."
+        },
+        "coldChain": {
+          "title": "Kesintisiz Soğuk Zincir",
+          "description": "Hasat anından itibaren uygulanan hydrocooling ve kontrollü atmosferli soğuk zincirle dalından yeni koparılmış gibi teslim edilir."
+        }
+      }
+    },
+    "fig": {
+      "aboutParagraph1": "İncir, anavatanı Doğu Akdeniz ve Güneybatı Asya olan, dutgiller (Moraceae) familyasına dahil, ticari öneme sahip en kadim meyve ağacıdır. Eşsizliği, aroması, bal kıvamındaki dokusu ve kendine has tadı ile taze ürünlerin en değerlilerindendir.",
+      "aboutParagraph2": "Taze siyah incir (Ficus carica), yüksek kalsiyum, potasyum, magnezyum ve lif kompozisyonuna sahiptir. Meypal, günümüzün modern üretim ve dağıtım sistemlerinin gerektirdiği kalite garantileri ile geleneksel ve otantik meyve ruhunu bir araya getirmektedir.",
+      "aboutParagraph3": "Boyut, raf ömrü ve hassas nakliye koşullarını en ileri paketleme teknolojileriyle yöneten Meypal, Akdeniz ve Ege'nin en seçkin siyah incirlerini özenle seçer ve tazeliğini kaybetmeden uluslararası pazarlara ulaştırır.",
+      "quote": "Akdeniz'in binlerce yıllık mirası siyah incir; bal damlayan lezzeti ve eşsiz besin zenginliğiyle doğanın en asil hediyesidir.",
+      "gallery": {
+        "freshFigsTitle": "Taze Siyah İncir",
+        "freshFigsAlt": "Meypal birinci sınıf taze mor siyah incir",
+        "slicedFigTitle": "İçi Bal Dolu İncir Kesiti",
+        "slicedFigAlt": "Meypal taze siyah incir kesiti ve yaprakları"
+      },
+      "features": {
+        "nutritional": {
+          "title": "Kalsiyum & Potasyum Deposu",
+          "description": "100 gramında yüksek potasyum, kalsiyum, demir ve değerli mineraller barındırarak kalp ve kemik sağlığına katkı sunar."
+        },
+        "mediterranean": {
+          "title": "Otantik Akdeniz Kökeni",
+          "description": "Doğu Akdeniz'in binlerce yıllık doğal habitatında, optimum sıcaklık ve mikroklimada doğal olarak olgunlaşır."
+        },
+        "fiber": {
+          "title": "Yüksek Çözünür Lif",
+          "description": "Sindirim sistemini düzenlemeye yardımcı olan doğal lifler ve prebiyotik bileşenler açısından son derece zengindir."
+        },
+        "premiumExport": {
+          "title": "Hassas Paketleme & Hava Kargo",
+          "description": "Özel koruyucu viyollerde, soğuk zincir bozulmadan hızlı ve güvenli lojistik ağımızla sevk edilir."
+        }
+      }
+    },
+    "peach": {
+      "aboutParagraph1": "Meypal, her yıl geliştirilmiş özelliklere sahip geniş bir yelpazede şeftali ve Ufo şeftali çeşitliliğini tüketicilerine sunmaktadır. Bu çeşitlilik kalite, tat, verimlilik, zararlılara ve hastalıklara karşı dayanımı da içerecek şekilde en yüksek ihracat gereksinimlerini karşılamaktadır.",
+      "aboutParagraph2": "Şeftali ağacı, Akdeniz, Ege ve Marmara'nın verimli topraklarında güneşi kucaklayarak mükemmel meyve iriliğine ve şeker dengesine ulaşır. Meyve eti sarı veya beyaz, sulu, lifli ve aromatik yapısıyla yaz aylarının en sevilen lezzetidir.",
+      "aboutParagraph3": "Hem yuvarlak şeftali çeşitleri (Flodasun, Early Amber, Redhaven, Washington vb.) hem de son yıllarda popülaritesi hızla artan basık yapılı, bal tatlısı Ufo (yassı) şeftali çeşitlerimiz, Meypal'in ileri tasnif ve soğutma tesislerinde işlenerek dünyaya ulaştırılmaktadır.",
+      "quote": "Akdeniz güneşiyle kadife gibi olgunlaşan taze şeftali ve Ufo şeftali çeşitlerimiz; benzersiz sululuğu ve aromasıyla damaklarda iz bırakır.",
+      "intro": {
+        "title": "Şeftali Çeşitlerimiz",
+        "description": "Meypal güvencesiyle erkenciden geçciye farklı olgunlaşma dönemlerinde hasat edilen yüksek verimli ve lezzetli şeftali çeşitlerimiz."
+      },
+      "varieties": {
+        "flodasun": {
+          "name": "Flodasun",
+          "tag": "Erkenci & Sarı Etli",
+          "description": "Ağacı yarı dik ve kuvvetli gelişir. Akdeniz bölgesinde Mayıs ayının 3. haftasında olgunlaşır. Ortalama 120 gr, sarı etli, çekirdek ete bağlı ve verimi çok yüksektir."
+        },
+        "earlyAmber": {
+          "name": "Early Amber",
+          "tag": "Kuvvetli & Verimli",
+          "description": "Ağacı yaygın ve kuvvetli gelişir. Mayıs ayının 4. haftasında olgunlaşır. Ortalama 150 gr, sarı meyve etli, tatlı ve sahil şeridine son derece uygun bir çeşittir."
+        },
+        "springtime": {
+          "name": "Springtime",
+          "tag": "Beyaz Etli & Sulu",
+          "description": "Basık meyveli, ortalama 90 gr ağırlığında, sarı zemin üzerine kırmızı yanaklıdır. Beyaz sulu meyve eti ve lifli dokusuyla ferahlatıcı lezzet sunar."
+        },
+        "precocissima": {
+          "name": "Precocissima",
+          "tag": "Koyu Kırmızı & Aromatik",
+          "description": "Dik ve çok kuvvetli gelişir. Ortalama 100 gr ağırlığında, koyu kırmızı renkli, yeşilimsi beyaz etli, orta sulu ve hafif mayhoş aromalıdır."
+        },
+        "earlyRed": {
+          "name": "Early Red",
+          "tag": "İnce Dokulu & Tatlı",
+          "description": "Yaygın ve kuvvetli gelişir, çok verimlidir. Ortalama 125 gr, sarı zemin üzerine koyu kırmızı renkte, ince dokulu, tatlı ve son derece lezzetlidir."
+        },
+        "blazingGold": {
+          "name": "Blazing Gold",
+          "tag": "Koyu Sarı & Tatlı",
+          "description": "Ortalama 143 gr ağırlığında, koyu sarı zemin üzerine akıtmalı kırmızı renkte, sarı meyve etli, ince dokulu ve yoğun aromalıdır."
+        },
+        "merrillGemFree": {
+          "name": "Merrill Gem Free",
+          "tag": "Don Dayanımlı & İri",
+          "description": "Ortalama 197 gr iri meyveli, koyu kırmızı alacalı, sarı orta sulu etli ve ilkbahar geç donlarına karşı yüksek dayanıklılığa sahiptir."
+        },
+        "cardinal": {
+          "name": "Cardinal",
+          "tag": "Sıvama Kırmızı & Tatlı",
+          "description": "Ortalama 161 gr, koyu sarı üzerine sıvama kırmızı renkte, ince dokulu ve tatlıdır. Akdeniz ve Ege geçit bölgelerinde yüksek verim verir."
+        },
+        "dixired": {
+          "name": "Dixired",
+          "tag": "Az Lifli & Tatlı",
+          "description": "Ortalama 175 gr ağırlığında, koyu sarı üzerine akıtmalı kırmızı renkli, az lifli ve tatlı meyve etine sahip dengeli bir çeşittir."
+        },
+        "starkingDelicious": {
+          "name": "Starking Delicious",
+          "tag": "Hafif Uzunca & Dengeli",
+          "description": "Ortalama 184 gr, hafif uzunca meyve yapısına sahip, sarımsı yeşil üzerine parçalı açık kırmızı, orta sulu ve tatlıdır."
+        },
+        "coronet": {
+          "name": "Coronet",
+          "tag": "Ayrık Çekirdek & Nakliyeye Uygun",
+          "description": "Ortalama 156 gr, sarı zemin üzerine sıvama açık kırmızı, çekirdeği etten kolay ayrılan, nakliyeye ve uzun yolculuklara çok dayanıklı bir çeşittir."
+        },
+        "redhaven": {
+          "name": "Redhaven (R-1)",
+          "tag": "Polis Şeftalisi & İri",
+          "description": "Yöre halkı tarafından 'Polis Şeftalisi' olarak bilinir. Ortalama 185 gr, akıtmalı koyu kırmızı, sarı ince dokulu etli, çekirdekten ayrılan üstün kaliteli çeşittir."
+        },
+        "washington": {
+          "name": "Washington",
+          "tag": "200gr+ Ekstra İri & Aromatik",
+          "description": "Ortalama 208 gr ekstra iri meyve çapı, sarı sulu ve aromatik meyve eti, çekirdekten ayrılan yapısı ve soğuğa dayanıklılığı ile ünlüdür."
+        }
+      },
+      "gallery": {
+        "freshPeachesTitle": "Taze Akdeniz Şeftalisi",
+        "freshPeachesAlt": "Meypal birinci sınıf taze sulu şeftaliler",
+        "orchardPeachesTitle": "Meyve Bahçesinde Bereketli Hasat",
+        "orchardPeachesAlt": "Meypal Akdeniz bahçelerinde taze şeftali sepeti",
+        "ripePeachesTitle": "Olgun & Aromatik Meyveler",
+        "ripePeachesAlt": "Dalından yeni toplanmış nefis taze şeftali"
+      },
+      "features": {
+        "vitamins": {
+          "title": "A & C Vitamini Zengini",
+          "description": "Beta-karoten (A vitamini öncüsü), C vitamini ve zengin potasyum ile bağışıklık ve göz sağlığına katkıda bulunur."
+        },
+        "climate": {
+          "title": "Akdeniz & Çukurova Güneşi",
+          "description": "Bol güneş alan mikroklimalarda optimum brix (şeker) değerine ve kadifemsi kırmızı yanaklara kavuşur."
+        },
+        "sweetJuicy": {
+          "title": "Üstün Sulu & Lifli Yapı",
+          "description": "İnce lif dokusu ve bol meyve suyuyla hem sofralık tüketimde hem de meyve suyu endüstrisinde yüksek talep görür."
+        },
+        "transport": {
+          "title": "İhracata Uygun Sağlam Doku",
+          "description": "Modern boylama ve soğuk zincir lojistiğiyle uzun mesafe uluslararası nakliyede sertliğini ve tazeliğini korur."
+        }
+      }
+    },
+    "pomegranate": {
+      "aboutParagraph1": "Meypal'da bizler meyve üretiminde doğallığın ve yüksek kalite standartlarının özel bir öneme sahip olduğunu düşünmekteyiz. Nar, kınagiller (Lythraceae) familyasından içinde küçük çekirdekleri ve meyve gövdesini oluşturan yüzlerce yakut kırmızısı tanecikten meydana gelen, ılıman Akdeniz ikliminin en kıymetli meyvesidir.",
+      "aboutParagraph2": "100 gramında yüksek oranda antioksidan polifenoller, C ve K vitaminleri, potasyum ve değerli lifler barındıran nar, bağışıklık sistemini güçlendiren doğal bir yaşam iksiridir. Narın kalori değeri dengeli olup, kolesterol ve doymuş yağ içermez.",
+      "aboutParagraph3": "Türkiye'nin nar ihracatının en büyük bölümünü oluşturan tescilli Hicaz narı; koyu kırmızı dane rengi, mayhoş tatlı aroması, iri meyve yapısı ve uygun koşullarda 6 aya kadar depolanabilme özelliğiyle dünya pazarlarının en çok talep ettiği nar çeşididir. Meypal, Akdeniz bahçelerinden topladığı birinci sınıf narları modern kalibrasyonla dünya sofralarına ulaştırmaktadır.",
+      "quote": "Yakut kırmızısı taneleri, eşsiz mayhoş lezzeti ve zengin antioksidan gücüyle Hicaz narı; Akdeniz'in bereket simgesidir.",
+      "intro": {
+        "title": "Nar Çeşitlerimiz",
+        "description": "Türkiye'nin tescilli ve uluslararası ihracat lideri birinci sınıf Hicaz narı çeşidimiz."
+      },
+      "varieties": {
+        "hicazNar": {
+          "name": "Hicaz Nar",
+          "tag": "BATEM Tescilli & İhracat Lideri",
+          "description": "Antalya Batı Akdeniz Tarımsal Araştırma Enstitüsü (BATEM) tarafından tescilli, Türkiye nar ihracatının amiral gemisidir. Koyu kırmızı kabuk ve dane rengi, mayhoş aroması ve iri yapısıyla öne çıkar. Uygun soğuk hava depolarında 6 aya kadar kalitesini korur."
+        }
+      },
+      "gallery": {
+        "freshPomegranatesTitle": "Taze Akdeniz Hicaz Narı",
+        "freshPomegranatesAlt": "Meypal birinci sınıf taze dalından Hicaz narları",
+        "openedPomegranateTitle": "Yakut Kırmızısı Nar Daneleri",
+        "openedPomegranateAlt": "Meypal parlak kırmızı ve sulu taze nar taneleri",
+        "orchardPomegranateTitle": "Hasada Hazır Nar Bahçesi",
+        "orchardPomegranateAlt": "Akdeniz'in bereketli nar bahçelerinde taze hasat"
+      },
+      "features": {
+        "antioxidant": {
+          "title": "Yüksek Punicalagin & C Vitamini",
+          "description": "Güçlü polifenolik antioksidanlar sayesinde hücresel yaşlanmaya karşı korur ve kalp sağlığını destekler."
+        },
+        "climate": {
+          "title": "Akdeniz Mikrokliması",
+          "description": "Akdeniz'in bol güneşli ve ılıman ikliminde olgunlaşarak mükemmel koyu kırmızı renk ve mayhoş brix dengesi kazanır."
+        },
+        "tartSweet": {
+          "title": "Özgün Mayhoş & Tatlı Denge",
+          "description": "Ne çok tatlı ne çok ekşi olan kendine has Hicaz aroması ile taze tüketimden gurme sofralara en çok aranan çeşittir."
+        },
+        "storage": {
+          "title": "6 Aya Varan Kusursuz Depolama",
+          "description": "Kalın ve elastik kabuk yapısı sayesinde modern soğuk hava tesislerimizde 6 aya kadar bozulmadan muhafaza edilir."
+        }
+      }
+    },
+    "grape": {
+      "aboutParagraph1": "Üzüm, bağcılık kültürünün beşiği olan Anadolu ve Akdeniz topraklarının en kadim meyvelerinden biridir. Meypal, sofralık üzüm segmentinde yüksek verimlilik, iri tane kalibresi, yüksek şeker oranı ve taşımaya dayanıklılığı bir araya getiren çeşitleri uluslararası pazarlara sunmaktadır.",
+      "aboutParagraph2": "Oldukça verimli ve sofralık tüketime uygun üzüm çeşitlerimiz; büyük ve dolgun salkımları, konik ve etli tane yapıları ile dikkat çeker. Doğal şekerleri, potasyum ve resveratrol içeriğiyle hem enerji verir hem de zindelik sağlar.",
+      "aboutParagraph3": "Pembe Gemre, sofralık Süper Asma ve erkenci Trakya İlkeren gibi çeşitlerimiz; ağaçta ve hasat sonrasında uzun süre diriliğini koruyan dayanıklı yapılarıyla öne çıkar. Meypal, özenli ambalajlama ve soğuk zincir lojistiğiyle üzüm salkımlarını dalından koptuğu tazelikte ihraç eder.",
+      "quote": "Anadolu bağlarının bin yıllık mirası; iri daneli, çıtır ve bal kıvamındaki sofralık üzümlerimizle dünya sofralarında.",
+      "intro": {
+        "title": "Sofralık Üzüm Çeşitlerimiz",
+        "description": "Farklı olgunlaşma dönemlerine sahip, verimli, dayanıklı ve yüksek aromalı sofralık üzüm çeşitlerimiz."
+      },
+      "varieties": {
+        "pembeGemre": {
+          "name": "Pembe Gemre",
+          "tag": "Büyük Salkım & Pembe İri Tane",
+          "description": "Salkımları büyük ve orta sıklıktadır. Taneleri pembe renkli ve iridir. Verimi oldukça yüksek olan bu çeşit Eylül ayı içerisinde olgunlaşır ve sofralık tüketimde çok beğenilir."
+        },
+        "superAsma": {
+          "name": "Süper Asma Sofralık Üzüm",
+          "tag": "Sarı-Yeşil & Sık Taneli",
+          "description": "Halk arasında en sevilen sofralık üzüm türüdür. İrice salkımları ve çok sık taneleri vardır. Yeşile çalan altın sarısı renkte, hafif oval tanelidir. Ağustos ayında olgunlaşır."
+        },
+        "trakyaIlkeren": {
+          "name": "Trakya İlkeren",
+          "tag": "Erkenci & Konik Etli Tane",
+          "description": "Salkımları büyük ve oldukça ağırdır. Konik biçiminde ve etli tanelere sahiptir. Oluşumunu erkenden tamamlar ve salkım halinde ağaçta uzun süre bozulmadan dayanır."
+        }
+      },
+      "gallery": {
+        "freshGrapesTitle": "Taze Sofralık Üzüm Salkımları",
+        "freshGrapesAlt": "Meypal birinci sınıf taze sofralık üzümler",
+        "bunchGrapesTitle": "Bereketli Bağ Hasadı",
+        "bunchGrapesAlt": "Dalından yeni toplanmış iri daneli taze üzüm",
+        "redGrapesTitle": "Pembe & Kırmızı Gemre Üzümü",
+        "redGrapesAlt": "Meypal yüksek aromalı pembe sofralık üzüm"
+      },
+      "features": {
+        "antioxidant": {
+          "title": "Resveratrol & Polifenoller",
+          "description": "Koyu ve renkli üzüm kabuklarında bulunan doğal resveratrol ve flavonoidler güçlü kardiyovasküler koruma sağlar."
+        },
+        "climate": {
+          "title": "Güneşli Anadolu Bağları",
+          "description": "Bol güneş alan yamaçlarda ve Akdeniz iklim kuşağında optimum şeker birikimi ve çıtır kabuk kalitesine ulaşır."
+        },
+        "sweetJuicy": {
+          "title": "Çıtır Tane & Yüksek Brix",
+          "description": "Dengeli asitlik ve yüksek doğal fruktoz içeriğiyle sofralarda eşsiz bir tatlılık ve ferahlatıcı lezzet bırakır."
+        },
+        "storage": {
+          "title": "Dökülmeyen Dayanıklı Salkım",
+          "description": "Sağlam sapa tutunma ve dayanıklı kabuk yapısı sayesinde uzun yolculuklarda tanelenme yapmadan tazeliğini korur."
+        }
+      }
+    },
+    "apricot": {
+      "aboutParagraph1": "Kayısı, Gülgiller (Rosaceae) familyasından olan (Prunus armeniaca), Anadolu topraklarının en zarif ve sevilen meyvelerindendir. Meyveleri cevizden biraz iri boyutta, altın sarısından kadife turuncuya çalan renkte, sulu ve aromatik yapıdadır.",
+      "aboutParagraph2": "Zengin A vitamini (beta-karoten), potasyum ve lif içeren taze kayısı; sindirim sağlığını düzenlemeye ve göz sağlığını korumaya yardımcı olur. Çekirdek yapısı düzgün olup sofralık tüketimde kolaylıkla etten ayrılır.",
+      "aboutParagraph3": "Meypal, Malatya ve Akdeniz'in en seçkin bahçelerinden Hasanbey, Hacıhaliloğlu, Alyanak ve Şalak (Aprikoz) gibi hem sofralık hem kurutmalık değeri yüksek kayısı çeşitlerini özenle toplar; özel viyol ambalajlarında dünya pazarlarına ihraç eder.",
+      "quote": "Güneşin altın sarısı rengi ve kadifemsi dokusuyla taze Anadolu kayısısı; doğallığın ve zengin lezzetin doruk noktasıdır.",
+      "intro": {
+        "title": "Kayısı Çeşitlerimiz",
+        "description": "Malatya ve Akdeniz havzasının dünya çapında üne sahip en lezzetli sofralık ve kurutmalık kayısı çeşitleri."
+      },
+      "varieties": {
+        "hasanbey": {
+          "name": "Hasanbey Kayısısı",
+          "tag": "1 Numaralı Sofralık Çeşit",
+          "description": "Malatya'nın en önemli ve lezzetli sofralık kayısı çeşididir. İri boyutu, tatlı sulu meyve eti ve çekici sarı-turuncu rengiyle taze ihracatın gözdesidir."
+        },
+        "hacihaliloglu": {
+          "name": "Hacıhaliloğlu Kayısısı",
+          "tag": "Yüksek Brix & Zengin Aroma",
+          "description": "Malatya'nın dünyaca ünlü en kaliteli kurutmalık ve sofralık çeşididir. Yüksek kuru madde oranı ve olağanüstü bal tadıyla öne çıkar."
+        },
+        "alyanak": {
+          "name": "Alyanak & Şalak (Aprikoz)",
+          "tag": "Kırmızı Yanaklı & Ekstra İri",
+          "description": "Güneş gören yüzeyi alacalı kırmızı yanaklı, eti sulu, mayhoş tatlı dengeli ve iri yapısıyla sofralık segmentin en çok aranan türlerindendir."
+        }
+      },
+      "gallery": {
+        "freshApricotsTitle": "Taze Dalından Kayısı",
+        "freshApricotsAlt": "Meypal birinci sınıf taze sarı kayısılar",
+        "ripeApricotsTitle": "Kadife Dokulu Taze Kayısı",
+        "ripeApricotsAlt": "Meypal sulu ve aromatik olgun kayısılar",
+        "harvestApricotsTitle": "Bahçeden Özenle Toplanan Kayısılar",
+        "harvestApricotsAlt": "Akdeniz ve Malatya bahçelerinde taze kayısı hasadı"
+      },
+      "features": {
+        "vitamins": {
+          "title": "Yüksek Beta-Karoten (A Vitamini)",
+          "description": "Parlak turuncu rengini veren zengin beta-karoten ve C vitamini ile göz, cilt ve hücresel bağışıklığı güçlendirir."
+        },
+        "climate": {
+          "title": "Mikroklimalı Vadiler",
+          "description": "Gündüz sıcağı ve gece serinliği dengesine sahip özel havzalarda yetişerek maksimum tatlılık ve koku geliştirir."
+        },
+        "sweetJuicy": {
+          "title": "Eriyen Doku & Bal Aroması",
+          "description": "Kadife gibi pürüzsüz kabuğu ve ağızda eriyen sulu meyve etiyle taze meyve tutkunlarının vazgeçilmezidir."
+        },
+        "exportStorage": {
+          "title": "Hassas Viyollü Sevkiyat",
+          "description": "Meyve ezilmelerini önleyen özel kalibreli pet viyollerde ve kesintisiz soğuk zincirle uluslararası pazarlara sevk edilir."
+        }
+      }
+    },
+    "watermelon": {
+      "aboutParagraph1": "Karpuz (Citrullus lanatus), kabakgiller familyasından bol sulu, ferahlatıcı ve tatlı meyve etiyle yaz aylarının simgesi olan tek yıllık bir bitki türüdür. Türk kültüründe bin yılı aşkın bir geçmişe sahip olan bu eşsiz meyve, sofraların vazgeçilmez serinlik kaynağıdır.",
+      "aboutParagraph2": "Karpuzlar yüksek su içeriği (%92), doğal elektrolitler ve domatesten bile daha zengin olan likopen miktarı ile öne çıkar. Düşük kalorili yapısı ve serinletici etkisiyle vücudun sıcak yaz aylarında ihtiyaç duyduğu hidrasyonu en doğal yoldan sağlar.",
+      "aboutParagraph3": "Meypal, hem büyük kalibreli geleneksel Crimson Sweet tipi karpuzlarda hem de modern çekirdeksiz ve kişisel ebatlı Sugar Baby tipi karpuz yetiştiriciliğinde uzmanlaşmıştır. Tarladan doğrudan seçilen karpuzlar, şeker oranları test edilerek dünya pazarlarına sunulur.",
+      "quote": "Akdeniz tarlalarından gelen çıtır, tatlı ve bol sulu karpuzlarımız; yaz sıcaklarında en doğal ve sağlıklı ferahlığı sunar.",
+      "intro": {
+        "title": "Karpuz Çeşitlerimiz",
+        "description": "Geleneksel iri sofralık çeşitlerden modern kişisel ebatlı atıştırmalık karpuzlara uzanan seçkin ürün yelpazemiz."
+      },
+      "varieties": {
+        "crimsonSweet": {
+          "name": "Crimson Sweet",
+          "tag": "Çizgili & İri Sofralık",
+          "description": "Geleneksel açık ve koyu yeşil çizgili kabuk yapısı, koyu kırmızı gevrek meyve eti ve yüksek şeker oranıyla en yaygın tercih edilen ihracat karpuzudur."
+        },
+        "sugarBaby": {
+          "name": "Sugar Baby",
+          "tag": "Koyu Yeşil & Kişisel Ebat",
+          "description": "Koyu yeşil düz kabuklu, küçük çekirdekli veya çekirdeksiz, buzdolabına kolay sığan kişisel ebatta, bal tatlısı taze karpuz çeşididir."
+        }
+      },
+      "gallery": {
+        "freshWatermelonTitle": "Taze Tarla Karpuzu",
+        "freshWatermelonAlt": "Meypal birinci sınıf taze çizgili karpuz",
+        "slicedWatermelonTitle": "Kırmızı Çıtır Dilim Karpuz",
+        "slicedWatermelonAlt": "Meypal sulu ve tatlı kırmızı karpuz dilimi"
+      },
+      "features": {
+        "lycopene": {
+          "title": "Zengin Likopen Kaynağı",
+          "description": "Kırmızı rengini veren yüksek likopen ve sitrülin amino asidi ile damar sağlığını ve fiziksel performansı destekler."
+        },
+        "climate": {
+          "title": "Çukurova & Akdeniz Toprakları",
+          "description": "Alüvyonlu derin toprak yapısı ve bol Akdeniz güneşiyle optimum meyve iriliğine ve yoğun şeker konsantrasyonuna ulaşır."
+        },
+        "hydration": {
+          "title": "%92 Doğal Su & Elektrolit",
+          "description": "Potasyum ve magnezyum mineralleriyle vücudun sıvı-elektrolit dengesini koruyan mükemmel bir doğal içecektir."
+        },
+        "convenience": {
+          "title": "Modern Ebatlama & Dayanıklılık",
+          "description": "Kişisel ve aile boyu kalibrasyonlarla, darbelere dayanıklı kabuk yapısıyla uluslararası paletli sevkiyata tam uygundur."
+        }
+      }
+    },
+    "melon": {
+      "aboutParagraph1": "Kavun (Cucumis melo), Meypal ürün yelpazesinde bulunan ürünler arasında en dinamik ve hızlı gelişen meyvelerden biridir. Meypal, tüm dünyada var olan ıslah faaliyetlerini derinleştirerek tüm yıla yayılacak şekilde kaliteli kavun üretimi ve ihracatı gerçekleştirmektedir.",
+      "aboutParagraph2": "Yenilikçilik Meypal'ın itici gücüdür. Caribbean kavun ailesi, yenilikçi kavun konseptinin önde gelen örneklerindendir. Kusursuz lezzeti, göz alıcı turuncu veya yeşil meyve eti, ince kabuk yapısı ve küçük çekirdek evi ile convenience (tüketime hazır) pazarının en gözde ürünüdür.",
+      "aboutParagraph3": "Kavun uzun mesafeler arasında nakledildiği için raf ömrü kritik bir ihracat kriteridir. Meypal kavunları, istikrarlı yüksek verimlilik, hastalıklara karşı dayanım ve üstün raf ömrü kombinasyonu sayesinde haftalarca süren yolculuklarda bile dalındaki tazeliğini korur.",
+      "quote": "Yenilikçi Caribbean kavun konseptimiz; ince kabuğu, küçük çekirdek yuvası ve bal kıvamındaki tatlılığıyla kavun deneyimini yeniden tanımlıyor.",
+      "gallery": {
+        "freshMelonTitle": "Taze Çizgili Caribbean Kavun",
+        "freshMelonAlt": "Meypal birinci sınıf taze tatlı kavun",
+        "slicedMelonTitle": "Dilimlenmiş Taze Kavun",
+        "slicedMelonAlt": "Meypal turuncu etli sulu ve aromatik kavun dilimleri"
+      },
+      "features": {
+        "vitamins": {
+          "title": "A, C Vitamini & Folat",
+          "description": "Yüksek beta-karoten, C vitamini ve folik asit içeriğiyle bağışıklığı ve hücresel canlılığı güçlü şekilde destekler."
+        },
+        "climate": {
+          "title": "Akdeniz & Çukurova Güneşi",
+          "description": "Sıcak yaz günlerinde optimum fotosentez yaparak yüksek brix (şeker) derecesine ve enfes bir aromaya kavuşur."
+        },
+        "aroma": {
+          "title": "Bal Kıvamında Koku & Doku",
+          "description": "Ağızda dağılan yumuşak ve sulu meyve eti, odayı saran eşsiz parfüm aromasıyla gastronomi dünyasında büyük beğeni toplar."
+        },
+        "shelfLife": {
+          "title": "Uzun Raf Ömrü & İnce Kabuk",
+          "description": "Küçük çekirdek evi, yüksek et randımanı ve nakliyeye dayanıklı kabuğuyla ihracatta fire vermeden uzun süre dayanır."
+        }
+      }
     }
   },
   "categories": {
     "common": {
       "breadcrumb": "Ürün Kategorisi",
       "allProducts": "Tüm Ürünler",
-      "productsCount": "{count} Çeşit Narenciye",
+      "productsCount": "{count} Çeşit Ürün",
       "viewProduct": "Ürünü İncele",
       "varieties": "{count} Çeşit",
       "freshGuarantee": "%100 Taze & Doğal",
@@ -1015,7 +1487,15 @@
       "badge": "Akdeniz Narenciyesi",
       "title": "Taze & Aromatik Narenciye Çeşitleri",
       "subtitle": "Çukurova ve Akdeniz Güneşiyle Olgunlaşan Birinci Sınıf Narenciye",
+      "productsCount": "{count} Çeşit Narenciye",
       "description": "Meypal olarak 1945'ten bu yana Akdeniz'in en bereketli bahçelerinde yetiştirilen portakal, mandalina, limon ve greyfurtları dalından özenle topluyor; modern kalibrasyon ve soğuk hava tesislerimizde işleyerek dünyanın dört bir yanına ulaştırıyoruz."
+    },
+    "fruits": {
+      "badge": "Taze Meyveler",
+      "title": "Akdeniz & Anadolu Taze Meyve Çeşitleri",
+      "subtitle": "Güneşin Tadı ve Doğanın Tazeliği ile Yetişen Meyveler",
+      "productsCount": "{count} Çeşit Taze Meyve",
+      "description": "Meypal olarak Akdeniz ve Anadolu'nun en bereketli bahçelerinden ayva, kiraz, siyah incir, şeftali, nar, üzüm, kayısı, karpuz ve kavun çeşitlerimizi en uygun olgunlukta topluyor; ileri teknoloji soğuk zincir ve kalibrasyon tesislerimizde işleyerek uluslararası pazarlara güvenle ulaştırıyoruz."
     }
   }
 }
