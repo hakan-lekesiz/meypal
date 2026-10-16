@@ -673,3 +673,76 @@ export async function getProductStructuredData(
     ],
   }
 }
+
+export type CategoryStructuredDataInput = {
+  name: string
+  description?: string
+  route: SiteRoute
+  image?: string
+  products: Array<{
+    name: string
+    route: SiteRoute
+    image?: string
+  }>
+}
+
+export async function getCategoryStructuredData(
+  locale: Locale,
+  category: CategoryStructuredDataInput,
+) {
+  const t = await getTranslator(locale)
+  const baseUrl = getBaseUrl()
+  const pageUrl = new URL(PAGES[category.route][locale], baseUrl).toString()
+  const homeUrl = new URL(PAGES.home[locale], baseUrl).toString()
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": `${pageUrl}/#webpage`,
+        url: pageUrl,
+        name: category.name,
+        description: category.description,
+        about: { "@id": `${baseUrl}/#organization` },
+        publisher: { "@id": `${baseUrl}/#organization` },
+        isPartOf: {
+          "@type": "WebSite",
+          "@id": `${baseUrl}/#website`,
+          name: COMPANY_INFO.name,
+          url: baseUrl,
+        },
+        inLanguage: locale === "tr" ? "tr-TR" : "en-US",
+        mainEntity: {
+          "@type": "ItemList",
+          numberOfItems: category.products.length,
+          itemListElement: category.products.map((prod, index) => ({
+            "@type": "ListItem",
+            position: index + 1,
+            url: new URL(PAGES[prod.route][locale], baseUrl).toString(),
+            name: prod.name,
+            image: prod.image ? new URL(prod.image, baseUrl).toString() : undefined,
+          })),
+        },
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${pageUrl}/#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: t("navigation.home"),
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: category.name,
+            item: pageUrl,
+          },
+        ],
+      },
+    ],
+  }
+}

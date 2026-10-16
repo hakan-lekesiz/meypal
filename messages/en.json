@@ -649,6 +649,11 @@
       "description": "Browse and download the Meypal fresh fruit, vegetable, and citrus e-catalog. Discover detailed information about our company profile and product range.",
       "keywords": "Meypal e-catalog, Meypal catalog, fruit catalog, download citrus catalog, Meypal PDF download"
     },
+    "citrus": {
+      "title": "Citrus - Fresh Mediterranean Citrus Varieties | Meypal",
+      "description": "Premium Mediterranean fresh orange, mandarin, lemon, and grapefruit varieties harvested from fertile Çukurova soils. 12 months reliable global citrus export.",
+      "keywords": "citrus export, fresh citrus, Turkish oranges, mandarin varieties, lemon export, grapefruit, Mediterranean citrus, Mersin citrus, Meypal"
+    },
     "orange": {
       "title": "Orange - Fresh Mediterranean Citrus | Meypal",
       "description": "Juicy, aromatic, premium first-class fresh oranges cultivated in the fertile soils of Çukurova and Mediterranean. Exported worldwide by Meypal.",
@@ -991,6 +996,26 @@
           "description": "Maintains premium fruit firmness on tree and within modern temperature-controlled cold storage, ideal for international transit."
         }
       }
+    }
+  },
+  "categories": {
+    "common": {
+      "breadcrumb": "Product Category",
+      "allProducts": "All Products",
+      "productsCount": "{count} Citrus Varieties",
+      "viewProduct": "View Product",
+      "varieties": "{count} Varieties",
+      "freshGuarantee": "100% Fresh & Natural",
+      "globalExport": "Global Export",
+      "coldChain": "Cold Chain Assured",
+      "qualityStandards": "GlobalGAP Standards",
+      "origin": "Mediterranean & Çukurova"
+    },
+    "citrus": {
+      "badge": "Mediterranean Citrus",
+      "title": "Fresh & Aromatic Citrus Varieties",
+      "subtitle": "Premium Citrus Ripened under Mediterranean Sunshine",
+      "description": "Since 1945, Meypal carefully harvests oranges, mandarins, lemons, and grapefruits cultivated in the Mediterranean's most fertile orchards, processing them in modern calibration and cold storage facilities for worldwide export."
     }
   }
 }
