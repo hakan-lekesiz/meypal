@@ -32,7 +32,7 @@ export function AboutGlobalHubsSection({ locale: _locale, t }: { locale: Locale;
       <div className="grid-wrapper">
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center">
-          <span className="text-xs font-bold uppercase tracking-[0.14em] text-[#F58220]">
+          <span className="text-xs font-bold uppercase tracking-[0.14em] text-[#c2410c]">
             {t("about.globalHubs.badge")}
           </span>
           <h2

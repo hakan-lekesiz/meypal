@@ -41,7 +41,7 @@ export function CoreValuesSection({ t }: { locale: Locale; t: Translate }) {
     <section aria-labelledby={headingId} className="relative -mt-6 z-10 py-12 md:py-16">
       <div className="grid-wrapper">
         <div className="mx-auto max-w-2xl text-center">
-          <span className="text-xs font-bold uppercase tracking-[0.14em] text-[#F58220]">
+          <span className="text-xs font-bold uppercase tracking-[0.14em] text-[#c2410c]">
             {t("home.coreValues.badge")}
           </span>
           <h2

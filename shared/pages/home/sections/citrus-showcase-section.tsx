@@ -49,7 +49,7 @@ export function CitrusShowcaseSection({ locale, t }: { locale: Locale; t: Transl
       <div className="grid-wrapper">
         <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
           <div className="max-w-2xl">
-            <span className="text-xs font-bold uppercase tracking-[0.14em] text-[#F58220]">
+            <span className="text-xs font-bold uppercase tracking-[0.14em] text-[#c2410c]">
               {t("home.citrusShowcase.badge")}
             </span>
             <h2

@@ -53,7 +53,7 @@ export async function Footer({ locale }: { locale: Locale }) {
           className="flex min-h-[210px] items-center justify-between gap-8 overflow-hidden rounded-2xl border border-white/10 bg-[#006894] bg-[linear-gradient(90deg,_#004e70_5%,_rgb(0_104_148_/_95%)_44%,_rgb(0_104_148_/_30%)_100%),url('/images/fruits/fruit-basket.jpg')] bg-cover bg-center px-[clamp(1.5rem,5vw,4rem)] py-9 max-[600px]:min-h-0 max-[600px]:flex-col max-[600px]:items-start max-[600px]:gap-5 max-[600px]:bg-[linear-gradient(90deg,_rgb(0_78_112_/_95%),_rgb(0_104_148_/_85%)),url('/images/fruits/fruit-basket.jpg')] max-[600px]:px-[1.35rem] max-[600px]:py-7"
         >
           <div className="max-w-[540px]">
-            <span className="text-xs font-bold uppercase tracking-[0.13em] text-[#F58220]">
+            <span className="text-xs font-bold uppercase tracking-[0.13em] text-[#ffedd5]">
               {t("footer.eyebrow")}
             </span>
             <h2
@@ -67,7 +67,7 @@ export async function Footer({ locale }: { locale: Locale }) {
             </p>
           </div>
           <Link
-            className="inline-flex shrink-0 items-center justify-center gap-[0.6rem] rounded-full bg-[#F58220] px-[1.3rem] py-[0.9rem] text-[0.9rem] font-bold text-white no-underline shadow-[0_4px_16px_rgb(245_130_32_/_35%)] transition-[background-color,transform] duration-[160ms] hover:-translate-y-px hover:bg-[#dc6e11]"
+            className="inline-flex shrink-0 items-center justify-center gap-[0.6rem] rounded-full bg-[#F58220] px-[1.3rem] py-[0.9rem] text-[0.9rem] font-extrabold text-[#002f43] no-underline shadow-[0_4px_16px_rgb(245_130_32_/_35%)] transition-[background-color,transform,color] duration-[160ms] hover:-translate-y-px hover:bg-white hover:text-[#002f43]"
             href={getSiteLink("contact", locale)}
           >
             {t("footer.ctaButton")} <FaArrowRight aria-hidden="true" />
@@ -139,11 +139,11 @@ export async function Footer({ locale }: { locale: Locale }) {
           </div>
         </div>
 
-        <div className="flex items-center justify-between gap-4 border-t border-white/10 pt-[1.15rem] text-[0.78rem] text-[#8eaebd] max-[600px]:flex-col max-[600px]:items-end max-[600px]:gap-1">
+        <div className="flex items-center justify-between gap-4 border-t border-white/10 pt-[1.15rem] text-[0.78rem] text-[#c2d7e5] max-[600px]:flex-col max-[600px]:items-end max-[600px]:gap-1">
           <span>{t("footer.copyright")}</span>
           <div className="flex flex-wrap items-center gap-4 max-[600px]:gap-3">
             <a
-              className="text-[0.72rem] text-[#8eaebd]/70 no-underline transition-colors duration-[160ms] hover:text-[#c2d7e5]"
+              className="text-[0.72rem] text-[#c2d7e5] no-underline transition-colors duration-[160ms] hover:text-white"
               href="https://www.linkedin.com/in/hakan-lekesiz/"
               rel="noopener noreferrer"
               target="_blank"

@@ -79,7 +79,7 @@ export function AboutCompanySection({ locale, t }: { locale: Locale; t: Translat
 
           {/* Text & Pillars Side */}
           <div className="reveal reveal-delay-2 order-1 lg:order-2 lg:col-span-7">
-            <span className="text-xs font-bold uppercase tracking-[0.14em] text-[#F58220]">
+            <span className="text-xs font-bold uppercase tracking-[0.14em] text-[#c2410c]">
               {t("home.aboutCompany.badge")}
             </span>
             <h2

@@ -52,6 +52,7 @@ export function HeroSection({ slides, prevLabel, nextLabel }: HeroSectionProps) 
               <Image
                 alt={slide.title}
                 className="h-full w-full object-cover"
+                fetchPriority={index === 0 ? "high" : "low"}
                 fill
                 loading={index === 0 ? "eager" : "lazy"}
                 priority={index === 0}

@@ -35,7 +35,7 @@ export function OperationCtaSection({ locale, t }: { locale: Locale; t: Translat
           </div>
 
           <div className="relative z-10 max-w-3xl">
-            <span className="inline-block rounded-full bg-[#F58220]/20 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-[#F58220]">
+            <span className="inline-block rounded-full bg-[#F58220]/25 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-[#ffedd5]">
               {t("home.operationCta.badge")}
             </span>
 
@@ -64,7 +64,7 @@ export function OperationCtaSection({ locale, t }: { locale: Locale; t: Translat
 
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <Link
-                className="inline-flex items-center gap-2.5 rounded-full bg-[#F58220] px-7 py-3.5 text-sm font-bold text-white shadow-[0_4px_16px_rgb(245_130_32_/_35%)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#dc6e11]"
+                className="inline-flex items-center gap-2.5 rounded-full bg-[#F58220] px-7 py-3.5 text-sm font-extrabold text-[#002f43] shadow-[0_4px_16px_rgb(245_130_32_/_35%)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-white hover:text-[#002f43]"
                 href={getSiteLink("contact", locale)}
               >
                 <span>{t("home.operationCta.ctaContact")}</span>
