@@ -25,6 +25,22 @@ export const galleryItems: GalleryItem[] = [
     isVideo: false,
   },
   {
+    src: "/images/gallery/30.jpeg",
+    alt: {
+      tr: "Biber hasadı ve tarla operasyonu",
+      en: "Pepper harvesting and field operations",
+    },
+    isVideo: false,
+  },
+  {
+    src: "/images/gallery/41.jpeg",
+    alt: {
+      tr: "Lahana hasadı ve tarla operasyonu",
+      en: "Cabbage harvesting and field operations",
+    },
+    isVideo: false,
+  },
+  {
     src: "/images/fruits/fresh-fruit-basket.jpg",
     alt: {
       tr: "Akdeniz Taze Meyve Hasadı",
