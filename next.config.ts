@@ -6,9 +6,6 @@ const withNextIntl = createNextIntlPlugin("./i18n/request.ts")
 const nextConfig: NextConfig = {
   transpilePackages: ["next-intl"],
   trailingSlash: false,
-  images: {
-    unoptimized: true,
-  },
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,

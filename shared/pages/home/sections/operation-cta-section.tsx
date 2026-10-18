@@ -17,7 +17,7 @@ export function OperationCtaSection({ locale, t }: { locale: Locale; t: Translat
   ]
 
   return (
-    <section aria-labelledby="operation-cta-heading" className="py-16 md:py-24">
+    <section aria-labelledby={headingId} className="py-16 md:py-24">
       <div className="grid-wrapper">
         <div className="reveal relative overflow-hidden rounded-3xl border border-[#006894]/20 bg-gradient-to-r from-[#002f43] via-[#004e70] to-[#006894] p-8 text-white shadow-2xl sm:p-12 lg:p-16">
           <div className="pointer-events-none absolute -right-20 -top-20 h-80 w-80 rounded-full bg-[#F58220]/20 blur-3xl" />

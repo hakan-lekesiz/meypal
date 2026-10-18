@@ -49,44 +49,12 @@ export function getCorporateStructuredData(locale: Locale) {
 
 export async function getHomeStructuredData(locale: Locale) {
   const t = await getTranslator(locale)
-  const baseUrl = getBaseUrl()
+  const baseUrl = siteOrigin
   const description = t("metadata.home.description")
 
   return {
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": ["Organization", "LocalBusiness", "WholesaleStore"],
-        "@id": `${baseUrl}/#organization`,
-        name: COMPANY_INFO.name,
-        legalName: COMPANY_INFO.legalName,
-        alternateName: COMPANY_INFO.alternateNames,
-        url: baseUrl,
-        logo: `${baseUrl}/logo.png`,
-        image: `${baseUrl}/images/home/opengraph-image.jpg`,
-        slogan: COMPANY_INFO.slogan[locale],
-        disambiguatingDescription: COMPANY_INFO.disambiguatingDescription[locale],
-        description,
-        foundingDate: COMPANY_INFO.foundingDate,
-        foundingLocation: COMPANY_INFO.foundingLocation,
-        email: COMPANY_INFO.email,
-        telephone: COMPANY_INFO.telephone,
-        priceRange: COMPANY_INFO.priceRange,
-        currenciesAccepted: COMPANY_INFO.currenciesAccepted,
-        paymentAccepted: COMPANY_INFO.paymentAccepted,
-        address: COMPANY_INFO.address,
-        geo: COMPANY_INFO.geo,
-        hasMap: COMPANY_INFO.hasMap,
-        sameAs: COMPANY_INFO.sameAs,
-        areaServed: COMPANY_INFO.areaServed,
-        knowsLanguage: COMPANY_INFO.knowsLanguage,
-        knowsAbout: COMPANY_INFO.knowsAbout[locale],
-        hasOfferCatalog: {
-          "@type": "OfferCatalog",
-          ...COMPANY_INFO.offerCatalog[locale],
-        },
-        contactPoint: COMPANY_INFO.contactPoints,
-      },
       {
         "@type": "WebSite",
         "@id": `${baseUrl}/#website`,
@@ -653,7 +621,7 @@ export async function getProductStructuredData(
   product: ProductStructuredDataInput,
 ) {
   const t = await getTranslator(locale)
-  const baseUrl = getBaseUrl()
+  const baseUrl = siteOrigin
   const pageUrl = new URL(PAGES[product.route][locale], baseUrl).toString()
   const homeUrl = new URL(PAGES.home[locale], baseUrl).toString()
   const categoryUrl = new URL(PAGES[product.categoryRoute][locale], baseUrl).toString()
@@ -678,20 +646,6 @@ export async function getProductStructuredData(
           brand: {
             "@type": "Brand",
             name: COMPANY_INFO.name,
-          },
-          offers: {
-            "@type": "Offer",
-            availability: "https://schema.org/InStock",
-            priceCurrency: "USD",
-            price: "0",
-            priceSpecification: {
-              "@type": "UnitPriceSpecification",
-              priceType: "https://schema.org/InvoicePrice",
-              unitCode: "KGM",
-            },
-            seller: {
-              "@id": `${baseUrl}/#organization`,
-            },
           },
         },
         publisher: { "@id": `${baseUrl}/#organization` },

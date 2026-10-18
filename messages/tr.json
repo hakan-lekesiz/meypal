@@ -559,7 +559,10 @@
     }
   },
   "gallery": {
-    "title": "Galeri"
+    "title": "Galeri",
+    "close": "Kapat",
+    "prev": "Önceki",
+    "next": "Sonraki"
   },
   "catalog": {
     "eyebrow": "Meypal Katalog",
@@ -626,157 +629,157 @@
       "keywords": "Meypal vizyon, kurumsal vizyon, narenciye ihracatı, meyve sebze ithalatı, Londra Meypal, küresel tedarikçi ağı, tarımsal istihdam, Mersin ihracat"
     },
     "readyToEat": {
-      "title": "Kullanıma Hazır Ürünler - Convenience Gıda | Meypal",
+      "title": "Kullanıma Hazır Ürünler - Convenience Gıda",
       "description": "Meypal kullanıma hazır taze sebze ve meyveler. Salanova® marul ve Caribbean kavun ile modern işleme endüstrisi ve convenience pazarı için yüksek verimli çözümler.",
       "keywords": "kullanıma hazır ürünler, convenience gıda, hazır salata, Salanova, marul, Caribbean kavun, taze sebze işleme, Meypal gıda"
     },
     "organic": {
-      "title": "Organik Tohum ve Sebze Üretimi | Meypal",
+      "title": "Organik Tohum ve Sebze Üretimi",
       "description": "1992'den bu yana tüm Avrupalı sertifikasyon kurumlarınca tanınan, kimyasal süreçten arındırılmış yüksek kaliteli organik tohum ve sebze üretimi.",
       "keywords": "organik tohum, organik sebze, Meypal organik, organik tarım, organik marul, domates tohumu, kimyasal içermeyen tohum, dayanıklı sebze çeşitleri, açık tarla sebze"
     },
     "excitingFlavors": {
-      "title": "Heyecan Verici Tatlar - Özel Lezzetler & Sebze Atıştırmalıkları | Meypal",
+      "title": "Heyecan Verici Tatlar - Özel Lezzetler & Sebze Atıştırmalıkları",
       "description": "Meypal heyecan verici tatlar. Kapsamlı duyusal testlerle seçilen sıra dışı domates, patlıcan ve çocuklar için sağlıklı çıtır sebze atıştırmalıkları.",
       "keywords": "heyecan verici tatlar, sebze atıştırmalıkları, gurme sebzeler, mini salatalık, çeri domates, sağlıklı ara öğün, Meypal"
     },
     "productLines": {
-      "title": "Meypal Ürün Hatları - Özel Ürün Çeşitliliği & Standartlar | Meypal",
+      "title": "Meypal Ürün Hatları - Özel Ürün Çeşitliliği & Standartlar",
       "description": "Meypal, her yıl geliştirilmiş özelliklere sahip geniş ürün yelpazesini tüketicilerine sunar. Kalite, tat, verimlilik ve dayanıklılığı birleştiren 7 farklı ürün hattı.",
       "keywords": "Meypal ürün hatları, ürün çeşitliliği, tarımsal çeşitlilik, 7 ürün hattı, kaliteli meyve sebze, verimli çeşitler, dayanıklı tohum"
     },
     "contact": {
-      "title": "İletişim | Meypal - Mersin Merkez, Antalya Şube ve Londra Ofisi",
+      "title": "İletişim - Mersin Merkez, Antalya Şube ve Londra Ofisi",
       "description": "Meypal iletişim bilgileri. Mersin merkez ofisimiz, Antalya şubemiz ve Londra New Spitalfields Market operasyon merkezimizin adres, telefon ve e-posta detayları.",
       "keywords": "Meypal iletişim, Meypal telefon, Meypal adres, Meypal Mersin, Meypal Londra, Meypal Antalya, narenciye ihracatı iletişim"
     },
     "catalog": {
-      "title": "E-Katalog - Meypal Ürün ve Firma Kataloğu | Meypal",
+      "title": "E-Katalog - Meypal Ürün ve Firma Kataloğu",
       "description": "Meypal yaş sebze, meyve ve narenciye e-kataloğunu inceleyin ve indirin. Firma profili ve geniş ürün yelpazemiz hakkında detaylı bilgi edinin.",
       "keywords": "Meypal e-katalog, Meypal katalog, meyve kataloğu, narenciye kataloğu indir, Meypal PDF indir"
     },
     "gallery": {
-      "title": "Galeri | Meypal - Fotoğraf ve Video Galerisi",
+      "title": "Galeri - Fotoğraf ve Video Galerisi",
       "description": "Meypal ürün, tesis ve operasyonlarımıza ait güncel fotoğraf ve videolar.",
       "keywords": "Meypal galeri, meyve fotoğrafları, narenciye videoları, tarım galerisi, Meypal"
     },
     "citrus": {
-      "title": "Narenciye - Taze Akdeniz Narenciye Çeşitleri | Meypal",
+      "title": "Narenciye - Taze Akdeniz Narenciye Çeşitleri",
       "description": "Çukurova ve Akdeniz'in bereketli topraklarında yetişen birinci sınıf taze portakal, mandalina, limon ve greyfurt çeşitleri. 12 ay uluslararası narenciye ihracatı.",
       "keywords": "narenciye, narenciye ihracatı, taze portakal, mandalina çeşitleri, limon ihracatı, greyfurt, Akdeniz narenciye, Mersin narenciye, Meypal"
     },
     "orange": {
-      "title": "Portakal - Taze Akdeniz Narenciyesi | Meypal",
+      "title": "Portakal - Taze Akdeniz Narenciyesi",
       "description": "Akdeniz ve Çukurova'nın bereketli topraklarında yetişen sulu, aromatik ve birinci sınıf kaliteli taze portakallar. Meypal güvencesiyle 12 ay uluslararası ihracat.",
       "keywords": "portakal, portakal ihracatı, taze portakal, Mersin portakal, narenciye ihracatı, valencia portakal, washington portakal, Meypal"
     },
     "mandarin": {
-      "title": "Mandalina - Taze Akdeniz Mandalina Çeşitleri | Meypal",
+      "title": "Mandalina - Taze Akdeniz Mandalina Çeşitleri",
       "description": "Akdeniz'in en kaliteli mandalina çeşitleri: Satsuma, Dobashi, Robinson, Fremont, Nova, W. Murcott ve Orri. Meypal güvencesiyle taze ve güvenilir ihracat.",
       "keywords": "mandalina, mandalina çeşitleri, satsuma mandalina, murcott, nova, fremont, narenciye ihracatı, taze mandalina, mersin mandalina, Meypal"
     },
     "lemon": {
-      "title": "Limon - Taze Akdeniz Limon Çeşitleri | Meypal",
+      "title": "Limon - Taze Akdeniz Limon Çeşitleri",
       "description": "Akdeniz'in en kaliteli limon çeşitleri: Enterdonat, Kütdiken, Kıbrıs Limonu, Lizbon, Mayer, Misket ve Molla Mehmet. Meypal güvencesiyle taze ve güvenilir ihracat.",
       "keywords": "limon, limon çeşitleri, enterdonat limon, kütdiken, mayer limon, misket limon, narenciye ihracatı, taze limon, mersin limon, Meypal"
     },
     "grapefruit": {
-      "title": "Greyfurt - Taze Akdeniz Greyfurt Çeşitleri | Meypal",
+      "title": "Greyfurt - Taze Akdeniz Greyfurt Çeşitleri",
       "description": "Akdeniz'in en kaliteli sulu ve lezzetli greyfurt çeşitleri: Star Ruby ve Riored. Meypal güvencesiyle taze, vitamin dolu ve güvenilir ihracat.",
       "keywords": "greyfurt, greyfurt çeşitleri, star ruby greyfurt, riored greyfurt, narenciye ihracatı, taze greyfurt, mersin greyfurt, Meypal"
     },
     "fruits": {
-      "title": "Taze Meyveler - Akdeniz & Anadolu Meyve İhracatı | Meypal",
+      "title": "Taze Meyveler - Akdeniz & Anadolu Meyve İhracatı",
       "description": "Meypal güvencesiyle Akdeniz ve Anadolu'nun bereketli bahçelerinden özenle toplanan birinci sınıf taze meyveler: Ayva, kiraz, siyah incir ve şeftali çeşitleri.",
       "keywords": "taze meyve, meyve ihracatı, Türk meyvesi ihracatı, ayva ihracatı, kiraz ihracatı, siyah incir ihracatı, şeftali çeşitleri, Mersin, Meypal"
     },
     "quince": {
-      "title": "Ayva - Taze & Aromatik Anadolu Ayvası | Meypal",
+      "title": "Ayva - Taze & Aromatik Anadolu Ayvası",
       "description": "Türkiye'nin en seçkin bahçelerinden eşme, ekmek ve limon ayvası çeşitleri. 4000 yıllık geçmişe sahip, bol vitaminli ve aromatik ayva ihracatı.",
       "keywords": "ayva, ayva ihracatı, taze ayva, eşme ayvası, ekmek ayvası, limon ayvası, meyve ihracatı, Meypal"
     },
     "cherry": {
-      "title": "Kiraz - Birinci Sınıf Türk Kirazı İhracatı | Meypal",
+      "title": "Kiraz - Birinci Sınıf Türk Kirazı İhracatı",
       "description": "Dünya kiraz üretiminde lider olan Türkiye'nin en kaliteli, sert, sulu ve aromatik kiraz çeşitleri. Meypal soğuk zincir güvencesiyle dünya pazarlarına.",
       "keywords": "kiraz, kiraz ihracatı, Türk kirazı, Napolyon kiraz, 0900 ziraat, taze kiraz ihracatı, Mersin kiraz, Meypal"
     },
     "fig": {
-      "title": "Siyah İncir - Akdeniz'in Eşsiz Lezzeti | Meypal",
+      "title": "Siyah İncir - Akdeniz'in Eşsiz Lezzeti",
       "description": "Doğu Akdeniz'in geleneksel ve otantik ruhunu yansıtan, eşsiz aroması ve yüksek besin değeriyle birinci sınıf taze siyah incir ihracatı.",
       "keywords": "siyah incir, taze incir ihracatı, bursa siyahı, incir ihracatı, Akdeniz inciri, Ficus carica, Meypal"
     },
     "peach": {
-      "title": "Şeftali & Ufo Şeftali - Taze Akdeniz Şeftali Çeşitleri | Meypal",
+      "title": "Şeftali & Ufo Şeftali - Taze Akdeniz Şeftali Çeşitleri",
       "description": "Akdeniz'in bol güneşli bahçelerinden Flodasun, Early Amber, Redhaven, Washington ve Ufo şeftali çeşitleri. Yüksek kalibreli, sulu ve tatlı taze şeftali ihracatı.",
       "keywords": "şeftali, ufo şeftali, yassı şeftali, şeftali ihracatı, flodasun, redhaven, taze şeftali, Akdeniz şeftali, Meypal"
     },
     "pomegranate": {
-      "title": "Nar - Taze Akdeniz Hicaz Narı İhracatı | Meypal",
+      "title": "Nar - Taze Akdeniz Hicaz Narı İhracatı",
       "description": "Türkiye'nin tescilli ve ihracat lideri Hicaz narı. Koyu kırmızı daneleri, mayhoş aroması ve yüksek antioksidan içeriğiyle 6 ay depolanabilir birinci sınıf taze nar ihracatı.",
       "keywords": "nar, hicaz narı, nar ihracatı, taze nar, Akdeniz narı, BATEM tescilli nar, mayhoş nar, Mersin, Meypal"
     },
     "grape": {
-      "title": "Üzüm - Taze Sofralık Anadolu Üzümü İhracatı | Meypal",
+      "title": "Üzüm - Taze Sofralık Anadolu Üzümü İhracatı",
       "description": "Pembe Gemre, Süper Asma ve Trakya İlkeren gibi birinci sınıf sofralık taze üzüm çeşitleri. İri daneli, sulu ve dayanıklı salkımlarla dünya standartlarında ihracat.",
       "keywords": "üzüm, taze üzüm ihracatı, sofralık üzüm, pembe gemre, süper asma, trakya ilkeren, Türk üzümü, Mersin, Meypal"
     },
     "apricot": {
-      "title": "Kayısı - Taze Sofralık & Kurutmalık Anadolu Kayısısı | Meypal",
+      "title": "Kayısı - Taze Sofralık & Kurutmalık Anadolu Kayısısı",
       "description": "Hasanbey, Hacıhaliloğlu, Alyanak ve Şalak çeşitleri ile Malatya ve Akdeniz'in taze kayısı ihracatı. Yüksek brix, hoş koku ve kadife dokulu birinci sınıf taze kayısılar.",
       "keywords": "kayısı, kayısı ihracatı, taze kayısı, hasanbey kayısı, hacıhaliloğlu, alyanak, Malatya kayısısı, sofralık kayısı, Meypal"
     },
     "watermelon": {
-      "title": "Karpuz - Tatlı & Sulu Akdeniz Karpuzu İhracatı | Meypal",
+      "title": "Karpuz - Tatlı & Sulu Akdeniz Karpuzu İhracatı",
       "description": "Crimson Sweet ve Sugar Baby çeşitleri ile kişisel ebatta ve sofralık taze karpuz üretimi. Bol sulu, yüksek likopenli ve tatlı taze karpuz ihracatı.",
       "keywords": "karpuz, karpuz ihracatı, crimson sweet, sugar baby, taze karpuz, Çukurova karpuz, Mersin karpuz, Meypal"
     },
     "melon": {
-      "title": "Kavun - Kokulu & Tatlı Caribbean Kavun İhracatı | Meypal",
+      "title": "Kavun - Kokulu & Tatlı Caribbean Kavun İhracatı",
       "description": "Yüksek raf ömrü, ince kabuk, küçük çekirdek evi ve bal gibi tatlı aromasıyla yenilikçi Caribbean ve sofralık kavun çeşitleri. 12 ay uluslararası tedarik.",
       "keywords": "kavun, kavun ihracatı, caribbean kavun, taze kavun, tatlı kavun, convenience kavun, Mersin, Meypal"
     },
     "vegetables": {
-      "title": "Taze Sebzeler - Akdeniz Sebze Üretimi & İhracatı | Meypal",
+      "title": "Taze Sebzeler - Akdeniz Sebze Üretimi & İhracatı",
       "description": "Domates, hıyar, patlıcan, biber, lahana, soğan, patates ve sarımsak. Meypal güvencesiyle Akdeniz'in bereketli topraklarından dünya sofralarına taze sebze ihracatı.",
       "keywords": "taze sebze, sebze ihracatı, domates ihracatı, biber, salatalık, patlıcan, lahana, soğan, patates, sarımsak, Akdeniz sebze, Mersin, Meypal"
     },
     "tomato": {
-      "title": "Domates - Salkım, Beef & Çeri Domates Çeşitleri | Meypal",
+      "title": "Domates - Salkım, Beef & Çeri Domates Çeşitleri",
       "description": "Intermediate salkım, tekli, beef ve çeri domates çeşitleri. Yüksek hastalık dayanımlı, mükemmel lezzet ve raf ömrüne sahip birinci sınıf domates ihracatı.",
       "keywords": "domates, domates ihracatı, salkım domates, beef domates, çeri domates, örtüaltı domates, Mersin domates, Meypal"
     },
     "cucumber": {
-      "title": "Hıyar & Salatalık - Çıtır Taze Akdeniz Salatalığı | Meypal",
+      "title": "Hıyar & Salatalık - Çıtır Taze Akdeniz Salatalığı",
       "description": "Blueleaf konsepti ve atıştırmalık mini boydan uzun boya kadar zengin hıyar çeşitleri. Taze, sulu, çıtır ve yüksek verimli salatalık ihracatı.",
       "keywords": "hıyar, salatalık, salatalık ihracatı, atıştırmalık salatalık, mini salatalık, blueleaf hıyar, taze hıyar, Meypal"
     },
     "eggplant": {
-      "title": "Patlıcan - Oval, Uzun & Çizgili Patlıcan Çeşitleri | Meypal",
+      "title": "Patlıcan - Oval, Uzun & Çizgili Patlıcan Çeşitleri",
       "description": "Koyu siyah parlak oval, uzun silindirik, beyaz ve çizgili patlıcan çeşitleri. Dikensiz kaliks, beyaz meyve eti ve uzun raf ömrüyle dünya kalitesinde ihracat.",
       "keywords": "patlıcan, patlıcan ihracatı, oval patlıcan, çizgili patlıcan, beyaz patlıcan, silindirik patlıcan, Mersin patlıcan, Meypal"
     },
     "pepper": {
-      "title": "Biber - Dolmalık, Sivri & Kapya Biber Çeşitleri | Meypal",
+      "title": "Biber - Dolmalık, Sivri & Kapya Biber Çeşitleri",
       "description": "Blocky dolmalık, sivri, çarliston ve kapya biberler. Canlı renkler, çıtır doku, tatlı ve acı lezzet alternatifleri ile 12 ay uluslararası biber ihracatı.",
       "keywords": "biber, biber ihracatı, dolmalık biber, sivri biber, blocky biber, kapya biber, tatlı biber, Mersin biber, Meypal"
     },
     "cabbage": {
-      "title": "Lahana - Taze Beyaz & Kış Lahanası Çeşitleri | Meypal",
+      "title": "Lahana - Taze Beyaz & Kış Lahanası Çeşitleri",
       "description": "Franklin, Ramada, Nautic ve Ducati çeşitleriyle iri, sıkı başlı, dayanıklı beyaz lahana üretimi. Zengin C vitamini ve uzun depolama ömrüyle güvenilir ihracat.",
       "keywords": "lahana, beyaz lahana, lahana ihracatı, ramada lahana, nautic lahana, ducati lahana, taze lahana, Meypal"
     },
     "onion": {
-      "title": "Soğan - Kuru & Taze Sarı, Kırmızı Soğan İhracatı | Meypal",
+      "title": "Soğan - Kuru & Taze Sarı, Kırmızı Soğan İhracatı",
       "description": "Bereketli topraklarda yetiştirilen sarı ve kırmızı kuru soğan çeşitleri. Sağlam kabuk yapısı, yoğun aroma ve mükemmel kış depolama dayanıklılığı.",
       "keywords": "soğan, kuru soğan, soğan ihracatı, sarı soğan, kırmızı soğan, Allium cepa, taze soğan, Meypal"
     },
     "potato": {
-      "title": "Patates - Taze Yemeklik & Sanayilik Patates İhracatı | Meypal",
+      "title": "Patates - Taze Yemeklik & Sanayilik Patates İhracatı",
       "description": "Birinci sınıf sarı etli taze yemeklik patatesler. Yüksek potasyum ve vitamin içeriği, pürüzsüz kabuk ve optimum kalibre ile uluslararası patates ihracatı.",
       "keywords": "patates, patates ihracatı, taze patates, yemeklik patates, sarı patates, Solanum tuberosum, Mersin, Meypal"
     },
     "garlic": {
-      "title": "Sarımsak - Doğal Antibiyotik Aromatik Sarımsak İhracatı | Meypal",
+      "title": "Sarımsak - Doğal Antibiyotik Aromatik Sarımsak İhracatı",
       "description": "Yoğun aromalı, iri dişli ve yüksek allisin içerikli taze ve kuru sarımsaklar. Uzun raf ömrü ve üstün kalibre ile dünya standartlarında sarımsak ihracatı.",
       "keywords": "sarımsak, sarımsak ihracatı, kuru sarımsak, taze sarımsak, Allium sativum, Kastamonu sarımsak, Meypal"
     }

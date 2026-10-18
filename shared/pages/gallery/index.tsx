@@ -21,7 +21,15 @@ export async function GalleryPage({ locale }: { locale: Locale }) {
             />
           </header>
 
-          <GalleryGrid items={galleryItems} />
+          <GalleryGrid
+            items={galleryItems}
+            labels={{
+              close: t("gallery.close"),
+              prev: t("gallery.prev"),
+              next: t("gallery.next"),
+            }}
+            locale={locale}
+          />
         </div>
       </article>
     </MainLayout>

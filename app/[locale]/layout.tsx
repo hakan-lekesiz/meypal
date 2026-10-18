@@ -1,4 +1,4 @@
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { NextIntlClientProvider } from "next-intl"
 import "../globals.css"
 import { getMessages, setRequestLocale } from "next-intl/server"
@@ -8,6 +8,12 @@ import { createRootLayoutMetadata, getCorporateStructuredData, JsonLd } from "@/
 
 export const dynamic = "force-static"
 export const dynamicParams = false
+
+export const viewport: Viewport = {
+  themeColor: "#006894",
+  width: "device-width",
+  initialScale: 1,
+}
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))

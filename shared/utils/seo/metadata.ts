@@ -1,7 +1,7 @@
 import { getTranslator } from "@/i18n/i18n"
 import { type Locale, PAGES, type SiteRoute, siteOrigin } from "@/shared/config"
 import type { Metadata } from "next"
-import { DEFAULT_ROBOTS, GEO_METADATA, getBaseUrl } from "./constants"
+import { DEFAULT_ROBOTS, GEO_METADATA } from "./constants"
 
 export function createRootLayoutMetadata(locale: Locale): Metadata {
   const isTr = locale === "tr"
@@ -89,7 +89,6 @@ export async function createPageMetadata({
   overrides,
 }: PageMetadataOptions): Promise<Metadata> {
   const t = await getTranslator(locale)
-  const baseUrl = getBaseUrl()
 
   const title = customTitle ?? t(`metadata.${route}.title`)
   const description = customDescription ?? t(`metadata.${route}.description`)
@@ -100,11 +99,11 @@ export async function createPageMetadata({
       .map((keyword) => keyword.trim())
 
   const pagePath = PAGES[route]
-  const url = new URL(pagePath[locale], baseUrl).toString()
-  const trUrl = new URL(pagePath.tr, baseUrl).toString()
-  const enUrl = new URL(pagePath.en, baseUrl).toString()
+  const url = new URL(pagePath[locale], siteOrigin).toString()
+  const trUrl = new URL(pagePath.tr, siteOrigin).toString()
+  const enUrl = new URL(pagePath.en, siteOrigin).toString()
 
-  const ogImage = image ?? `/images/${route}/opengraph-image.jpg`
+  const ogImage = image ?? "/images/home/opengraph-image.jpg"
 
   return {
     title: isAbsoluteTitle ? { absolute: title } : title,
@@ -116,13 +115,13 @@ export async function createPageMetadata({
     ],
     creator: "Meypal",
     publisher: "Meypal",
-    metadataBase: new URL(baseUrl),
+    metadataBase: new URL(siteOrigin),
     alternates: {
       canonical: url,
       languages: {
         tr: trUrl,
         en: enUrl,
-        "x-default": trUrl,
+        "x-default": enUrl,
       },
     },
     robots: DEFAULT_ROBOTS,
@@ -140,6 +139,7 @@ export async function createPageMetadata({
         },
       ],
       locale: locale === "tr" ? "tr_TR" : "en_US",
+      alternateLocale: locale === "tr" ? ["en_US"] : ["tr_TR"],
       type: "website",
     },
     twitter: {

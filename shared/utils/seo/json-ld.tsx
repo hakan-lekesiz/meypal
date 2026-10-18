@@ -5,5 +5,13 @@ export type JsonLdProps = {
 }
 
 export function JsonLd({ data }: JsonLdProps): JSX.Element {
-  return <script type="application/ld+json">{JSON.stringify(data)}</script>
+  return (
+    <script
+      // biome-ignore lint/security/noDangerouslySetInnerHtml: Needed for JSON-LD structured data with character escaping
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(data).replace(/</g, "\\u003c"),
+      }}
+      type="application/ld+json"
+    />
+  )
 }

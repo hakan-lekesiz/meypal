@@ -65,6 +65,7 @@ export function PdpAboutSection({ product, t }: PdpAboutSectionProps) {
                 alt={t(primaryAltKey)}
                 className="h-[320px] w-full object-cover transition-transform duration-700 hover:scale-105 sm:h-[380px]"
                 height={600}
+                priority
                 sizes="(max-width: 1024px) 100vw, 480px"
                 src={primaryImage}
                 width={800}

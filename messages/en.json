@@ -559,7 +559,10 @@
     }
   },
   "gallery": {
-    "title": "Gallery"
+    "title": "Gallery",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next"
   },
   "catalog": {
     "eyebrow": "Meypal Catalog",
@@ -626,157 +629,157 @@
       "keywords": "Meypal vision, corporate vision, citrus export, fresh produce import, Meypal London, global suppliers, agricultural employment, Mersin"
     },
     "readyToEat": {
-      "title": "Ready to Eat Products - Convenience Food Solutions | Meypal",
+      "title": "Ready to Eat Products - Convenience Food Solutions",
       "description": "Meypal ready-to-eat fresh fruits and vegetables. High-efficiency solutions with Salanova® lettuce and Caribbean melon for the processing industry and convenience market.",
       "keywords": "ready to eat, convenience food, fresh cut salad, Salanova lettuce, Caribbean melon, fresh produce processing, Meypal"
     },
     "organic": {
-      "title": "Organic Seed & Vegetable Production | Meypal",
+      "title": "Organic Seed & Vegetable Production",
       "description": "Recognized by all European certification bodies since 1992, Meypal offers high-quality, chemical-free organic vegetable seeds and produce.",
       "keywords": "organic seed, organic vegetables, Meypal organic, organic farming, organic lettuce, tomato seed, chemical-free seed, disease-resistant crops, open-field vegetables"
     },
     "excitingFlavors": {
-      "title": "Exciting Flavors - Gourmet Varieties & Vegetable Snacks | Meypal",
+      "title": "Exciting Flavors - Gourmet Varieties & Vegetable Snacks",
       "description": "Meypal exciting flavors. Extraordinary tomatoes, eggplants, and healthy crisp vegetable snacks for kids and families, selected through extensive sensory research.",
       "keywords": "exciting flavors, vegetable snacks, gourmet vegetables, mini cucumber, cherry tomato, healthy snacking, Meypal"
     },
     "productLines": {
-      "title": "Meypal Product Lines - Product Diversity & Quality Standards | Meypal",
+      "title": "Meypal Product Lines - Product Diversity & Quality Standards",
       "description": "Meypal delivers a wide range of product diversity with enhanced qualities every year. 7 distinct product lines combining quality, taste, yield, and disease resistance.",
       "keywords": "Meypal product lines, produce diversity, agricultural diversity, 7 product lines, quality fruits and vegetables, yield, resistant crops"
     },
     "contact": {
-      "title": "Contact | Meypal - Mersin Head Office, Antalya Branch & London Office",
+      "title": "Contact - Mersin Head Office, Antalya Branch & London Office",
       "description": "Contact Meypal. Address, phone, and email information for our headquarters in Mersin, branch in Antalya, and operations hub at New Spitalfields Market in London.",
       "keywords": "Meypal contact, Meypal phone, Meypal address, Meypal Mersin, Meypal London, Meypal Antalya, citrus export contact"
     },
     "catalog": {
-      "title": "E-Catalog - Meypal Product & Company Catalog | Meypal",
+      "title": "E-Catalog - Meypal Product & Company Catalog",
       "description": "Browse and download the Meypal fresh fruit, vegetable, and citrus e-catalog. Discover detailed information about our company profile and product range.",
       "keywords": "Meypal e-catalog, Meypal catalog, fruit catalog, download citrus catalog, Meypal PDF download"
     },
     "gallery": {
-      "title": "Gallery | Meypal - Photo and Video Gallery",
+      "title": "Gallery - Photo and Video Gallery",
       "description": "Latest photos and videos of Meypal products, facilities, and agricultural operations.",
       "keywords": "Meypal gallery, fruit photos, citrus videos, agriculture gallery, Meypal"
     },
     "citrus": {
-      "title": "Citrus - Fresh Mediterranean Citrus Varieties | Meypal",
-      "description": "Premium Mediterranean fresh orange, mandarin, lemon, and grapefruit varieties harvested from fertile Çukurova soils. 12 months reliable global citrus export.",
+      "title": "Citrus - Fresh Mediterranean Citrus Varieties",
+      "description": "Premium Mediterranean fresh orange, mandarin, lemon, and grapefruit varieties harvested from fertile Cukurova soils. 12 months reliable global citrus export.",
       "keywords": "citrus export, fresh citrus, Turkish oranges, mandarin varieties, lemon export, grapefruit, Mediterranean citrus, Mersin citrus, Meypal"
     },
     "orange": {
-      "title": "Orange - Fresh Mediterranean Citrus | Meypal",
-      "description": "Juicy, aromatic, premium first-class fresh oranges cultivated in the fertile soils of Çukurova and Mediterranean. Exported worldwide by Meypal.",
+      "title": "Orange - Fresh Mediterranean Citrus",
+      "description": "Juicy, aromatic, premium first-class fresh oranges cultivated in the fertile soils of Cukurova and Mediterranean. Exported worldwide by Meypal.",
       "keywords": "orange, orange export, fresh oranges, Mersin orange, citrus exporter Turkey, valencia orange, washington navel, Meypal"
     },
     "mandarin": {
-      "title": "Mandarin - Premium Mediterranean Mandarin Varieties | Meypal",
+      "title": "Mandarin - Premium Mediterranean Mandarin Varieties",
       "description": "Premium Mediterranean mandarin varieties: Satsuma, Dobashi, Robinson, Fremont, Nova, W. Murcott, and Orri. Exported fresh and reliably worldwide by Meypal.",
       "keywords": "mandarin, mandarin varieties, satsuma mandarin, murcott, nova, fremont, citrus exporter Turkey, fresh mandarin, Mersin mandarin, Meypal"
     },
     "lemon": {
-      "title": "Lemon - Premium Mediterranean Lemon Varieties | Meypal",
+      "title": "Lemon - Premium Mediterranean Lemon Varieties",
       "description": "Finest Mediterranean lemon varieties: Enterdonat, Kutdiken, Cyprus Lemon, Lisbon, Meyer, Lime, and Molla Mehmet. Fresh and reliable global export by Meypal.",
       "keywords": "lemon, lemon varieties, enterdonat lemon, kutdiken, meyer lemon, lime, citrus exporter Turkey, fresh lemon, Mersin lemon, Meypal"
     },
     "grapefruit": {
-      "title": "Grapefruit - Fresh Mediterranean Grapefruit Varieties | Meypal",
+      "title": "Grapefruit - Fresh Mediterranean Grapefruit Varieties",
       "description": "Premium juicy and aromatic Mediterranean grapefruit varieties: Star Ruby and Riored. Exported fresh, nutrient-rich, and reliably worldwide by Meypal.",
       "keywords": "grapefruit, grapefruit varieties, star ruby grapefruit, riored grapefruit, citrus exporter Turkey, fresh grapefruit, Mersin grapefruit, Meypal"
     },
     "fruits": {
-      "title": "Fresh Fruits - Mediterranean & Anatolian Fruit Export | Meypal",
+      "title": "Fresh Fruits - Mediterranean & Anatolian Fruit Export",
       "description": "Premium fresh fruits harvested from fertile Anatolian and Mediterranean orchards: Quince, cherry, black fig, and peach varieties exported reliably worldwide by Meypal.",
       "keywords": "fresh fruits, fruit export Turkey, Turkish cherry export, quince export, black fig, peach varieties, ufo peach, Mersin, Meypal"
     },
     "quince": {
-      "title": "Quince - Fresh & Fragrant Anatolian Quince | Meypal",
+      "title": "Quince - Fresh & Fragrant Anatolian Quince",
       "description": "Premium Turkish quince varieties: Esme, Ekmek, and Lemon quince. High in dietary fiber, vitamins, and fragrant aroma, exported worldwide with cold chain assurance.",
       "keywords": "quince, quince export, fresh quince, Turkish quince, esme quince, fruit exporter Turkey, Meypal"
     },
     "cherry": {
-      "title": "Cherry - Premium Fresh Turkish Cherries | Meypal",
+      "title": "Cherry - Premium Fresh Turkish Cherries",
       "description": "From Turkey, the world leader in cherry production: firm, juicy, sweet, and aromatic cherry varieties exported with uninterrupted cold-chain logistics by Meypal.",
       "keywords": "cherry, cherry export, Turkish cherries, Napoleon cherry, 0900 ziraat, sweet cherry exporter, Meypal"
     },
     "fig": {
-      "title": "Black Fig - Premium Mediterranean Fresh Figs | Meypal",
+      "title": "Black Fig - Premium Mediterranean Fresh Figs",
       "description": "Authentic Mediterranean black figs (Ficus carica) with exceptional aroma, rich texture, and supreme nutritional profile. Exported fresh worldwide by Meypal.",
       "keywords": "black fig, fresh fig export, Turkish figs, Ficus carica, purple fig exporter, Mediterranean fig, Meypal"
     },
     "peach": {
-      "title": "Peach & Flat Peach - Fresh Mediterranean Peach Varieties | Meypal",
+      "title": "Peach & Flat Peach - Fresh Mediterranean Peach Varieties",
       "description": "Flodasun, Early Amber, Redhaven, Washington, and Ufo flat peaches from sunny Mediterranean orchards. Juicy, sweet, fragrant, and carefully calibrated by Meypal.",
       "keywords": "peach, flat peach, ufo peach, peach export, redhaven peach, fresh peaches Turkey, Mediterranean peaches, Meypal"
     },
     "pomegranate": {
-      "title": "Pomegranate - Premium Turkish Hicaz Pomegranate Export | Meypal",
+      "title": "Pomegranate - Premium Turkish Hicaz Pomegranate Export",
       "description": "Certified Turkish Hicaz pomegranates: deep ruby arils, balanced sweet-tart flavor, and exceptional 6-month cold storage durability exported worldwide by Meypal.",
       "keywords": "pomegranate, Hicaz pomegranate, pomegranate export, fresh pomegranate, Turkish pomegranate exporter, Punica granatum, Meypal"
     },
     "grape": {
-      "title": "Table Grapes - Fresh Anatolian Grape Varieties | Meypal",
+      "title": "Table Grapes - Fresh Anatolian Grape Varieties",
       "description": "Premium fresh table grapes including Pembe Gemre, Super Asma, and Trakya Ilkeren. Large juicy berries and resilient bunches exported worldwide by Meypal.",
       "keywords": "table grapes, fresh grapes export, Turkish grapes, Pembe Gemre, Super Asma, Trakya Ilkeren, Vitis vinifera, Meypal"
     },
     "apricot": {
-      "title": "Apricot - Fresh Anatolian Table & Dried Apricots | Meypal",
+      "title": "Apricot - Fresh Anatolian Table & Dried Apricots",
       "description": "Finest Turkish apricots from Malatya and Mediterranean groves: Hasanbey, Hacihaliloglu, Alyanak, and Salak. High brix sweetness, velvety texture, and aroma.",
       "keywords": "apricot, apricot export Turkey, fresh apricots, Malatya apricot, Hasanbey apricot, Prunus armeniaca, Meypal"
     },
     "watermelon": {
-      "title": "Watermelon - Fresh Sweet Mediterranean Watermelon | Meypal",
+      "title": "Watermelon - Fresh Sweet Mediterranean Watermelon",
       "description": "Crimson Sweet and Sugar Baby watermelon varieties focused on personal sizing, high lycopene, and refreshing sweetness exported fresh worldwide by Meypal.",
       "keywords": "watermelon, watermelon export, Crimson Sweet, Sugar Baby, fresh watermelon Turkey, Citrullus lanatus, Meypal"
     },
     "melon": {
-      "title": "Melon - Sweet & Long Shelf-Life Caribbean Melons | Meypal",
+      "title": "Melon - Sweet & Long Shelf-Life Caribbean Melons",
       "description": "Innovative Caribbean and muskmelon varieties offering thin rind, small seed cavity, honey sweetness, and extended transit durability exported by Meypal.",
       "keywords": "melon, melon export, Caribbean melon, fresh melon Turkey, sweet melon, Cucumis melo, Meypal"
     },
     "vegetables": {
-      "title": "Fresh Vegetables - Mediterranean Vegetable Production & Export | Meypal",
+      "title": "Fresh Vegetables - Mediterranean Vegetable Production & Export",
       "description": "Tomato, cucumber, eggplant, pepper, cabbage, onion, potato, and garlic. Exported fresh from fertile Mediterranean soils worldwide with Meypal quality.",
       "keywords": "fresh vegetables, vegetable export Turkey, Turkish tomato, cucumber, eggplant, pepper, cabbage, onion, potato, garlic, Mersin, Meypal"
     },
     "tomato": {
-      "title": "Tomato - Vine, Beef & Cherry Tomato Varieties | Meypal",
+      "title": "Tomato - Vine, Beef & Cherry Tomato Varieties",
       "description": "Intermediate truss, loose, beef, and cocktail cherry tomatoes. High disease resistance, rich flavor, and superior shelf life exported worldwide by Meypal.",
       "keywords": "tomato, tomato export, truss tomato, beef tomato, cherry tomato, greenhouse tomatoes, Solanum lycopersicum, Meypal"
     },
     "cucumber": {
-      "title": "Cucumber - Crisp Fresh Mediterranean Cucumbers | Meypal",
+      "title": "Cucumber - Crisp Fresh Mediterranean Cucumbers",
       "description": "Innovative Blueleaf concept and snack mini to long greenhouse cucumbers. Crisp, juicy, hydrating, and high-yielding varieties exported fresh by Meypal.",
       "keywords": "cucumber, cucumber export Turkey, snack cucumber, mini cucumber, blueleaf cucumber, fresh cucumber, Cucumis sativus, Meypal"
     },
     "eggplant": {
-      "title": "Eggplant (Aubergine) - Oval, Long & Striped Varieties | Meypal",
+      "title": "Eggplant (Aubergine) - Oval, Long & Striped Varieties",
       "description": "Glossy deep-black oval, slender cylindrical, white, and graffiti striped eggplants. Spineless calyx, white flesh, and long shelf life exported by Meypal.",
       "keywords": "eggplant, aubergine export, oval eggplant, graffiti eggplant, white eggplant, Solanum melongena, Meypal"
     },
     "pepper": {
-      "title": "Peppers - Blocky Bell, Pointed & Capia Pepper Varieties | Meypal",
+      "title": "Peppers - Blocky Bell, Pointed & Capia Pepper Varieties",
       "description": "Vibrant blocky bell peppers, pointed long green peppers, and sweet capia peppers. Crisp texture, bright colors, and sweet-piquant flavors exported worldwide.",
       "keywords": "pepper, bell pepper export, sweet pepper, capia pepper, pointed pepper, Capsicum annuum, Mersin, Meypal"
     },
     "cabbage": {
-      "title": "Cabbage - Fresh White & Winter Head Cabbage Varieties | Meypal",
+      "title": "Cabbage - Fresh White & Winter Head Cabbage Varieties",
       "description": "Franklin, Ramada, Nautic, and Ducati white head cabbage selections. Heavy, compact, crisp heads rich in vitamin C and boasting extended storage life.",
       "keywords": "cabbage, white cabbage, cabbage export, winter cabbage, Ramada cabbage, Brassica oleracea, Meypal"
     },
     "onion": {
-      "title": "Onion - Fresh Yellow & Red Dry Onions | Meypal",
+      "title": "Onion - Fresh Yellow & Red Dry Onions",
       "description": "High-quality yellow and red storage onions cultivated in fertile soils. Thick protective skins, pungent aroma, and superb winter dormancy for global export.",
       "keywords": "onion, dry onion export, yellow onion, red onion, Allium cepa, fresh onions Turkey, Meypal"
     },
     "potato": {
-      "title": "Potato - Fresh Table & Processing Potato Varieties | Meypal",
+      "title": "Potato - Fresh Table & Processing Potato Varieties",
       "description": "First-class yellow-fleshed fresh table potatoes. Rich in potassium and vitamins, smooth skin, and calibrated sizing exported worldwide with cold chain care.",
       "keywords": "potato, table potato export, fresh potatoes Turkey, yellow potato, Solanum tuberosum, Meypal"
     },
     "garlic": {
-      "title": "Garlic - Natural Aromatic White & Dry Garlic | Meypal",
+      "title": "Garlic - Natural Aromatic White & Dry Garlic",
       "description": "Aromatic, large-clove fresh and dried garlic boasting high allicin content. Renowned flavor intensity, firm cloves, and long storage endurance exported by Meypal.",
       "keywords": "garlic, garlic export, dry garlic, fresh garlic, Allium sativum, Kastamonu garlic, white garlic, Meypal"
     }

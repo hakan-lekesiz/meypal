@@ -4,7 +4,7 @@ import { getSiteLink, locales, siteLinks, siteOrigin, type SiteRoute } from "@/s
 export const dynamic = "force-static"
 
 // Static last modified baseline date for stable crawl caching (ISO date format)
-const LAST_MODIFIED_DATE = new Date("2025-02-01T00:00:00.000Z")
+const LAST_MODIFIED_DATE = new Date("2026-10-18T00:00:00.000Z")
 
 const CATEGORY_ROUTES: SiteRoute[] = [
   "citrus",
@@ -14,6 +14,15 @@ const CATEGORY_ROUTES: SiteRoute[] = [
   "readyToEat",
   "organic",
   "excitingFlavors",
+]
+
+const CORPORATE_ROUTES: SiteRoute[] = [
+  "about",
+  "mission",
+  "vision",
+  "gallery",
+  "contact",
+  "catalog",
 ]
 
 const PRODUCT_ROUTES: SiteRoute[] = [
@@ -43,14 +52,17 @@ const PRODUCT_ROUTES: SiteRoute[] = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = Object.keys(siteLinks) as SiteRoute[]
   const languageAlternates = (route: SiteRoute) => ({
-    languages: Object.fromEntries(
-      locales.map((locale) => [locale, `${siteOrigin}${getSiteLink(route, locale)}`]),
-    ),
+    languages: {
+      ...Object.fromEntries(
+        locales.map((locale) => [locale, `${siteOrigin}${getSiteLink(route, locale)}`]),
+      ),
+      "x-default": `${siteOrigin}${getSiteLink(route, "en")}`,
+    },
   })
 
   const getPriority = (route: SiteRoute): number => {
     if (route === "home") return 1.0
-    if (["about", "contact", "catalog", ...CATEGORY_ROUTES].includes(route)) {
+    if ([...CORPORATE_ROUTES, ...CATEGORY_ROUTES].includes(route)) {
       return 0.8
     }
     if (PRODUCT_ROUTES.includes(route)) {
@@ -64,6 +76,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ): MetadataRoute.Sitemap[number]["changeFrequency"] => {
     if (route === "home") return "weekly"
     if (CATEGORY_ROUTES.includes(route)) return "weekly"
+    if (CORPORATE_ROUTES.includes(route)) return "monthly"
     if (PRODUCT_ROUTES.includes(route)) return "monthly"
     return "monthly"
   }
