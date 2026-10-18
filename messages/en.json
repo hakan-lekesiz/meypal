@@ -558,6 +558,9 @@
       "button": "Contact Us"
     }
   },
+  "gallery": {
+    "title": "Gallery"
+  },
   "catalog": {
     "eyebrow": "Meypal Catalog",
     "title": "E-catalog",
@@ -651,6 +654,11 @@
       "title": "E-Catalog - Meypal Product & Company Catalog | Meypal",
       "description": "Browse and download the Meypal fresh fruit, vegetable, and citrus e-catalog. Discover detailed information about our company profile and product range.",
       "keywords": "Meypal e-catalog, Meypal catalog, fruit catalog, download citrus catalog, Meypal PDF download"
+    },
+    "gallery": {
+      "title": "Gallery | Meypal - Photo and Video Gallery",
+      "description": "Latest photos and videos of Meypal products, facilities, and agricultural operations.",
+      "keywords": "Meypal gallery, fruit photos, citrus videos, agriculture gallery, Meypal"
     },
     "citrus": {
       "title": "Citrus - Fresh Mediterranean Citrus Varieties | Meypal",
@@ -820,7 +828,8 @@
     "organic": "Organic",
     "excitingFlavors": "Exciting flavors",
     "catalog": "Catalog",
-    "contact": "Contact"
+    "contact": "Contact",
+    "gallery": "Gallery"
   },
   "footer": {
     "eyebrow": "Quality from nature",

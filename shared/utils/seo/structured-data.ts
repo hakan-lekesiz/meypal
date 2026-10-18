@@ -536,6 +536,61 @@ export async function getCatalogStructuredData(locale: Locale) {
   }
 }
 
+export async function getGalleryStructuredData(locale: Locale) {
+  const t = await getTranslator(locale)
+  const baseUrl = getBaseUrl()
+  const pageUrl = new URL(PAGES.gallery[locale], baseUrl).toString()
+  const homeUrl = new URL(PAGES.home[locale], baseUrl).toString()
+  const aboutUrl = new URL(PAGES.about[locale], baseUrl).toString()
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${pageUrl}/#webpage`,
+        url: pageUrl,
+        name: t("metadata.gallery.title"),
+        description: t("metadata.gallery.description"),
+        about: { "@id": `${baseUrl}/#organization` },
+        mainEntity: { "@id": `${baseUrl}/#organization` },
+        publisher: { "@id": `${baseUrl}/#organization` },
+        isPartOf: {
+          "@type": "WebSite",
+          "@id": `${baseUrl}/#website`,
+          name: COMPANY_INFO.name,
+          url: baseUrl,
+        },
+        inLanguage: locale === "tr" ? "tr-TR" : "en-US",
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${pageUrl}/#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: t("navigation.home"),
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: t("navigation.company"),
+            item: aboutUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: t("navigation.gallery"),
+            item: pageUrl,
+          },
+        ],
+      },
+    ],
+  }
+}
+
 export async function getContactStructuredData(locale: Locale) {
   const t = await getTranslator(locale)
   const baseUrl = getBaseUrl()

@@ -143,5 +143,9 @@ export const routing = defineRouting({
       tr: "/e-katalog",
       en: "/e-catalog",
     },
+    "/gallery": {
+      tr: "/galeri",
+      en: "/gallery",
+    },
   },
 })

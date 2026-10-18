@@ -41,6 +41,7 @@ export const PAGES = {
   organic: { tr: "/organik", en: "/organic" },
   excitingFlavors: { tr: "/heyecan-verici-tatlar", en: "/exciting-flavors" },
   catalog: { tr: "/e-katalog", en: "/e-catalog" },
+  gallery: { tr: "/galeri", en: "/gallery" },
 } as const satisfies Record<string, Record<Locale, string>>
 
 export const CONFIG = {
@@ -60,6 +61,7 @@ export const navigationConfig = [
       { label: "navigation.about", route: "about" },
       { label: "navigation.mission", route: "mission" },
       { label: "navigation.vision", route: "vision" },
+      { label: "navigation.gallery", route: "gallery" },
     ],
   },
   {
@@ -117,6 +119,7 @@ export const footerCompanyLinks = [
   { label: "navigation.about", route: "about" },
   { label: "navigation.mission", route: "mission" },
   { label: "navigation.vision", route: "vision" },
+  { label: "navigation.gallery", route: "gallery" },
   { label: "navigation.contact", route: "contact" },
 ] as const satisfies readonly NavigationLink[]
 
@@ -174,6 +177,7 @@ export const pageTitleKeys: Record<string, string> = {
   excitingFlavors: "navigation.excitingFlavors",
   catalog: "navigation.catalog",
   contact: "navigation.contact",
+  gallery: "navigation.gallery",
 }
 
 type NavigationItem = {
