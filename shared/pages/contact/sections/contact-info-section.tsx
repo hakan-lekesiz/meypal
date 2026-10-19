@@ -12,22 +12,35 @@ import { contactConfig, getSiteLink, type Locale } from "@/shared/config"
 
 type Translate = Awaited<ReturnType<typeof getTranslator>>
 
-export function ContactInfoSection({ locale, t }: { locale: Locale; t: Translate }) {
+export function ContactInfoSection({
+  locale,
+  t,
+  showNav,
+}: {
+  locale: Locale
+  t: Translate
+  showNav: boolean
+}) {
   return (
     <div className="mx-auto max-w-5xl">
       {/* Breadcrumb Navigation */}
-      <nav
-        aria-label="Breadcrumb"
-        className="mb-8 inline-flex items-center gap-2 text-xs text-[#64748b]"
-      >
-        <Link className="transition-colors hover:text-[#006894]" href={getSiteLink("home", locale)}>
-          {t("navigation.home")}
-        </Link>
-        <FaChevronRight aria-hidden="true" className="text-[10px] text-slate-400" />
-        <span aria-current="page" className="font-semibold text-[#0f172a]">
-          {t("contact.badge")}
-        </span>
-      </nav>
+      {showNav && (
+        <nav
+          aria-label="Breadcrumb"
+          className="mb-8 inline-flex items-center gap-2 text-xs text-[#64748b]"
+        >
+          <Link
+            className="transition-colors hover:text-[#006894]"
+            href={getSiteLink("home", locale)}
+          >
+            {t("navigation.home")}
+          </Link>
+          <FaChevronRight aria-hidden="true" className="text-[10px] text-slate-400" />
+          <span aria-current="page" className="font-semibold text-[#0f172a]">
+            {t("contact.badge")}
+          </span>
+        </nav>
+      )}
 
       {/* Header */}
       <header className="mb-10">

@@ -10,7 +10,7 @@ export async function ContactPage({ locale }: { locale: Locale }) {
     <MainLayout currentRoute="contact" locale={locale}>
       <article className="min-h-[70vh] bg-[#fcfdfe] py-12 md:py-20">
         <div className="grid-wrapper">
-          <ContactInfoSection locale={locale} t={t} />
+          <ContactInfoSection locale={locale} t={t} showNav={true} />
         </div>
       </article>
     </MainLayout>

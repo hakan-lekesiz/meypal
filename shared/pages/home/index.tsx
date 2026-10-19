@@ -11,6 +11,7 @@ import {
   MissionStatsSection,
   OperationCtaSection,
 } from "./sections"
+import { ContactInfoSection } from "../contact/sections"
 
 export async function HomePage({ locale }: { locale: Locale }) {
   const t = await getTranslator(locale)
@@ -49,6 +50,11 @@ export async function HomePage({ locale }: { locale: Locale }) {
       <MissionStatsSection locale={locale} t={t} />
       <AboutCompanySection locale={locale} t={t} />
       <OperationCtaSection locale={locale} t={t} />
+      <article className=" bg-[#fcfdfe] pb-12 md:pb-20">
+        <div className="grid-wrapper">
+          <ContactInfoSection locale={locale} t={t} showNav={false} />
+        </div>
+      </article>
     </MainLayout>
   )
 }
