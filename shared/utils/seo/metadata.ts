@@ -9,8 +9,8 @@ export function createRootLayoutMetadata(locale: Locale): Metadata {
     ? "Meypal | Yaş Sebze, Meyve ve Narenciye Üretim & İhracatı"
     : "Meypal | Fresh Fruits, Vegetables & Citrus Production & Export"
   const defaultDescription = isTr
-    ? "1945'ten bu yana 3 kuşaktır yaş sebze, meyve ve narenciye ihracatında güvenilir çözüm ortağınız. Akdeniz'in taze mahsullerini 12 ay boyunca dünyaya ulaştırıyoruz."
-    : "Your trusted partner in fresh fruit, vegetable, and citrus export across 3 generations since 1945. Delivering Mediterranean quality produce worldwide all 12 months."
+    ? "1935'ten bu yana 3 kuşaktır yaş sebze, meyve ve narenciye ihracatında güvenilir çözüm ortağınız. Akdeniz'in taze mahsullerini 12 ay boyunca dünyaya ulaştırıyoruz."
+    : "Your trusted partner in fresh fruit, vegetable, and citrus export across 3 generations since 1935. Delivering Mediterranean quality produce worldwide all 12 months."
 
   return {
     metadataBase: new URL(siteOrigin),

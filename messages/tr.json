@@ -4,9 +4,9 @@
     "hero": {
       "slides": [
         {
-          "badge": "1945'ten Beri · 3 Kuşaktır Süregelen Güven",
+          "badge": "1935'ten Beri · 3 Kuşaktır Süregelen Güven",
           "title": "Tarladan Sofranıza Taze ve Güvenilir Tedarik",
-          "description": "70 yılı aşkın tecrübemizle Akdeniz'in en taze narenciye, meyve ve sebzelerini 12 ay boyunca kesintisiz olarak dünya pazarlarına ulaştırıyoruz."
+          "description": "80 yılı aşkın tecrübemizle Akdeniz'in en taze narenciye, meyve ve sebzelerini 12 ay boyunca kesintisiz olarak dünya pazarlarına ulaştırıyoruz."
         },
         {
           "badge": "Akdeniz'in İncisi · Narenciye",
@@ -75,9 +75,9 @@
       "statSatisfaction": "%100",
       "statSatisfactionLabel": "Müşteri Memnuniyeti",
       "statSatisfactionSub": "Uluslararası standartlarda hizmet",
-      "statExperience": "70+",
+      "statExperience": "80+",
       "statExperienceLabel": "Yıllık Tecrübe",
-      "statExperienceSub": "1945'ten günümüze 3 kuşak",
+      "statExperienceSub": "1935'ten günümüze 3 kuşak",
       "statShipment": "1.000+",
       "statShipmentLabel": "Yıllık Sevkiyat",
       "statShipmentSub": "Balkanlar, Ortadoğu, Rusya, Avrupa",
@@ -88,9 +88,9 @@
     "aboutCompany": {
       "badge": "Biz Kimiz?",
       "title": "3 Kuşaktır Süregelen Güven ve İhracat Başarısı",
-      "paragraph1": "1945 yılında yaş sebze meyve üretimine başlayan firmamız, yaklaşık 70 yılı aşkın tecrübesiyle üretimini ve ürün kalitesini artırarak faaliyetlerini 3 kuşaktır aile şirketi olarak sürdürmektedir.",
+      "paragraph1": "1935 yılında yaş sebze meyve üretimine başlayan firmamız, yaklaşık 80 yılı aşkın tecrübesiyle üretimini ve ürün kalitesini artırarak faaliyetlerini 3 kuşaktır aile şirketi olarak sürdürmektedir.",
       "paragraph2": "1980’li yıllarda iç piyasada göstermiş olduğu başarısını ihracat vasfıyla başta Ortadoğu ve Balkan ülkeleri olmak üzere, 1990’lı yıllardan itibaren bu ağı Rusya ve Avrupa ülkelerine kadar genişleterek 2000’li yılların başlarında deneyimli iş kadrosuyla birlikte ülkemizin dört bir yanından yılın 12 ayı ihracat faaliyetlerini sürdüren lider bir kuruluştur.",
-      "establishedYear": "1945",
+      "establishedYear": "1935",
       "establishedLabel": "Kuruluş Yılı",
       "pillar1": {
         "title": "Organik & Tarladan",
@@ -123,13 +123,13 @@
     "title": "Hakkımızda",
     "breadcrumb": "Kurumsal",
     "hero": {
-      "badge": "1945'ten Günümüze · 3 Kuşaktır Aile Şirketi",
-      "title": "Doğadan Sofralara 70 Yıllık Güven ve İhracat Başarısı",
-      "description": "1945 yılında başlayan üretim yolculuğumuzu bugün Türkiye ve İngiltere merkezli küresel tedarik ağımızla sürdürüyoruz. Dalından ilk günkü tazelikle, 12 ay boyunca dünya sofralarına.",
+      "badge": "1935'ten Günümüze · 3 Kuşaktır Aile Şirketi",
+      "title": "Doğadan Sofralara 80 Yıllık Güven ve İhracat Başarısı",
+      "description": "1935 yılında başlayan üretim yolculuğumuzu bugün Türkiye ve İngiltere merkezli küresel tedarik ağımızla sürdürüyoruz. Dalından ilk günkü tazelikle, 12 ay boyunca dünya sofralarına.",
       "stats": {
-        "founded": "1945",
+        "founded": "1935",
         "foundedLabel": "Kuruluş Yılı",
-        "experience": "70+",
+        "experience": "80+",
         "experienceLabel": "Yıllık Tecrübe",
         "generations": "3 Kuşak",
         "generationsLabel": "Aile Şirketi Güveni",
@@ -141,7 +141,7 @@
     "story": {
       "badge": "Tarihçemiz & Mirasımız",
       "title": "Topraktan Dünyaya Uzanan Bir Başarı Hikayesi",
-      "paragraph1": "1945 yılında yaş sebze meyve üretimine başlayan firmamız yaklaşık 70 yılık tecrübesiyle üretimini ve ürün kalitesini arttırarak faaliyetlerini 3 kuşaktır aile şirketi olarak sürdürmektedir.",
+      "paragraph1": "1935 yılında yaş sebze meyve üretimine başlayan firmamız yaklaşık 80 yılık tecrübesiyle üretimini ve ürün kalitesini arttırarak faaliyetlerini 3 kuşaktır aile şirketi olarak sürdürmektedir.",
       "paragraph2": "1980’li yıllarda iç piyasada göstermiş olduğu başarısını ihracat vasfıyla başta Ortadoğu ve Balkan ülkeleri olmak üzere 1990’lı yıllardan itibaren bu ağı Rusya ve Avrupa ülkelerine kadar genişleterek 2000’li yılların başlarında deneyimli iş kadrosuyla birlikte ülkemizin dört bir yanından yılın 12 ayı ihracat faaliyetlerini sürdüren bir firmadır.",
       "imageCaption": "3 Kuşaklık Tecrübe",
       "imageSub": "Meypal Tarım Üretim Standartları"
@@ -149,10 +149,10 @@
     "timeline": {
       "badge": "Gelişim Yolculuğumuz",
       "title": "Adım Adım Büyüyen İhracat Gücümüz",
-      "subtitle": "Yerel tarımsal üretimden küresel tedarik zincirine uzanan 70 yılı aşkın kilometre taşlarımız.",
+      "subtitle": "Yerel tarımsal üretimden küresel tedarik zincirine uzanan 80 yılı aşkın kilometre taşlarımız.",
       "milestones": [
         {
-          "year": "1945",
+          "year": "1935",
           "title": "Üretime Başlangıç",
           "description": "Yaş sebze ve meyve üretimiyle toprağa ilk tohumlar atıldı; dürüst ticaret ve kaliteli üretim temelleri kuruldu."
         },
@@ -233,7 +233,7 @@
     "cta": {
       "badge": "İş Ortaklığı & İhracat",
       "title": "Tazeliği ve Meypal Kalitesini Birlikte Taşıyalım",
-      "description": "70 yıllık köklü tecrübemiz, Avrupa standartlarındaki soğuk zincir lojistiğimiz ve küresel dağıtım ağımızla iş ortaklarımıza değer katıyoruz.",
+      "description": "80 yıllık köklü tecrübemiz, Avrupa standartlarındaki soğuk zincir lojistiğimiz ve küresel dağıtım ağımızla iş ortaklarımıza değer katıyoruz.",
       "contactBtn": "İletişime Geçin",
       "catalogBtn": "E-Kataloğu İnceleyin",
       "imageAlt": "Meypal taze meyve sepeti ve Akdeniz ihracat ürünleri"
@@ -244,7 +244,7 @@
     "title": "Misyonumuz",
     "breadcrumb": "Kurumsal",
     "statement": "Şeffaf, dinamik, gelişime ve değişime açık, kaliteli üretim, hızlı ve güvenilir ihracat, yüksek müşteri memnuniyeti sloganıyla şirketimizi ve ülkemizi uluslararası piyasada en iyi şekilde temsil etmektir.",
-    "subtext": "Akdeniz'in bereketli topraklarından aldığımız gücü, 70 yılı aşkın köklü üretim tecrübemiz ve küresel vizyonumuzla harmanlayarak uluslararası pazarlara güvenle taşıyoruz.",
+    "subtext": "Akdeniz'in bereketli topraklarından aldığımız gücü, 80 yılı aşkın köklü üretim tecrübemiz ve küresel vizyonumuzla harmanlayarak uluslararası pazarlara güvenle taşıyoruz.",
     "principlesTitle": "Misyonumuzun Temel Taşları",
     "principlesSubtitle": "Tarladan dünya sofralarına uzanan her adımda taviz vermediğimiz temel çalışma prensiplerimiz.",
     "principles": [
@@ -280,7 +280,7 @@
       }
     ],
     "signature": "Meypal Tarım Ürünleri",
-    "signatureSub": "1945'ten Beri Akdeniz'den Dünyaya"
+    "signatureSub": "1935'ten Beri Akdeniz'den Dünyaya"
   },
   "vision": {
     "badge": "Meypal · Gelecek Vizyonumuz",
@@ -323,7 +323,7 @@
       }
     ],
     "signature": "Meypal Tarım Ürünleri",
-    "signatureSub": "Mersin & Londra · 1945'ten Beri Küresel Vizyon"
+    "signatureSub": "Mersin & Londra · 1935'ten Beri Küresel Vizyon"
   },
   "readyToEat": {
     "badge": "Meypal Ürün Hatları",
@@ -610,12 +610,12 @@
   "metadata": {
     "home": {
       "title": "Meypal | Yaş Sebze, Meyve ve Narenciye Üretim & İhracatı",
-      "description": "1945'ten bu yana 3 kuşaktır yaş sebze, meyve ve narenciye ihracatında güvenilir çözüm ortağınız. Akdeniz'in taze mahsullerini 12 ay boyunca dünyaya ulaştırıyoruz.",
+      "description": "1935'ten bu yana 3 kuşaktır yaş sebze, meyve ve narenciye ihracatında güvenilir çözüm ortağınız. Akdeniz'in taze mahsullerini 12 ay boyunca dünyaya ulaştırıyoruz.",
       "keywords": "Meypal, narenciye ihracatı, yaş sebze meyve, mersin narenciye, portakal ihracatı, limon, mandalina, greyfurt, taze meyve, tarımsal ihracat, gıda endüstrisi, Akdeniz meyve"
     },
     "about": {
       "title": "Hakkımızda - Yaş Meyve, Sebze ve Narenciye İhracatı",
-      "description": "1945'ten bu yana 3 kuşaktır süregelen deneyimimizle Mersin'den dünya pazarlarına taze narenciye, meyve ve sebze ihraç ediyoruz. Meypal kurumsal vizyonu ve değerleri.",
+      "description": "1935'ten bu yana 3 kuşaktır süregelen deneyimimizle Mersin'den dünya pazarlarına taze narenciye, meyve ve sebze ihraç ediyoruz. Meypal kurumsal vizyonu ve değerleri.",
       "keywords": "Meypal hakkımızda, narenciye ihracatçısı, Mersin meyve ihracatı, kurumsal, yaş sebze meyve tedarikçisi, Akdeniz ihracat"
     },
     "mission": {
@@ -1882,7 +1882,7 @@
       "title": "Taze & Aromatik Narenciye Çeşitleri",
       "subtitle": "Çukurova ve Akdeniz Güneşiyle Olgunlaşan Birinci Sınıf Narenciye",
       "productsCount": "{count} Çeşit Narenciye",
-      "description": "Meypal olarak 1945'ten bu yana Akdeniz'in en bereketli bahçelerinde yetiştirilen portakal, mandalina, limon ve greyfurtları dalından özenle topluyor; modern kalibrasyon ve soğuk hava tesislerimizde işleyerek dünyanın dört bir yanına ulaştırıyoruz."
+      "description": "Meypal olarak 1935'ten bu yana Akdeniz'in en bereketli bahçelerinde yetiştirilen portakal, mandalina, limon ve greyfurtları dalından özenle topluyor; modern kalibrasyon ve soğuk hava tesislerimizde işleyerek dünyanın dört bir yanına ulaştırıyoruz."
     },
     "fruits": {
       "badge": "Taze Meyveler",

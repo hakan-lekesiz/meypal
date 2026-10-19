@@ -25,7 +25,7 @@ export const COMPANY_INFO = {
   name: "Meypal",
   legalName: "Meypal Dış Ticaret",
   alternateNames: ["Meypal Dış Ticaret", "Meypal Export", "Meypal Citrus"],
-  foundingDate: "1945",
+  foundingDate: "1935",
   email: "info@meypal.com.tr",
   telephone: "+90 324 238 04 38",
   priceRange: "$$",
@@ -61,12 +61,12 @@ export const COMPANY_INFO = {
   ],
   knowsLanguage: ["tr", "en"],
   slogan: {
-    tr: "1945'ten bu yana 3 kuşaktır tarladan sofranıza taze ve güvenilir tedarik",
-    en: "Fresh and reliable supply from farm to table across 3 generations since 1945",
+    tr: "1935'ten bu yana 3 kuşaktır tarladan sofranıza taze ve güvenilir tedarik",
+    en: "Fresh and reliable supply from farm to table across 3 generations since 1935",
   },
   disambiguatingDescription: {
-    tr: "1945 yılında Mersin'de kurulan, 3 kuşaktır yaş sebze, meyve ve narenciye üretimi ve uluslararası ihracatı yapan Türk tarım ve dış ticaret şirketi.",
-    en: "A Turkish agricultural and export company established in Mersin in 1945, producing and exporting fresh citrus, fruits, and vegetables globally across 3 generations.",
+    tr: "1935 yılında Mersin'de kurulan, 3 kuşaktır yaş sebze, meyve ve narenciye üretimi ve uluslararası ihracatı yapan Türk tarım ve dış ticaret şirketi.",
+    en: "A Turkish agricultural and export company established in Mersin in 1935, producing and exporting fresh citrus, fruits, and vegetables globally across 3 generations.",
   },
   knowsAbout: {
     tr: [

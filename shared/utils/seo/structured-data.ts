@@ -21,8 +21,8 @@ export function getCorporateStructuredData(locale: Locale) {
         disambiguatingDescription: COMPANY_INFO.disambiguatingDescription[locale],
         description:
           locale === "tr"
-            ? "1945'ten bu yana 3 kuşaktır yaş sebze, meyve ve narenciye üretimi ve ihracatı."
-            : "Fresh fruits, vegetables, and citrus production and export since 1945 across 3 generations.",
+            ? "1935'ten bu yana 3 kuşaktır yaş sebze, meyve ve narenciye üretimi ve ihracatı."
+            : "Fresh fruits, vegetables, and citrus production and export since 1935 across 3 generations.",
         foundingDate: COMPANY_INFO.foundingDate,
         foundingLocation: COMPANY_INFO.foundingLocation,
         email: COMPANY_INFO.email,

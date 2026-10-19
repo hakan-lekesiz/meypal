@@ -16,8 +16,8 @@ export function AboutStorySection({ locale, t }: { locale: Locale; t: Translate 
       title: locale === "tr" ? "3 Kuşaklık Aile Şirketi" : "3-Generation Family Business",
       description:
         locale === "tr"
-          ? "70 yılı aşkın köklü tecrübe ve güvenle nesilden nesile aktarılan tarımsal uzmanlık."
-          : "Over 70 years of rooted agricultural expertise and trust passed down through generations.",
+          ? "80 yılı aşkın köklü tecrübe ve güvenle nesilden nesile aktarılan tarımsal uzmanlık."
+          : "Over 80 years of rooted agricultural expertise and trust passed down through generations.",
     },
     {
       icon: FaClock,
@@ -64,7 +64,7 @@ export function AboutStorySection({ locale, t }: { locale: Locale; t: Translate 
                     <FaCalendarCheck aria-hidden="true" className="text-xl sm:text-2xl" />
                   </div>
                   <div>
-                    <span className="text-xl font-black text-[#0f172a] sm:text-2xl">1945</span>
+                    <span className="text-xl font-black text-[#0f172a] sm:text-2xl">1935</span>
                     <p className="text-xs font-semibold text-[#64748b]">
                       {locale === "tr" ? "Kuruluş Yılı" : "Established"}
                     </p>

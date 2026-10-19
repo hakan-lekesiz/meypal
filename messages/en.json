@@ -4,9 +4,9 @@
     "hero": {
       "slides": [
         {
-          "badge": "Since 1945 · 3 Generations of Family Trust",
+          "badge": "Since 1935 · 3 Generations of Family Trust",
           "title": "Fresh & Reliable Produce From Farm to Table",
-          "description": "Exporting the finest Mediterranean citrus, fruits, and vegetables to global markets year-round with over 70 years of heritage."
+          "description": "Exporting the finest Mediterranean citrus, fruits, and vegetables to global markets year-round with over 80 years of heritage."
         },
         {
           "badge": "Mediterranean Harvest · Citrus",
@@ -75,9 +75,9 @@
       "statSatisfaction": "100%",
       "statSatisfactionLabel": "Customer Satisfaction",
       "statSatisfactionSub": "International service standards",
-      "statExperience": "70+",
+      "statExperience": "80+",
       "statExperienceLabel": "Years of Heritage",
-      "statExperienceSub": "3 generations since 1945",
+      "statExperienceSub": "3 generations since 1935",
       "statShipment": "1,000+",
       "statShipmentLabel": "Annual Shipments",
       "statShipmentSub": "Balkans, Middle East, Russia, Europe",
@@ -88,9 +88,9 @@
     "aboutCompany": {
       "badge": "Who We Are",
       "title": "A 3-Generation Family Enterprise Delivering Excellence",
-      "paragraph1": "Starting fresh produce cultivation in 1945, our company has steadily expanded production capacity and quality over more than 70 years, thriving as a third-generation family business.",
+      "paragraph1": "Starting fresh produce cultivation in 1935, our company has steadily expanded production capacity and quality over more than 80 years, thriving as a third-generation family business.",
       "paragraph2": "Building upon our domestic reputation in the 1980s, Meypal expanded exports across the Middle East and Balkans, moving into Russia and European markets in the 1990s. Since the early 2000s, our seasoned team has managed year-round export operations sourced from premier agricultural regions across Turkey.",
-      "establishedYear": "1945",
+      "establishedYear": "1935",
       "establishedLabel": "Founded In",
       "pillar1": {
         "title": "Organic & Field-Fresh",
@@ -123,13 +123,13 @@
     "title": "About Us",
     "breadcrumb": "Corporate",
     "hero": {
-      "badge": "Since 1945 · 3 Generations of Family Business",
-      "title": "70 Years of Trust and Export Excellence From Nature to Table",
-      "description": "Starting our production journey in 1945, today we operate a comprehensive global supply network based in Turkey and the United Kingdom. Delivering produce with day-one freshness to tables worldwide 12 months a year.",
+      "badge": "Since 1935 · 3 Generations of Family Business",
+      "title": "80 Years of Trust and Export Excellence From Nature to Table",
+      "description": "Starting our production journey in 1935, today we operate a comprehensive global supply network based in Turkey and the United Kingdom. Delivering produce with day-one freshness to tables worldwide 12 months a year.",
       "stats": {
-        "founded": "1945",
+        "founded": "1935",
         "foundedLabel": "Founding Year",
-        "experience": "70+",
+        "experience": "80+",
         "experienceLabel": "Years of Experience",
         "generations": "3 Gens",
         "generationsLabel": "Family Enterprise Trust",
@@ -141,7 +141,7 @@
     "story": {
       "badge": "Our Heritage & Story",
       "title": "A Journey of Excellence from Soil to Global Markets",
-      "paragraph1": "Starting fresh fruit and vegetable production in 1945, our company continues its operations as a third-generation family business, continuously enhancing its production capacity and product quality with over 70 years of experience.",
+      "paragraph1": "Starting fresh fruit and vegetable production in 1935, our company continues its operations as a third-generation family business, continuously enhancing its production capacity and product quality with over 80 years of experience.",
       "paragraph2": "Transforming its domestic market success into export excellence during the 1980s, primarily to the Middle East and Balkan countries, our company expanded this network to Russia and European countries from the 1990s onward. By the early 2000s, with an experienced team, it became a leading enterprise conducting export operations 12 months a year across every corner of Turkey.",
       "imageCaption": "3-Generation Expertise",
       "imageSub": "Meypal Agricultural Production Standards"
@@ -149,10 +149,10 @@
     "timeline": {
       "badge": "Our Growth Journey",
       "title": "Milestones of Our Global Expansion",
-      "subtitle": "Over 70 years of progress connecting local agricultural excellence to global supply chains.",
+      "subtitle": "Over 80 years of progress connecting local agricultural excellence to global supply chains.",
       "milestones": [
         {
-          "year": "1945",
+          "year": "1935",
           "title": "Production Commences",
           "description": "First seeds sown in fresh fruit and vegetable cultivation, laying the foundation of honest commerce and uncompromising quality."
         },
@@ -233,7 +233,7 @@
     "cta": {
       "badge": "Partnership & Export",
       "title": "Delivering Freshness and Meypal Quality Together",
-      "description": "With over 70 years of proven heritage, European-standard cold chain logistics, and an international network, we create enduring value for our partners.",
+      "description": "With over 80 years of proven heritage, European-standard cold chain logistics, and an international network, we create enduring value for our partners.",
       "contactBtn": "Get in Touch",
       "catalogBtn": "Explore E-Catalog",
       "imageAlt": "Meypal fresh fruit basket and Mediterranean export products"
@@ -244,7 +244,7 @@
     "title": "Our Mission",
     "breadcrumb": "Company",
     "statement": "To represent our company and our country in the international market in the best possible way under the motto of transparency, dynamism, openness to growth and change, high-quality production, fast and reliable export, and high customer satisfaction.",
-    "subtext": "Blending the fertile abundance of the Mediterranean with over 70 years of rooted agricultural heritage and a forward-looking global vision.",
+    "subtext": "Blending the fertile abundance of the Mediterranean with over 80 years of rooted agricultural heritage and a forward-looking global vision.",
     "principlesTitle": "Pillars of Our Mission",
     "principlesSubtitle": "The core operational principles we uphold at every stage from harvest to global dining tables.",
     "principles": [
@@ -280,7 +280,7 @@
       }
     ],
     "signature": "Meypal Agricultural Produce",
-    "signatureSub": "From the Mediterranean to the World Since 1945"
+    "signatureSub": "From the Mediterranean to the World Since 1935"
   },
   "vision": {
     "badge": "Meypal · Future Vision",
@@ -323,7 +323,7 @@
       }
     ],
     "signature": "Meypal Agricultural Produce",
-    "signatureSub": "Mersin & London · Global Vision Since 1945"
+    "signatureSub": "Mersin & London · Global Vision Since 1935"
   },
   "readyToEat": {
     "badge": "Meypal Product Lines",
@@ -610,12 +610,12 @@
   "metadata": {
     "home": {
       "title": "Meypal | Fresh Fruits, Vegetables & Citrus Production & Export",
-      "description": "Your trusted partner in fresh fruit, vegetable, and citrus export across 3 generations since 1945. Delivering Mediterranean quality produce worldwide all 12 months.",
+      "description": "Your trusted partner in fresh fruit, vegetable, and citrus export across 3 generations since 1935. Delivering Mediterranean quality produce worldwide all 12 months.",
       "keywords": "Meypal, citrus exporter, fresh fruits vegetables, Turkish citrus, orange export, lemon, mandarin, grapefruit, agricultural export, food industry, Mediterranean produce"
     },
     "about": {
       "title": "About Us - Fresh Fruits, Vegetables & Citrus Exporter",
-      "description": "Since 1945 across 3 generations, Meypal exports premium citrus, fruits, and vegetables from Mersin to global markets. Learn about our heritage, mission, and quality standards.",
+      "description": "Since 1935 across 3 generations, Meypal exports premium citrus, fruits, and vegetables from Mersin to global markets. Learn about our heritage, mission, and quality standards.",
       "keywords": "About Meypal, citrus exporter Turkey, Mersin fruit export, fresh produce supplier, agricultural export company"
     },
     "mission": {
@@ -1882,7 +1882,7 @@
       "title": "Fresh & Aromatic Citrus Varieties",
       "subtitle": "Premium Citrus Ripened under Mediterranean Sunshine",
       "productsCount": "{count} Citrus Varieties",
-      "description": "Since 1945, Meypal carefully harvests oranges, mandarins, lemons, and grapefruits cultivated in the Mediterranean's most fertile orchards, processing them in modern calibration and cold storage facilities for worldwide export."
+      "description": "Since 1935, Meypal carefully harvests oranges, mandarins, lemons, and grapefruits cultivated in the Mediterranean's most fertile orchards, processing them in modern calibration and cold storage facilities for worldwide export."
     },
     "fruits": {
       "badge": "Fresh Fruits",
